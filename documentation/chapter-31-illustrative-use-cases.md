@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 30: Tailoring OASIS](chapter-30-tailoring-oasis.md) · [Contents](README.md) · [Next: Chapter 32: Templates, Checklists and Tools →](chapter-32-templates-checklists-and-tools.md)
+[← Previous: Chapter 30: Tailoring OASIS](chapter-30-tailoring-oasis.md) · [Contents](../README.md) · [Next: Chapter 32: Templates, Checklists and Tools →](chapter-32-templates-checklists-and-tools.md)
 
 # Chapter 31: Illustrative Use Cases
 
@@ -54,6 +54,6 @@
 
 ---
 
-[← Previous: Chapter 30: Tailoring OASIS](chapter-30-tailoring-oasis.md) · [Contents](README.md) · [Next: Chapter 32: Templates, Checklists and Tools →](chapter-32-templates-checklists-and-tools.md)
+[← Previous: Chapter 30: Tailoring OASIS](chapter-30-tailoring-oasis.md) · [Contents](../README.md) · [Next: Chapter 32: Templates, Checklists and Tools →](chapter-32-templates-checklists-and-tools.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

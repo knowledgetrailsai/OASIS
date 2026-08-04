@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 01: OASIS Executive Overview](chapter-01-oasis-executive-overview.md) · [Contents](README.md) · [Next: Chapter 03: Enterprise AI Transformation Direction →](chapter-03-enterprise-ai-transformation-direction.md)
+[← Previous: Chapter 01: OASIS Executive Overview](chapter-01-oasis-executive-overview.md) · [Contents](../README.md) · [Next: Chapter 03: Enterprise AI Transformation Direction →](chapter-03-enterprise-ai-transformation-direction.md)
 
 # Chapter 02: Methodology Foundations and Design Principles
 
@@ -42,6 +42,6 @@ A methodology implementation is healthy when artifacts improve decisions rather 
 
 ---
 
-[← Previous: Chapter 01: OASIS Executive Overview](chapter-01-oasis-executive-overview.md) · [Contents](README.md) · [Next: Chapter 03: Enterprise AI Transformation Direction →](chapter-03-enterprise-ai-transformation-direction.md)
+[← Previous: Chapter 01: OASIS Executive Overview](chapter-01-oasis-executive-overview.md) · [Contents](../README.md) · [Next: Chapter 03: Enterprise AI Transformation Direction →](chapter-03-enterprise-ai-transformation-direction.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

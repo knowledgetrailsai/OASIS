@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 20: Governance, Compliance and Regulatory Engineering](chapter-20-governance-compliance-and-regulatory-engineering.md) · [Contents](README.md) · [Next: Chapter 22: Economics, FinOps and Sustainability →](chapter-22-economics-finops-and-sustainability.md)
+[← Previous: Chapter 20: Governance, Compliance and Regulatory Engineering](chapter-20-governance-compliance-and-regulatory-engineering.md) · [Contents](../README.md) · [Next: Chapter 22: Economics, FinOps and Sustainability →](chapter-22-economics-finops-and-sustainability.md)
 
 # Chapter 21: Deployment, Operations and AgentOps
 
@@ -45,6 +45,6 @@ Incidents are classified at the responsible layer: model reasoning, missing or u
 
 ---
 
-[← Previous: Chapter 20: Governance, Compliance and Regulatory Engineering](chapter-20-governance-compliance-and-regulatory-engineering.md) · [Contents](README.md) · [Next: Chapter 22: Economics, FinOps and Sustainability →](chapter-22-economics-finops-and-sustainability.md)
+[← Previous: Chapter 20: Governance, Compliance and Regulatory Engineering](chapter-20-governance-compliance-and-regulatory-engineering.md) · [Contents](../README.md) · [Next: Chapter 22: Economics, FinOps and Sustainability →](chapter-22-economics-finops-and-sustainability.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

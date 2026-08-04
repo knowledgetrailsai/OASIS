@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Part III: Intelligence-System Engineering and Assurance](part-iii-intelligence-system-engineering-and-assurance.md) · [Contents](README.md) · [Next: Chapter 15: Data and Knowledge Engineering →](chapter-15-data-and-knowledge-engineering.md)
+[← Previous: Part III: Intelligence-System Engineering and Assurance](part-iii-intelligence-system-engineering-and-assurance.md) · [Contents](../README.md) · [Next: Chapter 15: Data and Knowledge Engineering →](chapter-15-data-and-knowledge-engineering.md)
 
 # Chapter 14: Intelligence and Agent Engineering
 
@@ -82,6 +82,6 @@ Version models, prompts, context policies, retrieval indexes, tools, workflows a
 
 ---
 
-[← Previous: Part III: Intelligence-System Engineering and Assurance](part-iii-intelligence-system-engineering-and-assurance.md) · [Contents](README.md) · [Next: Chapter 15: Data and Knowledge Engineering →](chapter-15-data-and-knowledge-engineering.md)
+[← Previous: Part III: Intelligence-System Engineering and Assurance](part-iii-intelligence-system-engineering-and-assurance.md) · [Contents](../README.md) · [Next: Chapter 15: Data and Knowledge Engineering →](chapter-15-data-and-knowledge-engineering.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 14: Intelligence and Agent Engineering](chapter-14-intelligence-and-agent-engineering.md) · [Contents](README.md) · [Next: Chapter 16: Human–AI Workflow and Experience Engineering →](chapter-16-human-ai-workflow-and-experience-engineering.md)
+[← Previous: Chapter 14: Intelligence and Agent Engineering](chapter-14-intelligence-and-agent-engineering.md) · [Contents](../README.md) · [Next: Chapter 16: Human–AI Workflow and Experience Engineering →](chapter-16-human-ai-workflow-and-experience-engineering.md)
 
 # Chapter 15: Data and Knowledge Engineering
 
@@ -59,6 +59,6 @@ For knowledge-bound tasks, the system must define when it may answer from suppli
 
 ---
 
-[← Previous: Chapter 14: Intelligence and Agent Engineering](chapter-14-intelligence-and-agent-engineering.md) · [Contents](README.md) · [Next: Chapter 16: Human–AI Workflow and Experience Engineering →](chapter-16-human-ai-workflow-and-experience-engineering.md)
+[← Previous: Chapter 14: Intelligence and Agent Engineering](chapter-14-intelligence-and-agent-engineering.md) · [Contents](../README.md) · [Next: Chapter 16: Human–AI Workflow and Experience Engineering →](chapter-16-human-ai-workflow-and-experience-engineering.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

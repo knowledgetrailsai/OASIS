@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 15: Data and Knowledge Engineering](chapter-15-data-and-knowledge-engineering.md) · [Contents](README.md) · [Next: Chapter 17: Enterprise Integration and Tool Engineering →](chapter-17-enterprise-integration-and-tool-engineering.md)
+[← Previous: Chapter 15: Data and Knowledge Engineering](chapter-15-data-and-knowledge-engineering.md) · [Contents](../README.md) · [Next: Chapter 17: Enterprise Integration and Tool Engineering →](chapter-17-enterprise-integration-and-tool-engineering.md)
 
 # Chapter 16: Human–AI Workflow and Experience Engineering
 
@@ -52,6 +52,6 @@ The objective is appropriate reliance—not maximum trust. Interfaces should rev
 
 ---
 
-[← Previous: Chapter 15: Data and Knowledge Engineering](chapter-15-data-and-knowledge-engineering.md) · [Contents](README.md) · [Next: Chapter 17: Enterprise Integration and Tool Engineering →](chapter-17-enterprise-integration-and-tool-engineering.md)
+[← Previous: Chapter 15: Data and Knowledge Engineering](chapter-15-data-and-knowledge-engineering.md) · [Contents](../README.md) · [Next: Chapter 17: Enterprise Integration and Tool Engineering →](chapter-17-enterprise-integration-and-tool-engineering.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

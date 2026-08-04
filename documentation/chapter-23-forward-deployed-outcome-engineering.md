@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Part IV: Delivery and Enterprise Enablement](part-iv-delivery-and-enterprise-enablement.md) · [Contents](README.md) · [Next: Chapter 24: Roles, Teams and Governance Forums →](chapter-24-roles-teams-and-governance-forums.md)
+[← Previous: Part IV: Delivery and Enterprise Enablement](part-iv-delivery-and-enterprise-enablement.md) · [Contents](../README.md) · [Next: Chapter 24: Roles, Teams and Governance Forums →](chapter-24-roles-teams-and-governance-forums.md)
 
 # Chapter 23: Forward Deployed Outcome Engineering
 
@@ -62,6 +62,6 @@ At every iteration, the pod classifies work as platform capability, reusable dep
 
 ---
 
-[← Previous: Part IV: Delivery and Enterprise Enablement](part-iv-delivery-and-enterprise-enablement.md) · [Contents](README.md) · [Next: Chapter 24: Roles, Teams and Governance Forums →](chapter-24-roles-teams-and-governance-forums.md)
+[← Previous: Part IV: Delivery and Enterprise Enablement](part-iv-delivery-and-enterprise-enablement.md) · [Contents](../README.md) · [Next: Chapter 24: Roles, Teams and Governance Forums →](chapter-24-roles-teams-and-governance-forums.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

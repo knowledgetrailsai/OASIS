@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 12: Phase 6 — Optimize & Scale](chapter-12-phase-6-optimize-and-scale.md) · [Contents](README.md) · [Next: Part III: Intelligence-System Engineering and Assurance →](part-iii-intelligence-system-engineering-and-assurance.md)
+[← Previous: Chapter 12: Phase 6 — Optimize & Scale](chapter-12-phase-6-optimize-and-scale.md) · [Contents](../README.md) · [Next: Part III: Intelligence-System Engineering and Assurance →](part-iii-intelligence-system-engineering-and-assurance.md)
 
 # Chapter 13: Decision Gates and Evidence Model
 
@@ -41,6 +41,6 @@ A gate is a decision meeting, not a document review. The owner presents the outc
 
 ---
 
-[← Previous: Chapter 12: Phase 6 — Optimize & Scale](chapter-12-phase-6-optimize-and-scale.md) · [Contents](README.md) · [Next: Part III: Intelligence-System Engineering and Assurance →](part-iii-intelligence-system-engineering-and-assurance.md)
+[← Previous: Chapter 12: Phase 6 — Optimize & Scale](chapter-12-phase-6-optimize-and-scale.md) · [Contents](../README.md) · [Next: Part III: Intelligence-System Engineering and Assurance →](part-iii-intelligence-system-engineering-and-assurance.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 26: OASIS Measurement Framework](chapter-26-oasis-measurement-framework.md) · [Contents](README.md) · [Next: Chapter 28: Scaling and Productization →](chapter-28-scaling-and-productization.md)
+[← Previous: Chapter 26: OASIS Measurement Framework](chapter-26-oasis-measurement-framework.md) · [Contents](../README.md) · [Next: Chapter 28: Scaling and Productization →](chapter-28-scaling-and-productization.md)
 
 # Chapter 27: Delivery Cadence and Management Practices
 
@@ -42,6 +42,6 @@ Teams may use Scrum, Kanban or flow-based delivery. OASIS adds an outcome and ev
 
 ---
 
-[← Previous: Chapter 26: OASIS Measurement Framework](chapter-26-oasis-measurement-framework.md) · [Contents](README.md) · [Next: Chapter 28: Scaling and Productization →](chapter-28-scaling-and-productization.md)
+[← Previous: Chapter 26: OASIS Measurement Framework](chapter-26-oasis-measurement-framework.md) · [Contents](../README.md) · [Next: Chapter 28: Scaling and Productization →](chapter-28-scaling-and-productization.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

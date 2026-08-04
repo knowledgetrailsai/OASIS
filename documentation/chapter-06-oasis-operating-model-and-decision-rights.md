@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 05: Opportunity Portfolio and Transformation Horizons](chapter-05-opportunity-portfolio-and-transformation-horizons.md) · [Contents](README.md) · [Next: Part II: The OASIS Lifecycle →](part-ii-the-oasis-lifecycle.md)
+[← Previous: Chapter 05: Opportunity Portfolio and Transformation Horizons](chapter-05-opportunity-portfolio-and-transformation-horizons.md) · [Contents](../README.md) · [Next: Part II: The OASIS Lifecycle →](part-ii-the-oasis-lifecycle.md)
 
 # Chapter 06: OASIS Operating Model and Decision Rights
 
@@ -37,6 +37,6 @@ Funding evolves across horizons: discovery funding tests uncertainty; production
 
 ---
 
-[← Previous: Chapter 05: Opportunity Portfolio and Transformation Horizons](chapter-05-opportunity-portfolio-and-transformation-horizons.md) · [Contents](README.md) · [Next: Part II: The OASIS Lifecycle →](part-ii-the-oasis-lifecycle.md)
+[← Previous: Chapter 05: Opportunity Portfolio and Transformation Horizons](chapter-05-opportunity-portfolio-and-transformation-horizons.md) · [Contents](../README.md) · [Next: Part II: The OASIS Lifecycle →](part-ii-the-oasis-lifecycle.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

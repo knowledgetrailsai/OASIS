@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 29: OASIS Adoption Roadmap](chapter-29-oasis-adoption-roadmap.md) · [Contents](README.md) · [Next: Chapter 31: Illustrative Use Cases →](chapter-31-illustrative-use-cases.md)
+[← Previous: Chapter 29: OASIS Adoption Roadmap](chapter-29-oasis-adoption-roadmap.md) · [Contents](../README.md) · [Next: Chapter 31: Illustrative Use Cases →](chapter-31-illustrative-use-cases.md)
 
 # Chapter 30: Tailoring OASIS
 
@@ -50,6 +50,6 @@ Every initiative records its level, risk profile, activated workstreams, combine
 
 ---
 
-[← Previous: Chapter 29: OASIS Adoption Roadmap](chapter-29-oasis-adoption-roadmap.md) · [Contents](README.md) · [Next: Chapter 31: Illustrative Use Cases →](chapter-31-illustrative-use-cases.md)
+[← Previous: Chapter 29: OASIS Adoption Roadmap](chapter-29-oasis-adoption-roadmap.md) · [Contents](../README.md) · [Next: Chapter 31: Illustrative Use Cases →](chapter-31-illustrative-use-cases.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 28: Scaling and Productization](chapter-28-scaling-and-productization.md) · [Contents](README.md) · [Next: Chapter 30: Tailoring OASIS →](chapter-30-tailoring-oasis.md)
+[← Previous: Chapter 28: Scaling and Productization](chapter-28-scaling-and-productization.md) · [Contents](../README.md) · [Next: Chapter 30: Tailoring OASIS →](chapter-30-tailoring-oasis.md)
 
 # Chapter 29: OASIS Adoption Roadmap
 
@@ -52,6 +52,6 @@ Start with a small integrated team around a real business owner. Borrow speciali
 
 ---
 
-[← Previous: Chapter 28: Scaling and Productization](chapter-28-scaling-and-productization.md) · [Contents](README.md) · [Next: Chapter 30: Tailoring OASIS →](chapter-30-tailoring-oasis.md)
+[← Previous: Chapter 28: Scaling and Productization](chapter-28-scaling-and-productization.md) · [Contents](../README.md) · [Next: Chapter 30: Tailoring OASIS →](chapter-30-tailoring-oasis.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

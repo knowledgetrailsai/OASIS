@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 18: Evaluation and Reliability Engineering](chapter-18-evaluation-and-reliability-engineering.md) · [Contents](README.md) · [Next: Chapter 20: Governance, Compliance and Regulatory Engineering →](chapter-20-governance-compliance-and-regulatory-engineering.md)
+[← Previous: Chapter 18: Evaluation and Reliability Engineering](chapter-18-evaluation-and-reliability-engineering.md) · [Contents](../README.md) · [Next: Chapter 20: Governance, Compliance and Regulatory Engineering →](chapter-20-governance-compliance-and-regulatory-engineering.md)
 
 # Chapter 19: Security and Responsible AI Engineering
 
@@ -47,6 +47,6 @@ Every action-taking system defines its maximum blast radius: accessible data, sy
 
 ---
 
-[← Previous: Chapter 18: Evaluation and Reliability Engineering](chapter-18-evaluation-and-reliability-engineering.md) · [Contents](README.md) · [Next: Chapter 20: Governance, Compliance and Regulatory Engineering →](chapter-20-governance-compliance-and-regulatory-engineering.md)
+[← Previous: Chapter 18: Evaluation and Reliability Engineering](chapter-18-evaluation-and-reliability-engineering.md) · [Contents](../README.md) · [Next: Chapter 20: Governance, Compliance and Regulatory Engineering →](chapter-20-governance-compliance-and-regulatory-engineering.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

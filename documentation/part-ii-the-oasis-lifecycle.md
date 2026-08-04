@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 06: OASIS Operating Model and Decision Rights](chapter-06-oasis-operating-model-and-decision-rights.md) · [Contents](README.md) · [Next: Chapter 07: Phase 1 — Engage & Align →](chapter-07-phase-1-engage-and-align.md)
+[← Previous: Chapter 06: OASIS Operating Model and Decision Rights](chapter-06-oasis-operating-model-and-decision-rights.md) · [Contents](../README.md) · [Next: Chapter 07: Phase 1 — Engage & Align →](chapter-07-phase-1-engage-and-align.md)
 
 # Part II: Part II: The OASIS Lifecycle
 
@@ -18,6 +18,6 @@
 
 ---
 
-[← Previous: Chapter 06: OASIS Operating Model and Decision Rights](chapter-06-oasis-operating-model-and-decision-rights.md) · [Contents](README.md) · [Next: Chapter 07: Phase 1 — Engage & Align →](chapter-07-phase-1-engage-and-align.md)
+[← Previous: Chapter 06: OASIS Operating Model and Decision Rights](chapter-06-oasis-operating-model-and-decision-rights.md) · [Contents](../README.md) · [Next: Chapter 07: Phase 1 — Engage & Align →](chapter-07-phase-1-engage-and-align.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

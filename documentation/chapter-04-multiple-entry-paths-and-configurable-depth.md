@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 03: Enterprise AI Transformation Direction](chapter-03-enterprise-ai-transformation-direction.md) · [Contents](README.md) · [Next: Chapter 05: Opportunity Portfolio and Transformation Horizons →](chapter-05-opportunity-portfolio-and-transformation-horizons.md)
+[← Previous: Chapter 03: Enterprise AI Transformation Direction](chapter-03-enterprise-ai-transformation-direction.md) · [Contents](../README.md) · [Next: Chapter 05: Opportunity Portfolio and Transformation Horizons →](chapter-05-opportunity-portfolio-and-transformation-horizons.md)
 
 # Chapter 04: Multiple Entry Paths and Configurable Depth
 
@@ -39,6 +39,6 @@ Depth is controlled through four levers: role consolidation, artifact compressio
 
 ---
 
-[← Previous: Chapter 03: Enterprise AI Transformation Direction](chapter-03-enterprise-ai-transformation-direction.md) · [Contents](README.md) · [Next: Chapter 05: Opportunity Portfolio and Transformation Horizons →](chapter-05-opportunity-portfolio-and-transformation-horizons.md)
+[← Previous: Chapter 03: Enterprise AI Transformation Direction](chapter-03-enterprise-ai-transformation-direction.md) · [Contents](../README.md) · [Next: Chapter 05: Opportunity Portfolio and Transformation Horizons →](chapter-05-opportunity-portfolio-and-transformation-horizons.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

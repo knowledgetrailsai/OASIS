@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 31: Illustrative Use Cases](chapter-31-illustrative-use-cases.md) · [Contents](README.md) · [Next: Chapter 33: Appendices and Reference Material →](chapter-33-appendices-and-reference-material.md)
+[← Previous: Chapter 31: Illustrative Use Cases](chapter-31-illustrative-use-cases.md) · [Contents](../README.md) · [Next: Chapter 33: Appendices and Reference Material →](chapter-33-appendices-and-reference-material.md)
 
 # Chapter 32: Templates, Checklists and Tools
 
@@ -96,6 +96,6 @@ Decision, evidence, alternatives, conditions, residual risk, owner, due date, ex
 
 ---
 
-[← Previous: Chapter 31: Illustrative Use Cases](chapter-31-illustrative-use-cases.md) · [Contents](README.md) · [Next: Chapter 33: Appendices and Reference Material →](chapter-33-appendices-and-reference-material.md)
+[← Previous: Chapter 31: Illustrative Use Cases](chapter-31-illustrative-use-cases.md) · [Contents](../README.md) · [Next: Chapter 33: Appendices and Reference Material →](chapter-33-appendices-and-reference-material.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

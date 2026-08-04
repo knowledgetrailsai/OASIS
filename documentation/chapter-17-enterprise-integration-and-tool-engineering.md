@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 16: Human–AI Workflow and Experience Engineering](chapter-16-human-ai-workflow-and-experience-engineering.md) · [Contents](README.md) · [Next: Chapter 18: Evaluation and Reliability Engineering →](chapter-18-evaluation-and-reliability-engineering.md)
+[← Previous: Chapter 16: Human–AI Workflow and Experience Engineering](chapter-16-human-ai-workflow-and-experience-engineering.md) · [Contents](../README.md) · [Next: Chapter 18: Evaluation and Reliability Engineering →](chapter-18-evaluation-and-reliability-engineering.md)
 
 # Chapter 17: Enterprise Integration and Tool Engineering
 
@@ -46,6 +46,6 @@ Where standardized tool protocols are used, catalogue ownership, provenance, aut
 
 ---
 
-[← Previous: Chapter 16: Human–AI Workflow and Experience Engineering](chapter-16-human-ai-workflow-and-experience-engineering.md) · [Contents](README.md) · [Next: Chapter 18: Evaluation and Reliability Engineering →](chapter-18-evaluation-and-reliability-engineering.md)
+[← Previous: Chapter 16: Human–AI Workflow and Experience Engineering](chapter-16-human-ai-workflow-and-experience-engineering.md) · [Contents](../README.md) · [Next: Chapter 18: Evaluation and Reliability Engineering →](chapter-18-evaluation-and-reliability-engineering.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

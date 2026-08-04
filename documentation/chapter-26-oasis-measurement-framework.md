@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Part V: Measurement, Scaling and Institutionalization](part-v-measurement-scaling-and-institutionalization.md) · [Contents](README.md) · [Next: Chapter 27: Delivery Cadence and Management Practices →](chapter-27-delivery-cadence-and-management-practices.md)
+[← Previous: Part V: Measurement, Scaling and Institutionalization](part-v-measurement-scaling-and-institutionalization.md) · [Contents](../README.md) · [Next: Chapter 27: Delivery Cadence and Management Practices →](chapter-27-delivery-cadence-and-management-practices.md)
 
 # Chapter 26: OASIS Measurement Framework
 
@@ -41,6 +41,6 @@ The dashboard supports four kinds of decision: continue because value and contro
 
 ---
 
-[← Previous: Part V: Measurement, Scaling and Institutionalization](part-v-measurement-scaling-and-institutionalization.md) · [Contents](README.md) · [Next: Chapter 27: Delivery Cadence and Management Practices →](chapter-27-delivery-cadence-and-management-practices.md)
+[← Previous: Part V: Measurement, Scaling and Institutionalization](part-v-measurement-scaling-and-institutionalization.md) · [Contents](../README.md) · [Next: Chapter 27: Delivery Cadence and Management Practices →](chapter-27-delivery-cadence-and-management-practices.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

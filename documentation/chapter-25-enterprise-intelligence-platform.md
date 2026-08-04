@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 24: Roles, Teams and Governance Forums](chapter-24-roles-teams-and-governance-forums.md) · [Contents](README.md) · [Next: Part V: Measurement, Scaling and Institutionalization →](part-v-measurement-scaling-and-institutionalization.md)
+[← Previous: Chapter 24: Roles, Teams and Governance Forums](chapter-24-roles-teams-and-governance-forums.md) · [Contents](../README.md) · [Next: Part V: Measurement, Scaling and Institutionalization →](part-v-measurement-scaling-and-institutionalization.md)
 
 # Chapter 25: Enterprise Intelligence Platform
 
@@ -56,6 +56,6 @@ A component enters the platform only when it repeats, has a stable contract, has
 
 ---
 
-[← Previous: Chapter 24: Roles, Teams and Governance Forums](chapter-24-roles-teams-and-governance-forums.md) · [Contents](README.md) · [Next: Part V: Measurement, Scaling and Institutionalization →](part-v-measurement-scaling-and-institutionalization.md)
+[← Previous: Chapter 24: Roles, Teams and Governance Forums](chapter-24-roles-teams-and-governance-forums.md) · [Contents](../README.md) · [Next: Part V: Measurement, Scaling and Institutionalization →](part-v-measurement-scaling-and-institutionalization.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

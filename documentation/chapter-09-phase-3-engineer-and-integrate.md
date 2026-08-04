@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 08: Phase 2 — Discover & Validate](chapter-08-phase-2-discover-and-validate.md) · [Contents](README.md) · [Next: Chapter 10: Phase 4 — Activate & Adopt →](chapter-10-phase-4-activate-and-adopt.md)
+[← Previous: Chapter 08: Phase 2 — Discover & Validate](chapter-08-phase-2-discover-and-validate.md) · [Contents](../README.md) · [Next: Chapter 10: Phase 4 — Activate & Adopt →](chapter-10-phase-4-activate-and-adopt.md)
 
 # Chapter 09: Phase 3 — Engineer & Integrate
 
@@ -68,6 +68,6 @@ Small deployments may use managed platform defaults and one service owner. High-
 
 ---
 
-[← Previous: Chapter 08: Phase 2 — Discover & Validate](chapter-08-phase-2-discover-and-validate.md) · [Contents](README.md) · [Next: Chapter 10: Phase 4 — Activate & Adopt →](chapter-10-phase-4-activate-and-adopt.md)
+[← Previous: Chapter 08: Phase 2 — Discover & Validate](chapter-08-phase-2-discover-and-validate.md) · [Contents](../README.md) · [Next: Chapter 10: Phase 4 — Activate & Adopt →](chapter-10-phase-4-activate-and-adopt.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

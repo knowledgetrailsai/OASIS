@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 09: Phase 3 — Engineer & Integrate](chapter-09-phase-3-engineer-and-integrate.md) · [Contents](README.md) · [Next: Chapter 11: Phase 5 — Operate & Assure →](chapter-11-phase-5-operate-and-assure.md)
+[← Previous: Chapter 09: Phase 3 — Engineer & Integrate](chapter-09-phase-3-engineer-and-integrate.md) · [Contents](../README.md) · [Next: Chapter 11: Phase 5 — Operate & Assure →](chapter-11-phase-5-operate-and-assure.md)
 
 # Chapter 10: Phase 4 — Activate & Adopt
 
@@ -66,6 +66,6 @@ Low-risk productivity tools may move quickly from assist to routine use. Transac
 
 ---
 
-[← Previous: Chapter 09: Phase 3 — Engineer & Integrate](chapter-09-phase-3-engineer-and-integrate.md) · [Contents](README.md) · [Next: Chapter 11: Phase 5 — Operate & Assure →](chapter-11-phase-5-operate-and-assure.md)
+[← Previous: Chapter 09: Phase 3 — Engineer & Integrate](chapter-09-phase-3-engineer-and-integrate.md) · [Contents](../README.md) · [Next: Chapter 11: Phase 5 — Operate & Assure →](chapter-11-phase-5-operate-and-assure.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

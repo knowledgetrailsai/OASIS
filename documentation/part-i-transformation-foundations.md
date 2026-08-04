@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Handbook Introduction](00-handbook-introduction.md) · [Contents](README.md) · [Next: Chapter 01: OASIS Executive Overview →](chapter-01-oasis-executive-overview.md)
+[← Previous: Handbook Introduction](../00-handbook-introduction.md) · [Contents](../README.md) · [Next: Chapter 01: OASIS Executive Overview →](chapter-01-oasis-executive-overview.md)
 
 # Part I: Part I: Transformation Foundations
 
@@ -17,6 +17,6 @@
 
 ---
 
-[← Previous: Handbook Introduction](00-handbook-introduction.md) · [Contents](README.md) · [Next: Chapter 01: OASIS Executive Overview →](chapter-01-oasis-executive-overview.md)
+[← Previous: Handbook Introduction](../00-handbook-introduction.md) · [Contents](../README.md) · [Next: Chapter 01: OASIS Executive Overview →](chapter-01-oasis-executive-overview.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

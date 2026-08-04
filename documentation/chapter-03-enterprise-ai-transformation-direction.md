@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 02: Methodology Foundations and Design Principles](chapter-02-methodology-foundations-and-design-principles.md) · [Contents](README.md) · [Next: Chapter 04: Multiple Entry Paths and Configurable Depth →](chapter-04-multiple-entry-paths-and-configurable-depth.md)
+[← Previous: Chapter 02: Methodology Foundations and Design Principles](chapter-02-methodology-foundations-and-design-principles.md) · [Contents](../README.md) · [Next: Chapter 04: Multiple Entry Paths and Configurable Depth →](chapter-04-multiple-entry-paths-and-configurable-depth.md)
 
 # Chapter 03: Enterprise AI Transformation Direction
 
@@ -54,6 +54,6 @@ The enterprise layer defines where AI should change performance, experience or o
 
 ---
 
-[← Previous: Chapter 02: Methodology Foundations and Design Principles](chapter-02-methodology-foundations-and-design-principles.md) · [Contents](README.md) · [Next: Chapter 04: Multiple Entry Paths and Configurable Depth →](chapter-04-multiple-entry-paths-and-configurable-depth.md)
+[← Previous: Chapter 02: Methodology Foundations and Design Principles](chapter-02-methodology-foundations-and-design-principles.md) · [Contents](../README.md) · [Next: Chapter 04: Multiple Entry Paths and Configurable Depth →](chapter-04-multiple-entry-paths-and-configurable-depth.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

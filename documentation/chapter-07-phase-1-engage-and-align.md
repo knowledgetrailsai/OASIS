@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Part II: The OASIS Lifecycle](part-ii-the-oasis-lifecycle.md) · [Contents](README.md) · [Next: Chapter 08: Phase 2 — Discover & Validate →](chapter-08-phase-2-discover-and-validate.md)
+[← Previous: Part II: The OASIS Lifecycle](part-ii-the-oasis-lifecycle.md) · [Contents](../README.md) · [Next: Chapter 08: Phase 2 — Discover & Validate →](chapter-08-phase-2-discover-and-validate.md)
 
 # Chapter 07: Phase 1 — Engage & Align
 
@@ -62,6 +62,6 @@ For a small or low-risk initiative, use one concise Outcome-and-Risk Brief. For 
 
 ---
 
-[← Previous: Part II: The OASIS Lifecycle](part-ii-the-oasis-lifecycle.md) · [Contents](README.md) · [Next: Chapter 08: Phase 2 — Discover & Validate →](chapter-08-phase-2-discover-and-validate.md)
+[← Previous: Part II: The OASIS Lifecycle](part-ii-the-oasis-lifecycle.md) · [Contents](../README.md) · [Next: Chapter 08: Phase 2 — Discover & Validate →](chapter-08-phase-2-discover-and-validate.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

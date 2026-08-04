@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 21: Deployment, Operations and AgentOps](chapter-21-deployment-operations-and-agentops.md) · [Contents](README.md) · [Next: Part IV: Delivery and Enterprise Enablement →](part-iv-delivery-and-enterprise-enablement.md)
+[← Previous: Chapter 21: Deployment, Operations and AgentOps](chapter-21-deployment-operations-and-agentops.md) · [Contents](../README.md) · [Next: Part IV: Delivery and Enterprise Enablement →](part-iv-delivery-and-enterprise-enablement.md)
 
 # Chapter 22: Economics, FinOps and Sustainability
 
@@ -46,6 +46,6 @@ Sustainability follows the same discipline: avoid wasteful calls, select right-s
 
 ---
 
-[← Previous: Chapter 21: Deployment, Operations and AgentOps](chapter-21-deployment-operations-and-agentops.md) · [Contents](README.md) · [Next: Part IV: Delivery and Enterprise Enablement →](part-iv-delivery-and-enterprise-enablement.md)
+[← Previous: Chapter 21: Deployment, Operations and AgentOps](chapter-21-deployment-operations-and-agentops.md) · [Contents](../README.md) · [Next: Part IV: Delivery and Enterprise Enablement →](part-iv-delivery-and-enterprise-enablement.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 17: Enterprise Integration and Tool Engineering](chapter-17-enterprise-integration-and-tool-engineering.md) · [Contents](README.md) · [Next: Chapter 19: Security and Responsible AI Engineering →](chapter-19-security-and-responsible-ai-engineering.md)
+[← Previous: Chapter 17: Enterprise Integration and Tool Engineering](chapter-17-enterprise-integration-and-tool-engineering.md) · [Contents](../README.md) · [Next: Chapter 19: Security and Responsible AI Engineering →](chapter-19-security-and-responsible-ai-engineering.md)
 
 # Chapter 18: Evaluation and Reliability Engineering
 
@@ -52,6 +52,6 @@ Datasets combine curated gold cases, production samples, historical failures, bo
 
 ---
 
-[← Previous: Chapter 17: Enterprise Integration and Tool Engineering](chapter-17-enterprise-integration-and-tool-engineering.md) · [Contents](README.md) · [Next: Chapter 19: Security and Responsible AI Engineering →](chapter-19-security-and-responsible-ai-engineering.md)
+[← Previous: Chapter 17: Enterprise Integration and Tool Engineering](chapter-17-enterprise-integration-and-tool-engineering.md) · [Contents](../README.md) · [Next: Chapter 19: Security and Responsible AI Engineering →](chapter-19-security-and-responsible-ai-engineering.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

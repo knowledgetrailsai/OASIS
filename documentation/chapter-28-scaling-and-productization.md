@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 27: Delivery Cadence and Management Practices](chapter-27-delivery-cadence-and-management-practices.md) · [Contents](README.md) · [Next: Chapter 29: OASIS Adoption Roadmap →](chapter-29-oasis-adoption-roadmap.md)
+[← Previous: Chapter 27: Delivery Cadence and Management Practices](chapter-27-delivery-cadence-and-management-practices.md) · [Contents](../README.md) · [Next: Chapter 29: OASIS Adoption Roadmap →](chapter-29-oasis-adoption-roadmap.md)
 
 # Chapter 28: Scaling and Productization
 
@@ -43,6 +43,6 @@ Transfer requires automated evaluation, reproducible deployment, documented conf
 
 ---
 
-[← Previous: Chapter 27: Delivery Cadence and Management Practices](chapter-27-delivery-cadence-and-management-practices.md) · [Contents](README.md) · [Next: Chapter 29: OASIS Adoption Roadmap →](chapter-29-oasis-adoption-roadmap.md)
+[← Previous: Chapter 27: Delivery Cadence and Management Practices](chapter-27-delivery-cadence-and-management-practices.md) · [Contents](../README.md) · [Next: Chapter 29: OASIS Adoption Roadmap →](chapter-29-oasis-adoption-roadmap.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

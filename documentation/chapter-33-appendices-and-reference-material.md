@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 32: Templates, Checklists and Tools](chapter-32-templates-checklists-and-tools.md) · [Contents](README.md)
+[← Previous: Chapter 32: Templates, Checklists and Tools](chapter-32-templates-checklists-and-tools.md) · [Contents](../README.md)
 
 # Chapter 33: Appendices and Reference Material
 
@@ -76,6 +76,6 @@ OASIS provides a structured management and engineering method. It does not itsel
 
 ---
 
-[← Previous: Chapter 32: Templates, Checklists and Tools](chapter-32-templates-checklists-and-tools.md) · [Contents](README.md)
+[← Previous: Chapter 32: Templates, Checklists and Tools](chapter-32-templates-checklists-and-tools.md) · [Contents](../README.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

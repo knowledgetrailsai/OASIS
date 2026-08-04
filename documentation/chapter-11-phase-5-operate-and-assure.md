@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 10: Phase 4 — Activate & Adopt](chapter-10-phase-4-activate-and-adopt.md) · [Contents](README.md) · [Next: Chapter 12: Phase 6 — Optimize & Scale →](chapter-12-phase-6-optimize-and-scale.md)
+[← Previous: Chapter 10: Phase 4 — Activate & Adopt](chapter-10-phase-4-activate-and-adopt.md) · [Contents](../README.md) · [Next: Chapter 12: Phase 6 — Optimize & Scale →](chapter-12-phase-6-optimize-and-scale.md)
 
 # Chapter 11: Phase 5 — Operate & Assure
 
@@ -66,6 +66,6 @@ Cadence follows volatility and consequence. A stable internal assistant may be r
 
 ---
 
-[← Previous: Chapter 10: Phase 4 — Activate & Adopt](chapter-10-phase-4-activate-and-adopt.md) · [Contents](README.md) · [Next: Chapter 12: Phase 6 — Optimize & Scale →](chapter-12-phase-6-optimize-and-scale.md)
+[← Previous: Chapter 10: Phase 4 — Activate & Adopt](chapter-10-phase-4-activate-and-adopt.md) · [Contents](../README.md) · [Next: Chapter 12: Phase 6 — Optimize & Scale →](chapter-12-phase-6-optimize-and-scale.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Part I: Transformation Foundations](part-i-transformation-foundations.md) · [Contents](README.md) · [Next: Chapter 02: Methodology Foundations and Design Principles →](chapter-02-methodology-foundations-and-design-principles.md)
+[← Previous: Part I: Transformation Foundations](part-i-transformation-foundations.md) · [Contents](../README.md) · [Next: Chapter 02: Methodology Foundations and Design Principles →](chapter-02-methodology-foundations-and-design-principles.md)
 
 # Chapter 01: OASIS Executive Overview
 
@@ -44,6 +44,6 @@ OASIS has succeeded when the organization can explain, with evidence, which outc
 
 ---
 
-[← Previous: Part I: Transformation Foundations](part-i-transformation-foundations.md) · [Contents](README.md) · [Next: Chapter 02: Methodology Foundations and Design Principles →](chapter-02-methodology-foundations-and-design-principles.md)
+[← Previous: Part I: Transformation Foundations](part-i-transformation-foundations.md) · [Contents](../README.md) · [Next: Chapter 02: Methodology Foundations and Design Principles →](chapter-02-methodology-foundations-and-design-principles.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

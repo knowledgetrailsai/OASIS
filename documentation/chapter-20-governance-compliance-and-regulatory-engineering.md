@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 19: Security and Responsible AI Engineering](chapter-19-security-and-responsible-ai-engineering.md) · [Contents](README.md) · [Next: Chapter 21: Deployment, Operations and AgentOps →](chapter-21-deployment-operations-and-agentops.md)
+[← Previous: Chapter 19: Security and Responsible AI Engineering](chapter-19-security-and-responsible-ai-engineering.md) · [Contents](../README.md) · [Next: Chapter 21: Deployment, Operations and AgentOps →](chapter-21-deployment-operations-and-agentops.md)
 
 # Chapter 20: Governance, Compliance and Regulatory Engineering
 
@@ -68,6 +68,6 @@ OASIS can organize evidence in a form compatible with management and risk framew
 
 ---
 
-[← Previous: Chapter 19: Security and Responsible AI Engineering](chapter-19-security-and-responsible-ai-engineering.md) · [Contents](README.md) · [Next: Chapter 21: Deployment, Operations and AgentOps →](chapter-21-deployment-operations-and-agentops.md)
+[← Previous: Chapter 19: Security and Responsible AI Engineering](chapter-19-security-and-responsible-ai-engineering.md) · [Contents](../README.md) · [Next: Chapter 21: Deployment, Operations and AgentOps →](chapter-21-deployment-operations-and-agentops.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

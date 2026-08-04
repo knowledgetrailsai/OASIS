@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 23: Forward Deployed Outcome Engineering](chapter-23-forward-deployed-outcome-engineering.md) · [Contents](README.md) · [Next: Chapter 25: Enterprise Intelligence Platform →](chapter-25-enterprise-intelligence-platform.md)
+[← Previous: Chapter 23: Forward Deployed Outcome Engineering](chapter-23-forward-deployed-outcome-engineering.md) · [Contents](../README.md) · [Next: Chapter 25: Enterprise Intelligence Platform →](chapter-25-enterprise-intelligence-platform.md)
 
 # Chapter 24: Roles, Teams and Governance Forums
 
@@ -40,6 +40,6 @@ Small organizations may combine several roles in one person, but accountability 
 
 ---
 
-[← Previous: Chapter 23: Forward Deployed Outcome Engineering](chapter-23-forward-deployed-outcome-engineering.md) · [Contents](README.md) · [Next: Chapter 25: Enterprise Intelligence Platform →](chapter-25-enterprise-intelligence-platform.md)
+[← Previous: Chapter 23: Forward Deployed Outcome Engineering](chapter-23-forward-deployed-outcome-engineering.md) · [Contents](../README.md) · [Next: Chapter 25: Enterprise Intelligence Platform →](chapter-25-enterprise-intelligence-platform.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

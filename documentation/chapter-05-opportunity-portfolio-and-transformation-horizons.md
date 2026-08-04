@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 04: Multiple Entry Paths and Configurable Depth](chapter-04-multiple-entry-paths-and-configurable-depth.md) · [Contents](README.md) · [Next: Chapter 06: OASIS Operating Model and Decision Rights →](chapter-06-oasis-operating-model-and-decision-rights.md)
+[← Previous: Chapter 04: Multiple Entry Paths and Configurable Depth](chapter-04-multiple-entry-paths-and-configurable-depth.md) · [Contents](../README.md) · [Next: Chapter 06: OASIS Operating Model and Decision Rights →](chapter-06-oasis-operating-model-and-decision-rights.md)
 
 # Chapter 05: Opportunity Portfolio and Transformation Horizons
 
@@ -45,6 +45,6 @@ A healthy portfolio mixes quick H1/H2 improvements with a smaller number of H3/H
 
 ---
 
-[← Previous: Chapter 04: Multiple Entry Paths and Configurable Depth](chapter-04-multiple-entry-paths-and-configurable-depth.md) · [Contents](README.md) · [Next: Chapter 06: OASIS Operating Model and Decision Rights →](chapter-06-oasis-operating-model-and-decision-rights.md)
+[← Previous: Chapter 04: Multiple Entry Paths and Configurable Depth](chapter-04-multiple-entry-paths-and-configurable-depth.md) · [Contents](../README.md) · [Next: Chapter 06: OASIS Operating Model and Decision Rights →](chapter-06-oasis-operating-model-and-decision-rights.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

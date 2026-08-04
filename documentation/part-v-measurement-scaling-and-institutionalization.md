@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 25: Enterprise Intelligence Platform](chapter-25-enterprise-intelligence-platform.md) · [Contents](README.md) · [Next: Chapter 26: OASIS Measurement Framework →](chapter-26-oasis-measurement-framework.md)
+[← Previous: Chapter 25: Enterprise Intelligence Platform](chapter-25-enterprise-intelligence-platform.md) · [Contents](../README.md) · [Next: Chapter 26: OASIS Measurement Framework →](chapter-26-oasis-measurement-framework.md)
 
 # Part V: Part V: Measurement, Scaling and Institutionalization
 
@@ -19,6 +19,6 @@
 
 ---
 
-[← Previous: Chapter 25: Enterprise Intelligence Platform](chapter-25-enterprise-intelligence-platform.md) · [Contents](README.md) · [Next: Chapter 26: OASIS Measurement Framework →](chapter-26-oasis-measurement-framework.md)
+[← Previous: Chapter 25: Enterprise Intelligence Platform](chapter-25-enterprise-intelligence-platform.md) · [Contents](../README.md) · [Next: Chapter 26: OASIS Measurement Framework →](chapter-26-oasis-measurement-framework.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

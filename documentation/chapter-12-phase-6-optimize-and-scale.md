@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 11: Phase 5 — Operate & Assure](chapter-11-phase-5-operate-and-assure.md) · [Contents](README.md) · [Next: Chapter 13: Decision Gates and Evidence Model →](chapter-13-decision-gates-and-evidence-model.md)
+[← Previous: Chapter 11: Phase 5 — Operate & Assure](chapter-11-phase-5-operate-and-assure.md) · [Contents](../README.md) · [Next: Chapter 13: Decision Gates and Evidence Model →](chapter-13-decision-gates-and-evidence-model.md)
 
 # Chapter 12: Phase 6 — Optimize & Scale
 
@@ -66,6 +66,6 @@ Small organizations may reuse through templates and managed services. Large ente
 
 ---
 
-[← Previous: Chapter 11: Phase 5 — Operate & Assure](chapter-11-phase-5-operate-and-assure.md) · [Contents](README.md) · [Next: Chapter 13: Decision Gates and Evidence Model →](chapter-13-decision-gates-and-evidence-model.md)
+[← Previous: Chapter 11: Phase 5 — Operate & Assure](chapter-11-phase-5-operate-and-assure.md) · [Contents](../README.md) · [Next: Chapter 13: Decision Gates and Evidence Model →](chapter-13-decision-gates-and-evidence-model.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

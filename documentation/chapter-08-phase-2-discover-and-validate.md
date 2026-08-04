@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Previous: Chapter 07: Phase 1 — Engage & Align](chapter-07-phase-1-engage-and-align.md) · [Contents](README.md) · [Next: Chapter 09: Phase 3 — Engineer & Integrate →](chapter-09-phase-3-engineer-and-integrate.md)
+[← Previous: Chapter 07: Phase 1 — Engage & Align](chapter-07-phase-1-engage-and-align.md) · [Contents](../README.md) · [Next: Chapter 09: Phase 3 — Engineer & Integrate →](chapter-09-phase-3-engineer-and-integrate.md)
 
 # Chapter 08: Phase 2 — Discover & Validate
 
@@ -66,6 +66,6 @@ A PoC may use synthetic or de-identified data and simulated tools, but its test 
 
 ---
 
-[← Previous: Chapter 07: Phase 1 — Engage & Align](chapter-07-phase-1-engage-and-align.md) · [Contents](README.md) · [Next: Chapter 09: Phase 3 — Engineer & Integrate →](chapter-09-phase-3-engineer-and-integrate.md)
+[← Previous: Chapter 07: Phase 1 — Engage & Align](chapter-07-phase-1-engage-and-align.md) · [Contents](../README.md) · [Next: Chapter 09: Phase 3 — Engineer & Integrate →](chapter-09-phase-3-engineer-and-integrate.md)
 
-© 2026 OASIS Methodology contributors. Licensed under the [MIT License](LICENSE.md).
+© 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).
