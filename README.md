@@ -58,6 +58,20 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Chapter 32: Templates, Checklists and Tools](Methodology/chapter-32-templates-checklists-and-tools.md)
 - [Chapter 33: Appendices and Reference Material](Methodology/chapter-33-appendices-and-reference-material.md)
 
+## Standards and reference material
+
+- [Regulatory and Standards Framework Alignment Index](references/regulatory-framework-alignment-index.md)
+- [Standard: ISO/IEC 42001 Alignment Checklist](standards/iso-42001-alignment-checklist.md)
+- [Standard: NIST AI RMF Alignment Checklist](standards/nist-ai-rmf-alignment-checklist.md)
+- [Standard: EU AI Act Alignment Checklist](standards/eu-ai-act-alignment-checklist.md)
+- [Standard: DPDP Act Alignment Checklist](standards/dpdp-act-alignment-checklist.md)
+
+## Architecture, engineering and monitoring reference
+
+- [Architecture: OASIS Intelligence-System Reference Architecture](architecture/oasis-reference-architecture.md)
+- [Engineering: Tool and Integration Interface Specification](engineering/tool-and-integration-interface-specification.md)
+- [Monitoring: Observability and Telemetry Specification](monitoring/observability-and-telemetry-specification.md)
+
 ## License
 
 Copyright (c) 2026 OASIS Methodology contributors.
