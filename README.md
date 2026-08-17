@@ -73,6 +73,10 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Engineering: Tool and Integration Interface Specification](engineering/tool-and-integration-interface-specification.md)
 - [Monitoring: Observability and Telemetry Specification](monitoring/observability-and-telemetry-specification.md)
 
+## Security reference
+
+- [Security: Agentic AI Threat Model and Control Checklist](security/agentic-ai-threat-and-control-checklist.md)
+
 ## License
 
 Copyright (c) 2026 OASIS Methodology contributors.
