@@ -22,64 +22,68 @@ Chapter 14 states: **AI system = Model + Context + Harness + Tools + Workflow + 
 
 ```mermaid
 flowchart TB
-    subgraph TRIGGER["Trigger"]
-        U[User request / event / schedule]
+    subgraph TRIGGER[Trigger]
+        U[User request, event, or schedule]
     end
 
-    subgraph CTX["Context layer (Ch.14 §3-4)"]
-        RET[Retrieval & knowledge service]
-        MEM[Memory & state store (Ch.14 §8)]
-        POL[Policy & instruction library]
-        CA[Context assembler<br/>authorization-aware, source-attributed,<br/>fresh, token-budgeted]
+    subgraph CTX[Context layer]
+        RET[Retrieval and knowledge service]
+        MEM[Memory and state store]
+        POL[Policy and instruction library]
+        CA[Context assembler]
         RET --> CA
         MEM --> CA
         POL --> CA
     end
 
-    subgraph HAR["Harness (Ch.14 §6)"]
-        LOOP[Execution loop:<br/>assemble → invoke → call tools →<br/>record state → enforce limits →<br/>retry/checkpoint → terminate]
+    subgraph HAR[Harness]
+        LOOP[Execution loop]
     end
 
-    subgraph MDL["Model layer (Ch.14 §2)"]
+    subgraph MDL[Model layer]
         M1[Primary model]
         M2[Fallback model / route]
     end
 
-    subgraph WF["Workflow & orchestration (Ch.14 §7)"]
+    subgraph WF[Workflow and orchestration]
         DET[Deterministic function]
         EXP[Explicit workflow]
         AGT[Agent]
         MA[Multi-agent]
     end
 
-    subgraph TOOLS["Tools (Ch.14 §5, Ch.17)"]
+    subgraph TOOLS[Tools]
         T1[Tool / action contract]
         T2[Enterprise API / system of record]
     end
 
-    subgraph CTRL["Controls (Ch.14 §10, Ch.19 defense-in-depth)"]
-        GR[Guardrails: input, context, model,<br/>tool, workflow, output, runtime]
+    subgraph CTRL[Controls]
+        GR[Guardrails]
     end
 
-    subgraph OUT["Output & human interaction (Ch.14 §9)"]
-        VAL[Structured output & validation]
+    subgraph OUT[Output and human interaction]
+        VAL[Structured output and validation]
         HAI[Human review / approval / override]
     end
 
-    subgraph EVAL["Evaluation (Ch.14 §11)"]
-        EV[Evaluation & regression suite]
+    subgraph EVAL[Evaluation]
+        EV[Evaluation and regression suite]
     end
 
-    subgraph RUN["Runtime / AgentOps (Ch.14 §12)"]
-        TRC[Version + trace: model, prompt,<br/>context, index, tool, workflow, control]
+    subgraph RUN[Runtime / AgentOps]
+        TRC[Version and trace record]
     end
 
     U --> CA
     CA --> LOOP
-    LOOP <--> M1
+    LOOP --> M1
+    M1 --> LOOP
     LOOP -.fallback.-> M2
     LOOP --> WF
-    WF --> DET & EXP & AGT & MA
+    WF --> DET
+    WF --> EXP
+    WF --> AGT
+    WF --> MA
     AGT --> T1
     MA --> T1
     T1 --> T2
