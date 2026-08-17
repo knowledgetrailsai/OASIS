@@ -65,6 +65,7 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Standard: NIST AI RMF Alignment Checklist](standards/nist-ai-rmf-alignment-checklist.md)
 - [Standard: EU AI Act Alignment Checklist](standards/eu-ai-act-alignment-checklist.md)
 - [Standard: DPDP Act Alignment Checklist](standards/dpdp-act-alignment-checklist.md)
+- Additional relevant standards and frameworks are listed in the alignment index.
 
 ## Architecture, engineering and monitoring reference
 
@@ -77,4 +78,3 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 Copyright (c) 2026 OASIS Methodology contributors.
 
 Licensed under the [MIT License](LICENSE.md). Before public release, replace the contributor placeholder with the confirmed legal rights holder where necessary.
-

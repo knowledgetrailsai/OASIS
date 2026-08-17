@@ -37,6 +37,35 @@ Chapter 20's Regulatory Engineering Method (steps 48–53) is the process; the c
 | EU AI Act (Regulation (EU) 2024/1689) | Binding regulation | System is placed on the EU market, used in the EU, or its output is used in the EU, regardless of where the organization is based. | [EU AI Act Alignment Checklist](../standards/eu-ai-act-alignment-checklist.md) |
 | India DPDP Act, 2023 + Rules, 2025 | Binding regulation (personal data) | System processes personal data of individuals in India, or of Data Principals as defined by the Act. | [DPDP Act Alignment Checklist](../standards/dpdp-act-alignment-checklist.md) |
 
+## Other standards and frameworks relevant to OASIS
+
+The checklists above are the initial core set. The frameworks below are also relevant to OASIS engagements, but should usually be handled as overlays or future checklist candidates rather than worked by default. Add them to the Regulatory Applicability Register when the system context makes them material.
+
+| Framework | Type | Why it matters to OASIS | Use when |
+|---|---|---|---|
+| ISO/IEC 23894 | AI risk-management guidance | Complements ISO/IEC 42001 with AI-specific risk concepts, risk treatment and monitoring practices. | The engagement needs deeper risk-method guidance than the management-system checklist provides. |
+| ISO/IEC 22989 | AI concepts and terminology | Provides shared vocabulary for AI systems, stakeholders, lifecycle concepts and trustworthiness discussions. | Terms need to be standardized across legal, engineering, risk and delivery teams. |
+| ISO/IEC 23053 | AI system framework using machine learning | Helps structure ML-system components, lifecycle views and system boundaries. | The solution includes ML-heavy components and architecture reviews need a neutral reference model. |
+| ISO/IEC 42005 | AI system impact assessment | Useful for formalizing impact-assessment evidence alongside Chapter 20 and Chapter 19. | The engagement needs a repeatable AI impact-assessment method beyond a local template. |
+| ISO/IEC 42006 | AI management-system audit and certification guidance | Supports organizations and auditors preparing for ISO/IEC 42001 certification activity. | The organization is pursuing ISO/IEC 42001 certification or supplier assurance. |
+| ISO/IEC 27001 and ISO/IEC 27002 | Information-security management and controls | Provides the baseline security control environment into which AI-specific controls should fit. | The AI system handles sensitive information, integrates with enterprise systems, or inherits existing ISMS obligations. |
+| ISO/IEC 27701 | Privacy information management | Extends ISO/IEC 27001-style controls into privacy governance and evidence. | Personal data processing is material, especially where DPDP, GDPR or similar privacy laws apply. |
+| ISO/IEC 27017 and ISO/IEC 27018 | Cloud security and cloud privacy controls | Relevant where the intelligence system is hosted on cloud infrastructure or uses cloud AI services. | Cloud shared-responsibility, processor/subprocessor, or customer assurance questions are in scope. |
+| SOC 2 Trust Services Criteria | Assurance/reporting framework | Often used by customers to evaluate security, availability, confidentiality, processing integrity and privacy controls. | SaaS or managed-service delivery requires customer-facing assurance evidence. |
+| CSA AI Controls Matrix and Cloud Controls Matrix | Cloud and AI security control frameworks | Useful for mapping AI workloads to cloud security and AI-specific control objectives. | Cloud AI systems need provider/customer control allocation, audit preparation, or multi-framework control mapping. |
+| OWASP Top 10 for LLM and GenAI Applications | Application-security risk framework | Directly informs agent, prompt, retrieval, tool and output-layer threat models. | The system uses LLMs, RAG, tools, plugins, agents, or autonomous workflows. |
+| OWASP Agentic AI guidance | Agentic-system security guidance | Sharpens controls for autonomy, tool execution, delegation, memory, and multi-agent behavior. | The OASIS solution includes agents that choose actions or call tools dynamically. |
+| NIST Cybersecurity Framework 2.0 | Cybersecurity governance and risk framework | Provides enterprise cybersecurity governance language that can host AI-system controls. | The organization already runs cyber risk through NIST CSF, or the AI system is cyber-critical. |
+| NIST Privacy Framework | Privacy risk-management framework | Complements privacy law checklists with an operational privacy-risk taxonomy. | Privacy risks need structured treatment beyond legal obligation mapping. |
+| NIST SP 800-53 | Security and privacy control catalog | Provides detailed control baselines for high-assurance or public-sector environments. | Federal, regulated, critical-infrastructure, or high-assurance systems need granular controls. |
+| NIST SP 800-218 Secure Software Development Framework | Secure software development framework | Helps align AI-enabled software delivery with secure SDLC practices. | The engagement builds deployable software, APIs, tools, or agent harnesses. |
+| MITRE ATLAS | Adversarial ML threat knowledge base | Helps threat-model attacks against AI/ML components and map mitigations. | The system faces adversarial inputs, model abuse, data poisoning, evasion, or extraction risk. |
+| GDPR | Binding privacy regulation | Often applies alongside the EU AI Act where personal data of EU individuals is processed. | The system processes personal data in an EU/EEA context or serves EU data subjects. |
+| DORA | Binding operational-resilience regulation for EU financial entities | Adds ICT risk, third-party risk, incident reporting and resilience expectations. | The user or deployer is an EU financial entity or ICT provider in DORA scope. |
+| HIPAA | Binding US health privacy/security law | Adds health-data privacy and security obligations that affect data, access, audit and vendor controls. | The system processes protected health information for covered entities or business associates. |
+| PCI DSS | Payment-card security standard | Adds cardholder-data security obligations that may constrain tool access and data handling. | The system can access, process, store or influence payment-card data environments. |
+| India CERT-In directions and sectoral rules | Binding cybersecurity/reporting obligations in India | Adds incident reporting, logging, time synchronization and sector-specific compliance expectations. | India-hosted or India-operated systems have cybersecurity, financial-sector, telecom, health or public-sector exposure. |
+
 ## Which framework(s) actually apply — a triage sequence
 
 Work through these questions in order; each one can add a checklist to the engagement's scope, but none of them removes the need to check the others:
