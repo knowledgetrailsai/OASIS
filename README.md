@@ -67,7 +67,7 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Standard: DPDP Act Alignment Checklist](standards/dpdp-act-alignment-checklist.md)
 - Additional relevant standards and frameworks are listed in the alignment index.
 
-## Architecture, engineering and monitoring reference
+## Architecture, Engineering and Monitoring Reference
 
 - [Architecture: OASIS Intelligence-System Reference Architecture](architecture/oasis-reference-architecture.md)
 - [Engineering: Tool and Integration Interface Specification](engineering/tool-and-integration-interface-specification.md)
@@ -76,6 +76,16 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 ## Security reference
 
 - [Security: Agentic AI Threat Model and Control Checklist](security/agentic-ai-threat-and-control-checklist.md)
+
+## Tools: fillable templates
+
+Fillable versions of all 20 artifacts named in [Chapter 32](Methodology/chapter-32-templates-checklists-and-tools.md), grouped by lifecycle stage:
+
+- [Outcome and Portfolio Templates](tools/01-outcome-and-portfolio-templates.md) — Opportunity Assessment, Outcome Charter, Outcome Contract, Outcome Metric Tree, Value and Risk Case
+- [Workflow and Intelligence Templates](tools/02-workflow-and-intelligence-templates.md) — Process and Decision Map, Human–AI Workflow Blueprint, Data and Knowledge Readiness Assessment, Evaluation Strategy and Dataset, Failure Taxonomy
+- [System and Governance Templates](tools/03-system-and-governance-templates.md) — Intelligence-System Blueprint, Autonomy Matrix, Responsibility Assignment Matrix, Decision-Gate Record
+- [Readiness and Operations Templates](tools/04-readiness-and-operations-templates.md) — Production Readiness Checklist, Operational Acceptance Checklist, Outcome Scorecard, Service Runbook
+- [Risk and Scale Templates](tools/05-risk-and-scale-templates.md) — Risk and Control Register, Scale and Productization Assessment
 
 ## License
 
