@@ -2,7 +2,7 @@
 
 [← Previous: Chapter 25: Enterprise Intelligence Platform](chapter-25-enterprise-intelligence-platform.md) · [Contents](../README.md) · [Next: Chapter 26: OASIS Measurement Framework →](chapter-26-oasis-measurement-framework.md)
 
-# Part V: Part V: Measurement, Scaling and Institutionalization
+# Part V: Measurement, Scaling and Institutionalization
 
 *Operating rhythm, productization, adoption paths, tailoring, examples and templates.*
 

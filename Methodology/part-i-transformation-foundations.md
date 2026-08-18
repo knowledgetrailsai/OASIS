@@ -2,7 +2,7 @@
 
 [← Previous: Handbook Introduction](../00-handbook-introduction.md) · [Contents](../README.md) · [Next: Chapter 01: OASIS Executive Overview →](chapter-01-oasis-executive-overview.md)
 
-# Part I: Part I: Transformation Foundations
+# Part I: Transformation Foundations
 
 *Outcome-led AI transformation that can begin from any organizational entry point.*
 

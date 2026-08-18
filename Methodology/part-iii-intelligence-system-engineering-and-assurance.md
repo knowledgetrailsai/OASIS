@@ -2,7 +2,7 @@
 
 [← Previous: Chapter 13: Decision Gates and Evidence Model](chapter-13-decision-gates-and-evidence-model.md) · [Contents](../README.md) · [Next: Chapter 14: Intelligence and Agent Engineering →](chapter-14-intelligence-and-agent-engineering.md)
 
-# Part III: Part III: Intelligence-System Engineering and Assurance
+# Part III: Intelligence-System Engineering and Assurance
 
 *Engineering the complete system: model, context, harness, tools, workflow, controls and runtime.*
 
