@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [Chapter 17: Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md) · [Monitoring: Observability Specification →](../monitoring/observability-and-telemetry-specification.md)
+[← Back to Contents](../README.md) · [← Previous: Context and Retrieval Engineering](context-and-retrieval-engineering.md) · [Chapter 17: Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md) · [Next: Harness and Orchestration Engineering →](harness-and-orchestration-engineering.md)
 
 # Engineering: Tool and Integration Interface Specification
 
@@ -216,6 +216,6 @@ A tool description is part of system behavior. Treat a change to a tool's descri
 
 ---
 
-[← Back to Contents](../README.md) · [Chapter 17: Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md) · [Monitoring: Observability Specification →](../monitoring/observability-and-telemetry-specification.md)
+[← Back to Contents](../README.md) · [← Previous: Context and Retrieval Engineering](context-and-retrieval-engineering.md) · [Chapter 17: Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md) · [Next: Harness and Orchestration Engineering →](harness-and-orchestration-engineering.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

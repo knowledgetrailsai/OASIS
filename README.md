@@ -70,7 +70,13 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 ## Architecture, Engineering and Monitoring Reference
 
 - [Architecture: OASIS Intelligence-System Reference Architecture](architecture/oasis-reference-architecture.md)
-- [Engineering: Tool and Integration Interface Specification](engineering/tool-and-integration-interface-specification.md)
+- Engineering (Chapter 14 companion articles, in build order):
+  - [Model Engineering](engineering/model-engineering.md)
+  - [Context and Retrieval Engineering](engineering/context-and-retrieval-engineering.md)
+  - [Tool and Integration Interface Specification](engineering/tool-and-integration-interface-specification.md)
+  - [Harness and Orchestration Engineering](engineering/harness-and-orchestration-engineering.md)
+  - [Memory and State Engineering](engineering/memory-and-state-engineering.md)
+  - [Evaluation and Reliability Engineering](engineering/evaluation-and-reliability-engineering.md)
 - [Monitoring: Observability and Telemetry Specification](monitoring/observability-and-telemetry-specification.md)
 
 ## Security reference
