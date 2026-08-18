@@ -69,7 +69,18 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 
 ## Architecture, Engineering and Monitoring Reference
 
-- [Architecture: OASIS Intelligence-System Reference Architecture](architecture/oasis-reference-architecture.md)
+- [Architecture: OASIS Intelligence-System Reference Architecture](architecture/oasis-reference-architecture.md) (system diagram, design principles, enterprise perspectives)
+  - [Architecture Principles](architecture/oasis-reference-architecture.md#architecture-principles)
+  - Enterprise architecture perspectives:
+    - [1. Business and Capability Architecture](architecture/perspective-01-business-and-capability-architecture.md)
+    - [2. Agent Architecture](architecture/perspective-02-agent-architecture.md)
+    - [3. Process Architecture](architecture/perspective-03-process-architecture.md)
+    - [4. Information and Knowledge Architecture](architecture/perspective-04-information-and-knowledge-architecture.md)
+    - [5. Inference Architecture](architecture/perspective-05-inference-architecture.md)
+    - [6. Integration Architecture](architecture/perspective-06-integration-architecture.md)
+    - [7. Deployment Architecture](architecture/perspective-07-deployment-architecture.md)
+    - [8. Security and Trust Architecture](architecture/perspective-08-security-and-trust-architecture.md)
+    - [9. Operations and Observability Architecture](architecture/perspective-09-operations-and-observability-architecture.md)
 - Engineering (Chapter 14 companion articles, in build order):
   - [Model Engineering](engineering/model-engineering.md)
   - [Context and Retrieval Engineering](engineering/context-and-retrieval-engineering.md)
