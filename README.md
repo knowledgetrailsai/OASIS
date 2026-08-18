@@ -4,7 +4,7 @@
 
 **Outcome-as-a-Service using Intelligence Systems**
 
-This is a deliberately simple, Markdown-only GitHub package. All handbook pages are stored in this single folder and linked using relative Markdown links. Open this `README.md` file to navigate the handbook.
+This is a deliberately simple, Markdown-only GitHub package. All handbook pages are stored in this single folder and linked using relative Markdown links. Open this `README.md` file to navigate the handbook. See [CHANGELOG.md](CHANGELOG.md) for what's changed and when, including the review cadence expected for the Standards and References material.
 
 ## Handbook contents
 
@@ -66,6 +66,12 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Standard: EU AI Act Alignment Checklist](standards/eu-ai-act-alignment-checklist.md)
 - [Standard: DPDP Act Alignment Checklist](standards/dpdp-act-alignment-checklist.md)
 - Additional relevant standards and frameworks are listed in the alignment index.
+- [Master Glossary and Roles Roster](references/master-glossary-and-roles-roster.md) (terms and roles across the whole repository, plus a default RACI)
+
+## Assessments
+
+- [AI Engineering Maturity Model](assessments/oasis-ai-engineering-maturity-model.md) (nine dimensions, five levels, weakest-link scoring)
+- [Maturity Scorecard Template](assessments/oasis-maturity-scorecard-template.md) (fillable, per assessment cycle)
 
 ## Architecture, Engineering and Monitoring Reference
 

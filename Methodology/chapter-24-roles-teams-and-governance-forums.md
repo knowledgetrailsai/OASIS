@@ -18,7 +18,7 @@ Two further companion documents are worth reading alongside this chapter rather 
 
 ## Role model
 
-The roles below sit above any single pod: they are the enterprise positions a pod's local roles from Chapter 23 report into, escalate to, or draw funding and mandate from. Reading down the table roughly traces the path a decision travels, from strategic sponsorship down to the independent check that keeps the whole structure honest.
+The roles below sit above any single pod: they are the enterprise positions a pod's local roles from Chapter 23 report into, escalate to, or draw funding and mandate from. Reading down the table roughly traces the path a decision travels, from strategic sponsorship down to the independent check that keeps the whole structure honest. For the same roles combined with the pod-level roles from Chapter 23 and the per-agent and per-credential accountability requirements named across the Architecture perspective articles, plus a default RACI for the recurring decisions this methodology names most often, see the [Master Glossary and Roles Roster](../references/master-glossary-and-roles-roster.md).
 
 | **Role**                         | **Accountable for**                                                |
 |----------------------------------|--------------------------------------------------------------------|

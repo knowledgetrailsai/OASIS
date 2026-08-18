@@ -18,7 +18,7 @@ Because this is a reference chapter rather than a narrative one, its structure s
 
 ## Glossary
 
-The terms below are used precisely and consistently throughout the Methodology, Architecture, Engineering, and Security material. Where a term was introduced or defined more fully in an earlier chapter, that chapter is the authoritative source; this glossary is the fast-lookup version.
+The terms below are used precisely and consistently throughout the Methodology, Architecture, Engineering, and Security material. Where a term was introduced or defined more fully in an earlier chapter, that chapter is the authoritative source; this glossary is the fast-lookup version. For the full, maintained glossary spanning every companion folder (not just the terms introduced in the Methodology chapters), plus a consolidated roles roster and default RACI, see the [Master Glossary and Roles Roster](../references/master-glossary-and-roles-roster.md).
 
 | **Term**             | **Definition**                                                                                                                |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------|
