@@ -8,37 +8,43 @@
 
 > **CHAPTER PURPOSE** Establish a rhythm of field observation, demonstrations, releases, outcome reviews, portfolio decisions and managed learning backlogs.
 
-| **Cadence**                  | **Primary focus**                                               | **Output**                                       |
-|------------------------------|-----------------------------------------------------------------|--------------------------------------------------|
-| Daily pod cadence            | Cases, blockers, incidents, traces and next experiment.         | Updated task and learning backlog.               |
-| Weekly working demonstration | Working behavior on representative or live cases.               | Accepted learning, design and scope decisions.   |
-| Fortnightly release cadence  | Tested increments and controlled rollout.                       | Release manifest and deployment evidence.        |
-| Monthly outcome review       | Outcome, adoption, intelligence, risk, service and economics.   | Continue/correct decisions and priority changes. |
-| Quarterly portfolio review   | Value pools, dependencies, concentration, platform and funding. | Scale, sequence, fund, reframe or retire.        |
+## Background and context
+
+Chapter 26 establishes what to measure and at what cadence; this chapter turns that cadence into an operating rhythm a delivery team actually lives inside week to week. The two chapters are companions by design — a measurement framework with no delivery rhythm built around it produces reports nobody acts on, and a delivery rhythm with no measurement framework underneath it produces motion nobody can prove is progress. Chapter 27 exists to make sure a pod's daily and weekly activity stays anchored to evidence rather than drifting toward whatever feels most urgent that day, which is the single most common way well-intentioned delivery teams lose the thread on outcomes.
+
+The cadence described here is deliberately layered rather than singular, because different classes of decision genuinely need different observation windows. A production incident needs a same-day response; a decision to reallocate a pod's roadmap does not, and forcing it into a daily standup either starves the daily conversation of its real purpose or forces a strategic call to be made on incomplete evidence. This chapter's five cadences — daily, weekly, fortnightly, monthly, quarterly — exist to give each class of decision the observation window it actually needs, and they map directly onto the reporting cadence Chapter 26 already introduced: the monthly outcome review here is the same review that chapter describes, now given a defined set of attendees, inputs and outputs.
+
+What this chapter hands forward to [Chapter 28 — Scaling and Productization](chapter-28-scaling-and-productization.md) is the operating discipline a capability needs before it is even a candidate for reuse elsewhere in the enterprise: a capability with no stable backlog structure, no management registers and no evidence of a working outcome cadence is not ready to be productized, no matter how well it performs for its first consumer. At enterprise scale, the same cadence structure reappears as the "governance cadence" in [Architecture Perspective 9 — Operations and Observability Architecture](../architecture/perspective-09-operations-and-observability-architecture.md#4-governance-cadence), which explicitly names this chapter's delivery cadence as the input its enterprise-wide operations rollup depends on; a governance forum reviewing portfolio health is, in effect, reviewing the aggregated output of many pods each running the rhythm described below.
+
+## Delivery cadence
+
+Delivery, in an intelligence system, is not one rhythm but five nested ones, each answering a different question at the frequency that question actually needs. The daily pod cadence is the shortest and most operational: cases worked, blockers encountered, incidents raised, traces reviewed, and the single next experiment worth running, feeding directly into an updated task and learning backlog rather than a status report nobody reads afterward. The weekly working demonstration steps back to show working behavior against representative or live cases — not a slide deck describing progress, but the system actually doing the work, which is the fastest way a team discovers that a metric everyone believed was moving in the right direction is not what it looks like in practice. It produces accepted learning, design and scope decisions, made with the whole pod in the room rather than relayed secondhand.
+
+The fortnightly release cadence turns accepted learning into tested increments and a controlled rollout, producing a release manifest and deployment evidence — the same artifact the [Monitoring specification's release manifest checklist](../monitoring/observability-and-telemetry-specification.md#3-release-manifest-checklist) expects to see completed before any release goes out, with a named owner and evidence against every item rather than a checkbox ticked from memory. The monthly outcome review is where Chapter 26's balanced scorecard actually gets used: outcome, adoption, intelligence, risk, service and economics evidence reviewed together, producing continue-or-correct decisions and any resulting change in priority. And the quarterly portfolio review is the widest lens of all: value pools, dependencies, concentration risk, platform investment and funding, producing decisions to scale, resequence, fund, reframe or retire that only make sense made with a quarter's worth of evidence behind them rather than a month's.
+
+| **Cadence**                  | **Primary focus**                                               | **Output**                               |
+|----------------------------------|----------------------------------------------------------------------------------|--------------------------------------------|
+| Daily pod cadence            | Cases, blockers, incidents, traces and next experiment.           | Updated task and learning backlog.            |
+| Weekly working demonstration | Working behavior on representative or live cases.                 | Accepted learning, design and scope decisions.    |
+| Fortnightly release cadence  | Tested increments and controlled rollout.                         | Release manifest and deployment evidence.         |
+| Monthly outcome review       | Outcome, adoption, intelligence, risk, service and economics.     | Continue/correct decisions and priority changes.  |
+| Quarterly portfolio review   | Value pools, dependencies, concentration, platform and funding.   | Scale, sequence, fund, reframe or retire.         |
 
 ## Backlog structure
 
-- Outcome backlog: changes expected to move the metric tree.
+A single backlog cannot serve an intelligence system well, because the work items competing for a pod's attention are not actually comparable to one another — a retrieval-quality fix and a resilience improvement address entirely different failure modes and are usually owned by different people with different expertise. OASIS splits the backlog into seven distinct streams so that each kind of work gets visible, deliberate prioritization rather than being silently outcompeted by whichever stream is loudest that week.
 
-- User and workflow backlog: process, interface, adoption and exception improvements.
-
-- Intelligence backlog: context, retrieval, model, tool, harness and evaluation changes.
-
-- Risk and control backlog: threats, obligations, controls, findings and evidence gaps.
-
-- Reliability backlog: capacity, resilience, recovery, incident and support improvements.
-
-- Reuse backlog: component extraction, documentation, configuration and platform transfer.
-
-- Learning backlog: unanswered assumptions, experiments and production cases to investigate.
+The outcome backlog holds changes expected to move the metric tree directly — the work most clearly traceable back to Chapter 26's primary outcome and leading indicators. The user and workflow backlog covers process, interface, adoption and exception handling improvements: the work that often matters more to real-world performance than any change to the model itself, and is correspondingly easy to under-resource. The intelligence backlog is where context, retrieval, model, tool, harness and evaluation changes live — the engineering work closest to the system's actual reasoning quality. The risk and control backlog tracks threats, regulatory obligations, controls, audit findings and evidence gaps, and deserves the same rigor as the outcome backlog even though it rarely produces a headline metric improvement on its own. The reliability backlog covers capacity, resilience, recovery, incident response and support — the operational discipline a production system cannot survive without regardless of how good its intelligence quality is. The reuse backlog is where component extraction, documentation, configuration work and platform transfer live, and is the backlog that most directly determines whether a capability becomes a candidate for the kind of multi-business deployment Chapter 28 describes. And the learning backlog, last but not least, holds the unanswered assumptions, planned experiments and production cases still worth investigating — the questions the pod knows it has not yet answered, kept visible rather than quietly forgotten.
 
 ## Management registers
 
-Maintain decision, assumption, dependency, risk, issue and change registers at the smallest useful level. Decisions record context, evidence, owner, date, conditions and expiry. Assumptions are converted into tests or consciously accepted. Dependencies have a provider, consumer, due date and contingency.
+A pod running six or seven parallel backlogs needs a small set of registers to keep decisions, assumptions, dependencies, risks, issues and changes visible at the smallest useful level, rather than buried inside meeting notes or a single person's memory. These registers are not bureaucratic overhead layered on top of delivery — they are what lets a pod answer, months later, why a particular decision was made, without relying on someone's recollection of a conversation that happened under different pressure and with different information available.
+
+A decision record captures its context, the evidence behind it, the owner who made the call, the date, any conditions attached to it, and — importantly — an expiry, since a decision made under one set of circumstances should not be treated as permanent once those circumstances change. Assumptions are handled with the same discipline: each one is either converted into a test that will confirm or falsify it, or consciously accepted as a risk the team is choosing to carry, rather than left as an unexamined premise underneath a plan. Dependencies are recorded with a provider, a consumer, a due date and a contingency, because a dependency without a named contingency is a single point of failure the team has not yet admitted to itself.
 
 ## Agile relationship
 
-Teams may use Scrum, Kanban or flow-based delivery. OASIS adds an outcome and evidence structure around iteration. A sprint is successful not because stories closed, but because the team produced a tested capability, reduced material uncertainty or improved an observed outcome.
+OASIS does not replace whatever agile framework a delivery team already uses — Scrum, Kanban, or a flow-based approach all work as the mechanical layer of iteration. What OASIS adds is an outcome and evidence structure wrapped around that iteration, because velocity on its own is a poor proxy for progress in an intelligence system. A sprint that closes every planned story but leaves the underlying outcome metric unmoved, and leaves the team no more certain about a key assumption than it was two weeks earlier, has not actually succeeded by OASIS's standard — even if it looks successful on a conventional burndown chart. A sprint succeeds, in this methodology, when the team produces a tested capability, meaningfully reduces material uncertainty, or measurably improves an observed outcome; story points closed is an input to that judgment, not a substitute for it.
 
 ---
 

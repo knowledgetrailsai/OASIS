@@ -30,7 +30,7 @@ Add one row per meaningful step of the current process, end to end, before desig
 
 ---
 
-## 7. Human–AI Workflow Blueprint
+## 7. Human-AI Workflow Blueprint
 
 **Chapter 32 minimum content:** AI role, human role, authority, evidence, interface, approval, override, fallback, escalation, feedback and outcome.
 

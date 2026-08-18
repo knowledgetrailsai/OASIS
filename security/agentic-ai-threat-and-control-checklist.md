@@ -63,7 +63,7 @@ Chapter 19 names seven responsible-AI properties (validity/reliability, safety/s
 |---|---|
 | Validity and reliability | [Chapter 18 — Evaluation and Reliability Engineering](../Methodology/chapter-18-evaluation-and-reliability-engineering.md); NIST AI RMF Measure function ([checklist](../standards/nist-ai-rmf-alignment-checklist.md)) |
 | Safety, security and resilience | Sections 1–2 above; EU AI Act Art. 15 ([checklist](../standards/eu-ai-act-alignment-checklist.md)) |
-| Fairness and bias | NIST AI RMF Generative AI Profile fairness item ([checklist](../standards/nist-ai-rmf-alignment-checklist.md#generative-ai-profile--additional-risks-to-track)); ISO/IEC 42001 Annex A ([checklist](../standards/iso-42001-alignment-checklist.md)) |
+| Fairness and bias | NIST AI RMF Generative AI Profile fairness item ([checklist](../standards/nist-ai-rmf-alignment-checklist.md#generative-ai-profile-additional-risks-to-track)); ISO/IEC 42001 Annex A ([checklist](../standards/iso-42001-alignment-checklist.md)) |
 | Privacy and data minimization | [DPDP Act checklist](../standards/dpdp-act-alignment-checklist.md); GDPR and other privacy overlays (see [References index](../references/regulatory-framework-alignment-index.md)) |
 | Transparency | EU AI Act Art. 13, 50 ([checklist](../standards/eu-ai-act-alignment-checklist.md)) |
 | Explainability | ISO/IEC 42001 Annex A.9 ([checklist](../standards/iso-42001-alignment-checklist.md)) |

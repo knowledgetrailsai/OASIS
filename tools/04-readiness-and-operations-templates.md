@@ -18,7 +18,7 @@ These four templates carry the transition from a built system to a running servi
 
 **Chapter 32 minimum content:** Architecture, security, privacy, evaluations, integration, resilience, monitoring, support, runbook, rollback and approvals.
 
-**Primary source:** [Chapter 9 — Phase 3: Engineer & Integrate](../Methodology/chapter-09-phase-3-engineer-and-integrate.md); [Chapter 21 — Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md#3-release-manifest-checklist) release manifest.
+**Primary source:** [Chapter 9 — Phase 3: Engineer & Integrate](../Methodology/chapter-09-phase-3-engineer-and-integrate.md); [Chapter 21 — Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md); [Monitoring: release manifest checklist](../monitoring/observability-and-telemetry-specification.md#3-release-manifest-checklist).
 
 | # | Area | Requirement | Evidence | Status | Approver |
 |---|---|---|---|---|---|
