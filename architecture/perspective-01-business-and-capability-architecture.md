@@ -37,7 +37,7 @@ One row per distinct business capability the enterprise either has, is building,
 A capability map is only useful maintained as a portfolio, reviewed at the same governance cadence as the rest of the opportunity portfolio (Chapter 27). At minimum, review quarterly:
 
 - Which capabilities moved horizon (1→2→3) since the last review, per [Chapter 5](../Methodology/chapter-05-opportunity-portfolio-and-transformation-horizons.md)'s horizon model.
-- Which capabilities have more than one active implementation, and whether consolidation is now justified (see [Scale and Productization Assessment](../Methodology/chapter-32-templates-checklists-and-tools.md#20-scale-and-productization-assessment)).
+- Which capabilities have more than one active implementation, and whether consolidation is now justified (see [Scale and Productization Assessment](../Methodology/chapter-32-templates-checklists-and-tools.md#18-scale-and-productization-assessment)).
 - Which capabilities are named in the Outcome Portfolio but have no current implementation — the gap list for the next planning cycle.
 
 ## 4. Relationship to system-level artifacts

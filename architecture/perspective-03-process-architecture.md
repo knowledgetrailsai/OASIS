@@ -38,7 +38,7 @@ One row per process step, for each business process that includes agentic partic
 | Irreversible or high-value step | Confirmation and human approval required before execution (Ch.17 category: execute with mandatory confirmation). |
 | Regulated decision point (credit, employment, benefits eligibility) | Route through the applicable [Standards](../standards/) checklist before any agent participation is approved. |
 | High-volume, low-variance step | Strongest candidate for higher autonomy — evaluate against the [Optimization ladder](../engineering/model-engineering.md#4-optimization-ladder) and Progressively Autonomous principle. |
-| Cross-functional handoff | Requires explicit [Responsibility Assignment Matrix](../Methodology/chapter-32-templates-checklists-and-tools.md#12-responsibility-assignment-matrix) entry — ambiguous ownership at a handoff is where agentic processes most often fail silently. |
+| Cross-functional handoff | Requires explicit [Responsibility Assignment Matrix](../Methodology/chapter-32-templates-checklists-and-tools.md#19-responsibility-assignment-matrix) entry — ambiguous ownership at a handoff is where agentic processes most often fail silently. |
 
 ## 4. Relationship to system-level workflow design
 
