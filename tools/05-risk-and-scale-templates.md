@@ -8,6 +8,10 @@
 
 Covers templates 17–18 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md).
 
+## Background and context
+
+These two templates carry the ongoing, cross-cutting work that outlives any single build: tracking risk continuously rather than only at gates, and deciding whether a capability that started as a one-off build should become a shared, supported platform asset. The Risk and Control Register in particular is deliberately the most heavily cross-referenced artifact in this toolkit — see the note at the top of its section — because a risk tracked once in a shared register survives audits, framework changes and personnel turnover far better than the same risk described independently in five different documents.
+
 ---
 
 ## 17. Risk and Control Register

@@ -8,6 +8,10 @@
 
 Covers templates 1–5 of 20. See also: [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
+## Background and context
+
+These five templates carry the earliest and highest-leverage decisions in an engagement: whether an opportunity is worth pursuing, what outcome it commits to, and what it will cost against what it returns. Chapter 32 states each artifact only as a one-line minimum-content statement because the chapter's job is to name the decision each artifact supports, not to prescribe its exact layout — a methodology chapter that shipped a rigid form would fight every organization's existing templates rather than sit alongside them. This file exists because a delivery team still needs *something* to open on day one of an engagement; treat every field below as a starting point to edit, not a fixed schema to match exactly.
+
 ---
 
 ## 1. Opportunity Assessment

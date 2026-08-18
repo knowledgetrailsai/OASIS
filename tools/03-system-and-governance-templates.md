@@ -8,6 +8,10 @@
 
 Covers templates 11–12 and 19–20 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
+## Background and context
+
+These four templates carry the decisions about authority: what the system is architecturally, what it is allowed to do without a human, who is accountable for each decision, and what evidence justified each gate passage. They are grouped together because they share a common failure mode when skipped or filled superficially — an intelligence system with a complete blueprint but no autonomy matrix, or a project with clear roles but no decision-gate record, tends to accumulate authority informally over time rather than through evidenced, reviewable steps, which is exactly what Chapter 13's decision-gate model exists to prevent.
+
 ---
 
 ## 11. Intelligence-System Blueprint

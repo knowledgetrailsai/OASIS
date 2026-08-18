@@ -8,6 +8,10 @@
 
 Covers templates 6–10 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
+## Background and context
+
+These five templates carry the discovery and design work that turns an approved opportunity into a buildable intelligence system: mapping how the process actually works today, deciding what the AI and the human each do at every step, and confirming the data, evaluation and failure-handling foundations are solid before engineering begins in earnest. They sit between the outcome-and-portfolio decisions (which establish *whether* to build) and the system-and-governance templates (which establish *how much authority* the built system gets) — get the process map and data readiness assessment wrong here and every downstream artifact inherits the error.
+
 ---
 
 ## 6. Process and Decision Map

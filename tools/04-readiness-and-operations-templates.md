@@ -8,6 +8,10 @@
 
 Covers templates 13–16 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
+## Background and context
+
+These four templates carry the transition from a built system to a running service: confirming it is safe to expose to live users, confirming it is actually working for them once it is, and giving the team that will operate it going forward the running record (scorecard, runbook) it needs to do so without re-deriving context from the build team. Production readiness and operational acceptance are deliberately separate gates rather than one — a system can be technically safe to release and still fail to deliver the outcome once real users touch it, and conflating the two gates hides that failure mode until it is expensive to fix.
+
 ---
 
 ## 13. Production Readiness Checklist

@@ -8,7 +8,7 @@
 
 **Primary OASIS source:** [Chapter 14 — Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) (system equation and sections 1–12), cross-referenced with [Chapter 17 — Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md) and [Chapter 19 — Security and Responsible AI Engineering](../Methodology/chapter-19-security-and-responsible-ai-engineering.md) (defense-in-depth layers).
 
-## 0. Why this document exists, and how to read it
+## Background and context
 
 Chapter 14 is written at the altitude of an engineering *methodology* — it tells a team what decisions to make (model selection criteria, when to use an agent versus a deterministic function, what a tool contract must contain) but deliberately does not draw a picture, because the right picture differs by engagement and Chapter 14 has to stay technology- and vendor-neutral. That is correct for a methodology chapter, but it leaves a gap in practice: an engineering team starting a build still needs *something* to put on a whiteboard on day one, and re-deriving a component diagram from eleven pages of narrative every time a new engagement kicks off is wasted effort. This document is that starting diagram — a concrete, reusable first draft that a team can copy, mark up and discard the parts that don't apply, rather than an authoritative architecture every OASIS system must match exactly.
 

@@ -8,13 +8,13 @@
 
 **Status: alignment aid, not compliance.** OASIS is an original methodology. It organizes evidence in a form compatible with the frameworks below; it does not certify compliance, replace legal advice, or guarantee a conformity outcome. Applicability, current clause text, effective dates and required notices must be confirmed against each framework's official current source before relying on any checklist in this folder. See the [Methodology disclaimer](../Methodology/chapter-33-appendices-and-reference-material.md#methodology-disclaimer).
 
-## Why this index exists
+## Background and context
 
 Chapter 20 establishes the *process* for regulatory engineering — identify roles and jurisdictions, build a Regulatory Applicability Register, map obligations to controls, define test cases and evidence, validate human oversight, and track change (steps 48–53). What it does not do, by design, is enumerate the specific clauses of any one law or standard, because OASIS is jurisdiction-neutral and framework-agnostic — a methodology chapter that hard-coded EU AI Act article numbers would go stale the moment the regulation was amended, and would be useless to a team whose applicable law is something else entirely.
 
 This `/references` and `/standards` pairing closes that gap without breaking that neutrality. `/standards` holds one checklist per named framework — the concrete, framework-specific instrument. `/references` (this file) holds the index that explains how those instruments relate to each other and to the Chapter 20 process, so a delivery team can navigate the set without having memorized every framework in advance. Read this file first, then open only the checklist(s) that Step 0 of the Regulatory Applicability Register tells you are actually in scope.
 
-## Understanding the global framework landscape
+### Understanding the global framework landscape
 
 The frameworks currently covered fall into three distinct categories, and knowing which category a framework belongs to changes what "alignment" actually buys a practitioner, delivery team, customer, auditor or regulator:
 
