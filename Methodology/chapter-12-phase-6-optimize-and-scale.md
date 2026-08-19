@@ -10,11 +10,11 @@
 
 ## Background and context
 
-Phase 5 generates the evidence; Phase 6 is where that evidence gets acted on deliberately, rather than left to accumulate as a backlog nobody prioritizes. It is the phase most easily skipped under delivery pressure — a system that is operating within acceptable limits can look finished, and teams move on to the next opportunity rather than investing in improving what already works or in generalizing it beyond its original context. That instinct is understandable and usually costly: the same failure patterns and the same reusable components tend to recur across an organization's AI portfolio, and a methodology that never asks "what repeats" ends up rebuilding the same context pipeline, the same guardrail logic and the same evaluation suite for every new use case.
+Phase 5 generates the evidence; Phase 6 acts on it deliberately, instead of letting it pile up as an unprioritized backlog. It is the phase most easily skipped under delivery pressure — a system within acceptable limits can look finished, and teams move to the next opportunity instead of generalizing what works. That instinct is usually costly: the same failure patterns and reusable components recur across a portfolio, and a methodology that never asks "what repeats" ends up rebuilding the same pipeline, guardrail logic and evaluation suite for every new use case.
 
-This phase has two genuinely distinct halves that share a chapter because they draw on the same evidence base. Optimization is local — improving quality, latency, cost or adoption for the system that exists. Scale is about generalization — recognizing that a component, pattern or capability built for one deployment is valuable enough, and stable enough, to become a shared platform asset serving several. Confusing the two leads to the two most common mistakes in this phase: optimizing a system that should really be retired, and prematurely productizing a component that has only ever been tested in one context. The capability-reuse discipline this phase draws on connects to [Architecture Perspective 1: Business and Capability Architecture](../architecture/perspective-01-business-and-capability-architecture.md#3-capability-portfolio-view), which is where capability consolidation across a portfolio is tracked at the enterprise level rather than one system at a time.
+This phase has two distinct halves sharing a chapter because they draw on the same evidence base. Optimization is local — improving quality, latency, cost or adoption for the system that exists. Scale is generalization — recognizing a component built for one deployment is stable enough to become a shared platform asset. Confusing the two causes this phase's two most common mistakes: optimizing a system that should be retired, and prematurely productizing a component tested in only one context. The capability-reuse discipline here connects to [Architecture Perspective 1: Business and Capability Architecture](../architecture/perspective-01-business-and-capability-architecture.md#3-capability-portfolio-view), where capability consolidation is tracked at the enterprise level.
 
-Phase 6 is also where the lifecycle loops back on itself: an optimization that changes behavior meaningfully, or a scale decision that expands the system's user base, exposure or authority, does not just get released — it re-enters the gate structure described in [Chapter 13](chapter-13-decision-gates-and-evidence-model.md), because a materially different system deserves the same evidence discipline a new one would.
+Phase 6 is also where the lifecycle loops back on itself: an optimization or scale decision that meaningfully changes behavior, user base, exposure or authority doesn't just get released — it re-enters the gate structure in [Chapter 13](chapter-13-decision-gates-and-evidence-model.md), because a materially different system deserves the same evidence discipline a new one would.
 
 ![Figure 11. Phase 6 — Optimize & Scale: method sequence and the Scale and Renewal Review gate.](../diagrams/lifecycle-phases/phase-6-optimize-and-scale.png)
 
@@ -24,7 +24,7 @@ Phase 6 is also where the lifecycle loops back on itself: an optimization that c
 
 Improve quality, latency, economics and adoption; expand justified autonomy; and convert recurring patterns into reusable capability.
 
-Each of these three objectives has a different failure mode if pursued alone. Optimization without a scale lens produces a system that is excellent but unrepeatable. Scale without optimization first productizes a component before it is actually good, baking its flaws into every future deployment that reuses it. Autonomy expansion pursued without the other two treats trust as something that accrues automatically over time rather than something that has to be earned against fresh evidence every time the system's authority increases.
+Each objective fails differently if pursued alone. Optimization without a scale lens produces a system that's excellent but unrepeatable. Scale without optimizing first productizes a component before it's good, baking its flaws into every future reuse. Autonomy expansion pursued alone treats trust as accruing automatically, rather than earned against fresh evidence each time authority increases.
 
 ## Core questions
 
@@ -36,7 +36,7 @@ Each of these three objectives has a different failure mode if pursued alone. Op
 
 - Is expansion economically and operationally justified?
 
-The third question is where a lot of ambiguity in enterprise AI programs actually lives. Not everything that repeats belongs in a shared platform component — some things repeat because they are genuinely common across deployments, and some things merely look similar on the surface while differing in the details that matter (data sensitivity, regulatory obligation, user population). Distinguishing platform capability from business configuration from genuinely bespoke need is a judgment call this phase has to make explicitly, because getting it wrong in either direction is expensive: over-productizing forces every consumer into a shared component that doesn't quite fit them, and under-productizing means five teams independently rebuild and independently maintain the same thing.
+The third question is where most ambiguity in enterprise AI programs lives. Not everything that repeats belongs in a shared platform component — some things repeat because they're genuinely common, and some merely look similar while differing in details that matter (data sensitivity, regulatory obligation, user population). Distinguishing platform capability from business configuration from bespoke need is a judgment call: over-productizing forces every consumer into a component that doesn't fit; under-productizing means teams independently rebuild the same thing.
 
 ## Method
 
@@ -52,7 +52,7 @@ The third question is where a lot of ambiguity in enterprise AI programs actuall
 
 40. Reassess risk, regulation, capacity, support and economics before expanding users, geography, data, action authority or autonomy.
 
-Step 36's instruction to optimize "the responsible layer" rather than the first plausible lever is the direct continuation of the responsible-layer failure classification introduced back in Phase 2 and used throughout Phase 5's incident triage — a latency problem caused by an inefficient retrieval pipeline will not be fixed by swapping the model, and misdiagnosing which layer is responsible wastes an optimization cycle without moving the metric. Step 39 is easy to skip and expensive to skip: an asset that has only ever run in its original context has not yet demonstrated it is actually reusable, only that it worked once; declaring it a platform standard on the strength of a single deployment is how organizations end up with "shared" components that quietly assume something specific to their first user. Step 40's reassessment before any expansion echoes the evidence-gating discipline of the whole methodology — expanding scope is itself a decision that deserves fresh evidence, not an assumption that what worked at the current scale will keep working at the next one.
+Step 36's instruction to optimize "the responsible layer," not the first plausible lever, continues the failure classification from Phase 2 and Phase 5's incident triage — a latency problem caused by an inefficient retrieval pipeline won't be fixed by swapping the model, and misdiagnosing the layer wastes a cycle without moving the metric. Step 39 is easy and expensive to skip: an asset run only in its original context has demonstrated it worked once, not that it's reusable; declaring it a standard on one deployment is how "shared" components end up assuming something specific to their first user. Step 40's reassessment echoes the methodology's evidence-gating discipline — expanding scope deserves fresh evidence, not an assumption that what worked now keeps working at the next scale.
 
 ## Primary artifacts
 
@@ -70,23 +70,23 @@ Step 36's instruction to optimize "the responsible layer" rather than the first 
 
 - Retirement Plan where applicable
 
-The Scale and Productization Assessment is template 18 in [Risk and Scale Templates](../tools/05-risk-and-scale-templates.md#18-scale-and-productization-assessment), and it is worth reading before this phase's productization decisions are made rather than after, because its fields — demand, repeatability, contract stability, tenancy model, unit economics at scale — are precisely the evidence step 38's classification decision needs and step 40's expansion decision depends on.
+The Scale and Productization Assessment is template 18 in [Risk and Scale Templates](../tools/05-risk-and-scale-templates.md#18-scale-and-productization-assessment), worth reading before productization decisions, not after — its fields (demand, repeatability, contract stability, tenancy model, unit economics) are exactly what step 38's classification and step 40's expansion decision need.
 
 > **DECISION OUTCOME** Scale and Renewal Review: improve, replicate, productize, renew, redesign or retire.
 
 ## Entry and exit conditions
 
-| **Entry condition**                                                                   | **Exit condition**                                                                     |
-|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **Entry condition**                                                                   | **Exit condition**                                                                      |
+|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | Sufficient production evidence exists to diagnose improvements or test repeatability. | A tested improvement, scale decision, reusable asset or retirement action is approved. |
 
-The entry condition's emphasis on "sufficient production evidence" is a reminder that this phase draws on Phase 5, not around it — a system that has not yet accumulated a meaningful operating history has nothing reliable for Phase 6 to optimize or generalize from, and attempting this phase early usually means optimizing against noise.
+The entry condition's "sufficient production evidence" is a reminder that this phase draws on Phase 5, not around it — a system without a meaningful operating history has nothing reliable to optimize from, and starting early usually means optimizing against noise.
 
 ## Tailoring guidance
 
 Small organizations may reuse through templates and managed services. Large enterprises should establish product owners, service levels, version support and federated governance for shared components.
 
-The scale side of this phase is where organizational size genuinely changes the right answer, more than in most other phases. A small organization rarely has the volume of deployments to justify a formal internal platform team; reuse there looks like good templates, shared configuration and managed-service defaults, carried forward by discipline rather than by dedicated ownership. A large enterprise running many deployments against shared components needs those components to behave like products — with named owners, defined service levels, a supported version history and governance that spans the business units consuming them — because an informally maintained shared component at that scale becomes a single point of failure for everyone depending on it.
+Organizational size changes the right answer here more than in most other phases. A small organization rarely has the deployment volume to justify a formal platform team; reuse there looks like good templates and shared configuration, carried by discipline rather than dedicated ownership. A large enterprise running many deployments needs shared components to behave like products — named owners, defined service levels, a supported version history, governance spanning consuming business units — because an informally maintained shared component at that scale becomes a single point of failure for everyone depending on it.
 
 ---
 
