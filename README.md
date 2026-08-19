@@ -6,6 +6,18 @@
 
 This is a deliberately simple, Markdown-only GitHub package. All handbook pages are stored in this single folder and linked using relative Markdown links. Open this `README.md` file to navigate the handbook. See [CHANGELOG.md](CHANGELOG.md) for what's changed and when, including the review cadence expected for the Standards and References material.
 
+## Start here, by role
+
+**Executive sponsor or business owner.** You want the case for committing budget and a way to check whether it's working. Begin with [Chapter 01: OASIS Executive Overview](methodology/chapter-01-oasis-executive-overview.md) and [Chapter 03: Enterprise AI Transformation Direction](methodology/chapter-03-enterprise-ai-transformation-direction.md), then use the [AI Engineering Maturity Model](assessments/oasis-ai-engineering-maturity-model.md) to see where the organization currently stands. [CHANGELOG.md](CHANGELOG.md) shows what changed most recently and when it will next be reviewed.
+
+**Delivery or engagement lead.** You're running an initiative through the six phases. Begin with [Chapter 04: Multiple Entry Paths and Configurable Depth](methodology/chapter-04-multiple-entry-paths-and-configurable-depth.md) to pick the right depth, then work through [Part II: The OASIS Lifecycle](methodology/part-ii-the-oasis-lifecycle.md) (Chapters 7–13), each phase illustrated with its own diagram. [Chapter 32](methodology/chapter-32-templates-checklists-and-tools.md) names the twenty artifacts you'll actually produce; their fillable versions are in [Tools](tools/01-outcome-and-portfolio-templates.md). The [Master Glossary and Roles Roster](references/master-glossary-and-roles-roster.md) resolves any unfamiliar term or role along the way.
+
+**Architect or engineer building the system.** Begin with [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md) for the system equation, then the six companion articles in the Engineering section below — Model, Context, Tool, Harness, Memory, and Evaluation Engineering — and the [OASIS Reference Architecture](architecture/oasis-reference-architecture.md) with its nine enterprise perspectives for how the pieces fit together as components.
+
+**Security, governance, risk or compliance reviewer.** Begin with [Chapter 19: Security and Responsible AI Engineering](methodology/chapter-19-security-and-responsible-ai-engineering.md) and [Chapter 20: Governance, Compliance and Regulatory Engineering](methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), then the [Security: Agentic AI Threat Model and Control Checklist](security/agentic-ai-threat-and-control-checklist.md) and the four framework-specific checklists in [Standards](standards/iso-42001-alignment-checklist.md), each indexed from the [Regulatory and Standards Framework Alignment Index](references/regulatory-framework-alignment-index.md).
+
+**Operations or support, running a live system.** Begin with [Chapter 21: Deployment, Operations and AgentOps](methodology/chapter-21-deployment-operations-and-agentops.md), then the [Monitoring: Observability and Telemetry Specification](monitoring/observability-and-telemetry-specification.md) and the [Service Runbook](tools/04-readiness-and-operations-templates.md#16-service-runbook) template. [Chapter 26: OASIS Measurement Framework](methodology/chapter-26-oasis-measurement-framework.md) defines what the [Outcome Scorecard](tools/04-readiness-and-operations-templates.md#15-outcome-scorecard) should track once the system is live.
+
 ## Handbook contents
 
 - [Handbook Introduction](00-handbook-introduction.md)
@@ -27,11 +39,11 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Chapter 10: Phase 4 — Activate & Adopt](methodology/chapter-10-phase-4-activate-and-adopt.md) ([diagram](diagrams/lifecycle-phases/phase-4-activate-and-adopt.png))
 - [Chapter 11: Phase 5 — Operate & Assure](methodology/chapter-11-phase-5-operate-and-assure.md) ([diagram](diagrams/lifecycle-phases/phase-5-operate-and-assure.png))
 - [Chapter 12: Phase 6 — Optimize & Scale](methodology/chapter-12-phase-6-optimize-and-scale.md) ([diagram](diagrams/lifecycle-phases/phase-6-optimize-and-scale.png))
-- [Chapter 13: Decision Gates and Evidence Model](methodology/chapter-13-decision-gates-and-evidence-model.md)
+- [Chapter 13: Decision Gates and Evidence Model](methodology/chapter-13-decision-gates-and-evidence-model.md) ([diagram](diagrams/chapter-figures/figure-3-decision-gates.png))
 
 ### [Part III: Intelligence-System Engineering and Assurance](methodology/part-iii-intelligence-system-engineering-and-assurance.md)
 
-- [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md)
+- [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md) ([diagram](diagrams/chapter-figures/figure-4-system-equation.png))
 - [Chapter 15: Data and Knowledge Engineering](methodology/chapter-15-data-and-knowledge-engineering.md)
 - [Chapter 16: Human–AI Workflow and Experience Engineering](methodology/chapter-16-human-ai-workflow-and-experience-engineering.md)
 - [Chapter 17: Enterprise Integration and Tool Engineering](methodology/chapter-17-enterprise-integration-and-tool-engineering.md)
@@ -55,7 +67,7 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Chapter 29: OASIS Adoption Roadmap](methodology/chapter-29-oasis-adoption-roadmap.md)
 - [Chapter 30: Tailoring OASIS](methodology/chapter-30-tailoring-oasis.md)
 - [Chapter 31: Illustrative Use Cases](methodology/chapter-31-illustrative-use-cases.md)
-- [Chapter 32: Templates, Checklists and Tools](methodology/chapter-32-templates-checklists-and-tools.md)
+- [Chapter 32: Templates, Checklists and Tools](methodology/chapter-32-templates-checklists-and-tools.md) ([diagram](diagrams/chapter-figures/figure-12-templates-map.png))
 - [Chapter 33: Appendices and Reference Material](methodology/chapter-33-appendices-and-reference-material.md)
 
 ## Standards and reference material

@@ -8,8 +8,6 @@
 
 > **CHAPTER PURPOSE** Use proportionate evidence reviews to commit, proceed, release, widen, scale, redesign or retire without turning governance into ceremonial approval.
 
-*Figure 3. The lifecycle uses evidence to justify investment, release and authority.*
-
 ## Background and context
 
 Every one of the six lifecycle phases in Chapters 7 through 12 ends the same way: a named decision outcome, reached by reviewing a defined minimum of evidence against the claim the phase was meant to test. This chapter states that pattern once, instead of repeating it with minor variation six times. Gates make the rest of the methodology enforceable — a phase description is just good intentions until something checks, at a defined point, whether its exit condition was actually met.
@@ -28,6 +26,10 @@ Two artifacts make this model operable. Every gate passage should be recorded us
 | Scale and Renewal      | Replicate, productize, renew, redesign or retire. | Repeatability, demand, economics, platform fit and reassessed risk.                            |
 
 Each gate resolves to the same question at a different point in the system's life: given what we now know, does the investment, exposure or authority we're about to grant still match the evidence for it? The six gates correspond one-to-one to the exit conditions in Chapters 7 through 12, and "minimum evidence" is a floor, not a template — it names what a gate cannot responsibly be passed without, leaving the exact form to each phase's own artifacts. Each phase chapter includes a diagram placing its gate at the end of the method sequence — see [Figure 6](chapter-07-phase-1-engage-and-align.md) through [Figure 11](chapter-12-phase-6-optimize-and-scale.md), or the full set in [diagrams/lifecycle-phases/](../diagrams/lifecycle-phases/). A gate passed on less than this minimum has not really been passed — only deferred to whichever failure eventually surfaces the gap.
+
+![Figure 3. The lifecycle uses evidence to justify investment, release and authority.](../diagrams/chapter-figures/figure-3-decision-gates.png)
+
+*Figure 3. The lifecycle uses evidence to justify investment, release and authority.*
 
 ## Evidence qualities
 

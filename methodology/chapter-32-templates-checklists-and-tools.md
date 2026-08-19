@@ -16,6 +16,10 @@ The relationship between this chapter and the [Tools](../tools/01-outcome-and-po
 
 Two things make this chapter load-bearing for the rest of the repository. First, more external files link into its numbered headings by exact anchor than into any other chapter — architecture perspectives, standards checklists, the security threat model, and the monitoring specification all cite specific templates by number. The heading text and numbering below are fixed and must never be renumbered, reordered, or merged. Second, the toolkit is intentionally modular: teams may combine adjacent artifacts — folding a Value and Risk Case into an Outcome Charter for a low-risk initiative, say — whenever the result still supports a clear decision. The [Template use rule](#template-use-rule) at the end of this chapter keeps that flexibility from tipping into bureaucratic bloat or artifact-skipping. Each template below states its minimum useful content, the decision it supports, what separates a strong instance from a weak one, and where to find the working version.
 
+![Figure 12. Twenty artifacts, five template files, one lifecycle.](../diagrams/chapter-figures/figure-12-templates-map.png)
+
+*Figure 12. Twenty artifacts, five template files, one lifecycle.*
+
 ## 1. Opportunity Assessment
 
 The Opportunity Assessment is the first artifact almost any initiative produces. Its job is narrow: decide whether a candidate problem is worth taking further before anyone commits engineering time. At minimum it captures the problem statement, the affected workflow, the outcome an intervention would target, whether baseline data exists, the stakeholders involved, an early read on intelligence-fit, known dependencies, early risk flags, the transformation horizon, and a recommendation — proceed, park, or decline.

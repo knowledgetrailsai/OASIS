@@ -8,8 +8,6 @@
 
 > **CHAPTER PURPOSE** Engineer the complete intelligence system from specification and model strategy through context, harness, tools, memory, evaluation and AgentOps — as a single accountable engineering discipline, not a chain of independent experiments.
 
-*Figure 4. OASIS engineers and evaluates the complete intelligence system.*
-
 ## Background and context
 
 Early applied LLM work treated "prompt engineering" as the whole discipline: get the wording right, add examples, and the system behaves. That worked when a system was one call to one model. It stopped working once systems began retrieving evidence, calling tools, running multi-step loops, remembering across sessions, and taking real-world actions. A well-worded prompt over poor retrieval, an unbounded agent loop, or an unmonitored tool with no rollback is not well-engineered — it is a good sentence in a fragile machine. This chapter treats the whole machine as the unit of engineering. The equation below organizes the rest of Part III: an AI system is the sum of nine engineered layers, each with its own failure modes and design discipline.
@@ -21,6 +19,10 @@ This shift also changes where confidence has to come from. [Chapter 13](chapter-
 [Chapter 15](chapter-15-data-and-knowledge-engineering.md) goes deep on Section 3 below — the governed services that supply evidence to the system — because knowledge quality is the single most common root cause of production failure.
 
 Each section below states the discipline and why it matters, at methodology altitude. Templates, schemas, and worked examples live in the **engineering/** folder, this chapter's companion: [Model Engineering](../engineering/model-engineering.md), [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md), [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md), [Harness and Orchestration Engineering](../engineering/harness-and-orchestration-engineering.md), [Memory and State Engineering](../engineering/memory-and-state-engineering.md), and [Evaluation and Reliability Engineering](../engineering/evaluation-and-reliability-engineering.md). The [OASIS Reference Architecture](../architecture/oasis-reference-architecture.md) renders the equation above as a component diagram.
+
+![Figure 4. OASIS engineers and evaluates the complete intelligence system.](../diagrams/chapter-figures/figure-4-system-equation.png)
+
+*Figure 4. OASIS engineers and evaluates the complete intelligence system.*
 
 ## 1. Intelligence-system specification
 
