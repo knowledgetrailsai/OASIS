@@ -6,7 +6,7 @@
 
 > **PURPOSE** Define the enterprise-wide taxonomy of agent types, their responsibilities, and how agents are permitted to collaborate — the level above a single system's orchestration-pattern choice (Section 4 of the [reference architecture](oasis-reference-architecture.md#4-selecting-the-orchestration-pattern-ch-14-7-decision-rule)), so an enterprise running many agentic systems has one shared vocabulary instead of each team inventing its own.
 
-**Primary OASIS source:** [Chapter 14 §6–7 — Harness and Orchestration](../Methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 6 — OASIS Operating Model and Decision Rights](../Methodology/chapter-06-oasis-operating-model-and-decision-rights.md); [Chapter 16 — Human–AI Workflow and Experience Engineering](../Methodology/chapter-16-human-ai-workflow-and-experience-engineering.md).
+**Primary OASIS source:** [Chapter 14 §6–7 — Harness and Orchestration](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 6 — OASIS Operating Model and Decision Rights](../methodology/chapter-06-oasis-operating-model-and-decision-rights.md); [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md).
 
 ## Background and context
 
@@ -18,7 +18,7 @@ This perspective sits directly above Chapter 14 §6–7: where the reference arc
 
 | Agent type | Responsibility | Typical autonomy ceiling | Escalates to |
 |---|---|---|---|
-| Task agent | Executes a single bounded task end-to-end (e.g., draft a response, classify a case) within one tool/action surface. | Execute, with human approval gate per [Autonomy Matrix](../Methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix) | Routing agent or human reviewer |
+| Task agent | Executes a single bounded task end-to-end (e.g., draft a response, classify a case) within one tool/action surface. | Execute, with human approval gate per [Autonomy Matrix](../methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix) | Routing agent or human reviewer |
 | Routing / orchestrator agent | Decomposes a request and dispatches to task agents or specialist agents; owns no domain tools directly. | Route/coordinate only — no independent execute authority | Supervisor agent or human |
 | Specialist agent | Owns deep expertise and tool access in one domain (e.g., pricing, underwriting); called by routing agents, not exposed directly to end users. | Bounded by domain-specific limits in its Tool and Integration spec | Routing agent |
 | Supervisor / reviewer agent | Reviews outputs of other agents against policy before release; has no independent execute authority of its own. | Review/approve/reject only | Human reviewer on rejection or low confidence |
@@ -64,7 +64,7 @@ Every production agent is registered enterprise-wide, independent of which syste
 
 - Per-agent tool contracts: [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md).
 - Per-agent harness design (single system): [Harness and Orchestration Engineering](../engineering/harness-and-orchestration-engineering.md).
-- Autonomy-level governance: [Chapter 10 — Phase 4: Activate & Adopt](../Methodology/chapter-10-phase-4-activate-and-adopt.md).
+- Autonomy-level governance: [Chapter 10 — Phase 4: Activate & Adopt](../methodology/chapter-10-phase-4-activate-and-adopt.md).
 - Human accountability for agent actions: Architecture Principle 2, [Human accountable](oasis-reference-architecture.md#architecture-principles).
 
 ---

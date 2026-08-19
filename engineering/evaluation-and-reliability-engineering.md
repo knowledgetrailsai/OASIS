@@ -1,12 +1,12 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: Memory and State Engineering](memory-and-state-engineering.md) · [Chapter 18: Evaluation and Reliability Engineering](../Methodology/chapter-18-evaluation-and-reliability-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md)
+[← Back to Contents](../README.md) · [← Previous: Memory and State Engineering](memory-and-state-engineering.md) · [Chapter 18: Evaluation and Reliability Engineering](../methodology/chapter-18-evaluation-and-reliability-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md)
 
 # Engineering: Evaluation and Reliability Engineering
 
 > **PURPOSE** Turn Chapter 18 (in full) and Chapter 14 §10–11 into a fillable evaluation-dimension reference, an evaluation-progression ladder, a guardrails/recovery pattern library, and a grader-design checklist — the concrete instrument behind "what constitutes acceptable behavior and change."
 
-**Primary OASIS source:** [Chapter 18 — Evaluation and Reliability Engineering](../Methodology/chapter-18-evaluation-and-reliability-engineering.md); [Chapter 14 §10 — Guardrails, Reliability and Recovery](../Methodology/chapter-14-intelligence-and-agent-engineering.md#10-guardrails-reliability-and-recovery) and [§11 — Evaluation Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md#11-evaluation-engineering); cross-referenced with the [Evaluation Strategy and Dataset template](../tools/02-workflow-and-intelligence-templates.md#9-evaluation-strategy-and-dataset) and the [Security checklist's](../security/agentic-ai-threat-and-control-checklist.md) containment section.
+**Primary OASIS source:** [Chapter 18 — Evaluation and Reliability Engineering](../methodology/chapter-18-evaluation-and-reliability-engineering.md); [Chapter 14 §10 — Guardrails, Reliability and Recovery](../methodology/chapter-14-intelligence-and-agent-engineering.md#10-guardrails-reliability-and-recovery) and [§11 — Evaluation Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#11-evaluation-engineering); cross-referenced with the [Evaluation Strategy and Dataset template](../tools/02-workflow-and-intelligence-templates.md#9-evaluation-strategy-and-dataset) and the [Security checklist's](../security/agentic-ai-threat-and-control-checklist.md) containment section.
 
 ## Background and context
 
@@ -86,6 +86,6 @@ From Chapter 14 §10. Each pattern addresses a specific failure mode — cross-r
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: Memory and State Engineering](memory-and-state-engineering.md) · [Chapter 18: Evaluation and Reliability Engineering](../Methodology/chapter-18-evaluation-and-reliability-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md)
+[← Back to Contents](../README.md) · [← Previous: Memory and State Engineering](memory-and-state-engineering.md) · [Chapter 18: Evaluation and Reliability Engineering](../methodology/chapter-18-evaluation-and-reliability-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

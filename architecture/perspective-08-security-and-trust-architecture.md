@@ -6,7 +6,7 @@
 
 > **PURPOSE** Define identity, boundaries, permissions and data controls at the enterprise level — the enterprise-wide framing of the [Security: Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md), covering the shared identity and trust model every agent, tool integration and system must operate within, rather than restating per-system controls.
 
-**Primary OASIS source:** [Chapter 19 — Security and Responsible AI Engineering](../Methodology/chapter-19-security-and-responsible-ai-engineering.md); [Security: Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md); [Chapter 20 — Governance, Compliance and Regulatory Engineering](../Methodology/chapter-20-governance-compliance-and-regulatory-engineering.md).
+**Primary OASIS source:** [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md); [Security: Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md); [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md).
 
 ## Background and context
 

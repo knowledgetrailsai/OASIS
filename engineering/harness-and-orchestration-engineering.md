@@ -1,12 +1,12 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: Tool and Integration Interface Specification](tool-and-integration-interface-specification.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) · [Architecture: Orchestration pattern decision](../architecture/oasis-reference-architecture.md#4-selecting-the-orchestration-pattern-ch-14-7-decision-rule) · [Next: Memory and State Engineering →](memory-and-state-engineering.md)
+[← Back to Contents](../README.md) · [← Previous: Tool and Integration Interface Specification](tool-and-integration-interface-specification.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Architecture: Orchestration pattern decision](../architecture/oasis-reference-architecture.md#4-selecting-the-orchestration-pattern-ch-14-7-decision-rule) · [Next: Memory and State Engineering →](memory-and-state-engineering.md)
 
 # Engineering: Harness and Orchestration Engineering
 
 > **PURPOSE** Turn Chapter 14 §6–7's harness and orchestration principles into an implementable responsibility checklist, pattern-selection implementation notes, and a state-machine template. The [Architecture Reference Architecture](../architecture/oasis-reference-architecture.md#4-selecting-the-orchestration-pattern-ch-14-7-decision-rule) already covers *which* pattern to choose; this document covers *how to implement* whichever one is chosen.
 
-**Primary OASIS source:** [Chapter 14 §6 — Agent-Harness Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md#6-agent-harness-engineering) and [§7 — Workflow and Orchestration Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md#7-workflow-and-orchestration-engineering); cross-referenced with [Chapter 19 — Guardrails](../Methodology/chapter-19-security-and-responsible-ai-engineering.md) and the [Monitoring spec's](../monitoring/observability-and-telemetry-specification.md) trace schema.
+**Primary OASIS source:** [Chapter 14 §6 — Agent-Harness Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#6-agent-harness-engineering) and [§7 — Workflow and Orchestration Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#7-workflow-and-orchestration-engineering); cross-referenced with [Chapter 19 — Guardrails](../methodology/chapter-19-security-and-responsible-ai-engineering.md) and the [Monitoring spec's](../monitoring/observability-and-telemetry-specification.md) trace schema.
 
 ## Background and context
 
@@ -95,6 +95,6 @@ Set these limits deliberately, not to framework defaults — see the [Monitoring
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: Tool and Integration Interface Specification](tool-and-integration-interface-specification.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) · [Architecture: Orchestration pattern decision](../architecture/oasis-reference-architecture.md#4-selecting-the-orchestration-pattern-ch-14-7-decision-rule) · [Next: Memory and State Engineering →](memory-and-state-engineering.md)
+[← Back to Contents](../README.md) · [← Previous: Tool and Integration Interface Specification](tool-and-integration-interface-specification.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Architecture: Orchestration pattern decision](../architecture/oasis-reference-architecture.md#4-selecting-the-orchestration-pattern-ch-14-7-decision-rule) · [Next: Memory and State Engineering →](memory-and-state-engineering.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

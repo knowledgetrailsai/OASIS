@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md) · [Next: System and Governance Templates →](03-system-and-governance-templates.md)
+[← Back to Contents](../README.md) · [← Previous: Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Next: System and Governance Templates →](03-system-and-governance-templates.md)
 
 # Tools: Workflow and Intelligence Templates
 
-> **PURPOSE** Fillable versions of the discovery, workflow-design and intelligence-readiness artifacts named in [Chapter 32](../Methodology/chapter-32-templates-checklists-and-tools.md). See [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) for how this set fits together, and the [PRACTICALITY rule](../Methodology/chapter-32-templates-checklists-and-tools.md#template-use-rule): fill only what a decision actually needs.
+> **PURPOSE** Fillable versions of the discovery, workflow-design and intelligence-readiness artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md). See [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) for how this set fits together, and the [PRACTICALITY rule](../methodology/chapter-32-templates-checklists-and-tools.md#template-use-rule): fill only what a decision actually needs.
 
 Covers templates 6–10 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
@@ -18,7 +18,7 @@ These five templates carry the discovery and design work that turns an approved 
 
 **Chapter 32 minimum content:** Actors, steps, systems, inputs, decisions, rules, evidence, queues, exceptions, pain points and outcome events.
 
-**Primary source:** [Chapter 8 — Phase 2: Discover & Validate](../Methodology/chapter-08-phase-2-discover-and-validate.md).
+**Primary source:** [Chapter 8 — Phase 2: Discover & Validate](../methodology/chapter-08-phase-2-discover-and-validate.md).
 
 | Step # | Actor | System(s) touched | Input | Decision made | Rule/policy applied | Evidence used | Queue / handoff | Exception path | Pain point | Outcome event? |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -34,7 +34,7 @@ Add one row per meaningful step of the current process, end to end, before desig
 
 **Chapter 32 minimum content:** AI role, human role, authority, evidence, interface, approval, override, fallback, escalation, feedback and outcome.
 
-**Primary source:** [Chapter 16 — Human–AI Workflow and Experience Engineering](../Methodology/chapter-16-human-ai-workflow-and-experience-engineering.md).
+**Primary source:** [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md).
 
 ```yaml
 human_ai_workflow_blueprint:
@@ -63,7 +63,7 @@ human_ai_workflow_blueprint:
 
 **Chapter 32 minimum content:** Sources, owners, authority, quality, coverage, freshness, metadata, access, lineage, retention and operations.
 
-**Primary source:** [Chapter 15 — Data and Knowledge Engineering](../Methodology/chapter-15-data-and-knowledge-engineering.md).
+**Primary source:** [Chapter 15 — Data and Knowledge Engineering](../methodology/chapter-15-data-and-knowledge-engineering.md).
 
 | Data / knowledge source | Owner | Authoritative? | Quality (1–5) | Coverage gaps | Freshness | Metadata available? | Access control | Lineage documented? | Retention policy | Operational status |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -78,7 +78,7 @@ Score quality and coverage against the specific decision this data will support,
 
 **Chapter 32 minimum content:** Quality dimensions, cases, sources, splits, expected behavior, graders, thresholds, regression and production sampling.
 
-**Primary source:** [Chapter 18 — Evaluation and Reliability Engineering](../Methodology/chapter-18-evaluation-and-reliability-engineering.md).
+**Primary source:** [Chapter 18 — Evaluation and Reliability Engineering](../methodology/chapter-18-evaluation-and-reliability-engineering.md).
 
 ```yaml
 evaluation_strategy:
@@ -123,7 +123,7 @@ evaluation_strategy:
 
 **Chapter 32 minimum content:** Failure family, severity, detectability, cause, evidence, impact, owner, containment, correction and regression case.
 
-**Primary source:** [Chapter 21 — Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md) (responsible-layer incident classification); see also the [Monitoring incident taxonomy](../monitoring/observability-and-telemetry-specification.md#4-incident-classification-responsible-layer-taxonomy).
+**Primary source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md) (responsible-layer incident classification); see also the [Monitoring incident taxonomy](../monitoring/observability-and-telemetry-specification.md#4-incident-classification-responsible-layer-taxonomy).
 
 | Failure family | Responsible layer | Severity | Detectability | Root cause | Evidence | Business impact | Owner | Containment action | Correction | Regression case added? |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -134,6 +134,6 @@ Classify by responsible layer (model / context / retrieval / tool-selection / to
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md) · [Next: System and Governance Templates →](03-system-and-governance-templates.md)
+[← Back to Contents](../README.md) · [← Previous: Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Next: System and Governance Templates →](03-system-and-governance-templates.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

@@ -6,7 +6,7 @@
 
 > **PURPOSE** Define the broad placement of agentic workloads across cloud, on-premises, edge and regions — a perspective not otherwise covered by the per-system reference architecture, needed wherever data residency, latency, or sovereignty constraints affect where a component in the [system-equation diagram](oasis-reference-architecture.md#1-system-equation-as-a-diagram) is allowed to run.
 
-**Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../Methodology/chapter-20-governance-compliance-and-regulatory-engineering.md); [Chapter 21 — Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md); [Regulatory and Standards Framework Alignment Index](../references/regulatory-framework-alignment-index.md).
+**Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md); [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Regulatory and Standards Framework Alignment Index](../references/regulatory-framework-alignment-index.md).
 
 ## Background and context
 

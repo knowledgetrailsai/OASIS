@@ -1,12 +1,12 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [Chapter 21: Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md) · [Engineering: Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md)
+[← Back to Contents](../README.md) · [Chapter 21: Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md) · [Engineering: Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md)
 
 # Monitoring: Observability and Telemetry Specification
 
-> **PURPOSE** Turn Chapter 21's operational-plane table into a concrete telemetry, dashboard and alerting specification a delivery team can implement, rather than a narrative description of what "AgentOps" should measure. Populate the metric definitions per system before go-live, as part of the [Production Readiness Checklist](../Methodology/chapter-32-templates-checklists-and-tools.md#13-production-readiness-checklist).
+> **PURPOSE** Turn Chapter 21's operational-plane table into a concrete telemetry, dashboard and alerting specification a delivery team can implement, rather than a narrative description of what "AgentOps" should measure. Populate the metric definitions per system before go-live, as part of the [Production Readiness Checklist](../methodology/chapter-32-templates-checklists-and-tools.md#13-production-readiness-checklist).
 
-**Primary OASIS source:** [Chapter 21 — Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md); [Chapter 14 §12 — Runtime, AgentOps and Adaptation](../Methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 26 — OASIS Measurement Framework](../Methodology/chapter-26-oasis-measurement-framework.md).
+**Primary OASIS source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Chapter 14 §12 — Runtime, AgentOps and Adaptation](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 26 — OASIS Measurement Framework](../methodology/chapter-26-oasis-measurement-framework.md).
 
 ## Background and context
 
@@ -35,7 +35,7 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
-| Correctness (sampled, graded) | Evaluation harness on production sample | Below evaluation threshold set in [Evaluation Strategy and Dataset](../Methodology/chapter-32-templates-checklists-and-tools.md#9-evaluation-strategy-and-dataset) |
+| Correctness (sampled, graded) | Evaluation harness on production sample | Below evaluation threshold set in [Evaluation Strategy and Dataset](../methodology/chapter-32-templates-checklists-and-tools.md#9-evaluation-strategy-and-dataset) |
 | Groundedness / citation accuracy | Output validator | Ungrounded-claim rate exceeds threshold |
 | Retrieval quality (precision/recall on sampled queries) | Retrieval service | Degradation vs. baseline |
 | Tool selection and argument accuracy | Harness trace | Wrong-tool or malformed-argument rate exceeds threshold |
@@ -56,7 +56,7 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
-| Adoption (active users / eligible users) | Application telemetry | Below adoption target in [Outcome Scorecard](../Methodology/chapter-32-templates-checklists-and-tools.md#15-outcome-scorecard) |
+| Adoption (active users / eligible users) | Application telemetry | Below adoption target in [Outcome Scorecard](../methodology/chapter-32-templates-checklists-and-tools.md#15-outcome-scorecard) |
 | Override rate | Human–AI workflow interface | Sustained rise (trust or quality issue) |
 | Approval time | Workflow timestamps | Exceeds target — bottleneck signal |
 | Exception / rework load | Case management system | Sustained rise vs. baseline |
@@ -66,7 +66,7 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
-| Token cost per request | Model/API billing telemetry | Exceeds budget threshold from [Value and Risk Case](../Methodology/chapter-32-templates-checklists-and-tools.md#5-value-and-risk-case) |
+| Token cost per request | Model/API billing telemetry | Exceeds budget threshold from [Value and Risk Case](../methodology/chapter-32-templates-checklists-and-tools.md#5-value-and-risk-case) |
 | Infrastructure cost | Cloud/platform billing | Trend deviation from forecast |
 | Tool cost (third-party API spend) | Tool-call billing telemetry | Exceeds per-tool budget |
 | Intervention cost (human time on exceptions) | Case management + time tracking | Rising cost-per-successful-outcome |
@@ -77,7 +77,7 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
 | Primary outcome metric | Business system of record | Below target — escalate per Outcome Contract remedies |
-| Leading indicators | Per [Outcome Metric Tree](../Methodology/chapter-32-templates-checklists-and-tools.md#4-outcome-metric-tree) | Deviation from expected leading/lagging relationship |
+| Leading indicators | Per [Outcome Metric Tree](../methodology/chapter-32-templates-checklists-and-tools.md#4-outcome-metric-tree) | Deviation from expected leading/lagging relationship |
 | Guardrail metrics | Per Outcome Metric Tree | Any breach — treat as a gate-relevant event (Ch.13) |
 | Distribution across segments | Segmented reporting | Unexpected disparity across populations — route to Responsible AI review (Ch.19) |
 
@@ -141,7 +141,7 @@ Use this taxonomy — directly from Chapter 21 — to classify every incident at
 | Human approval | Approval given/withheld incorrectly, or approval step itself failed | Human–AI workflow design (Ch.16) |
 | Enterprise dependency | Upstream system outage or data error | Dependency owner |
 
-Each incident record should follow the [Failure Taxonomy](../Methodology/chapter-32-templates-checklists-and-tools.md#10-failure-taxonomy) template: family, severity, detectability, cause, evidence, impact, owner, containment, correction and regression case.
+Each incident record should follow the [Failure Taxonomy](../methodology/chapter-32-templates-checklists-and-tools.md#10-failure-taxonomy) template: family, severity, detectability, cause, evidence, impact, owner, containment, correction and regression case.
 
 ## 5. Production learning loop as a runbook
 
@@ -158,10 +158,10 @@ flowchart LR
     G -.continuous.-> A
 ```
 
-Every loop iteration should close by updating the [Evaluation Strategy and Dataset](../Methodology/chapter-32-templates-checklists-and-tools.md#9-evaluation-strategy-and-dataset) with the new case — a failure that does not become a regression case will recur.
+Every loop iteration should close by updating the [Evaluation Strategy and Dataset](../methodology/chapter-32-templates-checklists-and-tools.md#9-evaluation-strategy-and-dataset) with the new case — a failure that does not become a regression case will recur.
 
 ---
 
-[← Back to Contents](../README.md) · [Chapter 21: Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md) · [Engineering: Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md)
+[← Back to Contents](../README.md) · [Chapter 21: Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md) · [Engineering: Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

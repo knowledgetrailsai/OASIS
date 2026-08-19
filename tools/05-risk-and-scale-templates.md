@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md)
+[← Back to Contents](../README.md) · [← Previous: Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md)
 
 # Tools: Risk and Scale Templates
 
-> **PURPOSE** Fillable versions of the risk-tracking and scaling artifacts named in [Chapter 32](../Methodology/chapter-32-templates-checklists-and-tools.md). The Risk and Control Register below is the single shared register referenced across the [Standards](../standards/) and [Security](../security/agentic-ai-threat-and-control-checklist.md) checklists — populate it once per system and cross-reference it rather than keeping separate risk logs per framework, per the anti-bureaucracy test in [Chapter 13](../Methodology/chapter-13-decision-gates-and-evidence-model.md).
+> **PURPOSE** Fillable versions of the risk-tracking and scaling artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md). The Risk and Control Register below is the single shared register referenced across the [Standards](../standards/) and [Security](../security/agentic-ai-threat-and-control-checklist.md) checklists — populate it once per system and cross-reference it rather than keeping separate risk logs per framework, per the anti-bureaucracy test in [Chapter 13](../methodology/chapter-13-decision-gates-and-evidence-model.md).
 
 Covers templates 17–18 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md).
 
@@ -18,7 +18,7 @@ These two templates carry the ongoing, cross-cutting work that outlives any sing
 
 **Chapter 32 minimum content:** Risk, cause, impact, inherent rating, controls, tests, residual rating, owner, treatment, evidence and review.
 
-**Primary source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../Methodology/chapter-20-governance-compliance-and-regulatory-engineering.md); referenced throughout the [Standards](../standards/) checklists and the [Security checklist](../security/agentic-ai-threat-and-control-checklist.md).
+**Primary source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md); referenced throughout the [Standards](../standards/) checklists and the [Security checklist](../security/agentic-ai-threat-and-control-checklist.md).
 
 | Risk ID | Description | Cause | Impact | Inherent rating | Controls in place | Control tests | Residual rating | Owner | Treatment (mitigate/transfer/avoid/accept) | Evidence | Last reviewed |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -33,7 +33,7 @@ This register is the single most cross-referenced artifact in the OASIS toolkit 
 
 **Chapter 32 minimum content:** Demand, repeatability, consumers, contract stability, configuration, tenancy, support, economics, risk and roadmap.
 
-**Primary source:** [Chapter 28 — Scaling and Productization](../Methodology/chapter-28-scaling-and-productization.md).
+**Primary source:** [Chapter 28 — Scaling and Productization](../methodology/chapter-28-scaling-and-productization.md).
 
 ```yaml
 scale_and_productization_assessment:
@@ -68,6 +68,6 @@ scale_and_productization_assessment:
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md)
+[← Back to Contents](../README.md) · [← Previous: Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

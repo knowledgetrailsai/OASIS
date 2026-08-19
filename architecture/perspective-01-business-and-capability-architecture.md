@@ -4,9 +4,9 @@
 
 # Architecture Perspective 1: Business and Capability Architecture
 
-> **PURPOSE** Define what agentic capabilities the enterprise needs, as a durable capability map independent of any single system, model or vendor — the artifact a portfolio owner uses to decide what to build next, retire, or consolidate, distinct from any single [Opportunity Assessment](../Methodology/chapter-32-templates-checklists-and-tools.md#1-opportunity-assessment) or [Intelligence-System Blueprint](../Methodology/chapter-32-templates-checklists-and-tools.md#11-intelligence-system-blueprint).
+> **PURPOSE** Define what agentic capabilities the enterprise needs, as a durable capability map independent of any single system, model or vendor — the artifact a portfolio owner uses to decide what to build next, retire, or consolidate, distinct from any single [Opportunity Assessment](../methodology/chapter-32-templates-checklists-and-tools.md#1-opportunity-assessment) or [Intelligence-System Blueprint](../methodology/chapter-32-templates-checklists-and-tools.md#11-intelligence-system-blueprint).
 
-**Primary OASIS source:** [Chapter 5 — Opportunity Portfolio and Transformation Horizons](../Methodology/chapter-05-opportunity-portfolio-and-transformation-horizons.md); [Chapter 3 — Enterprise AI Transformation Direction](../Methodology/chapter-03-enterprise-ai-transformation-direction.md); [Chapter 28 — Scaling and Productization](../Methodology/chapter-28-scaling-and-productization.md).
+**Primary OASIS source:** [Chapter 5 — Opportunity Portfolio and Transformation Horizons](../methodology/chapter-05-opportunity-portfolio-and-transformation-horizons.md); [Chapter 3 — Enterprise AI Transformation Direction](../methodology/chapter-03-enterprise-ai-transformation-direction.md); [Chapter 28 — Scaling and Productization](../methodology/chapter-28-scaling-and-productization.md).
 
 ## Background and context
 
@@ -28,7 +28,7 @@ One row per distinct business capability the enterprise either has, is building,
 | Dimension | Question it answers | Why it matters architecturally |
 |---|---|---|
 | Autonomy ceiling | What is the highest autonomy level this capability is permitted to reach, per its risk classification? | Sets an upper bound the Agent Architecture (Perspective 2) and Progressively Autonomous principle must respect regardless of technical feasibility. |
-| Reuse scope | Is this capability specific to one process, shared across a function, or a platform-level primitive? | Determines whether it belongs in a single system's Intelligence-System Blueprint or in the [Enterprise Intelligence Platform](../Methodology/chapter-25-enterprise-intelligence-platform.md). |
+| Reuse scope | Is this capability specific to one process, shared across a function, or a platform-level primitive? | Determines whether it belongs in a single system's Intelligence-System Blueprint or in the [Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md). |
 | Data dependency | What enterprise knowledge domains does this capability require (see Perspective 4)? | Flags capabilities blocked on data/knowledge readiness before any engineering work starts. |
 | Regulatory exposure | Which [Standards](../standards/) checklists apply to this capability? | Routes the capability to the correct compliance review path before build, not after. |
 
@@ -36,8 +36,8 @@ One row per distinct business capability the enterprise either has, is building,
 
 A capability map is only useful maintained as a portfolio, reviewed at the same governance cadence as the rest of the opportunity portfolio (Chapter 27). At minimum, review quarterly:
 
-- Which capabilities moved horizon (1→2→3) since the last review, per [Chapter 5](../Methodology/chapter-05-opportunity-portfolio-and-transformation-horizons.md)'s horizon model.
-- Which capabilities have more than one active implementation, and whether consolidation is now justified (see [Scale and Productization Assessment](../Methodology/chapter-32-templates-checklists-and-tools.md#18-scale-and-productization-assessment)).
+- Which capabilities moved horizon (1→2→3) since the last review, per [Chapter 5](../methodology/chapter-05-opportunity-portfolio-and-transformation-horizons.md)'s horizon model.
+- Which capabilities have more than one active implementation, and whether consolidation is now justified (see [Scale and Productization Assessment](../methodology/chapter-32-templates-checklists-and-tools.md#18-scale-and-productization-assessment)).
 - Which capabilities are named in the Outcome Portfolio but have no current implementation — the gap list for the next planning cycle.
 
 ## 4. Relationship to system-level artifacts

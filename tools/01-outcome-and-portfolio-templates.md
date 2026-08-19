@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Workflow and Intelligence Templates →](02-workflow-and-intelligence-templates.md)
+[← Back to Contents](../README.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Workflow and Intelligence Templates →](02-workflow-and-intelligence-templates.md)
 
 # Tools: Outcome and Portfolio Templates
 
-> **PURPOSE** Fillable versions of the outcome-and-portfolio artifacts named in [Chapter 32](../Methodology/chapter-32-templates-checklists-and-tools.md#1-opportunity-assessment). Chapter 32 states each artifact's minimum useful content in one line; this file turns that line into a structure a team can actually fill in. Copy the relevant section into your own document, delete fields that don't apply, and keep only what's needed to make, evidence, and revisit the decision (the [PRACTICALITY rule](../Methodology/chapter-32-templates-checklists-and-tools.md#template-use-rule)).
+> **PURPOSE** Fillable versions of the outcome-and-portfolio artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md#1-opportunity-assessment). Chapter 32 states each artifact's minimum useful content in one line; this file turns that line into a structure a team can actually fill in. Copy the relevant section into your own document, delete fields that don't apply, and keep only what's needed to make, evidence, and revisit the decision (the [PRACTICALITY rule](../methodology/chapter-32-templates-checklists-and-tools.md#template-use-rule)).
 
 Covers templates 1–5 of 20. See also: [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
@@ -18,7 +18,7 @@ These five templates carry the earliest and highest-leverage decisions in an eng
 
 **Chapter 32 minimum content:** Problem, affected workflow, outcome, baseline availability, stakeholders, intelligence fit, dependencies, risks, horizon and recommendation.
 
-**Primary source:** [Chapter 5 — Opportunity Portfolio and Transformation Horizons](../Methodology/chapter-05-opportunity-portfolio-and-transformation-horizons.md); used at the entry to [Chapter 7 — Phase 1: Engage & Align](../Methodology/chapter-07-phase-1-engage-and-align.md).
+**Primary source:** [Chapter 5 — Opportunity Portfolio and Transformation Horizons](../methodology/chapter-05-opportunity-portfolio-and-transformation-horizons.md); used at the entry to [Chapter 7 — Phase 1: Engage & Align](../methodology/chapter-07-phase-1-engage-and-align.md).
 
 ```yaml
 opportunity_assessment:
@@ -52,7 +52,7 @@ opportunity_assessment:
 
 **Chapter 32 minimum content:** Outcome statement, population, baseline, target, causal hypothesis, scope, exclusions, owner, guardrails, timeline and next gate.
 
-**Primary source:** [Chapter 3 — Enterprise AI Transformation Direction](../Methodology/chapter-03-enterprise-ai-transformation-direction.md); [Chapter 7 — Phase 1: Engage & Align](../Methodology/chapter-07-phase-1-engage-and-align.md).
+**Primary source:** [Chapter 3 — Enterprise AI Transformation Direction](../methodology/chapter-03-enterprise-ai-transformation-direction.md); [Chapter 7 — Phase 1: Engage & Align](../methodology/chapter-07-phase-1-engage-and-align.md).
 
 ```yaml
 outcome_charter:
@@ -84,7 +84,7 @@ outcome_charter:
 
 **Chapter 32 minimum content:** Charter plus service responsibilities, measurement, data sources, review cadence, remedies, funding and renewal/exit conditions.
 
-**Primary source:** [Chapter 1 — OASIS Executive Overview](../Methodology/chapter-01-oasis-executive-overview.md) (outcome contract concept); [Chapter 8 — Phase 2: Discover & Validate](../Methodology/chapter-08-phase-2-discover-and-validate.md).
+**Primary source:** [Chapter 1 — OASIS Executive Overview](../methodology/chapter-01-oasis-executive-overview.md) (outcome contract concept); [Chapter 8 — Phase 2: Discover & Validate](../methodology/chapter-08-phase-2-discover-and-validate.md).
 
 ```yaml
 outcome_contract:
@@ -119,7 +119,7 @@ outcome_contract:
 
 **Chapter 32 minimum content:** Primary outcome, leading indicators, operational drivers, guardrails, definitions, sources, segmentation and thresholds.
 
-**Primary source:** [Chapter 26 — OASIS Measurement Framework](../Methodology/chapter-26-oasis-measurement-framework.md).
+**Primary source:** [Chapter 26 — OASIS Measurement Framework](../methodology/chapter-26-oasis-measurement-framework.md).
 
 | Level | Metric name | Definition | Data source | Segmentation | Threshold / target | Owner |
 |---|---|---|---|---|---|---|
@@ -131,7 +131,7 @@ outcome_contract:
 | Guardrail | | | | | | |
 | Guardrail | | | | | | |
 
-Add rows as needed. A metric tree with no guardrail row is incomplete — every outcome pursued through an intelligence system should have at least one metric that catches an unacceptable side effect, per the [Autonomy Matrix](../Methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix) escalation logic in [System and Governance Templates](03-system-and-governance-templates.md).
+Add rows as needed. A metric tree with no guardrail row is incomplete — every outcome pursued through an intelligence system should have at least one metric that catches an unacceptable side effect, per the [Autonomy Matrix](../methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix) escalation logic in [System and Governance Templates](03-system-and-governance-templates.md).
 
 ---
 
@@ -139,7 +139,7 @@ Add rows as needed. A metric tree with no guardrail row is incomplete — every 
 
 **Chapter 32 minimum content:** Benefits, build/run/intervention/failure costs, uncertainty, impact, autonomy, data, exposure, reversibility and mitigation.
 
-**Primary source:** [Chapter 22 — Economics, FinOps and Sustainability](../Methodology/chapter-22-economics-finops-and-sustainability.md); [Chapter 20 — Governance, Compliance and Regulatory Engineering](../Methodology/chapter-20-governance-compliance-and-regulatory-engineering.md) (risk classification).
+**Primary source:** [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md); [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md) (risk classification).
 
 ```yaml
 value_and_risk_case:
@@ -166,6 +166,6 @@ value_and_risk_case:
 
 ---
 
-[← Back to Contents](../README.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Workflow and Intelligence Templates →](02-workflow-and-intelligence-templates.md)
+[← Back to Contents](../README.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Workflow and Intelligence Templates →](02-workflow-and-intelligence-templates.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

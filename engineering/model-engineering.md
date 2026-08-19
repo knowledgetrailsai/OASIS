@@ -1,12 +1,12 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Context and Retrieval Engineering →](context-and-retrieval-engineering.md)
+[← Back to Contents](../README.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Context and Retrieval Engineering →](context-and-retrieval-engineering.md)
 
 # Engineering: Model Engineering
 
 > **PURPOSE** Turn Chapter 14 §2's model-selection principles into a fillable benchmarking record, routing design, and optimization ladder a build team can actually run through, rather than a one-paragraph description of what good model selection looks like.
 
-**Primary OASIS source:** [Chapter 14 §2 — Model Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md#2-model-engineering); cross-referenced with [Chapter 22 — Economics, FinOps and Sustainability](../Methodology/chapter-22-economics-finops-and-sustainability.md) and the [Evaluation and Reliability Engineering](evaluation-and-reliability-engineering.md) article.
+**Primary OASIS source:** [Chapter 14 §2 — Model Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#2-model-engineering); cross-referenced with [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md) and the [Evaluation and Reliability Engineering](evaluation-and-reliability-engineering.md) article.
 
 ## Background and context
 
@@ -99,6 +99,6 @@ Per Chapter 14 §12: fine-tuning is considered only when repeated, well-defined 
 
 ---
 
-[← Back to Contents](../README.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Context and Retrieval Engineering →](context-and-retrieval-engineering.md)
+[← Back to Contents](../README.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Context and Retrieval Engineering →](context-and-retrieval-engineering.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

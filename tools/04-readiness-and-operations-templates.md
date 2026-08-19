@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: System and Governance Templates](03-system-and-governance-templates.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Risk and Scale Templates →](05-risk-and-scale-templates.md)
+[← Back to Contents](../README.md) · [← Previous: System and Governance Templates](03-system-and-governance-templates.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Risk and Scale Templates →](05-risk-and-scale-templates.md)
 
 # Tools: Readiness and Operations Templates
 
-> **PURPOSE** Fillable versions of the go-live readiness and running-service artifacts named in [Chapter 32](../Methodology/chapter-32-templates-checklists-and-tools.md). These pair directly with the [Monitoring: Observability and Telemetry Specification](../monitoring/observability-and-telemetry-specification.md) — its release-manifest checklist and operational-plane metrics are the evidence source for several fields below.
+> **PURPOSE** Fillable versions of the go-live readiness and running-service artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md). These pair directly with the [Monitoring: Observability and Telemetry Specification](../monitoring/observability-and-telemetry-specification.md) — its release-manifest checklist and operational-plane metrics are the evidence source for several fields below.
 
 Covers templates 13–16 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
@@ -18,7 +18,7 @@ These four templates carry the transition from a built system to a running servi
 
 **Chapter 32 minimum content:** Architecture, security, privacy, evaluations, integration, resilience, monitoring, support, runbook, rollback and approvals.
 
-**Primary source:** [Chapter 9 — Phase 3: Engineer & Integrate](../Methodology/chapter-09-phase-3-engineer-and-integrate.md); [Chapter 21 — Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md); [Monitoring: release manifest checklist](../monitoring/observability-and-telemetry-specification.md#3-release-manifest-checklist).
+**Primary source:** [Chapter 9 — Phase 3: Engineer & Integrate](../methodology/chapter-09-phase-3-engineer-and-integrate.md); [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Monitoring: release manifest checklist](../monitoring/observability-and-telemetry-specification.md#3-release-manifest-checklist).
 
 | # | Area | Requirement | Evidence | Status | Approver |
 |---|---|---|---|---|---|
@@ -40,7 +40,7 @@ These four templates carry the transition from a built system to a running servi
 
 **Chapter 32 minimum content:** Live users, task completion, quality, controls, adoption, fallback, incidents, training, service owner and accepted authority.
 
-**Primary source:** [Chapter 10 — Phase 4: Activate & Adopt](../Methodology/chapter-10-phase-4-activate-and-adopt.md).
+**Primary source:** [Chapter 10 — Phase 4: Activate & Adopt](../methodology/chapter-10-phase-4-activate-and-adopt.md).
 
 | # | Item | Target | Actual (at acceptance) | Status |
 |---|---|---|---|---|
@@ -63,7 +63,7 @@ Operational acceptance is a distinct gate from production readiness — readines
 
 **Chapter 32 minimum content:** Outcome, adoption, intelligence, risk, service, economics, reuse, trend, threshold, commentary and action.
 
-**Primary source:** [Chapter 26 — OASIS Measurement Framework](../Methodology/chapter-26-oasis-measurement-framework.md); metric sources per the [Monitoring spec's operational planes](../monitoring/observability-and-telemetry-specification.md#1-the-six-operational-planes-instrumented).
+**Primary source:** [Chapter 26 — OASIS Measurement Framework](../methodology/chapter-26-oasis-measurement-framework.md); metric sources per the [Monitoring spec's operational planes](../monitoring/observability-and-telemetry-specification.md#1-the-six-operational-planes-instrumented).
 
 | Dimension | Metric | Current | Threshold/target | Trend | Commentary | Action |
 |---|---|---|---|---|---|---|
@@ -75,7 +75,7 @@ Operational acceptance is a distinct gate from production readiness — readines
 | Economics | | | | | | |
 | Reuse | | | | | | |
 
-Review at the cadence set in [Chapter 27 — Delivery Cadence and Management Practices](../Methodology/chapter-27-delivery-cadence-and-management-practices.md). A scorecard with no "Action" entries for two consecutive reviews should prompt a check on whether it's actually being used to make decisions or just archived.
+Review at the cadence set in [Chapter 27 — Delivery Cadence and Management Practices](../methodology/chapter-27-delivery-cadence-and-management-practices.md). A scorecard with no "Action" entries for two consecutive reviews should prompt a check on whether it's actually being used to make decisions or just archived.
 
 ---
 
@@ -83,7 +83,7 @@ Review at the cadence set in [Chapter 27 — Delivery Cadence and Management Pra
 
 **Chapter 32 minimum content:** Purpose, dependencies, dashboards, alerts, triage, fallbacks, escalation, recovery, changes, contacts and evidence retention.
 
-**Primary source:** [Chapter 21 — Deployment, Operations and AgentOps](../Methodology/chapter-21-deployment-operations-and-agentops.md); [Chapter 19 — Containment and emergency control](../Methodology/chapter-19-security-and-responsible-ai-engineering.md#containment-and-emergency-control).
+**Primary source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Chapter 19 — Containment and emergency control](../methodology/chapter-19-security-and-responsible-ai-engineering.md#containment-and-emergency-control).
 
 ```yaml
 service_runbook:
@@ -118,6 +118,6 @@ service_runbook:
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: System and Governance Templates](03-system-and-governance-templates.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Risk and Scale Templates →](05-risk-and-scale-templates.md)
+[← Back to Contents](../README.md) · [← Previous: System and Governance Templates](03-system-and-governance-templates.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Risk and Scale Templates →](05-risk-and-scale-templates.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

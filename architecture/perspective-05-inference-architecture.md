@@ -6,7 +6,7 @@
 
 > **PURPOSE** Define how models are consumed, routed and separated at enterprise scale — the enterprise-wide framing of the per-system [Model Engineering](../engineering/model-engineering.md) article, so model procurement, routing and fallback are governed centrally rather than independently re-decided by every build team.
 
-**Primary OASIS source:** [Chapter 14 §2 — Model Layer](../Methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 22 — Economics, FinOps and Sustainability](../Methodology/chapter-22-economics-finops-and-sustainability.md); [Chapter 25 — Enterprise Intelligence Platform](../Methodology/chapter-25-enterprise-intelligence-platform.md).
+**Primary OASIS source:** [Chapter 14 §2 — Model Layer](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
 ## Background and context
 

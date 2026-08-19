@@ -6,7 +6,7 @@
 
 > **PURPOSE** Define how agents participate in business processes — where an agent enters a process, what it owns within it, and where a human retains ownership — so process design and agent design happen together instead of an agent being retrofitted into a process it was not designed for.
 
-**Primary OASIS source:** [Chapter 16 — Human–AI Workflow and Experience Engineering](../Methodology/chapter-16-human-ai-workflow-and-experience-engineering.md); [Chapter 9 — Phase 3: Engineer & Integrate](../Methodology/chapter-09-phase-3-engineer-and-integrate.md); [Chapter 14 §7 — Workflow and orchestration selection](../Methodology/chapter-14-intelligence-and-agent-engineering.md).
+**Primary OASIS source:** [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md); [Chapter 9 — Phase 3: Engineer & Integrate](../methodology/chapter-09-phase-3-engineer-and-integrate.md); [Chapter 14 §7 — Workflow and orchestration selection](../methodology/chapter-14-intelligence-and-agent-engineering.md).
 
 ## Background and context
 
@@ -27,8 +27,8 @@ One row per process step, for each business process that includes agentic partic
 | Principle | What it means in practice |
 |---|---|
 | The process owner is never the agent | A named human or function owns the end-to-end process outcome regardless of how many steps are agent-executed — this is the process-level instance of the [Human accountable](oasis-reference-architecture.md#architecture-principles) principle. |
-| Agent scope is a subset of process scope | An agent's [Autonomy Matrix](../Methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix) entry is defined at the step level, never inherited automatically across the whole process. |
-| Handback points are designed, not incidental | Every process with agentic steps names, in advance, the conditions under which control returns to a human — confidence threshold, policy exception, value threshold — per [Chapter 16](../Methodology/chapter-16-human-ai-workflow-and-experience-engineering.md). |
+| Agent scope is a subset of process scope | An agent's [Autonomy Matrix](../methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix) entry is defined at the step level, never inherited automatically across the whole process. |
+| Handback points are designed, not incidental | Every process with agentic steps names, in advance, the conditions under which control returns to a human — confidence threshold, policy exception, value threshold — per [Chapter 16](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md). |
 | Process change is versioned like system change | A process redesign that changes which steps are agent-executed follows the same release discipline as the [Monitoring release manifest](../monitoring/observability-and-telemetry-specification.md#3-release-manifest-checklist) — it is a change to system behavior, not just a documentation update. |
 
 ## 3. Process risk classification
@@ -38,7 +38,7 @@ One row per process step, for each business process that includes agentic partic
 | Irreversible or high-value step | Confirmation and human approval required before execution (Ch.17 category: execute with mandatory confirmation). |
 | Regulated decision point (credit, employment, benefits eligibility) | Route through the applicable [Standards](../standards/) checklist before any agent participation is approved. |
 | High-volume, low-variance step | Strongest candidate for higher autonomy — evaluate against the [Optimization ladder](../engineering/model-engineering.md#4-optimization-ladder) and Progressively Autonomous principle. |
-| Cross-functional handoff | Requires explicit [Responsibility Assignment Matrix](../Methodology/chapter-32-templates-checklists-and-tools.md#19-responsibility-assignment-matrix) entry — ambiguous ownership at a handoff is where agentic processes most often fail silently. |
+| Cross-functional handoff | Requires explicit [Responsibility Assignment Matrix](../methodology/chapter-32-templates-checklists-and-tools.md#19-responsibility-assignment-matrix) entry — ambiguous ownership at a handoff is where agentic processes most often fail silently. |
 
 ## 4. Relationship to system-level workflow design
 

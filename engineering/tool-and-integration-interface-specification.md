@@ -1,12 +1,12 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: Context and Retrieval Engineering](context-and-retrieval-engineering.md) · [Chapter 17: Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md) · [Next: Harness and Orchestration Engineering →](harness-and-orchestration-engineering.md)
+[← Back to Contents](../README.md) · [← Previous: Context and Retrieval Engineering](context-and-retrieval-engineering.md) · [Chapter 17: Enterprise Integration and Tool Engineering](../methodology/chapter-17-enterprise-integration-and-tool-engineering.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md) · [Next: Harness and Orchestration Engineering →](harness-and-orchestration-engineering.md)
 
 # Engineering: Tool and Integration Interface Specification
 
-> **PURPOSE** Turn Chapter 17's tool-contract table and integration principles into a fillable interface specification a build team can use directly, plus a worked example. This is the implementation-level companion to the [Tool Catalogue and Action Contracts](../Methodology/chapter-14-intelligence-and-agent-engineering.md#engineering-artifact-set) artifact named in Chapter 14.
+> **PURPOSE** Turn Chapter 17's tool-contract table and integration principles into a fillable interface specification a build team can use directly, plus a worked example. This is the implementation-level companion to the [Tool Catalogue and Action Contracts](../methodology/chapter-14-intelligence-and-agent-engineering.md#engineering-artifact-set) artifact named in Chapter 14.
 
-**Primary OASIS source:** [Chapter 17 — Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md); [Chapter 14 §5–6 — Tool and Agent-Harness Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 19 — Tool layer controls](../Methodology/chapter-19-security-and-responsible-ai-engineering.md).
+**Primary OASIS source:** [Chapter 17 — Enterprise Integration and Tool Engineering](../methodology/chapter-17-enterprise-integration-and-tool-engineering.md); [Chapter 14 §5–6 — Tool and Agent-Harness Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 19 — Tool layer controls](../methodology/chapter-19-security-and-responsible-ai-engineering.md).
 
 ## Background and context
 
@@ -177,7 +177,7 @@ tool:
 
   audit:
     logs: [requester, approver, parameters, result, timestamp, downstream_identifier]
-    retention: "per data retention schedule, see References/regulatory-framework-alignment-index.md"
+    retention: "per data retention schedule, see references/regulatory-framework-alignment-index.md"
 
   versioning:
     schema_version: "1.0"
@@ -216,6 +216,6 @@ A tool description is part of system behavior. Treat a change to a tool's descri
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: Context and Retrieval Engineering](context-and-retrieval-engineering.md) · [Chapter 17: Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md) · [Next: Harness and Orchestration Engineering →](harness-and-orchestration-engineering.md)
+[← Back to Contents](../README.md) · [← Previous: Context and Retrieval Engineering](context-and-retrieval-engineering.md) · [Chapter 17: Enterprise Integration and Tool Engineering](../methodology/chapter-17-enterprise-integration-and-tool-engineering.md) · [Architecture: Reference Architecture](../architecture/oasis-reference-architecture.md) · [Next: Harness and Orchestration Engineering →](harness-and-orchestration-engineering.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

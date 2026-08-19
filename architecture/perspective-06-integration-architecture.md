@@ -6,7 +6,7 @@
 
 > **PURPOSE** Define how agents interact with enterprise systems and tools at the portfolio level — the enterprise-wide framing of the per-tool [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md), covering the shared catalogue, connector governance, and integration-pattern standards every system's tool contracts should draw from.
 
-**Primary OASIS source:** [Chapter 17 — Enterprise Integration and Tool Engineering](../Methodology/chapter-17-enterprise-integration-and-tool-engineering.md); [Chapter 25 — Enterprise Intelligence Platform](../Methodology/chapter-25-enterprise-intelligence-platform.md).
+**Primary OASIS source:** [Chapter 17 — Enterprise Integration and Tool Engineering](../methodology/chapter-17-enterprise-integration-and-tool-engineering.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
 ## Background and context
 
@@ -43,7 +43,7 @@ A system exposing execute-level access to more than a handful of independently-b
 
 - Per-tool contract detail: [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md).
 - Tool-layer security controls: [Security: Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md).
-- Platform-level integration investment: [Chapter 25 — Enterprise Intelligence Platform](../Methodology/chapter-25-enterprise-intelligence-platform.md).
+- Platform-level integration investment: [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
 ---
 

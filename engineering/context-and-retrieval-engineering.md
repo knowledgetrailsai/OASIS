@@ -1,12 +1,12 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: Model Engineering](model-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Tool and Integration Interface Specification →](tool-and-integration-interface-specification.md)
+[← Back to Contents](../README.md) · [← Previous: Model Engineering](model-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Tool and Integration Interface Specification →](tool-and-integration-interface-specification.md)
 
 # Engineering: Context and Retrieval Engineering
 
 > **PURPOSE** Turn Chapter 14 §3–4's data/retrieval and context-engineering principles into a fillable context architecture, retrieval pipeline specification, and context-quality checklist — the concrete companion to what the chapter states as a design philosophy.
 
-**Primary OASIS source:** [Chapter 14 §3 — Data, Retrieval and Knowledge Foundations](../Methodology/chapter-14-intelligence-and-agent-engineering.md#3-data-retrieval-and-knowledge-foundations) and [§4 — Prompt and Context Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md#4-prompt-and-context-engineering); cross-referenced with [Chapter 15 — Data and Knowledge Engineering](../Methodology/chapter-15-data-and-knowledge-engineering.md) and the [Security checklist's](../security/agentic-ai-threat-and-control-checklist.md) context-layer controls.
+**Primary OASIS source:** [Chapter 14 §3 — Data, Retrieval and Knowledge Foundations](../methodology/chapter-14-intelligence-and-agent-engineering.md#3-data-retrieval-and-knowledge-foundations) and [§4 — Prompt and Context Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#4-prompt-and-context-engineering); cross-referenced with [Chapter 15 — Data and Knowledge Engineering](../methodology/chapter-15-data-and-knowledge-engineering.md) and the [Security checklist's](../security/agentic-ai-threat-and-control-checklist.md) context-layer controls.
 
 ## Background and context
 
@@ -99,6 +99,6 @@ retrieval_evaluation:
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: Model Engineering](model-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Tool and Integration Interface Specification →](tool-and-integration-interface-specification.md)
+[← Back to Contents](../README.md) · [← Previous: Model Engineering](model-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Tool and Integration Interface Specification →](tool-and-integration-interface-specification.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

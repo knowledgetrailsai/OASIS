@@ -6,7 +6,7 @@
 
 > **PURPOSE** Define how enterprise knowledge and context are organized as a shared, governed asset — the enterprise-wide framing of the per-system [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md) article, for the domains, sources and access rules every intelligence system draws on.
 
-**Primary OASIS source:** [Chapter 15 — Data and Knowledge Engineering](../Methodology/chapter-15-data-and-knowledge-engineering.md); [Chapter 14 §3–4 — Data, retrieval and context](../Methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 25 — Enterprise Intelligence Platform](../Methodology/chapter-25-enterprise-intelligence-platform.md).
+**Primary OASIS source:** [Chapter 15 — Data and Knowledge Engineering](../methodology/chapter-15-data-and-knowledge-engineering.md); [Chapter 14 §3–4 — Data, retrieval and context](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
 ## Background and context
 
@@ -33,8 +33,8 @@ Information and Knowledge Architecture is the map of those enterprise knowledge 
 
 | Question | If yes | If no |
 |---|---|---|
-| Does more than one system need this domain? | Build/govern as a shared platform knowledge service (see [Chapter 25](../Methodology/chapter-25-enterprise-intelligence-platform.md)). | Keep the retrieval pipeline scoped to the owning system per [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md). |
-| Is the domain regulated (Ch.20, [Standards](../standards/))? | Register the domain's handling requirements in the relevant Standards checklist before any system indexes it. | Standard data-readiness review applies (see [Data and Knowledge Readiness Assessment](../Methodology/chapter-32-templates-checklists-and-tools.md#8-data-and-knowledge-readiness-assessment)). |
+| Does more than one system need this domain? | Build/govern as a shared platform knowledge service (see [Chapter 25](../methodology/chapter-25-enterprise-intelligence-platform.md)). | Keep the retrieval pipeline scoped to the owning system per [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md). |
+| Is the domain regulated (Ch.20, [Standards](../standards/))? | Register the domain's handling requirements in the relevant Standards checklist before any system indexes it. | Standard data-readiness review applies (see [Data and Knowledge Readiness Assessment](../methodology/chapter-32-templates-checklists-and-tools.md#8-data-and-knowledge-readiness-assessment)). |
 
 ## 4. Retirement and versioning
 

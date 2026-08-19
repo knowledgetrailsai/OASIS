@@ -1,12 +1,12 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: Harness and Orchestration Engineering](harness-and-orchestration-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Evaluation and Reliability Engineering →](evaluation-and-reliability-engineering.md)
+[← Back to Contents](../README.md) · [← Previous: Harness and Orchestration Engineering](harness-and-orchestration-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Evaluation and Reliability Engineering →](evaluation-and-reliability-engineering.md)
 
 # Engineering: Memory and State Engineering
 
 > **PURPOSE** Turn Chapter 14 §8's memory-and-state principles into a fillable classification table and memory-policy template that forces an explicit answer to "what persists, for whom, for how long" — rather than letting memory scope grow by accident as features are added.
 
-**Primary OASIS source:** [Chapter 14 §8 — Memory and State Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md#8-memory-and-state-engineering); cross-referenced with the [Security checklist's](../security/agentic-ai-threat-and-control-checklist.md#2-agentic-threat-model-ch-19-mapped-to-owasp-agentic-top-10-and-mitre-atlas) memory-poisoning row and the [DPDP](../standards/dpdp-act-alignment-checklist.md) / other privacy-law checklists.
+**Primary OASIS source:** [Chapter 14 §8 — Memory and State Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#8-memory-and-state-engineering); cross-referenced with the [Security checklist's](../security/agentic-ai-threat-and-control-checklist.md#2-agentic-threat-model-ch-19-mapped-to-owasp-agentic-top-10-and-mitre-atlas) memory-poisoning row and the [DPDP](../standards/dpdp-act-alignment-checklist.md) / other privacy-law checklists.
 
 ## Background and context
 
@@ -68,6 +68,6 @@ memory_policy:
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: Harness and Orchestration Engineering](harness-and-orchestration-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Evaluation and Reliability Engineering →](evaluation-and-reliability-engineering.md)
+[← Back to Contents](../README.md) · [← Previous: Harness and Orchestration Engineering](harness-and-orchestration-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Evaluation and Reliability Engineering →](evaluation-and-reliability-engineering.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).

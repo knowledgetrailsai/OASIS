@@ -12,7 +12,7 @@
 
 A maturity score is only as trustworthy as the evidence behind it. This template forces an evidence field alongside every score for exactly that reason — "we think we're at Level 3" without a named artifact behind it is a Level 1 assessment practice scoring a Level 3 claim, which is its own small irony worth avoiding. Fill the evidence field with a specific, checkable reference: a completed template, a named forum's meeting record, a dashboard link — not a general impression.
 
-Re-run this assessment on a fixed cadence (quarterly is a reasonable default, aligned with the portfolio review cadence in [Chapter 24](../Methodology/chapter-24-roles-teams-and-governance-forums.md#governance-forums)) and keep prior cycles rather than overwriting them, so the trend is visible. A dimension that has been stuck at the same level for three consecutive cycles despite a stated target is itself a signal worth raising at the next portfolio review — a stalled dimension usually means the gap is organizational (no owner, no budget, no forum) rather than technical.
+Re-run this assessment on a fixed cadence (quarterly is a reasonable default, aligned with the portfolio review cadence in [Chapter 24](../methodology/chapter-24-roles-teams-and-governance-forums.md#governance-forums)) and keep prior cycles rather than overwriting them, so the trend is visible. A dimension that has been stuck at the same level for three consecutive cycles despite a stated target is itself a signal worth raising at the next portfolio review — a stalled dimension usually means the gap is organizational (no owner, no budget, no forum) rather than technical.
 
 ## Scorecard
 
@@ -106,7 +106,7 @@ result:
 
 ## Reading and escalating a result
 
-A completed scorecard is not the deliverable — the decision it informs is. Route the result to the forum matched to its stakes, per [Chapter 24's governance forum table](../Methodology/chapter-24-roles-teams-and-governance-forums.md#governance-forums): an overall level below what a system's risk classification requires (see [Chapter 19](../Methodology/chapter-19-security-and-responsible-ai-engineering.md)) is an Architecture/Risk review matter, not a monthly-outcome-review footnote. A weakest dimension that has been flat or declining across two or more cycles belongs at the quarterly portfolio review as a funding and ownership question, not a technical backlog item — a dimension stuck below target for that long usually means nobody has been made accountable for closing it.
+A completed scorecard is not the deliverable — the decision it informs is. Route the result to the forum matched to its stakes, per [Chapter 24's governance forum table](../methodology/chapter-24-roles-teams-and-governance-forums.md#governance-forums): an overall level below what a system's risk classification requires (see [Chapter 19](../methodology/chapter-19-security-and-responsible-ai-engineering.md)) is an Architecture/Risk review matter, not a monthly-outcome-review footnote. A weakest dimension that has been flat or declining across two or more cycles belongs at the quarterly portfolio review as a funding and ownership question, not a technical backlog item — a dimension stuck below target for that long usually means nobody has been made accountable for closing it.
 
 ---
 

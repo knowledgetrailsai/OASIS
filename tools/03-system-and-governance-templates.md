@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-[← Back to Contents](../README.md) · [← Previous: Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Readiness and Operations Templates →](04-readiness-and-operations-templates.md)
+[← Back to Contents](../README.md) · [← Previous: Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Readiness and Operations Templates →](04-readiness-and-operations-templates.md)
 
 # Tools: System and Governance Templates
 
-> **PURPOSE** Fillable versions of the system-design and decision-governance artifacts named in [Chapter 32](../Methodology/chapter-32-templates-checklists-and-tools.md). The Intelligence-System Blueprint below is the fillable companion to the [Architecture Reference Architecture](../architecture/oasis-reference-architecture.md) — use that document's diagram to structure this template's content.
+> **PURPOSE** Fillable versions of the system-design and decision-governance artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md). The Intelligence-System Blueprint below is the fillable companion to the [Architecture Reference Architecture](../architecture/oasis-reference-architecture.md) — use that document's diagram to structure this template's content.
 
 Covers templates 11–12 and 19–20 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
@@ -18,7 +18,7 @@ These four templates carry the decisions about authority: what the system is arc
 
 **Chapter 32 minimum content:** Boundary, actors, models, context, knowledge, tools, workflow, memory/state, controls, runtime, telemetry and dependencies.
 
-**Primary source:** [Chapter 14 — Intelligence and Agent Engineering](../Methodology/chapter-14-intelligence-and-agent-engineering.md); structure this using the [Architecture Reference Architecture](../architecture/oasis-reference-architecture.md#2-component-to-artifact-map) component map.
+**Primary source:** [Chapter 14 — Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md); structure this using the [Architecture Reference Architecture](../architecture/oasis-reference-architecture.md#2-component-to-artifact-map) component map.
 
 ```yaml
 intelligence_system_blueprint:
@@ -62,7 +62,7 @@ intelligence_system_blueprint:
 
 **Chapter 32 minimum content:** Action, case class, risk, system capability, human authority, limits, evidence threshold, escalation and suspension.
 
-**Primary source:** [Chapter 10 — Phase 4: Activate & Adopt](../Methodology/chapter-10-phase-4-activate-and-adopt.md); [Chapter 16 — Human–AI Workflow and Experience Engineering](../Methodology/chapter-16-human-ai-workflow-and-experience-engineering.md) (progressive-autonomy modes: Shadow, Assisted, Supervised, Bounded Autonomy, and beyond).
+**Primary source:** [Chapter 10 — Phase 4: Activate & Adopt](../methodology/chapter-10-phase-4-activate-and-adopt.md); [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md) (progressive-autonomy modes: Shadow, Assisted, Supervised, Bounded Autonomy, and beyond).
 
 | Action | Case class | Risk level | Current system capability (evidenced) | Human authority required | Operating limits | Evidence threshold to progress | Escalation trigger | Suspension trigger |
 |---|---|---|---|---|---|---|---|---|
@@ -77,7 +77,7 @@ One row per distinct action the system can take, not one row per system. An agen
 
 **Chapter 32 minimum content:** Activity and decision mapped to accountable, responsible, consulted and informed roles.
 
-**Primary source:** [Chapter 6 — OASIS Operating Model and Decision Rights](../Methodology/chapter-06-oasis-operating-model-and-decision-rights.md); [Chapter 24 — Roles, Teams and Governance Forums](../Methodology/chapter-24-roles-teams-and-governance-forums.md).
+**Primary source:** [Chapter 6 — OASIS Operating Model and Decision Rights](../methodology/chapter-06-oasis-operating-model-and-decision-rights.md); [Chapter 24 — Roles, Teams and Governance Forums](../methodology/chapter-24-roles-teams-and-governance-forums.md).
 
 | Activity / decision | Accountable (A) | Responsible (R) | Consulted (C) | Informed (I) |
 |---|---|---|---|---|
@@ -97,7 +97,7 @@ Exactly one accountable owner per row — if two names appear under Accountable,
 
 **Chapter 32 minimum content:** Decision, evidence, alternatives, conditions, residual risk, owner, due date, expiry and follow-up.
 
-**Primary source:** [Chapter 13 — Decision Gates and Evidence Model](../Methodology/chapter-13-decision-gates-and-evidence-model.md).
+**Primary source:** [Chapter 13 — Decision Gates and Evidence Model](../methodology/chapter-13-decision-gates-and-evidence-model.md).
 
 ```yaml
 decision_gate_record:
@@ -121,6 +121,6 @@ Complete one record per gate passage, not one per project — a six-phase engage
 
 ---
 
-[← Back to Contents](../README.md) · [← Previous: Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [Chapter 32: Templates, Checklists and Tools](../Methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Readiness and Operations Templates →](04-readiness-and-operations-templates.md)
+[← Back to Contents](../README.md) · [← Previous: Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Next: Readiness and Operations Templates →](04-readiness-and-operations-templates.md)
 
 © 2026 OASIS Methodology contributors. Licensed under the [MIT License](../LICENSE.md).
