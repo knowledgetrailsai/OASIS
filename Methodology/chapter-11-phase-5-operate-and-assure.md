@@ -8,10 +8,6 @@
 
 > **CHAPTER PURPOSE** Sustain service health, intelligence quality, controls and business outcomes through monitoring, incident management and continuous assurance.
 
-![Figure 10. Phase 5 — Operate & Assure: method sequence and the recurring Outcome Performance Review.](../diagrams/lifecycle-phases/phase-5-operate-and-assure.png)
-
-*Figure 10. Phase 5 — Operate & Assure: method sequence and the recurring Outcome Performance Review.*
-
 ## Background and context
 
 Phase 4 earns a service its initial operating authority; Phase 5 is where that authority has to be continuously re-earned, because nothing about a production intelligence system stays still once it is live. The knowledge it retrieves goes stale, the model behind it is upgraded or deprecated by a provider outside the organization's control, the workflow it serves gets redesigned around it, and the population of users interacting with it changes in ways that shift what "normal" input even looks like. Phase 5 is the longest-running phase in the lifecycle by a wide margin — most systems spend years here — and its job is to keep the outcome, the intelligence quality and the controls all within agreed limits despite that constant drift.
@@ -19,6 +15,10 @@ Phase 4 earns a service its initial operating authority; Phase 5 is where that a
 This is the phase where the monitoring and security material in this handbook stops being design guidance and becomes an operating discipline. The [Observability and Telemetry Specification](../monitoring/observability-and-telemetry-specification.md#1-the-six-operational-planes-instrumented) defines the six operational planes — service, intelligence, risk, human, economic and outcome — that a healthy operating rhythm monitors together, because a service that looks healthy on the service plane (uptime, latency) can simultaneously be failing badly on the intelligence plane (accuracy, groundedness) or the risk plane (control breaches), and a monitoring practice that only watches one plane will miss the others until a customer or a regulator finds them first. The [Agentic AI Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md#4-containment-and-emergency-control-checklist) is where the containment and emergency-control procedures this phase relies on during an incident are specified in full.
 
 Phase 5 feeds [Phase 6 — Optimize & Scale](chapter-12-phase-6-optimize-and-scale.md) its raw material: the accumulated production evidence — what failed, what drifted, what users actually did with the system — that makes optimization and scale decisions evidenced rather than speculative. A system that has not been operated with real assurance discipline gives Phase 6 nothing reliable to optimize against.
+
+![Figure 10. Phase 5 — Operate & Assure: method sequence and the recurring Outcome Performance Review.](../diagrams/lifecycle-phases/phase-5-operate-and-assure.png)
+
+*Figure 10. Phase 5 — Operate & Assure: method sequence and the recurring Outcome Performance Review.*
 
 ## Phase objective
 

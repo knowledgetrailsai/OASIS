@@ -8,10 +8,6 @@
 
 > **CHAPTER PURPOSE** Introduce the service progressively into live operations, enable users, validate exceptions and earn higher operating authority through evidence.
 
-![Figure 9. Phase 4 — Activate & Adopt: method sequence and the Operational Acceptance Review gate.](../diagrams/lifecycle-phases/phase-4-activate-and-adopt.png)
-
-*Figure 9. Phase 4 — Activate & Adopt: method sequence and the Operational Acceptance Review gate.*
-
 ## Background and context
 
 Phase 3 proves a system is safe to release under controlled conditions; Phase 4 is where it actually meets real users, real workload variability and real consequences, and where the organization decides — deliberately, and in increments — how much it is willing to let the system do without a human in the loop. This is the phase where the gap between "engineered correctly" and "trusted in practice" gets closed, and it is closed by evidence accumulated in production, not by confidence accumulated in a demo.
@@ -19,6 +15,10 @@ Phase 3 proves a system is safe to release under controlled conditions; Phase 4 
 The central idea running through this phase is progressive autonomy: a system does not move from off to fully autonomous in one release, it moves through a sequence of operating modes — shadow, assisted, supervised, and eventually some form of bounded autonomy — with each step up justified by evidence gathered at the step below, not by elapsed time or stakeholder enthusiasm. That progression is described in more architectural depth in [Architecture Perspective 2: Agent Architecture](../architecture/perspective-02-agent-architecture.md#1-agent-type-taxonomy), and it is tracked concretely through the [Autonomy Matrix](../tools/03-system-and-governance-templates.md#12-autonomy-matrix), which assigns evidence thresholds and escalation triggers per action and case class rather than granting authority to a system as a whole. A system that drafts customer replies and also issues refunds needs two separate autonomy rows, because the evidence required to trust the first has nothing to do with the evidence required to trust the second.
 
 Phase 4 hands [Phase 5 — Operate & Assure](chapter-11-phase-5-operate-and-assure.md) a service that has demonstrated it works for real users at a stated, evidenced level of authority — with a verified fallback path and a trained user base — so that ongoing operations can start from a stable baseline rather than still be discovering basic workflow-fit problems in production.
+
+![Figure 9. Phase 4 — Activate & Adopt: method sequence and the Operational Acceptance Review gate.](../diagrams/lifecycle-phases/phase-4-activate-and-adopt.png)
+
+*Figure 9. Phase 4 — Activate & Adopt: method sequence and the Operational Acceptance Review gate.*
 
 ## Phase objective
 

@@ -8,10 +8,6 @@
 
 > **CHAPTER PURPOSE** Improve performance, expand justified autonomy, productize recurring patterns and scale only where production evidence supports reuse.
 
-![Figure 11. Phase 6 — Optimize & Scale: method sequence and the Scale and Renewal Review gate.](../diagrams/lifecycle-phases/phase-6-optimize-and-scale.png)
-
-*Figure 11. Phase 6 — Optimize & Scale: method sequence and the Scale and Renewal Review gate.*
-
 ## Background and context
 
 Phase 5 generates the evidence; Phase 6 is where that evidence gets acted on deliberately, rather than left to accumulate as a backlog nobody prioritizes. It is the phase most easily skipped under delivery pressure — a system that is operating within acceptable limits can look finished, and teams move on to the next opportunity rather than investing in improving what already works or in generalizing it beyond its original context. That instinct is understandable and usually costly: the same failure patterns and the same reusable components tend to recur across an organization's AI portfolio, and a methodology that never asks "what repeats" ends up rebuilding the same context pipeline, the same guardrail logic and the same evaluation suite for every new use case.
@@ -19,6 +15,10 @@ Phase 5 generates the evidence; Phase 6 is where that evidence gets acted on del
 This phase has two genuinely distinct halves that share a chapter because they draw on the same evidence base. Optimization is local — improving quality, latency, cost or adoption for the system that exists. Scale is about generalization — recognizing that a component, pattern or capability built for one deployment is valuable enough, and stable enough, to become a shared platform asset serving several. Confusing the two leads to the two most common mistakes in this phase: optimizing a system that should really be retired, and prematurely productizing a component that has only ever been tested in one context. The capability-reuse discipline this phase draws on connects to [Architecture Perspective 1: Business and Capability Architecture](../architecture/perspective-01-business-and-capability-architecture.md#3-capability-portfolio-view), which is where capability consolidation across a portfolio is tracked at the enterprise level rather than one system at a time.
 
 Phase 6 is also where the lifecycle loops back on itself: an optimization that changes behavior meaningfully, or a scale decision that expands the system's user base, exposure or authority, does not just get released — it re-enters the gate structure described in [Chapter 13](chapter-13-decision-gates-and-evidence-model.md), because a materially different system deserves the same evidence discipline a new one would.
+
+![Figure 11. Phase 6 — Optimize & Scale: method sequence and the Scale and Renewal Review gate.](../diagrams/lifecycle-phases/phase-6-optimize-and-scale.png)
+
+*Figure 11. Phase 6 — Optimize & Scale: method sequence and the Scale and Renewal Review gate.*
 
 ## Phase objective
 

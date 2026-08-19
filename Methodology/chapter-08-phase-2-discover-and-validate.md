@@ -8,10 +8,6 @@
 
 > **CHAPTER PURPOSE** Prove that intelligence can materially improve the real workflow on representative cases with acceptable quality, safety, adoption and economics.
 
-![Figure 7. Phase 2 — Discover & Validate: method sequence and the Solution Viability Review gate.](../diagrams/lifecycle-phases/phase-2-discover-and-validate.png)
-
-*Figure 7. Phase 2 — Discover & Validate: method sequence and the Solution Viability Review gate.*
-
 ## Background and context
 
 Phase 1 produces a hypothesis; Phase 2 exists to test it honestly, before real budget goes into production engineering. That ordering matters because the two phases ask fundamentally different questions. Engage & Align asks whether an outcome is worth pursuing; Discover & Validate asks whether the specific mechanism proposed — intelligence applied to this workflow — actually works well enough, on the cases that matter, to justify building it properly. Conflating the two is one of the most common ways AI initiatives fail: a team that skips straight from a promising demo to a production build has never actually tested the hypothesis, only illustrated it.
@@ -19,6 +15,10 @@ Phase 1 produces a hypothesis; Phase 2 exists to test it honestly, before real b
 The discipline this phase enforces is representativeness. It is easy to make almost any model or agent look capable on a handful of hand-picked examples; it is much harder, and much more informative, to make it work on the exceptions, the ambiguous cases, and the inputs where the available evidence is thin or contradictory. A vertical slice that only ever sees the happy path tells you nothing about what will happen in production, where the happy path is a minority of real traffic for most enterprise workflows. This is also the phase where the team confronts, in a controlled setting, the question of whether users can actually oversee and correct the system — a question that architecture diagrams cannot answer on their own.
 
 What Phase 2 hands to [Phase 3 — Engineer & Integrate](chapter-09-phase-3-engineer-and-integrate.md) is evidence, not just a decision to proceed: a characterized set of failure modes, a sense of where the workflow needs redesign rather than automation, and an economic sensitivity analysis that tells the engineering team which quality thresholds actually matter. The data-readiness work done here connects directly to [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md), which is where knowledge-grounding failures identified in this phase get engineered away rather than merely diagnosed; the [Data and Knowledge Readiness Assessment](../tools/02-workflow-and-intelligence-templates.md#8-data-and-knowledge-readiness-assessment) produced here is the artifact that carries that diagnosis forward.
+
+![Figure 7. Phase 2 — Discover & Validate: method sequence and the Solution Viability Review gate.](../diagrams/lifecycle-phases/phase-2-discover-and-validate.png)
+
+*Figure 7. Phase 2 — Discover & Validate: method sequence and the Solution Viability Review gate.*
 
 ## Phase objective
 

@@ -8,10 +8,6 @@
 
 > **CHAPTER PURPOSE** Convert a validated vertical slice into a secure, reliable, observable, integrated and supportable production intelligence service.
 
-![Figure 8. Phase 3 — Engineer & Integrate: method sequence and the Production Readiness Review gate.](../diagrams/lifecycle-phases/phase-3-engineer-and-integrate.png)
-
-*Figure 8. Phase 3 — Engineer & Integrate: method sequence and the Production Readiness Review gate.*
-
 ## Background and context
 
 Phase 2 answers whether intelligence can work; Phase 3 is where the organization commits to making it work reliably, at production scale, under real operating conditions and real adversarial pressure. The gap between those two things is larger than it looks from the outside. A vertical slice proved the concept on a curated set of representative cases with a small, forgiving user group; a production service has to survive the full, unfiltered variability of live traffic, integrate cleanly with the enterprise systems it depends on, degrade predictably when something upstream fails, and give the people who will support it at 2 a.m. enough visibility to know what went wrong without waking up the original build team.
@@ -19,6 +15,10 @@ Phase 2 answers whether intelligence can work; Phase 3 is where the organization
 This is deliberately the most engineering-dense phase in the lifecycle, and this chapter is intentionally light on the technical detail of how to do that engineering — that detail lives elsewhere in this handbook and is kept there rather than duplicated here. The [Architecture](../architecture/oasis-reference-architecture.md) folder's reference architecture is the structural backbone this phase builds against, and its ten [Architecture Principles](../architecture/oasis-reference-architecture.md#architecture-principles) — secure by design, observable by design, knowledge grounded, evidence gated, and the rest — are the judgment calls a Phase 3 team will make dozens of times without necessarily naming them explicitly. The six articles in the [Engineering](../engineering/) folder — covering model, context and retrieval, tool and integration, harness and orchestration, memory and state, and evaluation and reliability engineering — are the working-level specifications for each layer named in the method below. A reader arriving at this chapter to actually do Phase 3's work should treat it as a map to those documents, not a substitute for reading them.
 
 What Phase 3 hands to [Phase 4 — Activate & Adopt](chapter-10-phase-4-activate-and-adopt.md) is not a live service but a service that has been proven ready to go live under controlled exposure — the distinction between "engineered correctly" and "actually working for real users" is exactly the gap the next phase exists to close.
+
+![Figure 8. Phase 3 — Engineer & Integrate: method sequence and the Production Readiness Review gate.](../diagrams/lifecycle-phases/phase-3-engineer-and-integrate.png)
+
+*Figure 8. Phase 3 — Engineer & Integrate: method sequence and the Production Readiness Review gate.*
 
 ## Phase objective
 

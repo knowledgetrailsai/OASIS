@@ -8,10 +8,6 @@
 
 > **CHAPTER PURPOSE** Create an owned and measurable outcome contract, define the deployment boundary and decide whether the opportunity merits structured validation.
 
-![Figure 6. Phase 1 — Engage & Align: method sequence and the Outcome Alignment Review gate.](../diagrams/lifecycle-phases/phase-1-engage-and-align.png)
-
-*Figure 6. Phase 1 — Engage & Align: method sequence and the Outcome Alignment Review gate.*
-
 ## Background and context
 
 Every OASIS engagement begins here because every failure mode the later phases exist to catch traces back to a decision this phase either made explicit or left implicit. A team that starts building before an outcome is named, before a baseline exists, and before someone with real authority has agreed to own the result is not saving time — it is deferring the hardest conversation to a point where the sunk cost of a working prototype makes that conversation much harder to have honestly. Phase 1 exists to force that conversation early, while it is still cheap, and to produce a small set of artifacts that everything downstream can be checked against.
@@ -19,6 +15,10 @@ Every OASIS engagement begins here because every failure mode the later phases e
 This phase has no predecessor in the six-phase lifecycle; it is where an opportunity — surfaced through the portfolio process described in [Chapter 5](chapter-05-opportunity-portfolio-and-transformation-horizons.md) or raised directly by a sponsor — first becomes a scoped, owned piece of work. What it hands to [Phase 2 — Discover & Validate](chapter-08-phase-2-discover-and-validate.md) is not a solution but a well-formed question: a hypothesis about an outcome, a boundary within which to test it, and enough context about ownership and risk that the discovery team knows what "done" would look like before they start. If Phase 1 is rushed, Phase 2 inherits an ambiguous target and spends its budget re-litigating scope instead of testing whether intelligence can actually help.
 
 The primary artifacts named below — the Opportunity Assessment and Outcome Charter chief among them — are not paperwork for its own sake; they are the fillable templates in [Outcome and Portfolio Templates](../tools/01-outcome-and-portfolio-templates.md#1-opportunity-assessment), and the capability this phase is scoping against should trace to an entry in the [capability map](../architecture/perspective-01-business-and-capability-architecture.md#1-capability-map-template) described in Architecture Perspective 1. Teams that skip that cross-check often discover, well into Phase 3, that the capability they engineered against was never mapped to a business owner in the first place.
+
+![Figure 6. Phase 1 — Engage & Align: method sequence and the Outcome Alignment Review gate.](../diagrams/lifecycle-phases/phase-1-engage-and-align.png)
+
+*Figure 6. Phase 1 — Engage & Align: method sequence and the Outcome Alignment Review gate.*
 
 ## Phase objective
 
