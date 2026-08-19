@@ -21,14 +21,13 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 
 ### [Part II: The OASIS Lifecycle](Methodology/part-ii-the-oasis-lifecycle.md)
 
-- [Chapter 07: Phase 1 — Engage & Align](Methodology/chapter-07-phase-1-engage-and-align.md)
-- [Chapter 08: Phase 2 — Discover & Validate](Methodology/chapter-08-phase-2-discover-and-validate.md)
-- [Chapter 09: Phase 3 — Engineer & Integrate](Methodology/chapter-09-phase-3-engineer-and-integrate.md)
-- [Chapter 10: Phase 4 — Activate & Adopt](Methodology/chapter-10-phase-4-activate-and-adopt.md)
-- [Chapter 11: Phase 5 — Operate & Assure](Methodology/chapter-11-phase-5-operate-and-assure.md)
-- [Chapter 12: Phase 6 — Optimize & Scale](Methodology/chapter-12-phase-6-optimize-and-scale.md)
+- [Chapter 07: Phase 1 — Engage & Align](Methodology/chapter-07-phase-1-engage-and-align.md) ([diagram](diagrams/lifecycle-phases/phase-1-engage-and-align.png))
+- [Chapter 08: Phase 2 — Discover & Validate](Methodology/chapter-08-phase-2-discover-and-validate.md) ([diagram](diagrams/lifecycle-phases/phase-2-discover-and-validate.png))
+- [Chapter 09: Phase 3 — Engineer & Integrate](Methodology/chapter-09-phase-3-engineer-and-integrate.md) ([diagram](diagrams/lifecycle-phases/phase-3-engineer-and-integrate.png))
+- [Chapter 10: Phase 4 — Activate & Adopt](Methodology/chapter-10-phase-4-activate-and-adopt.md) ([diagram](diagrams/lifecycle-phases/phase-4-activate-and-adopt.png))
+- [Chapter 11: Phase 5 — Operate & Assure](Methodology/chapter-11-phase-5-operate-and-assure.md) ([diagram](diagrams/lifecycle-phases/phase-5-operate-and-assure.png))
+- [Chapter 12: Phase 6 — Optimize & Scale](Methodology/chapter-12-phase-6-optimize-and-scale.md) ([diagram](diagrams/lifecycle-phases/phase-6-optimize-and-scale.png))
 - [Chapter 13: Decision Gates and Evidence Model](Methodology/chapter-13-decision-gates-and-evidence-model.md)
-- Lifecycle phase diagrams (PNG, one per phase): [diagrams/lifecycle-phases/](diagrams/lifecycle-phases/)
 
 ### [Part III: Intelligence-System Engineering and Assurance](Methodology/part-iii-intelligence-system-engineering-and-assurance.md)
 
