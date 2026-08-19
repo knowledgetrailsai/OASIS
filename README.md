@@ -28,6 +28,7 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Chapter 11: Phase 5 — Operate & Assure](Methodology/chapter-11-phase-5-operate-and-assure.md)
 - [Chapter 12: Phase 6 — Optimize & Scale](Methodology/chapter-12-phase-6-optimize-and-scale.md)
 - [Chapter 13: Decision Gates and Evidence Model](Methodology/chapter-13-decision-gates-and-evidence-model.md)
+- Lifecycle phase diagrams (PNG, one per phase): [diagrams/lifecycle-phases/](diagrams/lifecycle-phases/)
 
 ### [Part III: Intelligence-System Engineering and Assurance](Methodology/part-iii-intelligence-system-engineering-and-assurance.md)
 

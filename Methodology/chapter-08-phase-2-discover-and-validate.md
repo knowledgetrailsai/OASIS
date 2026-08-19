@@ -8,6 +8,10 @@
 
 > **CHAPTER PURPOSE** Prove that intelligence can materially improve the real workflow on representative cases with acceptable quality, safety, adoption and economics.
 
+![Figure 7. Phase 2 — Discover & Validate: method sequence and the Solution Viability Review gate.](../diagrams/lifecycle-phases/phase-2-discover-and-validate.png)
+
+*Figure 7. Phase 2 — Discover & Validate: method sequence and the Solution Viability Review gate.*
+
 ## Background and context
 
 Phase 1 produces a hypothesis; Phase 2 exists to test it honestly, before real budget goes into production engineering. That ordering matters because the two phases ask fundamentally different questions. Engage & Align asks whether an outcome is worth pursuing; Discover & Validate asks whether the specific mechanism proposed — intelligence applied to this workflow — actually works well enough, on the cases that matter, to justify building it properly. Conflating the two is one of the most common ways AI initiatives fail: a team that skips straight from a promising demo to a production build has never actually tested the hypothesis, only illustrated it.

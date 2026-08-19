@@ -8,6 +8,10 @@
 
 > **CHAPTER PURPOSE** Improve performance, expand justified autonomy, productize recurring patterns and scale only where production evidence supports reuse.
 
+![Figure 11. Phase 6 — Optimize & Scale: method sequence and the Scale and Renewal Review gate.](../diagrams/lifecycle-phases/phase-6-optimize-and-scale.png)
+
+*Figure 11. Phase 6 — Optimize & Scale: method sequence and the Scale and Renewal Review gate.*
+
 ## Background and context
 
 Phase 5 generates the evidence; Phase 6 is where that evidence gets acted on deliberately, rather than left to accumulate as a backlog nobody prioritizes. It is the phase most easily skipped under delivery pressure — a system that is operating within acceptable limits can look finished, and teams move on to the next opportunity rather than investing in improving what already works or in generalizing it beyond its original context. That instinct is understandable and usually costly: the same failure patterns and the same reusable components tend to recur across an organization's AI portfolio, and a methodology that never asks "what repeats" ends up rebuilding the same context pipeline, the same guardrail logic and the same evaluation suite for every new use case.

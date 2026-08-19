@@ -8,6 +8,10 @@
 
 > **CHAPTER PURPOSE** Sustain service health, intelligence quality, controls and business outcomes through monitoring, incident management and continuous assurance.
 
+![Figure 10. Phase 5 — Operate & Assure: method sequence and the recurring Outcome Performance Review.](../diagrams/lifecycle-phases/phase-5-operate-and-assure.png)
+
+*Figure 10. Phase 5 — Operate & Assure: method sequence and the recurring Outcome Performance Review.*
+
 ## Background and context
 
 Phase 4 earns a service its initial operating authority; Phase 5 is where that authority has to be continuously re-earned, because nothing about a production intelligence system stays still once it is live. The knowledge it retrieves goes stale, the model behind it is upgraded or deprecated by a provider outside the organization's control, the workflow it serves gets redesigned around it, and the population of users interacting with it changes in ways that shift what "normal" input even looks like. Phase 5 is the longest-running phase in the lifecycle by a wide margin — most systems spend years here — and its job is to keep the outcome, the intelligence quality and the controls all within agreed limits despite that constant drift.

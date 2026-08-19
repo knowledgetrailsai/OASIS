@@ -8,6 +8,10 @@
 
 > **CHAPTER PURPOSE** Introduce the service progressively into live operations, enable users, validate exceptions and earn higher operating authority through evidence.
 
+![Figure 9. Phase 4 — Activate & Adopt: method sequence and the Operational Acceptance Review gate.](../diagrams/lifecycle-phases/phase-4-activate-and-adopt.png)
+
+*Figure 9. Phase 4 — Activate & Adopt: method sequence and the Operational Acceptance Review gate.*
+
 ## Background and context
 
 Phase 3 proves a system is safe to release under controlled conditions; Phase 4 is where it actually meets real users, real workload variability and real consequences, and where the organization decides — deliberately, and in increments — how much it is willing to let the system do without a human in the loop. This is the phase where the gap between "engineered correctly" and "trusted in practice" gets closed, and it is closed by evidence accumulated in production, not by confidence accumulated in a demo.

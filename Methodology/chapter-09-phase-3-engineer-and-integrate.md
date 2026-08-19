@@ -8,6 +8,10 @@
 
 > **CHAPTER PURPOSE** Convert a validated vertical slice into a secure, reliable, observable, integrated and supportable production intelligence service.
 
+![Figure 8. Phase 3 — Engineer & Integrate: method sequence and the Production Readiness Review gate.](../diagrams/lifecycle-phases/phase-3-engineer-and-integrate.png)
+
+*Figure 8. Phase 3 — Engineer & Integrate: method sequence and the Production Readiness Review gate.*
+
 ## Background and context
 
 Phase 2 answers whether intelligence can work; Phase 3 is where the organization commits to making it work reliably, at production scale, under real operating conditions and real adversarial pressure. The gap between those two things is larger than it looks from the outside. A vertical slice proved the concept on a curated set of representative cases with a small, forgiving user group; a production service has to survive the full, unfiltered variability of live traffic, integrate cleanly with the enterprise systems it depends on, degrade predictably when something upstream fails, and give the people who will support it at 2 a.m. enough visibility to know what went wrong without waking up the original build team.

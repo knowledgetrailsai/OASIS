@@ -8,6 +8,10 @@
 
 > **CHAPTER PURPOSE** Create an owned and measurable outcome contract, define the deployment boundary and decide whether the opportunity merits structured validation.
 
+![Figure 6. Phase 1 — Engage & Align: method sequence and the Outcome Alignment Review gate.](../diagrams/lifecycle-phases/phase-1-engage-and-align.png)
+
+*Figure 6. Phase 1 — Engage & Align: method sequence and the Outcome Alignment Review gate.*
+
 ## Background and context
 
 Every OASIS engagement begins here because every failure mode the later phases exist to catch traces back to a decision this phase either made explicit or left implicit. A team that starts building before an outcome is named, before a baseline exists, and before someone with real authority has agreed to own the result is not saving time — it is deferring the hardest conversation to a point where the sunk cost of a working prototype makes that conversation much harder to have honestly. Phase 1 exists to force that conversation early, while it is still cheap, and to produce a small set of artifacts that everything downstream can be checked against.
