@@ -4,6 +4,8 @@
 
 **Outcome-as-a-Service using Intelligence Systems** — the master methodology for enterprise AI transformation: what to do, in what order, and why.
 
+![OASIS Open-Source Ecosystem — ten repositories covering transformation, engineering, governance, data and knowledge, workflow design, evaluation, model architecture, economics, and operations](diagrams/oasis-open-source-ecosystem.png)
+
 ## OASIS is the master methodology. These are its companion repositories.
 
 OASIS deliberately stops short of being an implementation guide for any one practice area — that depth lives in nine companion repositories, each maintained independently and scoped to one (or a closely related pair of) Part III engineering chapters. Full mapping, ownership, and depth notes are in the [Companion Repository Index](References/companion-repository-index.md).

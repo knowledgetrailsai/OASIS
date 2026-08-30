@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Chapter 26 — OASIS Measurement Framework](../methodology/chapter-26-oasis-measurement-framework.md); [Chapter 27 — Delivery Cadence and Management Practices](../methodology/chapter-27-delivery-cadence-and-management-practices.md).
 
+**Companion repository:** [Helm](https://github.com/knowledgetrailsai/Helm) — the full implementation depth for Chapter 21's AgentOps practice: the six operational planes, observability instrumentation, incident response, and release management this perspective governs at enterprise scale.
+
 ## Background and context
 
 The Monitoring specification instruments Chapter 21's six operational planes for a single system: what to measure, where to collect it, when to alert. Operations and Observability Architecture is the enterprise rollup: once an enterprise has more than a handful of production intelligence systems, a governance function needs one view across all of them — which systems are healthy, which are in a degraded or under-review state, aggregate spend and outcome performance, and a consistent incident-response and kill-switch capability that works the same way regardless of which team built the system in question. Without this enterprise layer, each system's excellent per-system telemetry never rolls up into a portfolio view, and an enterprise-wide incident (e.g., a shared model provider outage, or a systemic prompt-injection pattern discovered in one system that likely also affects others) has no mechanism to be detected or responded to as an enterprise event.

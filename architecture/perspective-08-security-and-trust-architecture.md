@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md); [Security: Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md); [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md).
 
+**Companion repositories:** [Compass](https://github.com/knowledgetrailsai/responsible-ai) (`14-ai-security/`) is the policy and control catalog behind Chapters 19–20; [Helm](https://github.com/knowledgetrailsai/Helm)'s [agentic threat model](https://github.com/knowledgetrailsai/Helm/blob/main/06-security-and-containment/agentic-threat-model.md) covers the runtime containment layer that enforces the identity and trust model this perspective defines.
+
 ## Background and context
 
 The Security checklist specifies Chapter 19's eight defense-in-depth layers and the agentic threat model at the level a single system's security reviewer applies them. Security and Trust Architecture is the layer above that: the shared identity model, trust boundaries, and permission-issuance process that every system's controls are configured *against*. Without an enterprise trust architecture, "authorize against requesting user + business context" (the Tool specification's authorization rule) has no consistent enterprise identity source to authorize against — every system either builds its own identity and permission model, or worse, borrows service-account credentials never designed for agent-scale, high-frequency, semi-autonomous calling patterns.

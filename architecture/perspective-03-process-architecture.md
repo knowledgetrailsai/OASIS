@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md); [Chapter 9 — Phase 3: Engineer & Integrate](../methodology/chapter-09-phase-3-engineer-and-integrate.md); [Chapter 14 §7 — Workflow and orchestration selection](../methodology/chapter-14-intelligence-and-agent-engineering.md).
 
+**Companion repository:** [Loom](https://github.com/knowledgetrailsai/Loom) — the full implementation depth for Chapter 16, including the workflow-blueprint schema, progressive-autonomy ladder, and escalation-trigger design this perspective assumes at the enterprise level.
+
 ## Background and context
 
 Chapter 16 addresses human-AI workflow design at the level of a single interaction: how a human and an agent hand off a task to each other, when to interrupt for approval, how to design for override. Process Architecture takes the wider view an enterprise process owner needs: a business process (claims intake through settlement; a hire from requisition through onboarding) is usually longer, more branched, and touches more systems than any single agent's scope — an agent typically owns one or a few steps within a process it does not own end-to-end. Without an explicit process map, it becomes unclear where an agent's authority starts and stops relative to the surrounding human-owned process, and process owners lose visibility into how much of "their" process now runs through agentic components they did not design.

@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 14 §2 — Model Layer](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
+**Companion repositories:** [Axiom](https://github.com/knowledgetrailsai/Axiom) is the background reference on model architectures (Transformers, MoE, SSMs) underlying the model-selection decisions this perspective governs at enterprise scale; [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) implements Chapter 22's cost-governance discipline referenced in Section 4 below.
+
 ## Background and context
 
 [Model Engineering](../engineering/model-engineering.md) gives a single system a selection framework: benchmark against the task, choose a routing strategy, work up the optimization ladder before defaulting to fine-tuning. Left at that scope, an enterprise running dozens of systems ends up with dozens of independent model procurement decisions, no volume-pricing leverage, no shared fallback strategy when a provider has an outage, and no single view of aggregate inference spend. Inference Architecture is the enterprise layer: which models are approved for use at all, how systems are routed to them, how capacity and cost are pooled, and how a provider-level failure is contained instead of taking down every system that happened to choose the same model.

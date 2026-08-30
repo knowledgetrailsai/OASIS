@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 17 — Enterprise Integration and Tool Engineering](../methodology/chapter-17-enterprise-integration-and-tool-engineering.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
+**Companion repository:** [Helm](https://github.com/knowledgetrailsai/Helm) (`07-tool-integration/`) — light coverage of Chapter 17 exists there (tool-contract principles and one pattern catalogue); see the [Companion Repository Index](../References/companion-repository-index.md) for the known depth gap on this chapter.
+
 ## Background and context
 
 The [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md) gives one tool a complete contract: inputs, authorization, limits, failure semantics. That is the right granularity for building one tool. It is the wrong granularity for answering a portfolio question: "how many independent integrations does the enterprise have into the claims system, built by how many different teams, with how many different authorization models?" Without an integration architecture, every system re-integrates with the same enterprise systems of record from scratch, multiplying both build cost and the number of independently-configured credentials and permission scopes attached to the same underlying system — each one a separate thing to secure, audit and revoke.

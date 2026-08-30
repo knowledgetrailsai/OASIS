@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md); [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Regulatory and Standards Framework Alignment Index](../references/regulatory-framework-alignment-index.md).
 
+**Companion repositories:** [Compass](https://github.com/knowledgetrailsai/responsible-ai) implements Chapter 20's jurisdiction-specific regulatory coverage (data residency and sovereignty obligations feed directly into this perspective's placement decisions); [Helm](https://github.com/knowledgetrailsai/Helm) implements Chapter 21's deployment and release-management practice.
+
 ## Background and context
 
 Sections 1–5 of the reference architecture deliberately describe a *capability map, not a deployment topology* — each box is a responsibility, not a placement decision. That is correct for the per-system engineering view, but an enterprise operating across multiple jurisdictions cannot stay silent on placement indefinitely: data residency rules (see the DPDP Act and EU AI Act checklists in [Standards](../standards/)), latency requirements for real-time workloads, and sovereign-cloud or on-premises mandates in regulated sectors all constrain *where* a component may physically execute, not just how it behaves logically. Deployment Architecture is the missing perspective that makes those placement constraints explicit and auditable, separate from the logical component design.

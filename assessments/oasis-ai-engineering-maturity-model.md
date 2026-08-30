@@ -116,7 +116,7 @@ A dimension does not need to reach Level 4 to be "good enough" — the right tar
 
 ### Dimension 8 — Economics and FinOps
 
-*Primary chapter: [Chapter 22](../methodology/chapter-22-economics-finops-and-sustainability.md); primary source: [Inference Architecture — Cost governance](../architecture/perspective-05-inference-architecture.md#4-cost-governance).*
+*Primary chapter: [Chapter 22](../methodology/chapter-22-economics-finops-and-sustainability.md); primary source: [Inference Architecture — Cost governance](../architecture/perspective-05-inference-architecture.md#4-cost-governance).* Note: this is a different, coarser scale than [Fulcrum's own FinOps maturity levels](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/08-maturity-model/maturity-levels.md) — both happen to use Level 0-4, but this dimension scores an organization's overall economics-engineering practice, while Fulcrum's scale specifically measures cost/value-tracking sophistication (Cost Density, Value Density adoption). Don't treat a level number on one scale as equivalent to the same number on the other.
 
 | Level | What it looks like at this level |
 |---|---|

@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 15 — Data and Knowledge Engineering](../methodology/chapter-15-data-and-knowledge-engineering.md); [Chapter 14 §3–4 — Data, retrieval and context](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
+**Companion repository:** [Forge](https://github.com/knowledgetrailsai/Forge) — the full implementation depth for Chapter 15: retrieval architectures, embeddings, grounding policy, and knowledge-domain design underlying this perspective's enterprise-wide framing.
+
 ## Background and context
 
 [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md) specifies how one system assembles context for one task: ingestion, chunking, indexing, retrieval, and the authorization-aware, source-attributed, fresh, compressed context an individual harness consumes. That document is intentionally scoped to a single system's retrieval pipeline. This perspective is the layer above it: an enterprise typically has a small number of authoritative knowledge domains (product, policy, customer, case history, regulatory) that many systems need to draw on, and if each system builds its own independent ingestion and indexing pipeline against the same underlying source of truth, the enterprise ends up with as many divergent copies of "the current policy" as it has systems — each capable of drifting out of sync with the others and with the source of truth itself.

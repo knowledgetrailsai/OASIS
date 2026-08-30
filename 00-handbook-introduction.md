@@ -15,6 +15,8 @@ intelligence-system delivery and continuous outcome assurance*
 
 **Version 1.0 \| July 2026**
 
+![OASIS Open-Source Ecosystem — ten repositories covering transformation, engineering, governance, data and knowledge, workflow design, evaluation, model architecture, economics, and operations](diagrams/oasis-open-source-ecosystem.png)
+
 ## OASIS is the master methodology. These are its companion repositories.
 
 OASIS defines what to do and why, at the level of principles, phases and gates. It deliberately does not carry deep technical implementation detail for every practice area — that detail changes faster than a methodology should, and differs by stack. That depth lives instead in nine independently-maintained companion repositories, each scoped to one (or a closely related pair) of the Part III engineering chapters:

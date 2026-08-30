@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 14 §6–7 — Harness and Orchestration](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 6 — OASIS Operating Model and Decision Rights](../methodology/chapter-06-oasis-operating-model-and-decision-rights.md); [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md).
 
+**Companion repositories:** [Ageis](https://github.com/knowledgetrailsai/Ageis) implements the agentic coding-delivery instance of Chapter 14's agent taxonomy; [Loom](https://github.com/knowledgetrailsai/Loom) implements Chapter 16's human-AI workflow and progressive-autonomy design that this perspective's collaboration rules assume.
+
 ## Background and context
 
 Chapter 14 §7 gives a single system the decision rule for choosing deterministic function, explicit workflow, single agent, or multi-agent. It deliberately does not name agent *types* at enterprise scale, because that is an architecture-portfolio decision, not a per-system engineering one. Left unaddressed, this gap produces a familiar failure mode: five teams each build a "customer-facing assistant agent" with incompatible responsibilities, authority levels, and escalation logic, and nobody can answer "which of our agents can independently commit spend?" without reading every system's code. Agent Architecture is the enterprise taxonomy that prevents that — a small, closed set of agent types with clearly bounded responsibilities, so that adding the fortieth agent to the enterprise is a classification exercise against an existing taxonomy, not an ad hoc design decision.
