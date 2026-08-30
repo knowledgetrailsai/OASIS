@@ -24,6 +24,8 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 
 ### Service plane
 
+*Deeper build-out: [Helm — Service Plane](https://github.com/knowledgetrailsai/Helm/blob/main/00-foundations/the-six-operational-planes.md#1-service-plane).*
+
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
 | Availability (%) | Load balancer / gateway | Below SLA target for rolling 5-min window |
@@ -34,6 +36,8 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 | Dependency health | Per upstream system (model provider, tool APIs, data services) | Any dependency below its own SLA |
 
 ### Intelligence plane
+
+*Deeper build-out: [Helm — Intelligence Plane](https://github.com/knowledgetrailsai/Helm/blob/main/00-foundations/the-six-operational-planes.md#2-intelligence-plane); "Retrieval quality" row implemented against [Forge's retrieval-evaluation.md](https://github.com/knowledgetrailsai/Forge/blob/main/04-grounding-and-context-quality/retrieval-evaluation.md).*
 
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
@@ -46,6 +50,8 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 
 ### Risk plane
 
+*Deeper build-out: [Helm — Risk Plane](https://github.com/knowledgetrailsai/Helm/blob/main/00-foundations/the-six-operational-planes.md#3-risk-plane); "Policy violations" row implemented against [Compass's securing-agentic-ai.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/14-ai-security/securing-agentic-ai.md).*
+
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
 | Unauthorized action attempts | Tool authorization layer | Any occurrence — page on-call immediately |
@@ -55,6 +61,8 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 | Control failures (guardrail bypass or malfunction) | Runtime trace | Any occurrence — immediate review |
 
 ### Human plane
+
+*Deeper build-out: [Helm — Human Plane](https://github.com/knowledgetrailsai/Helm/blob/main/00-foundations/the-six-operational-planes.md#4-human-plane); "Override rate" and escalation behavior implemented against [Loom's](https://github.com/knowledgetrailsai/Loom) workflow-blueprint escalation triggers.*
 
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
@@ -66,6 +74,8 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 
 ### Economic plane
 
+*Deeper build-out: [Helm — Economic Plane](https://github.com/knowledgetrailsai/Helm/blob/main/00-foundations/the-six-operational-planes.md#5-economic-plane); "Cost per successful outcome" is [Fulcrum's](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/04-measurement-and-observability/cost-value-density.md) primary metric, computed there in full.*
+
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
 | Token cost per request | Model/API billing telemetry | Exceeds budget threshold from [Value and Risk Case](../methodology/chapter-32-templates-checklists-and-tools.md#5-value-and-risk-case) |
@@ -75,6 +85,8 @@ Chapter 21 defines six planes. Each row below adds representative metrics, a sug
 | Cost per successful outcome | Composite (economic ÷ outcome plane) | Primary FinOps metric — trend reviewed at delivery cadence (Ch.27) |
 
 ### Outcome plane
+
+*Deeper build-out: [Helm — Outcome Plane](https://github.com/knowledgetrailsai/Helm/blob/main/00-foundations/the-six-operational-planes.md#6-outcome-plane).*
 
 | Metric | Collection point | Example alert trigger |
 |---|---|---|
