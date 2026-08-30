@@ -12,7 +12,7 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 
 **Delivery or engagement lead.** You're running an initiative through the six phases. Begin with [Chapter 04: Multiple Entry Paths and Configurable Depth](methodology/chapter-04-multiple-entry-paths-and-configurable-depth.md) to pick the right depth, then work through [Part II: The OASIS Lifecycle](methodology/part-ii-the-oasis-lifecycle.md) (Chapters 7–13), each phase illustrated with its own diagram. [Chapter 32](methodology/chapter-32-templates-checklists-and-tools.md) names the twenty artifacts you'll actually produce; their fillable versions are in [Tools](tools/01-outcome-and-portfolio-templates.md). The [Master Glossary and Roles Roster](references/master-glossary-and-roles-roster.md) resolves any unfamiliar term or role along the way.
 
-**Architect or engineer building the system.** Begin with [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md) for the system equation, then the six companion articles in the Engineering section below — Model, Context, Tool, Harness, Memory, and Evaluation Engineering — and the [OASIS Reference Architecture](architecture/oasis-reference-architecture.md) with its nine enterprise perspectives for how the pieces fit together as components.
+**Architect or engineer building the system.** Begin with [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md) for the system equation, then the six companion articles in the Engineering section below — Model, Context, Tool, Harness, Memory, and Evaluation Engineering — and the [OASIS Reference Architecture](architecture/oasis-reference-architecture.md) with its nine enterprise perspectives for how the pieces fit together as components. The [Companion Repository Index](references/companion-repository-index.md) points to the implementation-depth repository for each Part III chapter.
 
 **Security, governance, risk or compliance reviewer.** Begin with [Chapter 19: Security and Responsible AI Engineering](methodology/chapter-19-security-and-responsible-ai-engineering.md) and [Chapter 20: Governance, Compliance and Regulatory Engineering](methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), then the [Security: Agentic AI Threat Model and Control Checklist](security/agentic-ai-threat-and-control-checklist.md) and the four framework-specific checklists in [Standards](standards/iso-42001-alignment-checklist.md), each indexed from the [Regulatory and Standards Framework Alignment Index](references/regulatory-framework-alignment-index.md).
 
@@ -79,6 +79,7 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Standard: DPDP Act Alignment Checklist](standards/dpdp-act-alignment-checklist.md)
 - Additional relevant standards and frameworks are listed in the alignment index.
 - [Master Glossary and Roles Roster](references/master-glossary-and-roles-roster.md) (terms and roles across the whole repository, plus a default RACI)
+- [Companion Repository Index](references/companion-repository-index.md) (the implementation repository for each Part III chapter, and how far each one currently goes)
 
 ## Assessments
 

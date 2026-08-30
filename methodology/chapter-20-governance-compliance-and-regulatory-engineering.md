@@ -4,6 +4,8 @@
 
 # Chapter 20: Governance, Compliance and Regulatory Engineering
 
+> **Implementation companion:** [Compass](https://github.com/knowledgetrailsai/Responsible-AI) (`03-ai-governance/`, `10-regulations-and-standards/`).
+
 # Governance, Compliance and Regulatory Engineering
 
 > **CHAPTER PURPOSE** Translate applicable laws, policies, standards and risk appetite into testable controls, decision rights, records and operating evidence.

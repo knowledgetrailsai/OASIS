@@ -4,6 +4,8 @@
 
 # Chapter 21: Deployment, Operations and AgentOps
 
+> **Implementation companion:** [Helm](https://github.com/knowledgetrailsai/Helm) — primary companion, full depth.
+
 # Deployment, Operations and AgentOps
 
 > **CHAPTER PURPOSE** Run intelligence systems as production services with versioning, tracing, quality monitoring, incident response, rollback and learning loops.

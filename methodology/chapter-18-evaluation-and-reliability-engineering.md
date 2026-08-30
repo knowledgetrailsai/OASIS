@@ -4,6 +4,8 @@
 
 # Chapter 18: Evaluation and Reliability Engineering
 
+> **Implementation companion:** [Verity](https://github.com/knowledgetrailsai/Verity) (primary, full depth); [Helm](https://github.com/knowledgetrailsai/Helm) (`04-learning-loop/`, production tie-in only).
+
 # Evaluation and Reliability Engineering
 
 > **CHAPTER PURPOSE** Create the evidence system that measures response quality, agent behavior, workflow completion, resilience and business-outcome contribution.
