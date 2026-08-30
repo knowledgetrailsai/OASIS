@@ -4,6 +4,8 @@
 
 # Chapter 16: Human–AI Workflow and Experience Engineering
 
+> **Implementation companion:** [Loom](https://github.com/knowledgetrailsai/Loom).
+
 # Human–AI Workflow and Experience Engineering
 
 > **CHAPTER PURPOSE** Redesign work around complementary human and machine strengths, explicit authority, usable oversight, trust calibration and accessible experiences.

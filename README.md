@@ -2,7 +2,27 @@
 
 # OASIS Methodology Handbook
 
-**Outcome-as-a-Service using Intelligence Systems**
+**Outcome-as-a-Service using Intelligence Systems** — the master methodology for enterprise AI transformation: what to do, in what order, and why.
+
+## OASIS is the master methodology. These are its companion repositories.
+
+OASIS deliberately stops short of being an implementation guide for any one practice area — that depth lives in nine companion repositories, each maintained independently and scoped to one (or a closely related pair of) Part III engineering chapters. Full mapping, ownership, and depth notes are in the [Companion Repository Index](References/companion-repository-index.md).
+
+| Repository | Chapter(s) | What it covers |
+|---|---|---|
+| [Ageis](https://github.com/knowledgetrailsai/Ageis) | Ch. 14 | Agentic coding delivery — the "Intelligence and Agent Engineering" discipline applied to software delivery end to end |
+| [Forge](https://github.com/knowledgetrailsai/Forge) | Ch. 15 | Data and knowledge engineering — retrieval architectures, embeddings, grounding |
+| [Loom](https://github.com/knowledgetrailsai/Loom) | Ch. 16 | Human–AI workflow and experience engineering — progressive autonomy, escalation, workflow blueprints |
+| [Helm](https://github.com/knowledgetrailsai/Helm) | Ch. 17 (light), 18 (light), 19, 21, 26 | Deployment, operations, and AgentOps — observability, release management, incident response, security containment |
+| [Verity](https://github.com/knowledgetrailsai/Verity) | Ch. 18 | Evaluation and reliability engineering — the fifteen-dimension evaluation methodology, statistical rigor, failure taxonomy |
+| [Compass](https://github.com/knowledgetrailsai/responsible-ai) | Ch. 19, 20 | Security, responsible AI, governance, and regulatory compliance across jurisdictions |
+| [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) | Ch. 22 | Economics, FinOps, and sustainability — cost and value tracking for AI systems |
+| [Nexus](https://github.com/knowledgetrailsai/Nexus) | Cross-cutting (feeds Ch. 5) | The opportunity catalog — which use case, in which domain and function, before it enters the OASIS lifecycle |
+| [Axiom](https://github.com/knowledgetrailsai/Axiom) | Background (underpins Ch. 14) | AI model architecture reference — Transformers, MoE, SSMs, and related families — not itself a chapter companion |
+
+**Known gap:** Chapter 17 (Enterprise Integration and Tool Engineering) has no dedicated companion at Forge/Loom/Verity's depth yet — see the index for what light coverage exists in Helm.
+
+---
 
 This is a deliberately simple, Markdown-only GitHub package. All handbook pages are stored in this single folder and linked using relative Markdown links. Open this `README.md` file to navigate the handbook. See [CHANGELOG.md](CHANGELOG.md) for what's changed and when, including the review cadence expected for the Standards and References material.
 
@@ -12,7 +32,7 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 
 **Delivery or engagement lead.** You're running an initiative through the six phases. Begin with [Chapter 04: Multiple Entry Paths and Configurable Depth](methodology/chapter-04-multiple-entry-paths-and-configurable-depth.md) to pick the right depth, then work through [Part II: The OASIS Lifecycle](methodology/part-ii-the-oasis-lifecycle.md) (Chapters 7–13), each phase illustrated with its own diagram. [Chapter 32](methodology/chapter-32-templates-checklists-and-tools.md) names the twenty artifacts you'll actually produce; their fillable versions are in [Tools](tools/01-outcome-and-portfolio-templates.md). The [Master Glossary and Roles Roster](references/master-glossary-and-roles-roster.md) resolves any unfamiliar term or role along the way.
 
-**Architect or engineer building the system.** Begin with [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md) for the system equation, then the six companion articles in the Engineering section below — Model, Context, Tool, Harness, Memory, and Evaluation Engineering — and the [OASIS Reference Architecture](architecture/oasis-reference-architecture.md) with its nine enterprise perspectives for how the pieces fit together as components.
+**Architect or engineer building the system.** Begin with [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md) for the system equation, then the six companion articles in the Engineering section below — Model, Context, Tool, Harness, Memory, and Evaluation Engineering — and the [OASIS Reference Architecture](architecture/oasis-reference-architecture.md) with its nine enterprise perspectives for how the pieces fit together as components. The [Companion Repository Index](References/companion-repository-index.md) points to the implementation-depth repository for each Part III chapter.
 
 **Security, governance, risk or compliance reviewer.** Begin with [Chapter 19: Security and Responsible AI Engineering](methodology/chapter-19-security-and-responsible-ai-engineering.md) and [Chapter 20: Governance, Compliance and Regulatory Engineering](methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), then the [Security: Agentic AI Threat Model and Control Checklist](security/agentic-ai-threat-and-control-checklist.md) and the four framework-specific checklists in [Standards](standards/iso-42001-alignment-checklist.md), each indexed from the [Regulatory and Standards Framework Alignment Index](references/regulatory-framework-alignment-index.md).
 
@@ -79,6 +99,7 @@ This is a deliberately simple, Markdown-only GitHub package. All handbook pages 
 - [Standard: DPDP Act Alignment Checklist](standards/dpdp-act-alignment-checklist.md)
 - Additional relevant standards and frameworks are listed in the alignment index.
 - [Master Glossary and Roles Roster](references/master-glossary-and-roles-roster.md) (terms and roles across the whole repository, plus a default RACI)
+- [Companion Repository Index](References/companion-repository-index.md) (the implementation repository for each Part III chapter, and how far each one currently goes)
 
 ## Assessments
 

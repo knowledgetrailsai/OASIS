@@ -4,6 +4,8 @@
 
 # Chapter 22: Economics, FinOps and Sustainability
 
+> **Implementation companion:** [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum).
+
 # Economics, FinOps and Sustainability
 
 > **CHAPTER PURPOSE** Measure unit economics and total value while optimizing model routing, context, latency, infrastructure, human intervention and environmental impact.

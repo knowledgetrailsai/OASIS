@@ -15,6 +15,24 @@ intelligence-system delivery and continuous outcome assurance*
 
 **Version 1.0 \| July 2026**
 
+## OASIS is the master methodology. These are its companion repositories.
+
+OASIS defines what to do and why, at the level of principles, phases and gates. It deliberately does not carry deep technical implementation detail for every practice area — that detail changes faster than a methodology should, and differs by stack. That depth lives instead in nine independently-maintained companion repositories, each scoped to one (or a closely related pair) of the Part III engineering chapters:
+
+| Repository | Chapter(s) | What it covers |
+|---|---|---|
+| [Ageis](https://github.com/knowledgetrailsai/Ageis) | Ch. 14 | Agentic coding delivery |
+| [Forge](https://github.com/knowledgetrailsai/Forge) | Ch. 15 | Data and knowledge engineering |
+| [Loom](https://github.com/knowledgetrailsai/Loom) | Ch. 16 | Human-AI workflow and experience engineering |
+| [Helm](https://github.com/knowledgetrailsai/Helm) | Ch. 17 (light), 18 (light), 19, 21, 26 | Deployment, operations, and AgentOps |
+| [Verity](https://github.com/knowledgetrailsai/Verity) | Ch. 18 | Evaluation and reliability engineering |
+| [Compass](https://github.com/knowledgetrailsai/responsible-ai) | Ch. 19, 20 | Security, responsible AI, governance, and regulatory compliance |
+| [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) | Ch. 22 | Economics, FinOps, and sustainability |
+| [Nexus](https://github.com/knowledgetrailsai/Nexus) | Cross-cutting (feeds Ch. 5) | The opportunity catalog |
+| [Axiom](https://github.com/knowledgetrailsai/Axiom) | Background (underpins Ch. 14) | AI model architecture reference, not itself a chapter companion |
+
+The full mapping, ownership, and depth notes for each are in the [Companion Repository Index](References/companion-repository-index.md).
+
 # Purpose of this handbook
 
 This handbook defines OASIS as a practical, scalable and regulation-aware methodology for taking an AI opportunity from outcome hypothesis through validation, production engineering, adoption, assurance and enterprise scale. It is designed for small, medium and large organizations and for initiatives that begin at different points.
@@ -36,6 +54,7 @@ This handbook defines OASIS as a practical, scalable and regulation-aware method
 ## Document conventions
 
 “Must” identifies the OASIS minimum for the stated assurance level. “Should” identifies a recommended practice that may be tailored with rationale. “May” identifies an optional technique. Gate decisions are explicit management decisions; work within phases remains iterative.
+
 
 # Contents
 

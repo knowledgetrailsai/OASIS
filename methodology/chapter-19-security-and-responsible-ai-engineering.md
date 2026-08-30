@@ -4,6 +4,8 @@
 
 # Chapter 19: Security and Responsible AI Engineering
 
+> **Implementation companion:** [Compass](https://github.com/knowledgetrailsai/Responsible-AI) (`14-ai-security/`).
+
 # Security and Responsible AI Engineering
 
 > **CHAPTER PURPOSE** Embed defense-in-depth security, misuse prevention, fairness, transparency, human control and containment throughout the lifecycle.
