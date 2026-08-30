@@ -37,6 +37,13 @@ This handbook defines OASIS as a practical, scalable and regulation-aware method
 
 “Must” identifies the OASIS minimum for the stated assurance level. “Should” identifies a recommended practice that may be tailored with rationale. “May” identifies an optional technique. Gate decisions are explicit management decisions; work within phases remains iterative.
 
+## OASIS and its companion repositories
+
+OASIS is the master methodology. It defines what to do and why, at the level of principles, phases and gates. It does not carry deep technical implementation detail for every practice area, because that detail changes faster than a methodology should and differs by stack.
+
+For the nine Part III chapters (engineering practice areas), a separate companion repository carries the implementation depth: concrete architectures, formulas, worked examples, and citations to primary sources. Each companion repository is scoped to one chapter (or a closely related pair) and is maintained independently, so it can go deeper and update faster than the handbook itself. The full mapping — which repository backs which chapter, and how far each one currently goes — is in the [Companion Repository Index](References/companion-repository-index.md).
+
+
 # Contents
 
 - [Handbook Introduction](00-handbook-introduction.md)
