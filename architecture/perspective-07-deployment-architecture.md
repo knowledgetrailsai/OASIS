@@ -12,9 +12,9 @@
 
 ## Background and context
 
-Sections 1–5 of the reference architecture deliberately describe a *capability map, not a deployment topology* — each box is a responsibility, not a placement decision. That is correct for the per-system engineering view, but an enterprise operating across multiple jurisdictions cannot stay silent on placement indefinitely: data residency rules (see the DPDP Act and EU AI Act checklists in [Standards](../standards/)), latency requirements for real-time workloads, and sovereign-cloud or on-premises mandates in regulated sectors all constrain *where* a component may physically execute, not just how it behaves logically. Deployment Architecture is the missing perspective that makes those placement constraints explicit and auditable, separate from the logical component design.
+Sections 1–5 of the reference architecture describe a *capability map, not a deployment topology* — each box is a responsibility, not a placement decision. That's correct for the per-system engineering view. But an enterprise operating across multiple jurisdictions cannot stay silent on placement indefinitely. Data residency rules (see the DPDP Act and EU AI Act checklists in [Standards](../standards/)), latency requirements for real-time workloads, and sovereign-cloud or on-premises mandates in regulated sectors all constrain *where* a component may physically execute, not just how it behaves logically. Deployment Architecture is the missing perspective that makes those placement constraints explicit and auditable, separate from the logical component design.
 
-This is new content relative to the rest of this repository — no existing Engineering or Monitoring article addresses physical/regional placement — because it sits at the intersection of infrastructure architecture (usually owned outside the AI delivery team) and the regulatory obligations this repository already indexes in Standards and References.
+This is new content relative to the rest of this repository — no existing Engineering or Monitoring article addresses physical/regional placement. It sits at the intersection of infrastructure architecture (usually owned outside the AI delivery team) and the regulatory obligations this repository already indexes in Standards and References.
 
 ## 1. Placement decision table
 
@@ -39,6 +39,8 @@ For each component in the system-equation diagram (model layer, context/retrieva
 | Hybrid | Most enterprises in practice — some components centralized, others regionally or on-prem placed per constraint. | Requires the placement decision table above to be maintained per component, not assumed uniform across the system. |
 
 ## 3. Sovereignty and residency checklist
+
+For the jurisdiction-by-jurisdiction detail behind this checklist, see Compass's [regulatory comparison](https://github.com/knowledgetrailsai/responsible-ai/blob/main/10-regulations-and-standards/regulatory-comparison.md).
 
 | # | Check | Evidence |
 |---|---|---|

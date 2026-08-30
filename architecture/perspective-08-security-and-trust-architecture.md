@@ -12,11 +12,15 @@
 
 ## Background and context
 
-The Security checklist specifies Chapter 19's eight defense-in-depth layers and the agentic threat model at the level a single system's security reviewer applies them. Security and Trust Architecture is the layer above that: the shared identity model, trust boundaries, and permission-issuance process that every system's controls are configured *against*. Without an enterprise trust architecture, "authorize against requesting user + business context" (the Tool specification's authorization rule) has no consistent enterprise identity source to authorize against — every system either builds its own identity and permission model, or worse, borrows service-account credentials never designed for agent-scale, high-frequency, semi-autonomous calling patterns.
+The Security checklist specifies Chapter 19's eight defense-in-depth layers and the agentic threat model at the level a single system's security reviewer applies them. Security and Trust Architecture is the layer above that: the shared identity model, trust boundaries, and permission-issuance process that every system's controls are configured *against*.
 
-This perspective is where identity, agent-to-agent trust, and enterprise-wide permission issuance are architected once, so every per-system Security checklist review can assume a consistent identity foundation rather than re-litigating it.
+Without an enterprise trust architecture, "authorize against requesting user + business context" (the Tool specification's authorization rule) has no consistent enterprise identity source to authorize against. Every system either builds its own identity and permission model, or worse, borrows service-account credentials never designed for agent-scale, high-frequency, semi-autonomous calling patterns.
+
+This perspective is where identity, agent-to-agent trust, and enterprise-wide permission issuance are architected once. Every per-system Security checklist review can then assume a consistent identity foundation instead of re-litigating it.
 
 ## 1. Identity and trust model
+
+Compass's [identity and authorization](https://github.com/knowledgetrailsai/responsible-ai/blob/main/07-agentic-ai/identity-and-authorization.md) note works through the agent-identity row below in more depth.
 
 | Identity type | How it is issued | How it is scoped | How it is revoked |
 |---|---|---|---|

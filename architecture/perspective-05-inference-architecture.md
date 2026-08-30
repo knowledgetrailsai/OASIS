@@ -12,9 +12,11 @@
 
 ## Background and context
 
-[Model Engineering](../engineering/model-engineering.md) gives a single system a selection framework: benchmark against the task, choose a routing strategy, work up the optimization ladder before defaulting to fine-tuning. Left at that scope, an enterprise running dozens of systems ends up with dozens of independent model procurement decisions, no volume-pricing leverage, no shared fallback strategy when a provider has an outage, and no single view of aggregate inference spend. Inference Architecture is the enterprise layer: which models are approved for use at all, how systems are routed to them, how capacity and cost are pooled, and how a provider-level failure is contained instead of taking down every system that happened to choose the same model.
+[Model Engineering](../engineering/model-engineering.md) gives a single system a selection framework: benchmark against the task, choose a routing strategy, work up the optimization ladder before defaulting to fine-tuning. Left at that scope, an enterprise running dozens of systems ends up with dozens of independent model procurement decisions, no volume-pricing leverage, no shared fallback strategy when a provider has an outage, and no single view of aggregate inference spend.
 
-This is also where the [Model independent](oasis-reference-architecture.md#architecture-principles) principle becomes an enterprise capability rather than a per-system aspiration: an inference layer that mediates access to models through a common routing service is what actually lets any individual system swap models without an application-level rewrite.
+Inference Architecture is the enterprise layer that fixes this: which models are approved for use at all, how systems are routed to them, how capacity and cost are pooled, and how a provider-level failure is contained instead of taking down every system that happened to choose the same model.
+
+This is also where the [Model independent](oasis-reference-architecture.md#architecture-principles) principle becomes an enterprise capability rather than a per-system aspiration. An inference layer that mediates access to models through a common routing service is what actually lets any individual system swap models without an application-level rewrite.
 
 ## 1. Approved model registry
 
@@ -33,7 +35,7 @@ flowchart LR
     LOG --> MON[Monitoring: Economic plane]
 ```
 
-A centralized inference gateway is not mandatory for every enterprise, but the routing decision, the fallback decision, and the cost/telemetry capture should be architected as a shared capability even if implemented per-system initially — retrofitting a shared gateway after dozens of systems have hard-coded direct model calls is materially more expensive than architecting for it from the second system onward.
+A centralized inference gateway is not mandatory for every enterprise. But the routing decision, the fallback decision, and the cost/telemetry capture should be architected as a shared capability even if implemented per-system initially. Retrofitting a shared gateway after dozens of systems have hard-coded direct model calls costs far more than architecting for it from the second system onward.
 
 ## 3. Separation and isolation rules
 
@@ -46,7 +48,7 @@ A centralized inference gateway is not mandatory for every enterprise, but the r
 
 ## 4. Cost governance
 
-Aggregate inference spend is tracked centrally against the [Economic plane](../monitoring/observability-and-telemetry-specification.md#economic-plane) metrics, rolled up across all consuming systems — a single system's Value and Risk Case budget is a component of this enterprise total, not a substitute for tracking it.
+Aggregate inference spend is tracked centrally against the [Economic plane](../monitoring/observability-and-telemetry-specification.md#economic-plane) metrics, rolled up across all consuming systems — a single system's Value and Risk Case budget is a component of this enterprise total, not a substitute for tracking it. Fulcrum's [metrics catalog](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/04-measurement-and-observability/metrics-catalog.md) gives the specific metrics to roll up.
 
 ---
 

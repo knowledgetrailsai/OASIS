@@ -10,7 +10,9 @@ Covers templates 13–16 of 20. See also: [Outcome and Portfolio Templates](01-o
 
 ## Background and context
 
-These four templates carry the transition from a built system to a running service: confirming it is safe to expose to live users, confirming it is actually working for them once it is, and giving the team that will operate it going forward the running record (scorecard, runbook) it needs to do so without re-deriving context from the build team. Production readiness and operational acceptance are deliberately separate gates rather than one — a system can be technically safe to release and still fail to deliver the outcome once real users touch it, and conflating the two gates hides that failure mode until it is expensive to fix.
+These four templates carry the transition from a built system to a running service: confirming it is safe to expose to live users, confirming it is actually working for them once it is, and giving the team that will operate it going forward the running record (scorecard, runbook) it needs, without re-deriving context from the build team.
+
+Production readiness and operational acceptance are deliberately separate gates, not one. A system can be technically safe to release and still fail to deliver the outcome once real users touch it. Conflating the two gates hides that failure mode until it is expensive to fix.
 
 ---
 
@@ -55,7 +57,7 @@ These four templates carry the transition from a built system to a running servi
 | 9 | Named service owner in place | | | |
 | 10 | Accepted operating authority (per Autonomy Matrix) | | | |
 
-Operational acceptance is a distinct gate from production readiness — readiness confirms the system is safe to expose to live users; acceptance confirms it is actually working for them.
+Operational acceptance is a distinct gate from production readiness. Readiness confirms the system is safe to expose to live users; acceptance confirms it is actually working for them.
 
 ---
 
@@ -75,7 +77,7 @@ Operational acceptance is a distinct gate from production readiness — readines
 | Economics | | | | | | |
 | Reuse | | | | | | |
 
-Review at the cadence set in [Chapter 27 — Delivery Cadence and Management Practices](../methodology/chapter-27-delivery-cadence-and-management-practices.md). A scorecard with no "Action" entries for two consecutive reviews should prompt a check on whether it's actually being used to make decisions or just archived.
+Review at the cadence set in [Chapter 27 — Delivery Cadence and Management Practices](../methodology/chapter-27-delivery-cadence-and-management-practices.md). A scorecard with no "Action" entries for two consecutive reviews should prompt a check on whether it's actually informing decisions, or just being archived.
 
 ---
 

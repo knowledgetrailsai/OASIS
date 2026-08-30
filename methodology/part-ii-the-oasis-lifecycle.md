@@ -4,7 +4,7 @@
 
 # Part II: The OASIS Lifecycle
 
-*Six evidence-led phases from outcome intent to repeatable enterprise value.*
+*Six evidence-led phases, from a stated outcome to value the enterprise can repeat.*
 
 ## Chapters in this part
 

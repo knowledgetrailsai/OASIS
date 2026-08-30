@@ -12,9 +12,11 @@
 
 ## Background and context
 
-Regulation (EU) 2024/1689, known as the EU AI Act, is the first comprehensive, horizontal AI-specific law enacted by a major regulator. It entered into force on 1 August 2024 and applies on a **staggered timeline**: prohibited-practice provisions (Art. 5) applied from 2 February 2025; obligations on general-purpose AI (GPAI) model providers applied from 2 August 2025; most high-risk system obligations apply from 2 August 2026 for Annex III use cases, with a longer runway to 2 August 2027 for AI systems that are safety components of products already regulated under other EU product-safety law (Annex I). Because provisions phase in at different times, the applicable obligation set for any given system depends on both its risk classification and the current date — always confirm current status against the official text rather than assuming full applicability.
+Regulation (EU) 2024/1689, known as the EU AI Act, is the first comprehensive, horizontal AI-specific law enacted by a major regulator. It entered into force on 1 August 2024 and applies on a **staggered timeline**: prohibited-practice provisions (Art. 5) applied from 2 February 2025; obligations on general-purpose AI (GPAI) model providers applied from 2 August 2025; most high-risk system obligations apply from 2 August 2026 for Annex III use cases, with a longer runway to 2 August 2027 for AI systems that are safety components of products already regulated under other EU product-safety law (Annex I).
 
-The Act has **extraterritorial reach**: it applies to any provider placing an AI system on the EU market, any deployer using an AI system within the EU, and — notably — to providers and deployers located outside the EU whose AI system's *output* is used within the EU, regardless of where the organization is headquartered. This means a non-EU enterprise with no EU legal entity can still be in scope if its AI system's output reaches EU users or EU-based decisions.
+Because provisions phase in at different times, the applicable obligation set for any given system depends on both its risk classification and the current date. Always confirm current status against the official text rather than assuming full applicability.
+
+The Act has **extraterritorial reach**. It applies to any provider placing an AI system on the EU market, any deployer using an AI system within the EU, and — notably — to providers and deployers located outside the EU whose AI system's *output* is used within the EU, regardless of where the organization is headquartered. A non-EU enterprise with no EU legal entity can still be in scope if its AI system's output reaches EU users or EU-based decisions.
 
 The Act's core structure is a **risk-based tiered system**:
 
@@ -24,7 +26,7 @@ The Act's core structure is a **risk-based tiered system**:
 - **Minimal risk** — the large majority of AI systems, with no AI-Act-specific obligations beyond voluntary codes of conduct.
 - **General-Purpose AI (GPAI) models** — a separate obligation track (Chapter V) for providers of foundation/general-purpose models, with an additional, heavier obligation set for models classified as carrying "systemic risk" based on a compute-threshold test.
 
-Non-compliance carries significant financial exposure: fines of up to **€35 million or 7% of global annual turnover** (whichever is higher) for violations of the prohibited-practices provisions, and up to €15 million or 3% of global annual turnover for most other violations — making risk-tier determination (Step 0 below) the highest-leverage first move in any EU AI Act workstream.
+Non-compliance carries significant financial exposure: fines of up to **€35 million or 7% of global annual turnover** (whichever is higher) for violations of the prohibited-practices provisions, and up to €15 million or 3% of global annual turnover for most other violations. That makes risk-tier determination (Step 0 below) the most important first move in any EU AI Act workstream.
 
 ## Step 0 — Role and risk-tier determination (do this first)
 

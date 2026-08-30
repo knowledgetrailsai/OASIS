@@ -19,7 +19,7 @@ intelligence-system delivery and continuous outcome assurance*
 
 ## OASIS is the master methodology. These are its companion repositories.
 
-OASIS defines what to do and why, at the level of principles, phases and gates. It deliberately does not carry deep technical implementation detail for every practice area — that detail changes faster than a methodology should, and differs by stack. That depth lives instead in nine independently-maintained companion repositories, each scoped to one (or a closely related pair) of the Part III engineering chapters:
+OASIS defines what to do and why, at the level of principles, phases and gates. It does not carry deep technical detail for every practice area, because that detail changes faster than a methodology should, and it differs by stack. That detail lives instead in nine companion repositories. Each one is maintained independently and covers one (or a closely related pair) of the Part III engineering chapters:
 
 | Repository | Chapter(s) | What it covers |
 |---|---|---|
@@ -37,9 +37,9 @@ The full mapping, ownership, and depth notes for each are in the [Companion Repo
 
 # Purpose of this handbook
 
-This handbook defines OASIS as a practical, scalable and regulation-aware methodology for taking an AI opportunity from outcome hypothesis through validation, production engineering, adoption, assurance and enterprise scale. It is designed for small, medium and large organizations and for initiatives that begin at different points.
+This handbook defines OASIS: a practical methodology for taking an AI opportunity from initial hypothesis through validation, production engineering, adoption, assurance and enterprise scale. It works for organizations of any size, and for initiatives that begin at different points.
 
-> **CORE PROMISE** One methodology, multiple entry points and controllable depth—scaled by organizational context and assurance needs.
+> **CORE PROMISE** One methodology, with multiple entry points and a depth you control, scaled to your organization's context and assurance needs.
 
 ## How to use it
 
@@ -55,7 +55,7 @@ This handbook defines OASIS as a practical, scalable and regulation-aware method
 
 ## Document conventions
 
-“Must” identifies the OASIS minimum for the stated assurance level. “Should” identifies a recommended practice that may be tailored with rationale. “May” identifies an optional technique. Gate decisions are explicit management decisions; work within phases remains iterative.
+“Must” marks the OASIS minimum for the stated assurance level. “Should” marks a recommended practice that may be tailored, with a stated reason. “May” marks an optional technique. Gate decisions are explicit management decisions. Work inside a phase stays iterative.
 
 
 # Contents

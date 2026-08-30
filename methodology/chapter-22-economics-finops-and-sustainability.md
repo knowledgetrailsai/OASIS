@@ -12,17 +12,19 @@
 
 ## Background and context
 
-Chapter 21 instrumented six operational planes so a running intelligence system could be observed, diagnosed and improved continuously. The economic plane measures tokens, infrastructure and intervention cost, but stops short of the question those numbers exist to answer: is this system, at the cost it runs at, worth what it delivers. This chapter closes Part III of the methodology for that reason — proving the system was worth building, in terms a finance function and a business sponsor can both evaluate.
+Chapter 21 instrumented six operational planes so a running intelligence system could be observed, diagnosed and improved continuously. The economic plane measures tokens, infrastructure and intervention cost, but stops short of the question those numbers exist to answer: is this system, at the cost it runs at, worth what it delivers.
+
+This chapter closes Part III of the methodology for that reason — proving the system was worth building, in terms a finance function and a business sponsor can both evaluate.
 
 This chapter sits last because unit economics can only be measured honestly once a system is in production, generating the telemetry Chapter 21 defined. A cost model built before go-live is a forecast; one built from actual cost data is a fact, and that difference matters to a sponsor deciding whether to scale, hold steady, or retire a system. It also closes the arc back to where the methodology started: the value case built at initiation is only a hypothesis until this chapter's unit economics confirm or contradict it.
 
-Two companion articles go deeper than a methodology chapter can. [Architecture Perspective 5 — Inference Architecture](../architecture/perspective-05-inference-architecture.md#4-cost-governance) is where model-routing cost decisions get architected at the enterprise level — a centralized inference gateway, an approved model registry with cost tiers, and aggregate spend tracked centrally rather than accumulating silently across independently-procured systems. The [Monitoring specification's economic plane metrics table](../monitoring/observability-and-telemetry-specification.md#economic-plane) is where the numbers this chapter's formulas consume are actually collected — token, infrastructure, tool and intervention cost, each with its own collection point and alert trigger, rolling up into the cost-per-successful-outcome figure that is this chapter's central measure.
+Two companion articles go deeper than a methodology chapter can. [Architecture Perspective 5 — Inference Architecture](../architecture/perspective-05-inference-architecture.md#4-cost-governance) is where model-routing cost decisions get architected at the enterprise level — a centralized inference gateway, an approved model registry with cost tiers, and aggregate spend tracked centrally rather than accumulating silently across independently-procured systems. The [Monitoring specification's economic plane metrics table](../monitoring/observability-and-telemetry-specification.md#economic-plane) is where the numbers this chapter's formulas consume are actually collected — token, infrastructure, tool and intervention cost, each with its own collection point and alert trigger, rolling up into the cost-per-successful-outcome figure that is this chapter's central measure. Fulcrum's [Metrics Catalog](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/04-measurement-and-observability/metrics-catalog.md) is the full-depth companion for those metrics, with alerting thresholds and review cadence.
 
 ## Economic model
 
-OASIS evaluates the total cost of producing a successful outcome. This includes discovery and engineering, model inference, retrieval, tools, platform, licenses, integration, monitoring, human review, exception handling, failure, support, compliance and change. Benefits include revenue, productivity, quality, experience, risk reduction, working capital and strategic option value.
+OASIS evaluates the total cost of producing a successful outcome. This includes discovery and engineering, model inference, retrieval, tools, platform, licenses, integration, monitoring, human review, exception handling, failure, support, compliance and change. Benefits include revenue, productivity, quality, experience, risk reduction, working capital and strategic option value. Fulcrum's [Total Economic Cost](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/02-cost-economics/total-economic-cost.md) works through the full formula and components behind this list.
 
-The word "total" matters. It is tempting to measure a system's cost as inference spend alone — the token bill is the most visible line, surfaced directly by a provider's billing dashboard. But inference is often the smallest component once discovery, integration, human review, exception handling and failure cost are counted honestly. A system cheap on a token-cost basis and expensive on a cost-per-successful-outcome basis is not an anomaly — it is the normal shape of the economics once intervention and failure cost are included.
+The word "total" matters. It is tempting to measure a system's cost as inference spend alone — the token bill is the most visible line, surfaced directly by a provider's billing dashboard. But inference is often the smallest component once discovery, integration, human review, exception handling and failure cost are counted honestly — what Fulcrum calls the [cheapest-model trap](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/02-cost-economics/total-economic-cost.md#why-this-matters-the-cheapest-model-trap). A system cheap on a token-cost basis and expensive on a cost-per-successful-outcome basis is not an anomaly — it is the normal shape of the economics once intervention and failure cost are included.
 
 > **UNIT ECONOMICS** Net outcome value = Outcome benefit − Delivery cost − Run cost − Human intervention cost − Expected failure and risk cost.
 
@@ -38,7 +40,9 @@ This formula forces every proposal and retrospective to net benefit against the 
 | Marginal scale cost         | Test whether reuse improves economics.                         |
 | Avoided legacy cost         | Capture decommissioning or reduced manual capacity where real. |
 
-These seven measures run from least to most informative. Cost per attempt is easiest to produce and least useful alone — it says nothing about how many attempts succeed. Cost per completed workflow corrects for retries, but a workflow can complete and still not produce a result anyone accepts — the gap cost per successful outcome closes. That measure should anchor most economic conversations, because it can't be gamed by counting activity instead of results. Human minutes per outcome exists because intervention cost is easy to undercount when spread across many people's partial attention. Marginal scale cost and avoided legacy cost matter most for a scaling decision: whether reuse genuinely makes a second use case cheaper, and whether a claimed decommissioning saving is real capacity freed up rather than a nominal number nobody reclaims.
+These seven measures run from least to most informative. Cost per attempt is easiest to produce and least useful alone — it says nothing about how many attempts succeed. Cost per completed workflow corrects for retries, but a workflow can complete and still not produce a result anyone accepts — the gap cost per successful outcome closes. That measure should anchor most economic conversations, because it can't be gamed by counting activity instead of results.
+
+Human minutes per outcome exists because intervention cost is easy to undercount when spread across many people's partial attention. Marginal scale cost and avoided legacy cost matter most for a scaling decision: whether reuse genuinely makes a second use case cheaper, and whether a claimed decommissioning saving is real capacity freed up rather than a nominal number nobody reclaims.
 
 ## Optimization sequence
 
@@ -48,7 +52,7 @@ These seven measures run from least to most informative. Cost per attempt is eas
 
 56. **Cache stable results and reuse structured intermediate artifacts safely.** Caching is only safe where the underlying evidence and answer remain valid — treat cache invalidation as seriously as cache population, since a stale cached result served with confidence is a groundedness failure in disguise.
 
-57. **Route simple tasks to smaller models and reserve stronger models for difficult cases.** [Inference Architecture's cost governance](../architecture/perspective-05-inference-architecture.md#4-cost-governance) exists to make this an enterprise-wide capability rather than a per-system afterthought — a shared routing layer lets every consuming system benefit from the same tiered-model strategy.
+57. **Route simple tasks to smaller models and reserve stronger models for difficult cases.** [Inference Architecture's cost governance](../architecture/perspective-05-inference-architecture.md#4-cost-governance) exists to make this an enterprise-wide capability rather than a per-system afterthought — a shared routing layer lets every consuming system benefit from the same tiered-model strategy. Fulcrum's [Model Routing](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/05-architecture-and-design/model-routing.md) works through the routing-layer design itself.
 
 58. **Batch, parallelize or asynchronously process where the workflow permits.** Not every task needs a synchronous, real-time response, and forcing one onto a workflow that could tolerate batching is a common, avoidable source of cost and latency pressure.
 
@@ -56,7 +60,7 @@ These seven measures run from least to most informative. Cost per attempt is eas
 
 60. **Reassess infrastructure, region, quantization, local deployment and vendor economics.** Placed last deliberately: it is the most disruptive, highest-effort lever, and steps 54–59 frequently make it unnecessary or at least clarify exactly what decision the remaining cost justifies.
 
-This sequence is ordered by leverage and disruption, cheapest first — resist the temptation to skip to step 57 or 60 because they sound like the "real" optimization. Steps 54 through 56 routinely remove more cost, with far less engineering risk, than a model-routing or infrastructure change delivers alone.
+This sequence is ordered by leverage and disruption, cheapest first — resist the temptation to skip to step 57 or 60 because they sound like the "real" optimization. Steps 54 through 56 routinely remove more cost, with far less engineering risk, than a model-routing or infrastructure change delivers alone. Fulcrum's [Six Optimization Levers](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/05-architecture-and-design/optimization-levers.md) organizes the same sequence as route, reduce, reuse, right-size, measure, and don't-ask-the-model.
 
 ## Sustainability
 
@@ -64,7 +68,9 @@ Sustainability follows the same discipline: avoid wasteful calls, select right-s
 
 Most levers in the optimization sequence above that reduce cost also reduce energy and compute footprint, since both are driven by the same thing: unnecessary inference and infrastructure. That correlation is useful — a FinOps program and a sustainability program pulling on the same levers means neither competes with the other for engineering attention — but it isn't identity. A lower-cost model route is not automatically the lower-carbon one once a provider's energy mix and data-center efficiency are accounted for, and a cost-optimal caching or batching strategy still needs evaluating against whatever carbon-reporting commitment an enterprise has made.
 
-The final sentence of this section governs every lever above it: efficiency cannot justify lower safety or unacceptable quality. A cheaper model route that degrades groundedness, a batching strategy that delays an escalation past the point it's useful, or a caching decision serving stale evidence all fail this test regardless of how favorably they move cost-per-successful-outcome — a cheaper wrong answer is not a better outcome, it's a worse one that costs less to produce.
+The final sentence of this section governs every lever above it: efficiency cannot justify lower safety or unacceptable quality.
+
+A cheaper model route that degrades groundedness, a batching strategy that delays an escalation past the point it's useful, or a caching decision serving stale evidence all fail this test regardless of how favorably they move cost-per-successful-outcome — a cheaper wrong answer is not a better outcome, it's a worse one that costs less to produce.
 
 ---
 

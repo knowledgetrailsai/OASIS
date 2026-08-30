@@ -10,7 +10,11 @@ Covers templates 1–5 of 20. See also: [Workflow and Intelligence Templates](02
 
 ## Background and context
 
-These five templates carry the earliest and highest-leverage decisions in an engagement: whether an opportunity is worth pursuing, what outcome it commits to, and what it will cost against what it returns. Chapter 32 states each artifact only as a one-line minimum-content statement because the chapter's job is to name the decision each artifact supports, not to prescribe its exact layout — a methodology chapter that shipped a rigid form would fight every organization's existing templates rather than sit alongside them. This file exists because a delivery team still needs *something* to open on day one of an engagement; treat every field below as a starting point to edit, not a fixed schema to match exactly.
+These five templates carry the earliest and most important decisions in an engagement: whether an opportunity is worth pursuing, what outcome it commits to, and what it will cost against what it returns.
+
+Chapter 32 states each artifact only as a one-line minimum-content statement, because the chapter's job is to name the decision each artifact supports, not to prescribe its exact layout. A methodology chapter that shipped a rigid form would fight every organization's existing templates rather than sit alongside them.
+
+This file exists because a delivery team still needs *something* to open on day one of an engagement. Treat every field below as a starting point to edit, not a fixed schema to match exactly.
 
 ---
 
@@ -139,7 +143,7 @@ Add rows as needed. A metric tree with no guardrail row is incomplete — every 
 
 **Chapter 32 minimum content:** Benefits, build/run/intervention/failure costs, uncertainty, impact, autonomy, data, exposure, reversibility and mitigation.
 
-**Primary source:** [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md); [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md) (risk classification).
+**Primary source:** [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md); [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md) (risk classification). [Fulcrum's outcome-value-definition-sheet.md](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/templates/outcome-value-definition-sheet.md) is a fuller, economics-focused counterpart to this template's benefits/costs fields, requiring sign-off from both the business owner and a FinOps lead.
 
 ```yaml
 value_and_risk_case:

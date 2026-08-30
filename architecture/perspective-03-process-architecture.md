@@ -12,19 +12,23 @@
 
 ## Background and context
 
-Chapter 16 addresses human-AI workflow design at the level of a single interaction: how a human and an agent hand off a task to each other, when to interrupt for approval, how to design for override. Process Architecture takes the wider view an enterprise process owner needs: a business process (claims intake through settlement; a hire from requisition through onboarding) is usually longer, more branched, and touches more systems than any single agent's scope — an agent typically owns one or a few steps within a process it does not own end-to-end. Without an explicit process map, it becomes unclear where an agent's authority starts and stops relative to the surrounding human-owned process, and process owners lose visibility into how much of "their" process now runs through agentic components they did not design.
+Chapter 16 addresses human-AI workflow design at the level of a single interaction: how a human and an agent hand off a task to each other, when to interrupt for approval, how to design for override. Process Architecture takes the wider view an enterprise process owner needs. A business process — claims intake through settlement, a hire from requisition through onboarding — is usually longer, more branched, and touches more systems than any single agent's scope. An agent typically owns one or a few steps within a process it does not own end-to-end.
+
+Without an explicit process map, it's unclear where an agent's authority starts and stops relative to the surrounding human-owned process. Process owners also lose visibility into how much of "their" process now runs through agentic components they did not design.
 
 This perspective is the map that keeps process ownership and agent ownership distinct and explicit, even as more steps of a process become agent-assisted or agent-executed over time (Chapter 12's optimize-and-scale trajectory).
 
 ## 1. Process-to-agent participation map
 
-One row per process step, for each business process that includes agentic participation.
+One row per process step, for each business process that includes agentic participation. Loom's [process-to-agent participation map](https://github.com/knowledgetrailsai/Loom/blob/main/05-process-architecture-integration/process-to-agent-participation-map.md) gives the full field-level template this table summarizes.
 
 | Process | Step | Executed by (human / task agent / specialist agent) | Decision authority at this step | Handback trigger | Process owner |
 |---|---|---|---|---|---|
 | | | | | | |
 
 ## 2. Process ownership model
+
+See Loom's [process ownership model](https://github.com/knowledgetrailsai/Loom/blob/main/05-process-architecture-integration/process-ownership-model.md) for the full treatment behind the four principles below.
 
 | Principle | What it means in practice |
 |---|---|
@@ -34,6 +38,8 @@ One row per process step, for each business process that includes agentic partic
 | Process change is versioned like system change | A process redesign that changes which steps are agent-executed follows the same release discipline as the [Monitoring release manifest](../monitoring/observability-and-telemetry-specification.md#3-release-manifest-checklist) — it is a change to system behavior, not just a documentation update. |
 
 ## 3. Process risk classification
+
+Loom's [process risk classification](https://github.com/knowledgetrailsai/Loom/blob/main/05-process-architecture-integration/process-risk-classification.md) works through this table's criteria in more depth.
 
 | Process characteristic | Implication for agent participation |
 |---|---|

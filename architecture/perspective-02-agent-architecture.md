@@ -12,9 +12,11 @@
 
 ## Background and context
 
-Chapter 14 §7 gives a single system the decision rule for choosing deterministic function, explicit workflow, single agent, or multi-agent. It deliberately does not name agent *types* at enterprise scale, because that is an architecture-portfolio decision, not a per-system engineering one. Left unaddressed, this gap produces a familiar failure mode: five teams each build a "customer-facing assistant agent" with incompatible responsibilities, authority levels, and escalation logic, and nobody can answer "which of our agents can independently commit spend?" without reading every system's code. Agent Architecture is the enterprise taxonomy that prevents that — a small, closed set of agent types with clearly bounded responsibilities, so that adding the fortieth agent to the enterprise is a classification exercise against an existing taxonomy, not an ad hoc design decision.
+Chapter 14 §7 gives a single system the decision rule for choosing deterministic function, explicit workflow, single agent, or multi-agent. It does not name agent *types* at enterprise scale — that's an architecture-portfolio decision, not a per-system engineering one.
 
-This perspective sits directly above Chapter 14 §6–7: where the reference architecture's Section 4 helps one system's designer pick an orchestration pattern, this document helps a platform owner decide which *kind* of agent is even appropriate for a given capability from Perspective 1's capability map, and how that agent is allowed to interact with other agents already running in production.
+Left unaddressed, this gap produces a familiar failure mode: five teams each build a "customer-facing assistant agent" with incompatible responsibilities, authority levels, and escalation logic, and nobody can answer "which of our agents can independently commit spend?" without reading every system's code. Agent Architecture is the enterprise taxonomy that prevents that: a small, closed set of agent types with clearly bounded responsibilities. Adding the fortieth agent to the enterprise then becomes a classification exercise against an existing taxonomy, not an ad hoc design decision.
+
+This perspective sits directly above Chapter 14 §6–7. Where the reference architecture's Section 4 helps one system's designer pick an orchestration pattern, this document helps a platform owner decide which *kind* of agent fits a given capability from Perspective 1's capability map, and how that agent may interact with other agents already running in production.
 
 ## 1. Agent type taxonomy
 
@@ -52,7 +54,7 @@ Rules that apply enterprise-wide, not just per system:
 
 - A specialist agent is never called directly by an end user or another enterprise system without passing through a routing agent — this keeps the taxonomy enforceable and the audit trail consistent.
 - Inter-agent calls carry the same authorization context as the originating human request (Ch.17: "authorize against requesting user + business context", not agent identity alone) — an agent never gains authority a downstream call does not independently justify.
-- Multi-agent collaboration is justified per Chapter 14 §7's decision rule (measurable benefit from specialization, isolation, or parallelism) — the same discipline applies at enterprise scale: adding a new specialist agent type requires a stated benefit, reviewed at architecture governance, not default proliferation.
+- Multi-agent collaboration is justified per Chapter 14 §7's decision rule (measurable benefit from specialization, isolation, or parallelism) — the same discipline applies at enterprise scale: adding a new specialist agent type requires a stated benefit, reviewed at architecture governance, not default proliferation. Compass's [multi-agent governance](https://github.com/knowledgetrailsai/responsible-ai/blob/main/07-agentic-ai/multi-agent-governance.md) note covers the risk side of that same review.
 
 ## 3. Agent registry
 

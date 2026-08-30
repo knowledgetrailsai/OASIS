@@ -10,9 +10,9 @@
 
 ## Background and context
 
-Phase 1 produces a hypothesis; Phase 2 tests it honestly before real budget goes into production engineering. Engage & Align asks whether an outcome is worth pursuing; Discover & Validate asks whether intelligence applied to this workflow works well enough, on the cases that matter, to justify building it. A team that jumps from a promising demo to a production build has never tested the hypothesis, only illustrated it.
+Phase 1 produces a hypothesis. Phase 2 tests it honestly before real budget goes into production engineering. Engage & Align asks whether an outcome is worth pursuing; Discover & Validate asks whether intelligence applied to this workflow works well enough, on the cases that matter, to justify building it. A team that jumps from a promising demo straight to a production build has never tested the hypothesis — only illustrated it.
 
-The discipline this phase enforces is representativeness. It is easy to make a model look capable on hand-picked examples; it is harder, and more informative, to test it on exceptions and ambiguous cases where evidence is thin. A vertical slice that only sees the happy path tells you nothing about production, where the happy path is a minority of real traffic. This is also where the team tests whether users can actually oversee and correct the system.
+The discipline this phase enforces is representativeness. It is easy to make a model look capable on hand-picked examples. It is harder, and more informative, to test it on exceptions and ambiguous cases where evidence is thin. A vertical slice that only sees the happy path tells you nothing about production, where the happy path is a minority of real traffic. This phase is also where the team tests whether users can actually oversee and correct the system.
 
 Phase 2 hands [Phase 3 — Engineer & Integrate](chapter-09-phase-3-engineer-and-integrate.md) evidence, not just a decision to proceed: characterized failure modes, where the workflow needs redesign rather than automation, and an economic sensitivity analysis. The data-readiness work here connects to [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md), where knowledge-grounding failures get engineered away; the [Data and Knowledge Readiness Assessment](../tools/02-workflow-and-intelligence-templates.md#8-data-and-knowledge-readiness-assessment) carries the diagnosis forward.
 
@@ -24,7 +24,7 @@ Phase 2 hands [Phase 3 — Engineer & Integrate](chapter-09-phase-3-engineer-and
 
 Prove the intelligence and workflow hypothesis using representative cases and one end-to-end vertical slice.
 
-A vertical slice is not a prototype of the whole system — it is a thin but complete path through every layer the production system will need: input, context assembly, model or tool invocation, human review, outcome capture. Thin for speed of learning; complete because a slice missing human review will overstate performance, since it never faces real oversight.
+A vertical slice is not a prototype of the whole system. It is a thin but complete path through every layer the production system will need: input, context assembly, model or tool invocation, human review, outcome capture. It is thin for speed of learning, and complete because a slice missing human review will overstate performance — it never faces real oversight.
 
 ## Core questions
 
@@ -36,7 +36,7 @@ A vertical slice is not a prototype of the whole system — it is a thin but com
 
 - Are likely economics and controls acceptable?
 
-The first is deliberately broad — a team should be explicit about which kind of "improve" it claims. The second is where most Phase 2 work earns its keep: a system that fails silently on exceptions is often worse than none, since it erodes the workflow discipline that used to catch them manually. The third is frequently under-tested: a technically correct system whose interface makes oversight impractical gets rubber-stamped or abandoned. The fourth brings economics in — a system too expensive to run has not solved anything.
+The first question is deliberately broad — a team should say plainly which kind of "improve" it claims. The second is where most Phase 2 work earns its keep. A system that fails silently on exceptions is often worse than none, because it erodes the workflow discipline that used to catch them manually. The third is frequently under-tested: a technically correct system whose interface makes oversight impractical gets rubber-stamped or abandoned. The fourth brings economics in — a system too expensive to run has not solved anything.
 
 ## Method
 
@@ -52,7 +52,7 @@ The first is deliberately broad — a team should be explicit about which kind o
 
 16. Estimate run cost, intervention cost, failure cost and the sensitivity of value to quality and adoption.
 
-The process map at step 11 should describe the workflow as it actually runs, using the [Process and Decision Map](../tools/02-workflow-and-intelligence-templates.md#6-process-and-decision-map) template — an idealized map produces an evaluation dataset built to the wrong shape. Step 12's adversarial and insufficient-evidence cases matter because production traffic reliably contains inputs where the honest answer is "I don't have enough information," and an untested system will hallucinate one instead. Step 14's deterministic baseline matters because a simple rule performing nearly as well is a valid finding, not a failed experiment. Step 15's failure classification by responsible layer feeds the taxonomy used later in operations; step 16 turns a successful pilot into, or out of, a viable business case.
+The process map at step 11 should describe the workflow as it actually runs, using the [Process and Decision Map](../tools/02-workflow-and-intelligence-templates.md#6-process-and-decision-map) template. An idealized map produces an evaluation dataset built to the wrong shape. Step 12's adversarial and insufficient-evidence cases matter because production traffic reliably contains inputs where the honest answer is "I don't have enough information" — and an untested system will hallucinate one instead. Step 14's deterministic baseline matters because a simple rule performing nearly as well is a valid finding, not a failed experiment. Step 15's failure classification by responsible layer feeds the taxonomy used later in operations. Step 16 turns a successful pilot into, or out of, a viable business case.
 
 ## Primary artifacts
 
@@ -86,7 +86,7 @@ The exit condition asks for an explanation, not a passing score. A Phase 2 that 
 
 A PoC may use synthetic or de-identified data and simulated tools, but its test cases must represent the intended workflow. A controlled pilot requires real access, monitoring and human approval design.
 
-A PoC and a controlled pilot differ in what claim each can support, not in scale. A PoC on synthetic data can validate that an approach is plausible; it cannot validate that it is safe or adoptable, since that depends on real data quality, latency and human behavior under real stakes. Teams that skip a controlled pilot on the strength of a strong PoC are usually surprised by how differently the system performs with real users and data.
+A PoC and a controlled pilot differ in what claim each can support, not in scale. A PoC on synthetic data can show that an approach is plausible. It cannot show that it is safe or adoptable, because that depends on real data quality, latency, and human behavior under real stakes. Teams that skip a controlled pilot on the strength of a strong PoC are usually surprised by how differently the system performs with real users and real data.
 
 ---
 

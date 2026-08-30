@@ -6,6 +6,10 @@ All notable changes to the OASIS Methodology Handbook are recorded here. Entries
 
 This handbook mixes two kinds of content that age differently. The **Methodology** chapters (the 33-chapter core) describe durable engineering and governance principles and should change rarely, deliberately, and with a clear rationale recorded here. The **Standards** and **References** material indexes external regulatory and industry frameworks — ISO/IEC 42001, NIST AI RMF, the EU AI Act, India's DPDP Act, OWASP's LLM and Agentic Top 10 lists, and the 20+ frameworks catalogued in the [regulatory alignment index](references/regulatory-framework-alignment-index.md) — and those frameworks are genuinely moving targets: version numbers change, staggered compliance deadlines pass, and entirely new frameworks appear. Anyone maintaining this repository should review the Standards and References material at least **quarterly**, and immediately after any material regulatory development affecting a framework already indexed here, and record that review below even when it results in no changes — a dated "reviewed, no changes needed" entry is still useful evidence that the material hasn't silently gone stale.
 
+## 2026-08-30
+
+- Simplified wording across methodology chapters, architecture perspectives, engineering/security/monitoring specs, and reference/standards/tools documents; extended row-level and glossary-level companion-repository cross-links.
+
 ## 2026-08-18
 
 - Rewrote all 33 Methodology chapters from terse reference notes into full prose, each gaining a "Background and context" section and inline cross-links into the companion Architecture, Engineering, Security, Monitoring, Standards, References and Tools material. Fixed several anchor-link defects surfaced during the accompanying repo-wide link audit (an en-dash/hyphen mismatch affecting ~10 links, four double-hyphen typos, one link pointing at a non-existent chapter anchor). All 1,345 internal markdown links in the repository verified to resolve.

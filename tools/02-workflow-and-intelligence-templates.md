@@ -10,7 +10,9 @@ Covers templates 6–10 of 20. See also: [Outcome and Portfolio Templates](01-ou
 
 ## Background and context
 
-These five templates carry the discovery and design work that turns an approved opportunity into a buildable intelligence system: mapping how the process actually works today, deciding what the AI and the human each do at every step, and confirming the data, evaluation and failure-handling foundations are solid before engineering begins in earnest. They sit between the outcome-and-portfolio decisions (which establish *whether* to build) and the system-and-governance templates (which establish *how much authority* the built system gets) — get the process map and data readiness assessment wrong here and every downstream artifact inherits the error.
+These five templates carry the discovery and design work that turns an approved opportunity into a buildable intelligence system: mapping how the process actually works today, deciding what the AI and the human each do at every step, and confirming the data, evaluation and failure-handling foundations are solid before engineering begins in earnest.
+
+They sit between the outcome-and-portfolio decisions (which establish *whether* to build) and the system-and-governance templates (which establish *how much authority* the built system gets). Get the process map and data readiness assessment wrong here, and every downstream artifact inherits the error.
 
 ---
 

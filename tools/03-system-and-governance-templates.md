@@ -10,7 +10,9 @@ Covers templates 11–12 and 19–20 of 20. See also: [Outcome and Portfolio Tem
 
 ## Background and context
 
-These four templates carry the decisions about authority: what the system is architecturally, what it is allowed to do without a human, who is accountable for each decision, and what evidence justified each gate passage. They are grouped together because they share a common failure mode when skipped or filled superficially — an intelligence system with a complete blueprint but no autonomy matrix, or a project with clear roles but no decision-gate record, tends to accumulate authority informally over time rather than through evidenced, reviewable steps, which is exactly what Chapter 13's decision-gate model exists to prevent.
+These four templates carry the decisions about authority: what the system is architecturally, what it is allowed to do without a human, who is accountable for each decision, and what evidence justified each gate passage.
+
+They are grouped together because they share a common failure mode when skipped or filled superficially. An intelligence system with a complete blueprint but no autonomy matrix, or a project with clear roles but no decision-gate record, tends to accumulate authority informally over time rather than through evidenced, reviewable steps. That is exactly what Chapter 13's decision-gate model exists to prevent.
 
 ---
 
@@ -62,14 +64,14 @@ intelligence_system_blueprint:
 
 **Chapter 32 minimum content:** Action, case class, risk, system capability, human authority, limits, evidence threshold, escalation and suspension.
 
-**Primary source:** [Chapter 10 — Phase 4: Activate & Adopt](../methodology/chapter-10-phase-4-activate-and-adopt.md); [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md) (progressive-autonomy modes: Shadow, Assisted, Supervised, Bounded Autonomy, and beyond).
+**Primary source:** [Chapter 10 — Phase 4: Activate & Adopt](../methodology/chapter-10-phase-4-activate-and-adopt.md); [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md) (progressive-autonomy modes: Shadow, Assisted, Supervised, Bounded Autonomy, and beyond). [Compass's autonomy-and-control.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/07-agentic-ai/autonomy-and-control.md) covers the same idea with a different five-level scale (Suggest through Fully autonomous) — useful as a second reference point, not a substitute for the mode names used in this matrix.
 
 | Action | Case class | Risk level | Current system capability (evidenced) | Human authority required | Operating limits | Evidence threshold to progress | Escalation trigger | Suspension trigger |
 |---|---|---|---|---|---|---|---|---|
 | | | | | | | | | |
 | | | | | | | | | |
 
-One row per distinct action the system can take, not one row per system. An agent that both drafts customer replies and issues refunds needs two rows — the evidence threshold to trust drafting has nothing to do with the threshold to trust issuing money. Progression from one autonomy mode to the next requires evidence per row, not a blanket system-wide promotion.
+One row per distinct action the system can take, not one row per system. An agent that both drafts customer replies and issues refunds needs two rows — the evidence threshold to trust drafting has nothing to do with the threshold to trust issuing money. Progression from one autonomy mode to the next requires evidence per row, not a blanket, system-wide promotion.
 
 ---
 
@@ -77,7 +79,7 @@ One row per distinct action the system can take, not one row per system. An agen
 
 **Chapter 32 minimum content:** Activity and decision mapped to accountable, responsible, consulted and informed roles.
 
-**Primary source:** [Chapter 6 — OASIS Operating Model and Decision Rights](../methodology/chapter-06-oasis-operating-model-and-decision-rights.md); [Chapter 24 — Roles, Teams and Governance Forums](../methodology/chapter-24-roles-teams-and-governance-forums.md).
+**Primary source:** [Chapter 6 — OASIS Operating Model and Decision Rights](../methodology/chapter-06-oasis-operating-model-and-decision-rights.md); [Chapter 24 — Roles, Teams and Governance Forums](../methodology/chapter-24-roles-teams-and-governance-forums.md). [Compass's RACI.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/03-ai-governance/RACI.md) is a worked example of a RACI table scoped specifically to AI-governance activities.
 
 | Activity / decision | Accountable (A) | Responsible (R) | Consulted (C) | Informed (I) |
 |---|---|---|---|---|
@@ -89,7 +91,7 @@ One row per distinct action the system can take, not one row per system. An agen
 | Kill-switch activation | | | | |
 | Incident severity classification | | | | |
 
-Exactly one accountable owner per row — if two names appear under Accountable, the row is not yet resolved. Add or remove rows to match the engagement's actual decision inventory.
+Exactly one accountable owner per row. If two names appear under Accountable, the row is not yet resolved. Add or remove rows to match the engagement's actual decision inventory.
 
 ---
 
@@ -117,7 +119,7 @@ decision_gate_record:
   follow_up_actions: []
 ```
 
-Complete one record per gate passage, not one per project — a six-phase engagement produces at least six of these, and a conditional pass or hold should be tracked to its due date rather than left open indefinitely.
+Complete one record per gate passage, not one per project. A six-phase engagement produces at least six of these. A conditional pass or hold should be tracked to its due date rather than left open indefinitely.
 
 ---
 

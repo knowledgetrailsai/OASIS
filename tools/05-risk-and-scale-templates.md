@@ -10,7 +10,9 @@ Covers templates 17–18 of 20. See also: [Outcome and Portfolio Templates](01-o
 
 ## Background and context
 
-These two templates carry the ongoing, cross-cutting work that outlives any single build: tracking risk continuously rather than only at gates, and deciding whether a capability that started as a one-off build should become a shared, supported platform asset. The Risk and Control Register in particular is deliberately the most heavily cross-referenced artifact in this toolkit — see the note at the top of its section — because a risk tracked once in a shared register survives audits, framework changes and personnel turnover far better than the same risk described independently in five different documents.
+These two templates carry the ongoing, cross-cutting work that outlives any single build: tracking risk continuously rather than only at gates, and deciding whether a capability that started as a one-off build should become a shared, supported platform asset.
+
+The Risk and Control Register in particular is deliberately the most heavily cross-referenced artifact in this toolkit (see the note at the top of its section). A risk tracked once in a shared register survives audits, framework changes and personnel turnover far better than the same risk described independently in five different documents.
 
 ---
 
@@ -25,7 +27,7 @@ These two templates carry the ongoing, cross-cutting work that outlives any sing
 | | | | | | | | | | | | |
 | | | | | | | | | | | | |
 
-This register is the single most cross-referenced artifact in the OASIS toolkit — every Standards checklist row and every Security checklist row that carries an unresolved risk should have a corresponding Risk ID here rather than a duplicate description. When adding a row sourced from a specific framework, note the source (e.g., "EU AI Act Art. 9", "OWASP ASI06") in the Description or Cause field so the cross-reference is traceable in both directions.
+This register is the single most cross-referenced artifact in the OASIS toolkit. Every Standards checklist row and every Security checklist row that carries an unresolved risk should have a corresponding Risk ID here, rather than a duplicate description. When adding a row sourced from a specific framework, note the source (e.g., "EU AI Act Art. 9", "OWASP ASI06") in the Description or Cause field, so the cross-reference is traceable in both directions.
 
 ---
 
@@ -33,7 +35,7 @@ This register is the single most cross-referenced artifact in the OASIS toolkit 
 
 **Chapter 32 minimum content:** Demand, repeatability, consumers, contract stability, configuration, tenancy, support, economics, risk and roadmap.
 
-**Primary source:** [Chapter 28 — Scaling and Productization](../methodology/chapter-28-scaling-and-productization.md).
+**Primary source:** [Chapter 28 — Scaling and Productization](../methodology/chapter-28-scaling-and-productization.md). [Fulcrum's escalation-and-scale-retire.md](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/07-governance/escalation-and-scale-retire.md) gives the cost/value-driven decision logic (re-architect, re-scope, or retire) behind this template's roadmap field.
 
 ```yaml
 scale_and_productization_assessment:

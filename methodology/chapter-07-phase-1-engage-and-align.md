@@ -10,7 +10,7 @@
 
 ## Background and context
 
-Every OASIS engagement begins here because most later failures trace back to a decision this phase left implicit. Building before an outcome is named, a baseline exists, and an owner has agreed is not saving time — it defers the hardest conversation until a working prototype exists. Phase 1 forces that conversation early and produces artifacts everything downstream can be checked against.
+Every OASIS engagement begins here. Most later failures trace back to a decision this phase left implicit. Building before an outcome is named, a baseline exists, and an owner has agreed does not save time — it just delays the hardest conversation until a working prototype already exists. Phase 1 forces that conversation early and produces artifacts that everything downstream can be checked against.
 
 This phase has no predecessor. An opportunity — surfaced through the portfolio process in [Chapter 5](chapter-05-opportunity-portfolio-and-transformation-horizons.md) or raised by a sponsor — first becomes scoped, owned work here. It hands [Phase 2 — Discover & Validate](chapter-08-phase-2-discover-and-validate.md) a well-formed question, not a solution: an outcome hypothesis, a test boundary, and enough context on ownership and risk that the discovery team knows what "done" looks like. A rushed Phase 1 leaves Phase 2 re-litigating scope instead of testing whether intelligence helps.
 
@@ -50,7 +50,7 @@ Teams that answer these glibly pay for it later. "Valuable and measurable" usual
 
 10. Form the outcome hypothesis and agree the next evidence required.
 
-Observation precedes definition: charters written before spending time with users tend to describe an idealized process. Steps 7-9 turn observation into the numbers and boundaries the phase needs. The regulatory screen in step 9 catches EU AI Act or DPDP Act exposure while the boundary is still adjustable, far cheaper than after Phase 3 has built against an unscoped assumption. Step 10 closes the loop with a hypothesis and what evidence would confirm or kill it.
+Observation comes before definition: charters written before anyone spends time with users tend to describe an idealized process. Steps 7-9 turn that observation into the numbers and boundaries the phase needs. The regulatory screen in step 9 catches EU AI Act or DPDP Act exposure while the boundary is still adjustable. That is far cheaper than fixing it after Phase 3 has already built against an unscoped assumption. Step 10 closes the loop: a stated hypothesis, plus the evidence that would confirm or kill it.
 
 ## Primary artifacts
 
@@ -76,7 +76,7 @@ The first five are templates 1, 2, 4 and 5 in [Outcome and Portfolio Templates](
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | An identifiable opportunity, sponsor or operating problem exists. | The outcome, boundary, ownership, initial risk track and validation question are explicit. |
 
-The entry bar is low: almost anything with a named sponsor can start Phase 1, since its job is deciding whether the opportunity merits Phase 2's investment. The exit bar is where filtering happens — "explicit" means written down and reviewable, not just agreed in a meeting and forgotten.
+The entry bar is low. Almost anything with a named sponsor can start Phase 1 — its job is to decide whether the opportunity merits Phase 2's investment. The exit bar is where filtering actually happens: "explicit" means written down and reviewable, not just agreed in a meeting and forgotten.
 
 ## Tailoring guidance
 

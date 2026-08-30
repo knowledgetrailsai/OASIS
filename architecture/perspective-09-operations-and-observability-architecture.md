@@ -12,11 +12,15 @@
 
 ## Background and context
 
-The Monitoring specification instruments Chapter 21's six operational planes for a single system: what to measure, where to collect it, when to alert. Operations and Observability Architecture is the enterprise rollup: once an enterprise has more than a handful of production intelligence systems, a governance function needs one view across all of them — which systems are healthy, which are in a degraded or under-review state, aggregate spend and outcome performance, and a consistent incident-response and kill-switch capability that works the same way regardless of which team built the system in question. Without this enterprise layer, each system's excellent per-system telemetry never rolls up into a portfolio view, and an enterprise-wide incident (e.g., a shared model provider outage, or a systemic prompt-injection pattern discovered in one system that likely also affects others) has no mechanism to be detected or responded to as an enterprise event.
+The Monitoring specification instruments Chapter 21's six operational planes for a single system: what to measure, where to collect it, when to alert. Operations and Observability Architecture is the enterprise rollup. Once an enterprise has more than a handful of production intelligence systems, a governance function needs one view across all of them: which systems are healthy, which are degraded or under review, aggregate spend and outcome performance, and a consistent incident-response and kill-switch capability that works the same way regardless of which team built the system.
+
+Without this enterprise layer, each system's good per-system telemetry never rolls up into a portfolio view. And an enterprise-wide incident — a shared model provider outage, say, or a systemic prompt-injection pattern found in one system that likely affects others too — has no way to be detected or responded to as an enterprise event.
 
 This perspective is where AgentOps becomes a governance function, not just an engineering discipline — the natural home for the governance forums named in [Chapter 24](../methodology/chapter-24-roles-teams-and-governance-forums.md).
 
 ## 1. Enterprise operations dashboard — rollup structure
+
+Helm's [outcome scorecard and metric architecture](https://github.com/knowledgetrailsai/Helm/blob/main/01-observability/outcome-scorecard-and-metric-architecture.md) covers the per-system metrics this rollup aggregates.
 
 | Rollup view | Source | Reviewed by | Cadence |
 |---|---|---|---|
@@ -27,6 +31,8 @@ This perspective is where AgentOps becomes a governance function, not just an en
 | Agent registry and autonomy census (which agents exist, at what autonomy level) | [Agent Architecture registry](perspective-02-agent-architecture.md#3-agent-registry) | AI governance forum | Monthly |
 
 ## 2. Enterprise incident response
+
+Helm's [failure taxonomy](https://github.com/knowledgetrailsai/Helm/blob/main/03-incident-response/failure-taxonomy.md) classifies the failure types that feed the routing decision below.
 
 An incident affecting a shared component (Perspective 5's inference gateway, Perspective 6's shared integration, Perspective 4's shared knowledge domain) is classified and responded to as an enterprise incident, not a single system's incident, because its blast radius spans every consuming system:
 
@@ -42,7 +48,7 @@ flowchart TD
     H --> I[Update the shared component's<br/>evaluation/regression suite]
 ```
 
-This depends on Perspectives 4–6 being maintained as accurate registries — an enterprise incident response is only as fast as the registry that tells responders which systems are affected.
+This depends on Perspectives 4–6 being kept as accurate registries. An enterprise incident response is only as fast as the registry that tells responders which systems are affected.
 
 ## 3. Enterprise kill-switch and containment authority
 
@@ -54,7 +60,7 @@ This depends on Perspectives 4–6 being maintained as accurate registries — a
 
 ## 4. Governance cadence
 
-Operations and Observability Architecture is reviewed at the same governance forums Chapter 24 establishes, with this rollup as their standing input — a governance forum without an enterprise-level operations view is reduced to reviewing whichever system's problems happen to be escalated verbally, rather than the actual state of the portfolio.
+Operations and Observability Architecture is reviewed at the same governance forums Chapter 24 establishes, with this rollup as their standing input. A governance forum without an enterprise-level operations view is reduced to reviewing whichever system's problems happen to be escalated verbally, rather than the actual state of the portfolio.
 
 ---
 

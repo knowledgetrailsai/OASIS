@@ -12,11 +12,15 @@
 
 ## Background and context
 
-The [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md) gives one tool a complete contract: inputs, authorization, limits, failure semantics. That is the right granularity for building one tool. It is the wrong granularity for answering a portfolio question: "how many independent integrations does the enterprise have into the claims system, built by how many different teams, with how many different authorization models?" Without an integration architecture, every system re-integrates with the same enterprise systems of record from scratch, multiplying both build cost and the number of independently-configured credentials and permission scopes attached to the same underlying system — each one a separate thing to secure, audit and revoke.
+The [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md) gives one tool a complete contract: inputs, authorization, limits, failure semantics. That's the right granularity for building one tool. It's the wrong granularity for answering a portfolio question: how many independent integrations does the enterprise have into the claims system, built by how many different teams, with how many different authorization models?
 
-Integration Architecture is the enterprise catalogue and governance layer above individual tool contracts: which enterprise systems have agent-facing integrations at all, which pattern each uses, and — critically — a single place to answer "if we revoke this credential, which agents across the enterprise lose access to what."
+Without an integration architecture, every system re-integrates with the same enterprise systems of record from scratch. That multiplies both build cost and the number of independently-configured credentials and permission scopes attached to the same underlying system — each one a separate thing to secure, audit and revoke.
+
+Integration Architecture is the enterprise catalogue and governance layer above individual tool contracts: which enterprise systems have agent-facing integrations at all, which pattern each uses, and — critically — a single place to answer "if we revoke this credential, which agents across the enterprise lose access to what?"
 
 ## 1. Enterprise integration catalogue
+
+Helm's [integration patterns and tool catalogues](https://github.com/knowledgetrailsai/Helm/blob/main/07-tool-integration/integration-patterns-and-tool-catalogues.md) note covers the pattern column below in more depth.
 
 | Enterprise system | Integration pattern (per Tool spec §3) | Consuming agents/tools | Credential/scope owner | Read / Prepare / Execute surface exposed |
 |---|---|---|---|---|
