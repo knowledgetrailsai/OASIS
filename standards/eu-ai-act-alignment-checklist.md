@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md).
 
+**Deeper regulatory source:** [Compass's eu-ai-act.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/10-regulations-and-standards/EU/eu-ai-act.md) — this checklist maps obligations to OASIS mechanisms; Compass carries the substantive legal-text analysis and stays current as guidance evolves.
+
 ## Background and context
 
 Regulation (EU) 2024/1689, known as the EU AI Act, is the first comprehensive, horizontal AI-specific law enacted by a major regulator. It entered into force on 1 August 2024 and applies on a **staggered timeline**: prohibited-practice provisions (Art. 5) applied from 2 February 2025; obligations on general-purpose AI (GPAI) model providers applied from 2 August 2025; most high-risk system obligations apply from 2 August 2026 for Annex III use cases, with a longer runway to 2 August 2027 for AI systems that are safety components of products already regulated under other EU product-safety law (Annex I). Because provisions phase in at different times, the applicable obligation set for any given system depends on both its risk classification and the current date — always confirm current status against the official text rather than assuming full applicability.

@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), [Chapter 18 — Evaluation and Reliability Engineering](../methodology/chapter-18-evaluation-and-reliability-engineering.md), [Chapter 13 — Decision Gates and Evidence Model](../methodology/chapter-13-decision-gates-and-evidence-model.md).
 
+**Deeper standard source:** [Compass's NIST-AI-RMF.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/09-tools-and-frameworks/NIST-AI-RMF.md) — this checklist maps the four functions to OASIS mechanisms; Compass carries the fuller framework treatment.
+
 ## Background and context
 
 The NIST AI Risk Management Framework (AI RMF 1.0) was published by the U.S. National Institute of Standards and Technology in January 2023, developed under a mandate from the National AI Initiative Act with extensive multi-stakeholder public input. Unlike ISO/IEC 42001, it is **voluntary and non-certifiable** — there is no accredited third-party audit and no certificate to obtain. It is best understood as a common vocabulary and a structured way of thinking about AI risk, meant to be adapted to an organization's context rather than certified against.

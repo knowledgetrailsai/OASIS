@@ -83,7 +83,7 @@ Review at the cadence set in [Chapter 27 — Delivery Cadence and Management Pra
 
 **Chapter 32 minimum content:** Purpose, dependencies, dashboards, alerts, triage, fallbacks, escalation, recovery, changes, contacts and evidence retention.
 
-**Primary source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Chapter 19 — Containment and emergency control](../methodology/chapter-19-security-and-responsible-ai-engineering.md#containment-and-emergency-control).
+**Primary source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Chapter 19 — Containment and emergency control](../methodology/chapter-19-security-and-responsible-ai-engineering.md#containment-and-emergency-control). [Helm's risk-plane-violation-runbook.md](https://github.com/knowledgetrailsai/Helm/blob/main/03-incident-response/runbooks/risk-plane-violation-runbook.md) is a worked example of this template filled in for one specific incident type.
 
 ```yaml
 service_runbook:

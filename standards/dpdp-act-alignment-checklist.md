@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), [Chapter 15 — Data and Knowledge Engineering](../methodology/chapter-15-data-and-knowledge-engineering.md), [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md).
 
+**Deeper regulatory source:** [Compass's dpdp-act.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/10-regulations-and-standards/India/dpdp-act.md) — this checklist maps obligations to OASIS mechanisms; Compass carries the substantive legal-text analysis and stays current as MeitY notifications are issued.
+
 ## Background and context
 
 The Digital Personal Data Protection Act, 2023 (DPDP Act) is India's first comprehensive, standalone data-protection law. It was passed by Parliament in August 2023, and its accompanying operational rules — the DPDP Rules, 2025 — were notified by the Ministry of Electronics and Information Technology (MeitY). Together they replace the earlier Sensitive Personal Data or Information (SPDI) Rules issued under Section 43A of the Information Technology Act, 2000, which had been India's primary data-protection instrument for over a decade. In OASIS, this checklist is one jurisdictional privacy overlay among many: use it when the system processes personal data in DPDP scope, and use other privacy-law overlays where other jurisdictions apply.

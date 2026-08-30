@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md), [Chapter 24 — Roles, Teams and Governance Forums](../methodology/chapter-24-roles-teams-and-governance-forums.md).
 
+**Deeper standard source:** [Compass's ISO-42001.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/09-tools-and-frameworks/ISO-42001.md) — this checklist maps clauses to OASIS mechanisms; Compass carries the fuller framework treatment and its comparison against other voluntary standards.
+
 ## Background and context
 
 ISO/IEC 42001:2023 is the world's first international management-system standard written specifically for artificial intelligence. It was developed by ISO/IEC JTC 1/SC 42 (the joint technical committee responsible for AI standardization) and published in December 2023. Its full title is "Information technology — Artificial intelligence — Management system," and it defines requirements for establishing, implementing, maintaining and continually improving an **AI Management System (AIMS)** — the organizational structure, policies, processes and controls through which an organization governs how it develops, provides or uses AI.

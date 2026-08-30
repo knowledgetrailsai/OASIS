@@ -123,7 +123,7 @@ evaluation_strategy:
 
 **Chapter 32 minimum content:** Failure family, severity, detectability, cause, evidence, impact, owner, containment, correction and regression case.
 
-**Primary source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md) (responsible-layer incident classification); see also the [Monitoring incident taxonomy](../monitoring/observability-and-telemetry-specification.md#4-incident-classification-responsible-layer-taxonomy).
+**Primary source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md) (responsible-layer incident classification); see also the [Monitoring incident taxonomy](../monitoring/observability-and-telemetry-specification.md#4-incident-classification-responsible-layer-taxonomy). [Verity's failure-taxonomy.md](https://github.com/knowledgetrailsai/Verity/blob/main/06-failure-taxonomy-and-reliability/failure-taxonomy.md) is the fuller eight-family taxonomy this template's "Failure family" column draws from.
 
 | Failure family | Responsible layer | Severity | Detectability | Root cause | Evidence | Business impact | Owner | Containment action | Correction | Regression case added? |
 |---|---|---|---|---|---|---|---|---|---|---|
