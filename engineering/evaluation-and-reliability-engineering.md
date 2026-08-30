@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 18 — Evaluation and Reliability Engineering](../methodology/chapter-18-evaluation-and-reliability-engineering.md); [Chapter 14 §10 — Guardrails, Reliability and Recovery](../methodology/chapter-14-intelligence-and-agent-engineering.md#10-guardrails-reliability-and-recovery) and [§11 — Evaluation Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#11-evaluation-engineering); cross-referenced with the [Evaluation Strategy and Dataset template](../tools/02-workflow-and-intelligence-templates.md#9-evaluation-strategy-and-dataset) and the [Security checklist's](../security/agentic-ai-threat-and-control-checklist.md) containment section.
 
+**Implemented in:** [Verity](https://github.com/knowledgetrailsai/Verity) — the fifteen dimensions and evaluation hierarchy below are the same ones Verity implements in full depth (statistical rigor, grader calibration, failure taxonomy, worked numeric examples); [Helm](https://github.com/knowledgetrailsai/Helm) implements the production tie-in — where this evaluation methodology plugs into a live learning loop.
+
 ## Background and context
 
 Evaluation and reliability are paired in one chapter, and this article keeps that pairing, because they answer the same underlying question from two directions: evaluation asks "how do we know this system is good enough before it ships," and reliability/guardrails ask "what happens when it isn't, in production, right now." A system can have excellent evaluation coverage and still fail in production if it has no guardrails to contain the failures evaluation didn't anticipate; a system can have extensive guardrails and still be untrustworthy if nothing evaluates whether it's actually accomplishing the task. Chapter 14 §11 makes a point that most conventional software testing practice does not need to make explicitly: the evaluation *unit* has to progress from a single model response, to a single agent step, to a completed multi-step workflow, to the actual business outcome — because a system can pass every unit-level test and still fail to deliver the outcome it was built for, if the individual correct steps don't compose into a correct end-to-end result. Section 2 below turns that progression into a concrete ladder rather than leaving it as a sentence.
@@ -18,7 +20,7 @@ The current state of practice for grading model output — "LLM-as-judge," where
 
 ## 1. Evaluation dimension reference
 
-Chapter 14 §11 names fifteen dimensions to measure. Each row below adds what it actually measures, a typical grading method, and an example of what failure looks like.
+Chapter 14 §11 names fifteen dimensions to measure. Each row below adds what it actually measures, a typical grading method, and an example of what failure looks like. [Verity's dimension reference](https://github.com/knowledgetrailsai/Verity/blob/main/03-dimensions-and-metrics/fifteen-dimension-reference.md) is the same table with the statistical formulas (Wilson score intervals, Cohen's kappa, paired-bootstrap significance testing) and worked numeric examples behind each grading method.
 
 | # | Dimension | What it measures | Typical grader | Example failure |
 |---|---|---|---|---|

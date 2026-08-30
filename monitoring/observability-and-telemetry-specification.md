@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Chapter 14 §12 — Runtime, AgentOps and Adaptation](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 26 — OASIS Measurement Framework](../methodology/chapter-26-oasis-measurement-framework.md).
 
+**Implemented in:** [Helm](https://github.com/knowledgetrailsai/Helm) — the full AgentOps implementation depth for the six operational planes below: instrumentation by plane, dashboards and alerting, release management, incident response, and the production learning loop. This specification defines what to instrument; Helm is where it's actually built out.
+
 ## Background and context
 
 Chapter 21 coins **AgentOps** as an extension of DevOps and MLOps to the behavior of complete intelligence systems, and that lineage is worth making explicit because it explains why traditional monitoring falls short here. DevOps-era Application Performance Monitoring answers "is the service up, fast, and error-free" — Chapter 21's **service plane** below. MLOps added model-quality tracking on top of that — offline evaluation metrics, drift detection — but both traditions assume a fixed, deterministic call path: request in, response out, one system boundary crossed. An intelligence system breaks that assumption in a specific way — the same user request can take a different path through models, retrieval, tools and human approval each time, decided dynamically by the system itself, which means service-plane monitoring alone cannot tell you *why* an outcome was good or bad, only *whether* the request succeeded. That is the gap Chapter 21's other five planes (intelligence, risk, human, economic, outcome) exist to close, and it is why this specification instruments all six rather than treating AI monitoring as APM-plus-a-dashboard.
@@ -18,7 +20,7 @@ The concrete instrumentation layer for this has been consolidating rapidly. **Op
 
 ## 1. The six operational planes, instrumented
 
-Chapter 21 defines six planes. Each row below adds representative metrics, a suggested collection point and an alert trigger — fill in system-specific thresholds before go-live; do not ship with placeholder thresholds.
+Chapter 21 defines six planes. Each row below adds representative metrics, a suggested collection point and an alert trigger — fill in system-specific thresholds before go-live; do not ship with placeholder thresholds. [Helm's instrumentation-by-plane.md](https://github.com/knowledgetrailsai/Helm/blob/main/01-observability/instrumentation-by-plane.md) is the fuller build-out of this same table, with dashboard and alerting-rule detail per metric.
 
 ### Service plane
 

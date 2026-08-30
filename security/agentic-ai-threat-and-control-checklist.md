@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md); cross-referenced with [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md) and the [Architecture Reference Architecture's defense-in-depth overlay](../architecture/oasis-reference-architecture.md#3-defense-in-depth-overlay).
 
+**Implemented in:** [Compass](https://github.com/knowledgetrailsai/responsible-ai) (`14-ai-security/`) — the full policy and control catalog behind the defense-in-depth layers and agentic threat model below, plus Chapter 20's jurisdiction-specific regulatory coverage; [Helm](https://github.com/knowledgetrailsai/Helm)'s [agentic threat model](https://github.com/knowledgetrailsai/Helm/blob/main/06-security-and-containment/agentic-threat-model.md) implements the runtime containment layer that enforces these controls in production, and [Verity](https://github.com/knowledgetrailsai/Verity)'s [adversarial and red-team evaluation](https://github.com/knowledgetrailsai/Verity/blob/main/08-safety-and-regulatory-alignment/adversarial-and-red-team-evaluation.md) is how to test whether they actually hold.
+
 ## Background and context
 
 Chapter 19 defines security for OASIS systems as defense-in-depth across eight layers (input, context, model, tool, workflow, output, runtime, operations) plus an explicit agentic threat model and a set of responsible-AI properties. That chapter is deliberately framework-neutral — it names the layers and threats an engineering team must address without tying itself to any one vendor's or standards body's naming, because the specific frameworks that best describe agentic AI risk are still moving fast and a hard-coded reference would go stale quickly (the OWASP Agentic Top 10 referenced below, for example, was only published in December 2025). This checklist is the concrete instrument that fills that gap: it takes Chapter 19's layers and threats and maps each one to the current external frameworks a security team would actually use to test, benchmark, and communicate about them.
@@ -34,6 +36,8 @@ Chapter 19 defines eight control layers. Each maps to one or more OWASP LLM Top 
 Two OWASP items do not map cleanly to a single layer and should be tracked separately: **LLM03 Supply Chain** spans model, tool and runtime provenance (see the Vendor Due-Diligence Record in Chapter 20), and **LLM04 Data and Model Poisoning** spans context (retrieval/knowledge sources) and model (training/fine-tuning inputs, where applicable) — track both against the [Data and Knowledge Readiness Assessment](../methodology/chapter-32-templates-checklists-and-tools.md#8-data-and-knowledge-readiness-assessment).
 
 ## 2. Agentic threat model (Ch. 19), mapped to OWASP Agentic Top 10 and MITRE ATLAS
+
+[Helm's agentic threat model](https://github.com/knowledgetrailsai/Helm/blob/main/06-security-and-containment/agentic-threat-model.md) covers the same eleven categories with the runtime containment detail for a deployed agent; [Compass's securing-agentic-ai.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/14-ai-security/securing-agentic-ai.md) is the fuller control catalog per threat.
 
 Chapter 19's agentic threat model names eleven threat categories. Each maps to its nearest OWASP Top 10 for Agentic Applications (2026) category and the MITRE ATLAS tactic(s) most relevant to that threat's attack path.
 

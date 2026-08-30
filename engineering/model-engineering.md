@@ -8,6 +8,8 @@
 
 **Primary OASIS source:** [Chapter 14 §2 — Model Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#2-model-engineering); cross-referenced with [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md) and the [Evaluation and Reliability Engineering](evaluation-and-reliability-engineering.md) article.
 
+**Implemented in:** [Axiom](https://github.com/knowledgetrailsai/Axiom) — the background reference on the model architectures (Transformers, MoE, SSMs, and related families) this article's selection criteria assume; [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) implements the cost-governance and model-routing economics that inform the same decision.
+
 ## Background and context
 
 Chapter 14 deliberately does not name specific models or providers — the model landscape changes faster than any methodology chapter could stay current with, and a team that selected models by reading a chapter rather than running its own benchmark would be optimizing for last quarter's leaderboard, not this task. What the chapter does prescribe is a discipline: benchmark against *representative tasks*, not general-purpose leaderboards; consider the full decision surface (reasoning depth, modality, deployment region, privacy, latency, cost, context window, tool-use reliability, operational support) rather than a single headline metric; and prove quality with the strongest appropriate model first, then optimize downward — because it is far easier to discover a smaller model is "good enough" once you know what "good" looks like than to discover a cost-optimized choice was never good enough in the first place.
