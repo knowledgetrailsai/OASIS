@@ -6,6 +6,24 @@
 
 This is a deliberately simple, Markdown-only GitHub package. All handbook pages are stored in this single folder and linked using relative Markdown links. Open this `README.md` file to navigate the handbook. See [CHANGELOG.md](CHANGELOG.md) for what's changed and when, including the review cadence expected for the Standards and References material.
 
+## OASIS and its companion repositories
+
+OASIS is the master methodology: what to do, in what order, and why. It deliberately stops short of being an implementation guide for any one practice area — that depth lives in the companion repositories below, each maintained independently and scoped to one (or a closely related pair of) Part III engineering chapters. Full mapping, ownership, and depth notes are in the [Companion Repository Index](References/companion-repository-index.md).
+
+| Repository | Chapter(s) | What it covers |
+|---|---|---|
+| [Ageis](https://github.com/knowledgetrailsai/Ageis) | Ch. 14 | Agentic coding delivery — the "Intelligence and Agent Engineering" discipline applied to software delivery end to end |
+| [Forge](https://github.com/knowledgetrailsai/Forge) | Ch. 15 | Data and knowledge engineering — retrieval architectures, embeddings, grounding |
+| [Loom](https://github.com/knowledgetrailsai/Loom) | Ch. 16 | Human–AI workflow and experience engineering — progressive autonomy, escalation, workflow blueprints |
+| [Helm](https://github.com/knowledgetrailsai/Helm) | Ch. 17 (light), 18 (light), 19, 21, 26 | Deployment, operations, and AgentOps — observability, release management, incident response, security containment |
+| [Verity](https://github.com/knowledgetrailsai/Verity) | Ch. 18 | Evaluation and reliability engineering — the fifteen-dimension evaluation methodology, statistical rigor, failure taxonomy |
+| [Compass](https://github.com/knowledgetrailsai/responsible-ai) | Ch. 19, 20 | Security, responsible AI, governance, and regulatory compliance across jurisdictions |
+| [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) | Ch. 22 | Economics, FinOps, and sustainability — cost and value tracking for AI systems |
+| [Nexus](https://github.com/knowledgetrailsai/Nexus) | Cross-cutting (feeds Ch. 5) | The opportunity catalog — which use case, in which domain and function, before it enters the OASIS lifecycle |
+| [Axiom](https://github.com/knowledgetrailsai/Axiom) | Background (underpins Ch. 14) | AI model architecture reference — Transformers, MoE, SSMs, and related families — not itself a chapter companion |
+
+**Known gap:** Chapter 17 (Enterprise Integration and Tool Engineering) has no dedicated companion at Forge/Loom/Verity's depth yet — see the index for what light coverage exists in Helm.
+
 ## Start here, by role
 
 **Executive sponsor or business owner.** You want the case for committing budget and a way to check whether it's working. Begin with [Chapter 01: OASIS Executive Overview](methodology/chapter-01-oasis-executive-overview.md) and [Chapter 03: Enterprise AI Transformation Direction](methodology/chapter-03-enterprise-ai-transformation-direction.md), then use the [AI Engineering Maturity Model](assessments/oasis-ai-engineering-maturity-model.md) to see where the organization currently stands. [CHANGELOG.md](CHANGELOG.md) shows what changed most recently and when it will next be reviewed.
