@@ -2,13 +2,11 @@
 
 # OASIS Methodology Handbook
 
-**Outcome-as-a-Service using Intelligence Systems**
+**Outcome-as-a-Service using Intelligence Systems** — the master methodology for enterprise AI transformation: what to do, in what order, and why.
 
-This is a deliberately simple, Markdown-only GitHub package. All handbook pages are stored in this single folder and linked using relative Markdown links. Open this `README.md` file to navigate the handbook. See [CHANGELOG.md](CHANGELOG.md) for what's changed and when, including the review cadence expected for the Standards and References material.
+## OASIS is the master methodology. These are its companion repositories.
 
-## OASIS and its companion repositories
-
-OASIS is the master methodology: what to do, in what order, and why. It deliberately stops short of being an implementation guide for any one practice area — that depth lives in the companion repositories below, each maintained independently and scoped to one (or a closely related pair of) Part III engineering chapters. Full mapping, ownership, and depth notes are in the [Companion Repository Index](References/companion-repository-index.md).
+OASIS deliberately stops short of being an implementation guide for any one practice area — that depth lives in nine companion repositories, each maintained independently and scoped to one (or a closely related pair of) Part III engineering chapters. Full mapping, ownership, and depth notes are in the [Companion Repository Index](References/companion-repository-index.md).
 
 | Repository | Chapter(s) | What it covers |
 |---|---|---|
@@ -23,6 +21,10 @@ OASIS is the master methodology: what to do, in what order, and why. It delibera
 | [Axiom](https://github.com/knowledgetrailsai/Axiom) | Background (underpins Ch. 14) | AI model architecture reference — Transformers, MoE, SSMs, and related families — not itself a chapter companion |
 
 **Known gap:** Chapter 17 (Enterprise Integration and Tool Engineering) has no dedicated companion at Forge/Loom/Verity's depth yet — see the index for what light coverage exists in Helm.
+
+---
+
+This is a deliberately simple, Markdown-only GitHub package. All handbook pages are stored in this single folder and linked using relative Markdown links. Open this `README.md` file to navigate the handbook. See [CHANGELOG.md](CHANGELOG.md) for what's changed and when, including the review cadence expected for the Standards and References material.
 
 ## Start here, by role
 
