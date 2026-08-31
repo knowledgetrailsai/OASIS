@@ -58,6 +58,8 @@ Data and privacy, and model and third party, are where obligations often extend 
 
 Responsible AI carries Chapter 19's seven properties into auditable form. Records and audit, and change and retirement, close the loop across the system's lifecycle — governance that stops at go-live is governance for a moment in time, not for the system as it exists. Compass's [RACI — AI Governance Activities](https://github.com/knowledgetrailsai/Responsible-AI/blob/main/03-ai-governance/RACI.md) assigns a role to each of these nine domains against the activities that keep them running.
 
+This governance scope runs on the "run the business" motion described in [Chapter 6's two governance motions](chapter-06-oasis-operating-model-and-decision-rights.md#two-governance-motions-running-side-by-side): steady cadence, standing records, predictable review. Do not mistake it for the second, parallel "change the business" motion that same chapter describes — the one that reviews what the transformation program is learning and where it should pivot next. A control register can be perfectly current and still tell you nothing about whether the transformation itself is on track; that question belongs to the other motion, running alongside this one, not inside it.
+
 ## Regulatory engineering method
 
 This is a sequence, not a checklist to work in parallel — each step depends on evidence the step before it produced.

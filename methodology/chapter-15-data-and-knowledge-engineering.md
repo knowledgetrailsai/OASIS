@@ -47,6 +47,10 @@ Before a system depends on a knowledge source in production, it should clear a r
 
 This table is the [Data and Knowledge Readiness Assessment](chapter-32-templates-checklists-and-tools.md#8-data-and-knowledge-readiness-assessment) in compact form, and Forge's [readiness dimensions](https://github.com/knowledgetrailsai/Forge/blob/main/03-readiness-assessment/readiness-dimensions.md) turn it into a scored rubric with pass thresholds. Run it honestly. A source "mostly ready" on all eight dimensions is a weaker foundation than a smaller source genuinely ready on all eight, because gaps compound rather than average out.
 
+### Governance runs on the agent's clock, not the audit calendar
+
+Readiness is a point-in-time bar. Once a system is live, agents consume this data continuously, not on the quarterly or annual cycle most data-governance programs were designed around. A quality check that runs monthly against a source agents query every minute is a structural mismatch, not a minor lag — by the time the check catches a problem, agents have already acted on bad data thousands of times. Treat the Quality, Access and Operations dimensions above as standing pipeline behavior, not periodic review: automated quality checks on every write, lineage tracked as data moves rather than reconstructed after the fact, and access entitlements re-evaluated continuously rather than certified once a quarter. Forge's [governance principles](https://github.com/knowledgetrailsai/Forge/blob/main/05-enterprise-knowledge-architecture/governance-principles.md) and [evaluation and ongoing operations](https://github.com/knowledgetrailsai/Forge/blob/main/02-knowledge-service-lifecycle/evaluation-and-ongoing-operations.md) cover what this looks like built into a live pipeline.
+
 ## Grounding policy
 
 Citation presence alone is not grounding — a common way teams fool themselves into believing a system is more reliable than it is. A response with a citation looks grounded, but it's only actually grounded if the cited passage supports the claim being made. A fluent model can attach a real, retrievable citation to a claim it doesn't support.

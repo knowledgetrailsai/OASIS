@@ -51,6 +51,12 @@ Increasing autonomy is assigned to the business authority owner rather than engi
 | Scale or productize               | Portfolio / Platform Owner                       | Repeatability, economics, demand and isolation of configurable elements. |
 | Retire                            | Outcome and Service Owners                       | Declining value, unacceptable risk, replacement or lifecycle decision.   |
 
+## Two governance motions, running side by side
+
+The decision-rights table above governs the initiatives themselves. It is not the same thing as governing the transformation program that produces those initiatives, and treating the two as one governance motion is a common source of stalled programs.
+
+Every enterprise already runs a governance motion built to run the business reliably: it reviews budgets on a quarterly cadence, tracks milestones against a plan set months ago, and asks whether commitments are being met. That motion is good at what it was built for, but its rhythm is too slow and its questions are wrong for a transformation that is still discovering what works. An AI transformation needs a second, parallel motion built to change the business: it asks what was learned this cycle, what should change as a result, and whether the program is pivoting toward the outcomes that matter, rather than whether it hit a milestone nobody could have predicted correctly before starting. This second motion does not replace the standing governance body — it runs alongside it, with its own cadence, its own participants, and its own decision rights, so leadership brings the right mindset to each conversation instead of forcing both questions through one meeting.
+
 ## Funding model
 
 Decision rights and funding are two sides of the same accountability structure, and OASIS lets funding evolve across the horizons rather than committing a single budget line for an initiative's life. Discovery funding is scoped narrowly to test genuine uncertainty—small enough that stopping is easy and consequence-free. Production funding creates the actual service once that uncertainty resolves in the initiative's favor. Run funding sustains outcomes on an ongoing basis, since a managed outcome service does not end at launch. Platform funding productizes capability proven repeatedly across deployments, converting project-specific spend into a shared enterprise asset.
