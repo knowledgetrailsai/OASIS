@@ -1,4 +1,4 @@
-<!-- SPDX-License-Identifier: MIT -->
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
 
 # OASIS Methodology Handbook
 
@@ -147,10 +147,10 @@ Fillable versions of all 20 artifacts named in [Chapter 32](methodology/chapter-
 
 ## License
 
-Copyright (c) 2026 OASIS Methodology contributors.
-
-Licensed under the [MIT License](LICENSE.md). Before public release, replace the contributor placeholder with the confirmed legal rights holder, where necessary.
+Licensed under [CC BY-SA 4.0](LICENSE.md). Reuse and adaptation are welcome
+with credit to Shripadraj Mujumdar, KnowledgeTrails, and OASIS, a link to the license, an
+indication of changes, and release of adaptations under the same license.
 
 ## About Us
 
-**Shripadraj Mujumdar** is Head of Agentic AI and Chief Enterprise Architect — Agentic AI & Intelligent Automation at Godrej Enterprises Group, with 28+ years in enterprise architecture and technology leadership, including 3+ years hands-on in Agentic AI/Generative AI and 10+ years in AI and data-transformation architectures. He is the architect behind Amethyst, Godrej's enterprise multi-cloud Agentic AI platform powering 50+ autonomous agents across 14 business ventures, and previously led Data, AI, and Responsible AI at Michelin, architecting enterprise data and knowledge-graph platforms and AI governance frameworks aligned to the EU AI Act. This methodology ecosystem distills that practitioner experience — architecture, delivery, evaluation, governance, and economics learned across FinTech, industrial, and material-science AI programs — into a single, reusable body of work.
+**Shripadraj Mujumdar** is an Agentic AI & Automation Strategist, Advisor, and Responsible AI Expert with 28+ years of experience in enterprise architecture and AI-driven transformation, including deep hands-on work in Agentic AI, Generative AI, and enterprise data and knowledge platforms. His practice spans designing multi-agent systems, knowledge-graph and RAG architectures, accelerated delivery capabilities, and Responsible AI governance frameworks aligned to global regulatory standards. This methodology ecosystem distills that practitioner experience — architecture, delivery, evaluation, governance, and economics — into a single, reusable body of work.
