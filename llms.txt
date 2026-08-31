@@ -1,0 +1,46 @@
+# OASIS
+
+> OASIS (Outcome-as-a-Service using Intelligence Systems) is the master enterprise AI transformation, delivery and assurance methodology for the knowledgetrailsai ecosystem. It defines the 33-chapter lifecycle, decision rights and governance model that the nine companion repositories each implement for one discipline.
+
+Read [00-handbook-introduction.md](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/00-handbook-introduction.md) first — it names all nine companion repositories before anything else. The [Companion Repository Index](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/References/companion-repository-index.md) is the authoritative map from each OASIS chapter to the repository that implements it in detail, with back-references from every companion into the chapter it implements.
+
+## Methodology (33 chapters, five parts)
+
+- [Part I: Transformation Foundations](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/methodology/part-i-transformation-foundations.md): Chapters 1–6 — why OASIS exists, principles, enterprise direction, entry paths, portfolio, operating model and decision rights.
+- [Part II: The OASIS Lifecycle](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/methodology/part-ii-the-oasis-lifecycle.md): Chapters 7–13 — the six delivery phases (Engage & Align through Optimize & Scale) plus decision gates.
+- [Part III: Intelligence-System Engineering and Assurance](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/methodology/part-iii-intelligence-system-engineering-and-assurance.md): Chapters 14–22 — the nine engineering disciplines, each with its own companion repository (see below).
+- [Part IV: Delivery and Enterprise Enablement](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/methodology/part-iv-delivery-and-enterprise-enablement.md): Chapters 23–25 — forward-deployed pods, roles and teams, the enterprise intelligence platform.
+- [Part V: Measurement, Scaling and Institutionalization](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/methodology/part-v-measurement-scaling-and-institutionalization.md): Chapters 26–33 — the measurement framework, adoption roadmap, tailoring, use cases and appendices.
+
+## Architecture, Engineering, Security, Monitoring
+
+- [Reference Architecture](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Architecture/oasis-reference-architecture.md): the nine architecture perspectives and where each companion repository implements a specific layer.
+- [Engineering](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Engineering/harness-and-orchestration-engineering.md): implementation-level specs for context/retrieval, evaluation, harness/orchestration, memory/state, model strategy and tool contracts — each cross-linked to the companion repo that builds it out further.
+- [Security: Agentic AI Threat and Control Checklist](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Security/agentic-ai-threat-and-control-checklist.md): defense-in-depth layers and the agentic threat model, row-linked to Compass, Helm and Verity.
+- [Monitoring: Observability and Telemetry Specification](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Monitoring/observability-and-telemetry-specification.md): the six operational planes, plane-linked to the companion that instruments each one.
+
+## Reference
+
+- [Master Glossary and Roles Roster](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/References/master-glossary-and-roles-roster.md): every term and role used across the repository, one lookup.
+- [Regulatory Framework Alignment Index](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/References/regulatory-framework-alignment-index.md): maps OASIS controls to EU AI Act, NIST AI RMF, ISO 42001, DPDP Act, OWASP and MITRE ATLAS — each linked to Compass's substantive source.
+- [Standards](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Standards/eu-ai-act-alignment-checklist.md) and [Tools](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/01-outcome-and-portfolio-templates.md): fillable checklists and templates for delivery.
+- [Maturity Model](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/assessments/oasis-ai-engineering-maturity-model.md): eight-dimension scorecard for assessing an organization's AI engineering maturity.
+
+## Companion repositories
+
+Each implements one or more Part III chapters in operating detail; each carries its own `llms.txt`.
+
+- [Ageis](https://raw.githubusercontent.com/knowledgetrailsai/Agentic-Engineeering-SDLC/main/llms.txt) — Chapter 14, Intelligence and Agent Engineering, scoped to agentic coding delivery.
+- [Forge](https://raw.githubusercontent.com/knowledgetrailsai/Forge/master/llms.txt) — Chapter 15, Data and Knowledge Engineering.
+- [Loom](https://raw.githubusercontent.com/knowledgetrailsai/LOOM/master/llms.txt) — Chapter 16, Human–AI Workflow and Experience Engineering.
+- [Helm](https://raw.githubusercontent.com/knowledgetrailsai/HELM/main/llms.txt) — Chapter 21 primarily (Deployment, Operations and AgentOps), plus 17, 18, 19 and 26 in part.
+- [Verity](https://raw.githubusercontent.com/knowledgetrailsai/VERITY/master/llms.txt) — Chapter 18, Evaluation and Reliability Engineering.
+- [Compass](https://raw.githubusercontent.com/knowledgetrailsai/responsible-ai/main/llms.txt) — Chapters 19 and 20, Responsible AI, Security and Governance.
+- [Fulcrum](https://raw.githubusercontent.com/knowledgetrailsai/OASIS-AI-FINOPS/main/llms.txt) — Chapter 22, Economics, FinOps and Sustainability.
+- [Nexus](https://raw.githubusercontent.com/knowledgetrailsai/Nexus/main/llms.txt) — cross-cutting use-case and opportunity mapping across ~40 domains and functions, feeding Chapter 5.
+- [Axiom](https://raw.githubusercontent.com/knowledgetrailsai/AXIOM/master/llms.txt) — background reference on model architectures (transformers, attention, MoE and more) that Chapter 14's model-selection guidance draws on; not a chapter companion in its own right.
+
+## Optional
+
+- [CHANGELOG](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/CHANGELOG.md)
+- [LICENSE](https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/LICENSE.md)
