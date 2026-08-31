@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/12-autonomy-matrix.schema.json",
+  "title": "Autonomy Matrix",
+  "description": "One row per distinct action a system can take, never one row per system. Chapter 32 \u00a712.",
+  "x-oasis-artifact-id": 12,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/03-system-and-governance-templates.md#12-autonomy-matrix",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "action": {
+        "type": "string"
+      },
+      "case_class": {
+        "type": "string"
+      },
+      "risk_level": {
+        "type": "string"
+      },
+      "current_system_capability_evidenced": {
+        "type": "string"
+      },
+      "human_authority_required": {
+        "type": "string"
+      },
+      "operating_limits": {
+        "type": "string"
+      },
+      "evidence_threshold_to_progress": {
+        "type": "string"
+      },
+      "escalation_trigger": {
+        "type": "string"
+      },
+      "suspension_trigger": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

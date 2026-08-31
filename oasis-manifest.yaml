@@ -1,0 +1,162 @@
+# oasis-manifest.yaml
+# Machine-readable index of the OASIS methodology: parts, chapters, companion repositories,
+# lifecycle phases, decision gates, and the 20 artifacts. Generated from the prose in
+# methodology/, Architecture/, and Tools/ — if this ever drifts from those, the prose wins
+# and this file should be regenerated. See llms.txt for the human/LLM-readable map and
+# References/task-to-artifact-routing-table.md for "which artifact do I need" guidance.
+
+methodology:
+  name: OASIS
+  full_name: Outcome-as-a-Service using Intelligence Systems
+  version: "2026"
+  license: MIT
+  repository: https://github.com/knowledgetrailsai/OASIS
+  default_branch: main
+  entry_points:
+    - 00-handbook-introduction.md
+    - README.md
+  companion_repository_index: References/companion-repository-index.md
+  master_glossary: References/master-glossary-and-roles-roster.md
+  lifecycle_definitions: oasis-lifecycle.yaml
+  routing_table: References/task-to-artifact-routing-table.md
+  artifact_schemas_dir: Schemas/
+
+parts:
+  - id: I
+    title: Transformation Foundations
+    chapters: [1, 2, 3, 4, 5, 6]
+    path: methodology/part-i-transformation-foundations.md
+  - id: II
+    title: The OASIS Lifecycle
+    chapters: [7, 8, 9, 10, 11, 12, 13]
+    path: methodology/part-ii-the-oasis-lifecycle.md
+  - id: III
+    title: Intelligence-System Engineering and Assurance
+    chapters: [14, 15, 16, 17, 18, 19, 20, 21, 22]
+    path: methodology/part-iii-intelligence-system-engineering-and-assurance.md
+  - id: IV
+    title: Delivery and Enterprise Enablement
+    chapters: [23, 24, 25]
+    path: methodology/part-iv-delivery-and-enterprise-enablement.md
+  - id: V
+    title: Measurement, Scaling and Institutionalization
+    chapters: [26, 27, 28, 29, 30, 31, 32, 33]
+    path: methodology/part-v-measurement-scaling-and-institutionalization.md
+
+chapters:
+  - {id: 1,  title: OASIS Executive Overview, part: I}
+  - {id: 2,  title: Methodology Foundations and Design Principles, part: I}
+  - {id: 3,  title: Enterprise AI Transformation Direction, part: I}
+  - {id: 4,  title: Multiple Entry Paths and Configurable Depth, part: I}
+  - {id: 5,  title: Opportunity Portfolio and Transformation Horizons, part: I}
+  - {id: 6,  title: OASIS Operating Model and Decision Rights, part: I}
+  - {id: 7,  title: "Phase 1: Engage & Align", part: II, phase: engage-and-align}
+  - {id: 8,  title: "Phase 2: Discover & Validate", part: II, phase: discover-and-validate}
+  - {id: 9,  title: "Phase 3: Engineer & Integrate", part: II, phase: engineer-and-integrate}
+  - {id: 10, title: "Phase 4: Activate & Adopt", part: II, phase: activate-and-adopt}
+  - {id: 11, title: "Phase 5: Operate & Assure", part: II, phase: operate-and-assure}
+  - {id: 12, title: "Phase 6: Optimize & Scale", part: II, phase: optimize-and-scale}
+  - {id: 13, title: Decision Gates and Evidence Model, part: II}
+  - {id: 14, title: Intelligence and Agent Engineering, part: III, companion: Ageis}
+  - {id: 15, title: Data and Knowledge Engineering, part: III, companion: Forge}
+  - {id: 16, title: Human-AI Workflow and Experience Engineering, part: III, companion: Loom}
+  - {id: 17, title: Enterprise Integration and Tool Engineering, part: III, companion: Helm}
+  - {id: 18, title: Evaluation and Reliability Engineering, part: III, companion: Verity}
+  - {id: 19, title: Security and Responsible AI Engineering, part: III, companion: Compass}
+  - {id: 20, title: Governance, Compliance and Regulatory Engineering, part: III, companion: Compass}
+  - {id: 21, title: Deployment, Operations and AgentOps, part: III, companion: Helm}
+  - {id: 22, title: Economics, FinOps and Sustainability, part: III, companion: Fulcrum}
+  - {id: 23, title: Forward-Deployed Outcome Engineering, part: IV}
+  - {id: 24, title: Roles, Teams and Governance Forums, part: IV}
+  - {id: 25, title: Enterprise Intelligence Platform, part: IV}
+  - {id: 26, title: OASIS Measurement Framework, part: V}
+  - {id: 27, title: Delivery Cadence and Management Practices, part: V}
+  - {id: 28, title: Scaling and Productization, part: V}
+  - {id: 29, title: OASIS Adoption Roadmap, part: V}
+  - {id: 30, title: Tailoring OASIS, part: V}
+  - {id: 31, title: Illustrative Use Cases, part: V}
+  - {id: 32, title: Templates, Checklists and Tools, part: V}
+  - {id: 33, title: Appendices and Reference Material, part: V}
+
+companion_repositories:
+  - name: Ageis
+    remote: knowledgetrailsai/Agentic-Engineeering-SDLC
+    branch: main
+    chapters: [14]
+    role: primary
+  - name: Forge
+    remote: knowledgetrailsai/Forge
+    branch: master
+    chapters: [15]
+    role: primary
+  - name: Loom
+    remote: knowledgetrailsai/LOOM
+    branch: master
+    chapters: [16]
+    role: primary
+  - name: Helm
+    remote: knowledgetrailsai/HELM
+    branch: main
+    chapters: [21, 17, 18, 19, 26]
+    role: primary-for-21
+  - name: Verity
+    remote: knowledgetrailsai/VERITY
+    branch: master
+    chapters: [18]
+    role: primary
+  - name: Compass
+    remote: knowledgetrailsai/responsible-ai
+    branch: main
+    chapters: [19, 20]
+    role: primary
+  - name: Fulcrum
+    remote: knowledgetrailsai/OASIS-AI-FINOPS
+    branch: main
+    chapters: [22]
+    role: primary
+  - name: Nexus
+    remote: knowledgetrailsai/Nexus
+    branch: main
+    chapters: [5]
+    role: cross-cutting-feed
+  - name: Axiom
+    remote: knowledgetrailsai/AXIOM
+    branch: master
+    chapters: [14]
+    role: background-reference
+
+lifecycle_phases_summary:
+  # Full structured definitions, including entry/exit criteria and gates, live in oasis-lifecycle.yaml.
+  - {id: engage-and-align,       chapter: 7,  gate: outcome-alignment}
+  - {id: discover-and-validate,  chapter: 8,  gate: solution-viability}
+  - {id: engineer-and-integrate, chapter: 9,  gate: production-readiness}
+  - {id: activate-and-adopt,     chapter: 10, gate: operational-acceptance}
+  - {id: operate-and-assure,     chapter: 11, gate: outcome-performance}
+  - {id: optimize-and-scale,     chapter: 12, gate: scale-and-renewal}
+
+artifacts:
+  # Full field-level schemas live under Schemas/<id>.schema.json.
+  - {id: 1,  name: Opportunity Assessment,                slug: opportunity-assessment,                phase: engage-and-align,       tools_file: Tools/01-outcome-and-portfolio-templates.md,     schema_format: yaml}
+  - {id: 2,  name: Outcome Charter,                       slug: outcome-charter,                        phase: engage-and-align,       tools_file: Tools/01-outcome-and-portfolio-templates.md,     schema_format: yaml}
+  - {id: 3,  name: Outcome Contract,                       slug: outcome-contract,                       phase: discover-and-validate,  tools_file: Tools/01-outcome-and-portfolio-templates.md,     schema_format: yaml}
+  - {id: 4,  name: Outcome Metric Tree,                    slug: outcome-metric-tree,                    phase: engage-and-align,       tools_file: Tools/01-outcome-and-portfolio-templates.md,     schema_format: table}
+  - {id: 5,  name: Value and Risk Case,                    slug: value-and-risk-case,                    phase: engage-and-align,       tools_file: Tools/01-outcome-and-portfolio-templates.md,     schema_format: yaml}
+  - {id: 6,  name: Process and Decision Map,               slug: process-and-decision-map,               phase: discover-and-validate,  tools_file: Tools/02-workflow-and-intelligence-templates.md, schema_format: table}
+  - {id: 7,  name: Human-AI Workflow Blueprint,            slug: human-ai-workflow-blueprint,             phase: discover-and-validate,  tools_file: Tools/02-workflow-and-intelligence-templates.md, schema_format: yaml}
+  - {id: 8,  name: Data and Knowledge Readiness Assessment, slug: data-and-knowledge-readiness-assessment, phase: discover-and-validate,  tools_file: Tools/02-workflow-and-intelligence-templates.md, schema_format: table}
+  - {id: 9,  name: Evaluation Strategy and Dataset,        slug: evaluation-strategy-and-dataset,        phase: discover-and-validate,  tools_file: Tools/02-workflow-and-intelligence-templates.md, schema_format: yaml}
+  - {id: 10, name: Failure Taxonomy,                       slug: failure-taxonomy,                       phase: engineer-and-integrate, tools_file: Tools/02-workflow-and-intelligence-templates.md, schema_format: table}
+  - {id: 11, name: Intelligence-System Blueprint,          slug: intelligence-system-blueprint,          phase: engineer-and-integrate, tools_file: Tools/03-system-and-governance-templates.md,     schema_format: yaml}
+  - {id: 12, name: Autonomy Matrix,                        slug: autonomy-matrix,                        phase: activate-and-adopt,     tools_file: Tools/03-system-and-governance-templates.md,     schema_format: table}
+  - {id: 13, name: Production Readiness Checklist,         slug: production-readiness-checklist,         phase: engineer-and-integrate, tools_file: Tools/04-readiness-and-operations-templates.md,  schema_format: table}
+  - {id: 14, name: Operational Acceptance Checklist,       slug: operational-acceptance-checklist,       phase: activate-and-adopt,     tools_file: Tools/04-readiness-and-operations-templates.md,  schema_format: table}
+  - {id: 15, name: Outcome Scorecard,                      slug: outcome-scorecard,                      phase: operate-and-assure,     tools_file: Tools/04-readiness-and-operations-templates.md,  schema_format: table}
+  - {id: 16, name: Service Runbook,                        slug: service-runbook,                        phase: engineer-and-integrate, tools_file: Tools/04-readiness-and-operations-templates.md,  schema_format: yaml}
+  - {id: 17, name: Risk and Control Register,              slug: risk-and-control-register,              phase: engage-and-align,       tools_file: Tools/05-risk-and-scale-templates.md,            schema_format: table}
+  - {id: 18, name: Scale and Productization Assessment,    slug: scale-and-productization-assessment,    phase: optimize-and-scale,     tools_file: Tools/05-risk-and-scale-templates.md,            schema_format: yaml}
+  - {id: 19, name: Responsibility Assignment Matrix,       slug: responsibility-assignment-matrix,       phase: engage-and-align,       tools_file: Tools/03-system-and-governance-templates.md,     schema_format: table}
+  - {id: 20, name: Decision-Gate Record,                   slug: decision-gate-record,                   phase: engage-and-align,       tools_file: Tools/03-system-and-governance-templates.md,     schema_format: yaml}
+
+skill:
+  path: oasis-skill/SKILL.md
+  description: Lightweight agent skill for locating and filling the right OASIS artifact for a given task.

@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/01-opportunity-assessment.schema.json",
+  "title": "Opportunity Assessment",
+  "description": "Decide whether a candidate problem is worth taking further before committing engineering time. Chapter 32 \u00a71.",
+  "x-oasis-artifact-id": 1,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/01-outcome-and-portfolio-templates.md#1-opportunity-assessment",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "submitted_by": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "problem_statement": {
+      "type": "string"
+    },
+    "affected_workflow": {
+      "type": "string"
+    },
+    "candidate_outcome": {
+      "type": "string"
+    },
+    "baseline_availability": {
+      "type": "object",
+      "properties": {
+        "is_baseline_data_available": {
+          "type": "boolean"
+        },
+        "source": {
+          "type": "string"
+        },
+        "known_gaps": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "stakeholders": {
+      "type": "object",
+      "properties": {
+        "outcome_owner": {
+          "type": "string"
+        },
+        "affected_teams": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "executive_sponsor": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "intelligence_fit": {
+      "type": "object",
+      "properties": {
+        "suitability": {
+          "type": "string",
+          "enum": [
+            "strong",
+            "moderate",
+            "weak",
+            "not-a-fit"
+          ]
+        },
+        "rationale": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "transformation_horizon": {
+      "type": "string",
+      "enum": [
+        "H1 automate",
+        "H2 augment",
+        "H3 reinvent"
+      ]
+    },
+    "recommendation": {
+      "type": "string",
+      "enum": [
+        "proceed",
+        "park",
+        "decline"
+      ]
+    },
+    "recommendation_rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "problem_statement",
+    "candidate_outcome",
+    "recommendation"
+  ],
+  "additionalProperties": false
+}

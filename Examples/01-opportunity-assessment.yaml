@@ -1,0 +1,23 @@
+opportunity_assessment:
+  title: "AP Invoice Exception Triage Assistant"
+  submitted_by: "Dana Iyer, AP Operations Lead"
+  date: "2026-03-03"
+  problem_statement: "AP analysts manually research and resolve ~4,000 invoice exceptions/month (mismatched amount, missing PO, suspected duplicate). Average resolution time is 14 minutes; backlog regularly exceeds 3 business days, delaying vendor payments and triggering early-payment-discount losses."
+  affected_workflow: "Invoice exception queue, owned by AP Operations; touches Procurement (PO lookups) and Vendor Management (duplicate disputes)."
+  candidate_outcome: "Reduce average exception resolution time from 14 minutes to under 5 minutes, without increasing the error rate on resolved exceptions."
+  baseline_availability:
+    is_baseline_data_available: true
+    source: "AP exception queue system (12 months of ticket-level history, 48,000 tickets)"
+    known_gaps: "Root-cause tagging on tickets before Sept 2025 is inconsistent; usable for volume analysis, not for training an evaluation set without re-labeling."
+  stakeholders:
+    outcome_owner: "Dana Iyer, AP Operations Lead"
+    affected_teams: ["AP Operations", "Procurement", "Vendor Management"]
+    executive_sponsor: "Priya Nataraj, VP Finance Operations"
+  intelligence_fit:
+    suitability: "strong"
+    rationale: "Exception resolution requires cross-referencing 3-4 systems (ERP, PO system, vendor master) and applying documented policy rules -- exactly the retrieval-plus-policy-application pattern intelligence systems handle well. A deterministic rules engine was tried in 2024 and covered only 40% of cases because exception patterns vary too much for hand-coded rules."
+  dependencies: ["ERP read access (SAP)", "PO system API", "Vendor master data quality"]
+  risks: ["Duplicate-detection false positives could delay legitimate payments", "Vendor master data has known quality gaps in the EMEA region"]
+  transformation_horizon: "H2 augment"
+  recommendation: "proceed"
+  recommendation_rationale: "Strong intelligence fit, clear baseline, and a deterministic approach was already tried and fell short. Proceeding to Phase 2 to validate on a representative case sample before any production commitment -- the duplicate-detection risk needs a measured false-positive rate before this goes further, not just a stated concern."

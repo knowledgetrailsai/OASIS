@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/15-outcome-scorecard.schema.json",
+  "title": "Outcome Scorecard",
+  "description": "Recurring, dated snapshot of performance across seven dimensions. Chapter 32 \u00a715.",
+  "x-oasis-artifact-id": 15,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/04-readiness-and-operations-templates.md#15-outcome-scorecard",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "dimension": {
+        "type": "string",
+        "enum": [
+          "Outcome",
+          "Adoption",
+          "Intelligence",
+          "Risk",
+          "Service",
+          "Economics",
+          "Reuse"
+        ]
+      },
+      "metric": {
+        "type": "string"
+      },
+      "current": {
+        "type": "string"
+      },
+      "threshold_or_target": {
+        "type": "string"
+      },
+      "trend": {
+        "type": "string"
+      },
+      "commentary": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

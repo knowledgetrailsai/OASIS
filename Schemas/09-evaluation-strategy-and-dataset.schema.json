@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/09-evaluation-strategy-and-dataset.schema.json",
+  "title": "Evaluation Strategy and Dataset",
+  "description": "Defines what 'good' means for a system before it is judged against that standard. Chapter 32 \u00a79.",
+  "x-oasis-artifact-id": 9,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/02-workflow-and-intelligence-templates.md#9-evaluation-strategy-and-dataset",
+  "type": "object",
+  "properties": {
+    "quality_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "intent_understanding",
+          "correctness",
+          "groundedness",
+          "citation_accuracy",
+          "structured_output_validity",
+          "retrieval_quality",
+          "tool_selection_accuracy",
+          "workflow_completion",
+          "policy_adherence",
+          "escalation_correctness",
+          "robustness",
+          "latency",
+          "cost",
+          "user_acceptance",
+          "outcome_contribution"
+        ]
+      }
+    },
+    "dataset": {
+      "type": "object",
+      "properties": {
+        "total_cases": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "splits": {
+          "type": "object",
+          "properties": {
+            "dev": {
+              "type": "integer"
+            },
+            "held_out": {
+              "type": "integer"
+            },
+            "regression": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "case_design": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "case_id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "expected_behavior": {
+            "type": "string"
+          },
+          "grader": {
+            "type": "string",
+            "enum": [
+              "human",
+              "rubric",
+              "model-graded",
+              "deterministic"
+            ]
+          },
+          "pass_threshold": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "regression_policy": {
+      "type": "string"
+    },
+    "production_sampling": {
+      "type": "object",
+      "properties": {
+        "sample_rate": {
+          "type": "string"
+        },
+        "review_cadence": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "quality_dimensions",
+    "dataset"
+  ],
+  "additionalProperties": false
+}

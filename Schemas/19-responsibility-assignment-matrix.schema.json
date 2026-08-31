@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/19-responsibility-assignment-matrix.schema.json",
+  "title": "Responsibility Assignment Matrix",
+  "description": "Maps each significant activity/decision to accountable, responsible, consulted, informed roles. Chapter 32 \u00a719.",
+  "x-oasis-artifact-id": 19,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/03-system-and-governance-templates.md#19-responsibility-assignment-matrix",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "activity_or_decision": {
+        "type": "string"
+      },
+      "accountable": {
+        "type": "string",
+        "description": "Exactly one name. Two names means the row is unresolved."
+      },
+      "responsible": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "consulted": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "informed": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

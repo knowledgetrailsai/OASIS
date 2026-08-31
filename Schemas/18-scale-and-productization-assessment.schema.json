@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/18-scale-and-productization-assessment.schema.json",
+  "title": "Scale and Productization Assessment",
+  "description": "Whether a capability built for one use case should become a shared platform asset. Chapter 32 \u00a718.",
+  "x-oasis-artifact-id": 18,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/05-risk-and-scale-templates.md#18-scale-and-productization-assessment",
+  "type": "object",
+  "properties": {
+    "capability_name": {
+      "type": "string"
+    },
+    "demand": {
+      "type": "object",
+      "properties": {
+        "current_consumers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pipeline_demand": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "repeatability": {
+      "type": "object",
+      "properties": {
+        "variance_across_consumers": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "what_varies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "contract_stability": {
+      "type": "object",
+      "properties": {
+        "interface_stability": {
+          "type": "string",
+          "enum": [
+            "stable",
+            "evolving",
+            "volatile"
+          ]
+        },
+        "breaking_change_history": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "configuration_vs_customization": {
+      "type": "object",
+      "properties": {
+        "configurable_parameters": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "custom_build_required_for": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "tenancy_model": {
+      "type": "string",
+      "enum": [
+        "single-tenant",
+        "multi-tenant",
+        "hybrid"
+      ]
+    },
+    "support_model": {
+      "type": "object",
+      "properties": {
+        "ownership": {
+          "type": "string"
+        },
+        "sla": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "economics": {
+      "type": "object",
+      "properties": {
+        "unit_cost_at_current_scale": {
+          "type": "string"
+        },
+        "unit_cost_at_target_scale": {
+          "type": "string"
+        },
+        "reuse_rationale": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "risk_at_scale": {
+      "type": "object",
+      "properties": {
+        "concentration_risk": {
+          "type": "string"
+        },
+        "blast_radius_if_shared_component_fails": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "roadmap": {
+      "type": "object",
+      "properties": {
+        "productization_decision": {
+          "type": "string",
+          "enum": [
+            "keep bespoke",
+            "productize",
+            "retire"
+          ]
+        },
+        "next_milestone": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "capability_name",
+    "roadmap"
+  ],
+  "additionalProperties": false
+}

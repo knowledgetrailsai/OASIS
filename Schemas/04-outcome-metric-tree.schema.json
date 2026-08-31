@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/04-outcome-metric-tree.schema.json",
+  "title": "Outcome Metric Tree",
+  "description": "One row per metric: primary outcome, leading indicators, operational drivers, and guardrails. Chapter 32 \u00a74.",
+  "x-oasis-artifact-id": 4,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/01-outcome-and-portfolio-templates.md#4-outcome-metric-tree",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "level": {
+        "type": "string",
+        "enum": [
+          "Primary outcome",
+          "Leading indicator",
+          "Operational driver",
+          "Guardrail"
+        ]
+      },
+      "metric_name": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      },
+      "data_source": {
+        "type": "string"
+      },
+      "segmentation": {
+        "type": "string"
+      },
+      "threshold_or_target": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/02-outcome-charter.schema.json",
+  "title": "Outcome Charter",
+  "description": "What a team commits to once an opportunity is approved to proceed. Chapter 32 \u00a72.",
+  "x-oasis-artifact-id": 2,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/01-outcome-and-portfolio-templates.md#2-outcome-charter",
+  "type": "object",
+  "properties": {
+    "outcome_statement": {
+      "type": "string"
+    },
+    "population": {
+      "type": "string"
+    },
+    "baseline": {
+      "type": "object",
+      "properties": {
+        "metric": {
+          "type": "string"
+        },
+        "current_value": {
+          "type": "string"
+        },
+        "measurement_period": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "target": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "by_date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "causal_hypothesis": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "included": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "excluded": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "owner": {
+      "type": "string"
+    },
+    "guardrail_metrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "timeline": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date"
+        },
+        "next_gate": {
+          "type": "string"
+        },
+        "next_gate_date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "next_gate_reference": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "outcome_statement",
+    "owner",
+    "causal_hypothesis"
+  ],
+  "additionalProperties": false
+}

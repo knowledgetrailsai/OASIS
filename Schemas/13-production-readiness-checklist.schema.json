@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/13-production-readiness-checklist.schema.json",
+  "title": "Production Readiness Checklist",
+  "description": "Confirms a system is safe to expose to live users. Eleven fixed areas. Chapter 32 \u00a713.",
+  "x-oasis-artifact-id": 13,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/04-readiness-and-operations-templates.md#13-production-readiness-checklist",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "item_number": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 11
+      },
+      "area": {
+        "type": "string",
+        "enum": [
+          "Architecture",
+          "Security",
+          "Privacy",
+          "Evaluations",
+          "Integration",
+          "Resilience",
+          "Monitoring",
+          "Support",
+          "Runbook",
+          "Rollback",
+          "Approvals"
+        ]
+      },
+      "requirement": {
+        "type": "string"
+      },
+      "evidence": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "not-started",
+          "in-progress",
+          "complete"
+        ]
+      },
+      "approver": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

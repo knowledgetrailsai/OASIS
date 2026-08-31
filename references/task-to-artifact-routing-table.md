@@ -1,0 +1,43 @@
+<!-- SPDX-License-Identifier: MIT -->
+
+[← Back to Contents](../README.md) · [Chapter 32: Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) · [Master Glossary](master-glossary-and-roles-roster.md)
+
+# Reference: Task-to-Artifact Routing Table
+
+> **PURPOSE** Answer "which of the 20 artifacts do I need right now?" starting from the task in front of you, not from the artifact catalogue. Chapter 32 and the [Tools](../tools/01-outcome-and-portfolio-templates.md) folder define what each artifact is; this page and [`../oasis-manifest.yaml`](../oasis-manifest.yaml) exist so a person or an agent can go the other direction — from a plain-language task to the right artifact, phase and JSON Schema.
+
+**Primary OASIS source:** [Chapter 32 — Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) and [Chapter 13 — Decision Gates and Evidence Model](../methodology/chapter-13-decision-gates-and-evidence-model.md). Machine-readable form: [`oasis-lifecycle.yaml`](../oasis-lifecycle.yaml) (phases and gates) and [`Schemas/`](../Schemas/) (one JSON Schema per artifact).
+
+## How to use this table
+
+Find the row closest to what you're actually trying to decide, not the artifact name you already have in mind — several tasks route to more than one artifact because the underlying decision needs more than one kind of evidence. Each artifact links to its fillable version in [Tools](../tools/01-outcome-and-portfolio-templates.md) and its schema in [Schemas/](../Schemas/).
+
+| # | Task or question | Artifact(s) | Phase | Gate | Schema |
+|---|---|---|---|---|---|
+| 1 | "Is this problem worth pursuing at all?" | [1. Opportunity Assessment](../tools/01-outcome-and-portfolio-templates.md#1-opportunity-assessment) | Engage & Align | Outcome Alignment | [01](../Schemas/01-opportunity-assessment.schema.json) |
+| 2 | "What exactly are we committing to, and why should it work?" | [2. Outcome Charter](../tools/01-outcome-and-portfolio-templates.md#2-outcome-charter) | Engage & Align | Outcome Alignment | [02](../Schemas/02-outcome-charter.schema.json) |
+| 3 | "How do we turn a charter into a real operating agreement between provider and business?" | [3. Outcome Contract](../tools/01-outcome-and-portfolio-templates.md#3-outcome-contract) | Discover & Validate | Solution Viability | [03](../Schemas/03-outcome-contract.schema.json) |
+| 4 | "What does success actually look like, numerically, and what would tell us early?" | [4. Outcome Metric Tree](../tools/01-outcome-and-portfolio-templates.md#4-outcome-metric-tree) | Engage & Align | Outcome Alignment | [04](../Schemas/04-outcome-metric-tree.schema.json) |
+| 5 | "Is this worth the money, and what could go wrong?" | [5. Value and Risk Case](../tools/01-outcome-and-portfolio-templates.md#5-value-and-risk-case) | Engage & Align | Outcome Alignment | [05](../Schemas/05-value-and-risk-case.schema.json) |
+| 6 | "How does this workflow actually work today, before we redesign it?" | [6. Process and Decision Map](../tools/02-workflow-and-intelligence-templates.md#6-process-and-decision-map) | Discover & Validate | Solution Viability | [06](../Schemas/06-process-and-decision-map.schema.json) |
+| 7 | "Who — human or AI — does what at each step, and who has authority to act?" | [7. Human-AI Workflow Blueprint](../tools/02-workflow-and-intelligence-templates.md#7-human-ai-workflow-blueprint) | Discover & Validate | Solution Viability | [07](../Schemas/07-human-ai-workflow-blueprint.schema.json) |
+| 8 | "Is our data actually good enough to build on?" | [8. Data and Knowledge Readiness Assessment](../tools/02-workflow-and-intelligence-templates.md#8-data-and-knowledge-readiness-assessment) | Discover & Validate | Solution Viability | [08](../Schemas/08-data-and-knowledge-readiness-assessment.schema.json) |
+| 9 | "How will we know if the system is actually good, before real users judge it for us?" | [9. Evaluation Strategy and Dataset](../tools/02-workflow-and-intelligence-templates.md#9-evaluation-strategy-and-dataset) | Discover & Validate | Solution Viability | [09](../Schemas/09-evaluation-strategy-and-dataset.schema.json) |
+| 10 | "The system failed — how do we classify it so we fix the right layer?" | [10. Failure Taxonomy](../tools/02-workflow-and-intelligence-templates.md#10-failure-taxonomy) | Engineer & Integrate (ongoing) | — | [10](../Schemas/10-failure-taxonomy.schema.json) |
+| 11 | "What is this system's architecture, end to end?" | [11. Intelligence-System Blueprint](../tools/03-system-and-governance-templates.md#11-intelligence-system-blueprint) | Engineer & Integrate | Production Readiness | [11](../Schemas/11-intelligence-system-blueprint.schema.json) |
+| 12 | "What is this system allowed to do without a human, action by action?" | [12. Autonomy Matrix](../tools/03-system-and-governance-templates.md#12-autonomy-matrix) | Activate & Adopt | Operational Acceptance | [12](../Schemas/12-autonomy-matrix.schema.json) |
+| 13 | "Is this system safe to expose to live users?" | [13. Production Readiness Checklist](../tools/04-readiness-and-operations-templates.md#13-production-readiness-checklist) | Engineer & Integrate | Production Readiness | [13](../Schemas/13-production-readiness-checklist.schema.json) |
+| 14 | "Now that it's live, is it actually working for real users?" | [14. Operational Acceptance Checklist](../tools/04-readiness-and-operations-templates.md#14-operational-acceptance-checklist) | Activate & Adopt | Operational Acceptance | [14](../Schemas/14-operational-acceptance-checklist.schema.json) |
+| 15 | "How is this system performing, on a recurring basis, across every dimension that matters?" | [15. Outcome Scorecard](../tools/04-readiness-and-operations-templates.md#15-outcome-scorecard) | Operate & Assure | Outcome Performance | [15](../Schemas/15-outcome-scorecard.schema.json) |
+| 16 | "Something broke at 2 a.m. — what do we do?" | [16. Service Runbook](../tools/04-readiness-and-operations-templates.md#16-service-runbook) | Engineer & Integrate (used in Operate & Assure) | — | [16](../Schemas/16-service-runbook.schema.json) |
+| 17 | "What risks does this system carry, and what controls address them?" | [17. Risk and Control Register](../tools/05-risk-and-scale-templates.md#17-risk-and-control-register) | Engage & Align (maintained throughout) | Outcome Alignment, Outcome Performance | [17](../Schemas/17-risk-and-control-register.schema.json) |
+| 18 | "Should this one-off build become a shared platform capability?" | [18. Scale and Productization Assessment](../tools/05-risk-and-scale-templates.md#18-scale-and-productization-assessment) | Optimize & Scale | Scale and Renewal | [18](../Schemas/18-scale-and-productization-assessment.schema.json) |
+| 19 | "Who is accountable, responsible, consulted and informed for each key decision?" | [19. Responsibility Assignment Matrix](../tools/03-system-and-governance-templates.md#19-responsibility-assignment-matrix) | Engage & Align (maintained throughout) | — | [19](../Schemas/19-responsibility-assignment-matrix.schema.json) |
+| 20 | "We just passed (or failed) a gate — how do we record that decision?" | [20. Decision-Gate Record](../tools/03-system-and-governance-templates.md#20-decision-gate-record) | All six phases, at each gate | All six gates | [20](../Schemas/20-decision-gate-record.schema.json) |
+| 21 | "We want to start an initiative from scratch — what's the minimum artifact set for Phase 1?" | 1, 2, 4, 5, 17, 19 | Engage & Align | Outcome Alignment | see `oasis-lifecycle.yaml` `key_artifacts` |
+| 22 | "We're about to go live — what must be true first?" | 10, 11, 13, 16 | Engineer & Integrate | Production Readiness | see `oasis-lifecycle.yaml` `key_artifacts` |
+| 23 | "A regulator or auditor is asking what evidence justified a decision." | 20 (Decision-Gate Record), cross-referenced to 17 (Risk and Control Register) | Any | Any | [20](../Schemas/20-decision-gate-record.schema.json), [17](../Schemas/17-risk-and-control-register.schema.json) |
+
+## For agents
+
+An agent picking an artifact programmatically should: read [`oasis-manifest.yaml`](../oasis-manifest.yaml) for the full artifact list (id, phase, tools file, schema path); match the task against this table or the manifest's `artifacts` list; open the matched artifact's JSON Schema in [`Schemas/`](../Schemas/) to know exactly which fields to produce; and never invent a field not present in that schema — extend the source template in [Tools](../tools/01-outcome-and-portfolio-templates.md) first if a real gap is found. See [`../oasis-skill/SKILL.md`](../oasis-skill/SKILL.md) for the full agent workflow.

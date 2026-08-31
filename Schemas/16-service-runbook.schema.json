@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/16-service-runbook.schema.json",
+  "title": "Service Runbook",
+  "description": "What an operations team opens at 2 a.m. when something has gone wrong. Chapter 32 \u00a716.",
+  "x-oasis-artifact-id": 16,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/04-readiness-and-operations-templates.md#16-service-runbook",
+  "type": "object",
+  "properties": {
+    "service_name": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "dependencies": {
+      "type": "object",
+      "properties": {
+        "upstream": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "downstream": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "dashboards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "alerts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "trigger": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string"
+          },
+          "first_responder": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "triage_guide": {
+      "type": "string"
+    },
+    "fallback_path": {
+      "type": "string"
+    },
+    "kill_switch": {
+      "type": "object",
+      "properties": {
+        "owner": {
+          "type": "string"
+        },
+        "activation_method": {
+          "type": "string"
+        },
+        "last_tested": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "escalation_chain": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recovery_procedure": {
+      "type": "string"
+    },
+    "recent_changes_log": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "object",
+      "properties": {
+        "service_owner": {
+          "type": "string"
+        },
+        "on_call_rotation": {
+          "type": "string"
+        },
+        "business_owner": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "evidence_retention_policy": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "service_name",
+    "kill_switch",
+    "escalation_chain"
+  ],
+  "additionalProperties": false
+}

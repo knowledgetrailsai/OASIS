@@ -1,0 +1,27 @@
+decision_gate_record:
+  gate_name: "Production Readiness"
+  date: "2026-06-12"
+  decision: "pass with conditions"
+  evidence_reviewed:
+    - artifact: "Production Readiness Checklist"
+      summary: "10 of 11 areas complete; Evaluations and Approvals both marked in-progress due to the duplicate-detection false-positive rate (0.8%) exceeding the 0.5% guardrail set in the Outcome Charter."
+    - artifact: "Autonomy Matrix"
+      summary: "Draft-resolution action evidenced at 92% acceptance, above the 90% threshold to progress. Duplicate-flagging action not yet evidenced to guardrail; payment-hold action correctly out of scope, not authorized."
+    - artifact: "Data and Knowledge Readiness Assessment"
+      summary: "US/CA vendor-master data assessed as usable but not yet independently re-verified for duplicate-detection reliability; EMEA excluded entirely, consistent with charter scope."
+  alternatives_considered:
+    - "Delay production readiness pass until the 0.5% false-positive threshold is met outright"
+    - "Pass unconditionally and accept the elevated false-positive rate as within tolerance"
+    - "Pass with duplicate-flagging in shadow mode only, chosen"
+  conditions_if_conditional:
+    - "Duplicate-flagging operates in shadow mode (advisory to analysts, not gating any payment) until the false-positive rate is independently re-measured at <=0.5%"
+    - "Vendor-master re-verification work (flagged in the Data Readiness Assessment) must be at least 50% complete before the next Outcome Scorecard review"
+  residual_risk_accepted: "A small volume of legitimate invoices may be advisory-flagged as possible duplicates during shadow mode, adding minor analyst review time but no payment delay or block, since shadow-mode flags are not gating."
+  residual_risk_accepted_by: "Priya Nataraj, VP Finance Operations"
+  owner: "Dana Iyer, AP Operations Lead"
+  due_date_for_conditions: "2026-08-15"
+  expiry: "2026-09-15"
+  follow_up_actions:
+    - "Re-measure duplicate-flag false-positive rate against re-verified vendor-master data by 2026-08-15"
+    - "Report shadow-mode flag volume and analyst feedback at the first Outcome Scorecard review"
+    - "Revisit this condition explicitly at the 2026-09-15 Outcome Scorecard review regardless of whether the threshold has been met, per the expiry date"

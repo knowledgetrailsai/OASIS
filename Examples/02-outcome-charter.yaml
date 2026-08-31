@@ -1,0 +1,21 @@
+outcome_charter:
+  outcome_statement: "Reduce average AP invoice exception resolution time from 14 minutes to under 5 minutes, for exceptions in the US and Canada invoice queues, without increasing the post-resolution error rate above the current 2.1% baseline."
+  population: "All invoice exceptions routed to the AP Operations queue for US and Canada entities (EMEA and APAC entities excluded from this charter pending the vendor-master data-quality risk noted in the Opportunity Assessment)."
+  baseline:
+    metric: "Average exception resolution time (minutes)"
+    current_value: "14.2 minutes (trailing 90-day average, US/CA queue)"
+    measurement_period: "Trailing 90 days, refreshed monthly"
+  target:
+    value: "Under 5 minutes average, sustained for 2 consecutive months"
+    by_date: "2026-10-01"
+  causal_hypothesis: "Most of the 14-minute average is spent on manual cross-referencing across the ERP, PO system, and vendor master to assemble the facts needed to decide a resolution -- not on the decision itself, which analysts report takes under 2 minutes once facts are assembled. An assistant that automatically assembles and presents those facts, with a drafted recommended resolution, should collapse the research time to near-zero and leave only the analyst's decision and approval step, which the analysts' own time-motion estimate puts at 2-3 minutes."
+  scope:
+    included: ["US invoice exception queue", "Canada invoice exception queue", "Mismatched-amount, missing-PO, and suspected-duplicate exception types"]
+    excluded: ["EMEA and APAC queues", "Exceptions requiring vendor contract renegotiation", "Autonomous payment release -- assistant drafts, analyst approves, for the full duration of this charter"]
+  owner: "Dana Iyer, AP Operations Lead"
+  guardrail_metrics: ["Post-resolution error rate must not exceed 2.1% baseline", "Duplicate-payment false-positive rate must stay under 0.5% of flagged cases", "Analyst override rate should be monitored -- a rate above 30% after month 2 signals the assistant's recommendations aren't trustworthy enough to be time-saving"]
+  timeline:
+    start: "2026-03-17"
+    next_gate: "Solution Viability"
+    next_gate_date: "2026-05-29"
+  next_gate_reference: "Chapter 13, Gate 2 -- Solution Viability. This charter feeds Phase 2 (Discover & Validate)."

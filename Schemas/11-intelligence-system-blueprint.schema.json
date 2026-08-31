@@ -1,0 +1,167 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/11-intelligence-system-blueprint.schema.json",
+  "title": "Intelligence-System Blueprint",
+  "description": "The architectural specification of a single intelligence system. Chapter 32 \u00a711.",
+  "x-oasis-artifact-id": 11,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/03-system-and-governance-templates.md#11-intelligence-system-blueprint",
+  "type": "object",
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "boundary": {
+      "type": "string"
+    },
+    "actors": {
+      "type": "object",
+      "properties": {
+        "human_roles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "upstream_systems": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "downstream_systems": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "specification_reference": {
+      "type": "string"
+    },
+    "model": {
+      "type": "object",
+      "properties": {
+        "primary": {
+          "type": "string"
+        },
+        "fallback": {
+          "type": "string"
+        },
+        "routing_criteria": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "assembly_approach": {
+          "type": "string"
+        },
+        "token_budget": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "knowledge_and_retrieval": {
+      "type": "object",
+      "properties": {
+        "indexes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "freshness_policy": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "contract_reference": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "workflow_pattern": {
+      "type": "string",
+      "enum": [
+        "deterministic function",
+        "explicit workflow",
+        "agent",
+        "multi-agent"
+      ]
+    },
+    "workflow_pattern_rationale": {
+      "type": "string"
+    },
+    "memory_and_state": {
+      "type": "object",
+      "properties": {
+        "what_persists": {
+          "type": "string"
+        },
+        "retention": {
+          "type": "string"
+        },
+        "correction_rights": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "controls": {
+      "type": "object",
+      "properties": {
+        "guardrail_layers_implemented": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "runtime_and_telemetry": {
+      "type": "object",
+      "properties": {
+        "trace_fields": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "system_name",
+    "boundary",
+    "workflow_pattern"
+  ],
+  "additionalProperties": false
+}

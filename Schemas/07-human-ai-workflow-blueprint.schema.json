@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/07-human-ai-workflow-blueprint.schema.json",
+  "title": "Human-AI Workflow Blueprint",
+  "description": "For each step: what the AI does, what the human does, and who holds authority. Chapter 32 \u00a77.",
+  "x-oasis-artifact-id": 7,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/02-workflow-and-intelligence-templates.md#7-human-ai-workflow-blueprint",
+  "type": "object",
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "step_sequence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step": {
+            "type": "string"
+          },
+          "ai_role": {
+            "type": "string"
+          },
+          "human_role": {
+            "type": "string"
+          },
+          "authority": {
+            "type": "string",
+            "enum": [
+              "AI acts",
+              "AI recommends, human decides",
+              "human acts, AI assists"
+            ]
+          },
+          "evidence_shown_to_human": {
+            "type": "string"
+          },
+          "interface": {
+            "type": "string"
+          },
+          "approval_required": {
+            "type": "boolean"
+          },
+          "override_mechanism": {
+            "type": "string"
+          },
+          "fallback_if_ai_unavailable": {
+            "type": "string"
+          },
+          "escalation_trigger": {
+            "type": "string"
+          },
+          "escalation_target": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "feedback_loop": {
+      "type": "object",
+      "properties": {
+        "how_human_corrections_are_captured": {
+          "type": "string"
+        },
+        "how_corrections_feed_back_to_evaluation": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "outcome_event": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "workflow_name",
+    "step_sequence"
+  ],
+  "additionalProperties": false
+}

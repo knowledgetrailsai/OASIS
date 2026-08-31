@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/03-outcome-contract.schema.json",
+  "title": "Outcome Contract",
+  "description": "The operating agreement extending an Outcome Charter into a running relationship. Chapter 32 \u00a73.",
+  "x-oasis-artifact-id": 3,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/01-outcome-and-portfolio-templates.md#3-outcome-contract",
+  "type": "object",
+  "properties": {
+    "charter_reference": {
+      "type": "string"
+    },
+    "service_responsibilities": {
+      "type": "object",
+      "properties": {
+        "provider_commits_to": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "business_commits_to": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "measurement": {
+      "type": "object",
+      "properties": {
+        "metric_definitions": {
+          "type": "string"
+        },
+        "measurement_method": {
+          "type": "string"
+        },
+        "data_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "review_cadence": {
+      "type": "string"
+    },
+    "remedies": {
+      "type": "object",
+      "properties": {
+        "if_target_missed": {
+          "type": "string"
+        },
+        "if_guardrail_breached": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "funding": {
+      "type": "object",
+      "properties": {
+        "model": {
+          "type": "string",
+          "enum": [
+            "fixed",
+            "outcome-linked",
+            "hybrid"
+          ]
+        },
+        "amount_or_formula": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "renewal_and_exit": {
+      "type": "object",
+      "properties": {
+        "renewal_trigger": {
+          "type": "string"
+        },
+        "exit_trigger": {
+          "type": "string"
+        },
+        "exit_procedure": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "signed_off_by": {
+      "type": "object",
+      "properties": {
+        "outcome_owner": {
+          "type": "string"
+        },
+        "provider_lead": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "charter_reference",
+    "signed_off_by"
+  ],
+  "additionalProperties": false
+}

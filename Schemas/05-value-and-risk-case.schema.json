@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/05-value-and-risk-case.schema.json",
+  "title": "Value and Risk Case",
+  "description": "Makes the investment decision defensible on economic and risk terms. Chapter 32 \u00a75.",
+  "x-oasis-artifact-id": 5,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/01-outcome-and-portfolio-templates.md#5-value-and-risk-case",
+  "type": "object",
+  "properties": {
+    "benefits": {
+      "type": "object",
+      "properties": {
+        "quantified": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "qualitative": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "costs": {
+      "type": "object",
+      "properties": {
+        "build_cost": {
+          "type": "string"
+        },
+        "run_cost": {
+          "type": "string"
+        },
+        "intervention_cost": {
+          "type": "string"
+        },
+        "failure_cost": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "uncertainty": {
+      "type": "object",
+      "properties": {
+        "confidence_level": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "key_assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "risk_classification": {
+      "type": "object",
+      "properties": {
+        "impact": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "critical"
+          ]
+        },
+        "autonomy": {
+          "type": "string",
+          "enum": [
+            "shadow",
+            "assisted",
+            "supervised",
+            "bounded-autonomous"
+          ]
+        },
+        "data_sensitivity": {
+          "type": "string",
+          "enum": [
+            "public",
+            "internal",
+            "confidential",
+            "restricted"
+          ]
+        },
+        "exposure": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "reversibility": {
+      "type": "string",
+      "enum": [
+        "easily reversible",
+        "reversible with cost",
+        "irreversible"
+      ]
+    },
+    "mitigation": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "net_recommendation": {
+      "type": "string",
+      "enum": [
+        "proceed",
+        "proceed with conditions",
+        "decline"
+      ]
+    }
+  },
+  "required": [
+    "benefits",
+    "costs",
+    "risk_classification",
+    "net_recommendation"
+  ],
+  "additionalProperties": false
+}

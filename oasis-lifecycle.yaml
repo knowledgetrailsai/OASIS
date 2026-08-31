@@ -1,0 +1,117 @@
+# oasis-lifecycle.yaml
+# Structured definition of the six OASIS lifecycle phases (methodology/chapter-07 through
+# chapter-12) and the six decision gates that close each one (chapter-13). This is the
+# machine-readable form of Chapter 13's gate table plus each phase chapter's purpose
+# statement — the prose in those chapters is the authoritative source if this ever drifts.
+
+phases:
+  - id: engage-and-align
+    number: 1
+    chapter: 7
+    chapter_path: methodology/chapter-07-phase-1-engage-and-align.md
+    name: "Engage & Align"
+    purpose: "Create an owned and measurable outcome contract, define the deployment boundary and decide whether the opportunity merits structured validation."
+    key_artifacts: [1, 2, 4, 5, 17, 19]
+    gate: outcome-alignment
+
+  - id: discover-and-validate
+    number: 2
+    chapter: 8
+    chapter_path: methodology/chapter-08-phase-2-discover-and-validate.md
+    name: "Discover & Validate"
+    purpose: "Prove that intelligence can materially improve the real workflow on representative cases with acceptable quality, safety, adoption and economics."
+    key_artifacts: [3, 6, 7, 8, 9]
+    gate: solution-viability
+
+  - id: engineer-and-integrate
+    number: 3
+    chapter: 9
+    chapter_path: methodology/chapter-09-phase-3-engineer-and-integrate.md
+    name: "Engineer & Integrate"
+    purpose: "Convert a validated vertical slice into a secure, reliable, observable, integrated and supportable production intelligence service."
+    key_artifacts: [10, 11, 13, 16]
+    gate: production-readiness
+
+  - id: activate-and-adopt
+    number: 4
+    chapter: 10
+    chapter_path: methodology/chapter-10-phase-4-activate-and-adopt.md
+    name: "Activate & Adopt"
+    purpose: "Introduce the service progressively into live operations, enable users, validate exceptions and earn higher operating authority through evidence."
+    key_artifacts: [12, 14]
+    gate: operational-acceptance
+
+  - id: operate-and-assure
+    number: 5
+    chapter: 11
+    chapter_path: methodology/chapter-11-phase-5-operate-and-assure.md
+    name: "Operate & Assure"
+    purpose: "Sustain service health, intelligence quality, controls and business outcomes through monitoring, incident management and continuous assurance."
+    key_artifacts: [15, 17]
+    gate: outcome-performance
+
+  - id: optimize-and-scale
+    number: 6
+    chapter: 12
+    chapter_path: methodology/chapter-12-phase-6-optimize-and-scale.md
+    name: "Optimize & Scale"
+    purpose: "Improve performance, expand justified autonomy, productize recurring patterns and scale only where production evidence supports reuse."
+    key_artifacts: [18]
+    gate: scale-and-renewal
+
+gates:
+  # Source: methodology/chapter-13-decision-gates-and-evidence-model.md
+  - id: outcome-alignment
+    name: "Outcome Alignment"
+    closes_phase: engage-and-align
+    decision_options: [commit, refine, defer, decline]
+    minimum_evidence: "Outcome, baseline, owner, scope, guardrails and validation plan."
+    record_artifact: 20
+
+  - id: solution-viability
+    name: "Solution Viability"
+    closes_phase: discover-and-validate
+    decision_options: [proceed, reframe, acquire, stop]
+    minimum_evidence: "Vertical slice, representative evaluation, workflow fit, failure taxonomy, risk and economics."
+    record_artifact: 20
+
+  - id: production-readiness
+    name: "Production Readiness"
+    closes_phase: engineer-and-integrate
+    decision_options: [release, remediate, hold]
+    minimum_evidence: "Architecture, controls, tests, observability, recovery, ownership and runbook."
+    record_artifact: 20
+
+  - id: operational-acceptance
+    name: "Operational Acceptance"
+    closes_phase: activate-and-adopt
+    decision_options: [accept, widen, reduce, suspend]
+    minimum_evidence: "Live user evidence, outcomes, exceptions, adoption, controls and autonomy case."
+    record_artifact: 20
+
+  - id: outcome-performance
+    name: "Outcome Performance"
+    closes_phase: operate-and-assure
+    decision_options: [continue, correct, re-scope, retire]
+    minimum_evidence: "Outcome, intelligence, risk, service, cost and intervention trends."
+    record_artifact: 20
+
+  - id: scale-and-renewal
+    name: "Scale and Renewal"
+    closes_phase: optimize-and-scale
+    decision_options: [replicate, productize, renew, redesign, retire]
+    minimum_evidence: "Repeatability, demand, economics, platform fit and reassessed risk."
+    record_artifact: 20
+
+evidence_qualities:
+  # Applied to every gate; not all six apply equally everywhere. Chapter 13.
+  - relevant
+  - representative
+  - traceable
+  - comparable
+  - current
+  - independent-where-necessary
+
+anti_bureaucracy_test: >
+  If removing an artifact would not weaken a decision, combine or remove it.
+  If removing a decision would hide material risk or uncertainty, retain it.

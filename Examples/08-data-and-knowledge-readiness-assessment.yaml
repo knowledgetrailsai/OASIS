@@ -1,0 +1,50 @@
+# Data and Knowledge Readiness Assessment -- table-form artifact (array of rows).
+# Each row: source, owner, authoritative, quality_1_5, coverage_gaps, freshness,
+# metadata_available, access_control, lineage_documented, retention_policy, operational_status.
+- source: "SAP ERP -- invoice and payment records"
+  owner: "Finance Systems (IT)"
+  authoritative: true
+  quality_1_5: 5
+  coverage_gaps: "None identified for US/CA entities in scope."
+  freshness: "Real-time (transactional system of record)"
+  metadata_available: true
+  access_control: "Role-based, existing SAP entitlements reused; no new access grant needed for read-only exception fields."
+  lineage_documented: true
+  retention_policy: "7 years per Finance records policy"
+  operational_status: "Live, no known outages in trailing 12 months"
+
+- source: "PO system (Coupa) -- purchase order records"
+  owner: "Procurement Operations"
+  authoritative: true
+  quality_1_5: 4
+  coverage_gaps: "Blanket POs (roughly 8% of exception volume) lack line-item detail needed for automated amount-matching; these cases will route to human-only handling initially."
+  freshness: "Near-real-time, syncs every 15 minutes"
+  metadata_available: true
+  access_control: "Requires new read-only API credential -- requested, pending Procurement IT approval as of assessment date"
+  lineage_documented: true
+  retention_policy: "5 years per Procurement records policy"
+  operational_status: "Live"
+
+- source: "Vendor master data (SAP + regional supplements)"
+  owner: "Vendor Management"
+  authoritative: true
+  quality_1_5: 2
+  coverage_gaps: "EMEA vendor records have known duplicate-entity issues (same vendor under multiple IDs) -- this is the source of the duplicate-detection risk flagged in the Opportunity Assessment. US/CA records were last deduplicated in Q3 2025 and are assessed as usable."
+  freshness: "Updated on vendor onboarding/change, not continuously monitored for drift"
+  metadata_available: false
+  access_control: "Role-based, existing entitlements sufficient"
+  lineage_documented: false
+  retention_policy: "Indefinite (no formal retention/deprecation policy currently -- flagged to Vendor Management as a gap outside this initiative's scope to fix)"
+  operational_status: "Live, but not confirmed reliable for duplicate-detection use in this initiative's US/CA scope until sampled and verified in Phase 2"
+
+- source: "AP exception ticket history (12 months, 48,000 tickets)"
+  owner: "AP Operations"
+  authoritative: false
+  quality_1_5: 3
+  coverage_gaps: "Root-cause tagging inconsistent before Sept 2025; usable as an evaluation-dataset source only for tickets from Sept 2025 onward (roughly 22,000 tickets)."
+  freshness: "Historical, refreshed monthly for new tickets"
+  metadata_available: true
+  access_control: "Existing AP Operations reporting access"
+  lineage_documented: true
+  retention_policy: "3 years per AP records policy"
+  operational_status: "Live"

@@ -1,0 +1,77 @@
+# Production Readiness Checklist -- table-form artifact (array of 11 fixed rows).
+- item_number: 1
+  area: "Architecture"
+  requirement: "Intelligence-System Blueprint complete and reviewed"
+  evidence: "Blueprint reviewed by Finance Systems architecture board 2026-06-02"
+  status: "complete"
+  approver: "Raj Mehta, Finance Systems Architect"
+
+- item_number: 2
+  area: "Security"
+  requirement: "Security checklist sections 1-4 complete"
+  evidence: "Read-only ERP/PO access confirmed; no write access outside the analyst-approved draft-write path; reviewed against Compass's securing-agentic-ai.md"
+  status: "complete"
+  approver: "Lena Ford, Information Security"
+
+- item_number: 3
+  area: "Privacy"
+  requirement: "Applicable Standards checklist(s) complete for data in scope"
+  evidence: "No PII beyond standard vendor contact fields already governed under existing vendor-master policy; DPDP/EU AI Act checklists not triggered for this US/CA-scoped initiative"
+  status: "complete"
+  approver: "Lena Ford, Information Security"
+
+- item_number: 4
+  area: "Evaluations"
+  requirement: "Evaluation Strategy and Dataset thresholds met"
+  evidence: "92% draft-acceptance on mismatch cases (threshold 90%); duplicate false-positive rate 0.8%, above the 0.5% guardrail -- see condition below"
+  status: "in-progress"
+  approver: "Dana Iyer, AP Operations Lead"
+
+- item_number: 5
+  area: "Integration"
+  requirement: "All tool contracts registered and tested"
+  evidence: "SAP read/draft-write and Coupa read-only contracts registered in tool registry, tested against 1,140-case regression suite"
+  status: "complete"
+  approver: "Raj Mehta, Finance Systems Architect"
+
+- item_number: 6
+  area: "Resilience"
+  requirement: "Timeout, retry, idempotency and compensation behavior tested"
+  evidence: "Draft-write is idempotent (keyed on ticket ID); retry-with-backoff tested against simulated Coupa API outage"
+  status: "complete"
+  approver: "Raj Mehta, Finance Systems Architect"
+
+- item_number: 7
+  area: "Monitoring"
+  requirement: "All six operational planes instrumented"
+  evidence: "Service, Intelligence, Risk, Human, Economic and Outcome planes instrumented per Helm's six-operational-planes pattern"
+  status: "complete"
+  approver: "Raj Mehta, Finance Systems Architect"
+
+- item_number: 8
+  area: "Support"
+  requirement: "On-call ownership and escalation path defined"
+  evidence: "AP Operations L1, Finance Systems Engineering L2, defined in Service Runbook"
+  status: "complete"
+  approver: "Dana Iyer, AP Operations Lead"
+
+- item_number: 9
+  area: "Runbook"
+  requirement: "Service Runbook (template 16) complete"
+  evidence: "Runbook complete, kill switch tested 2026-06-10"
+  status: "complete"
+  approver: "Raj Mehta, Finance Systems Architect"
+
+- item_number: 10
+  area: "Rollback"
+  requirement: "Rollback vs. forward-fix criteria documented"
+  evidence: "Rollback: disable draft-write, revert queue to fully manual. Trigger: draft-acceptance rate below 75% or any duplicate-payment incident."
+  status: "complete"
+  approver: "Priya Nataraj, VP Finance Operations"
+
+- item_number: 11
+  area: "Approvals"
+  requirement: "All named approvers have signed off"
+  evidence: "Signed off with one condition: duplicate-flagging remains shadow-mode (flag only, visible to analysts as advisory, not gating) until the false-positive rate clears 0.5% -- see Decision-Gate Record"
+  status: "in-progress"
+  approver: "Priya Nataraj, VP Finance Operations"

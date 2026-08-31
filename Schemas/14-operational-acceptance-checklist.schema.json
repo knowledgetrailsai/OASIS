@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/14-operational-acceptance-checklist.schema.json",
+  "title": "Operational Acceptance Checklist",
+  "description": "Confirms a system is actually working once live users have touched it. Ten fixed items. Chapter 32 \u00a714.",
+  "x-oasis-artifact-id": 14,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/04-readiness-and-operations-templates.md#14-operational-acceptance-checklist",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "item_number": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10
+      },
+      "item": {
+        "type": "string"
+      },
+      "target": {
+        "type": "string"
+      },
+      "actual_at_acceptance": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

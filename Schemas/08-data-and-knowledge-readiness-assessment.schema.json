@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/08-data-and-knowledge-readiness-assessment.schema.json",
+  "title": "Data and Knowledge Readiness Assessment",
+  "description": "Inventories every data/knowledge source an intelligence system will draw on. Chapter 32 \u00a78.",
+  "x-oasis-artifact-id": 8,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/02-workflow-and-intelligence-templates.md#8-data-and-knowledge-readiness-assessment",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "source": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "authoritative": {
+        "type": "boolean"
+      },
+      "quality_1_5": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 5
+      },
+      "coverage_gaps": {
+        "type": "string"
+      },
+      "freshness": {
+        "type": "string"
+      },
+      "metadata_available": {
+        "type": "boolean"
+      },
+      "access_control": {
+        "type": "string"
+      },
+      "lineage_documented": {
+        "type": "boolean"
+      },
+      "retention_policy": {
+        "type": "string"
+      },
+      "operational_status": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

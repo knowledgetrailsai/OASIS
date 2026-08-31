@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/20-decision-gate-record.schema.json",
+  "title": "Decision-Gate Record",
+  "description": "Documents a single gate passage. One record per gate passage, not per project. Chapter 32 \u00a720.",
+  "x-oasis-artifact-id": 20,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/03-system-and-governance-templates.md#20-decision-gate-record",
+  "type": "object",
+  "properties": {
+    "gate_name": {
+      "type": "string",
+      "enum": [
+        "Outcome Alignment",
+        "Solution Viability",
+        "Production Readiness",
+        "Operational Acceptance",
+        "Outcome Performance",
+        "Scale and Renewal"
+      ]
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "pass with conditions",
+        "hold",
+        "fail"
+      ]
+    },
+    "evidence_reviewed": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "artifact": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "alternatives_considered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conditions_if_conditional": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "residual_risk_accepted": {
+      "type": "string"
+    },
+    "residual_risk_accepted_by": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "due_date_for_conditions": {
+      "type": "string",
+      "format": "date"
+    },
+    "expiry": {
+      "type": "string",
+      "format": "date"
+    },
+    "follow_up_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "gate_name",
+    "date",
+    "decision",
+    "evidence_reviewed",
+    "owner"
+  ],
+  "additionalProperties": false
+}

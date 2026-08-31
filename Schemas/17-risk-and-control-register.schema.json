@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/17-risk-and-control-register.schema.json",
+  "title": "Risk and Control Register",
+  "description": "The single running record of every identified risk associated with a system. Chapter 32 \u00a717.",
+  "x-oasis-artifact-id": 17,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/05-risk-and-scale-templates.md#17-risk-and-control-register",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "risk_id": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "cause": {
+        "type": "string"
+      },
+      "impact": {
+        "type": "string"
+      },
+      "inherent_rating": {
+        "type": "string"
+      },
+      "controls_in_place": {
+        "type": "string"
+      },
+      "control_tests": {
+        "type": "string"
+      },
+      "residual_rating": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "treatment": {
+        "type": "string",
+        "enum": [
+          "mitigate",
+          "transfer",
+          "avoid",
+          "accept"
+        ]
+      },
+      "evidence": {
+        "type": "string"
+      },
+      "last_reviewed": {
+        "type": "string",
+        "format": "date"
+      }
+    },
+    "additionalProperties": false
+  }
+}

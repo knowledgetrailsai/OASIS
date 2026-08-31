@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/10-failure-taxonomy.schema.json",
+  "title": "Failure Taxonomy",
+  "description": "Classifies how a system fails, not just that it failed. Chapter 32 \u00a710.",
+  "x-oasis-artifact-id": 10,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/02-workflow-and-intelligence-templates.md#10-failure-taxonomy",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "failure_family": {
+        "type": "string"
+      },
+      "responsible_layer": {
+        "type": "string",
+        "enum": [
+          "model",
+          "context",
+          "retrieval",
+          "tool-selection",
+          "tool-execution",
+          "state",
+          "workflow",
+          "policy",
+          "human-approval",
+          "enterprise-dependency"
+        ]
+      },
+      "severity": {
+        "type": "string"
+      },
+      "detectability": {
+        "type": "string"
+      },
+      "root_cause": {
+        "type": "string"
+      },
+      "evidence": {
+        "type": "string"
+      },
+      "business_impact": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "containment_action": {
+        "type": "string"
+      },
+      "correction": {
+        "type": "string"
+      },
+      "regression_case_added": {
+        "type": "boolean"
+      }
+    },
+    "additionalProperties": false
+  }
+}

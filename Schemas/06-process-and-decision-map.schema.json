@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Schemas/06-process-and-decision-map.schema.json",
+  "title": "Process and Decision Map",
+  "description": "How a workflow actually operates today, step by step, as-is not target-state. Chapter 32 \u00a76.",
+  "x-oasis-artifact-id": 6,
+  "x-oasis-tools-reference": "https://raw.githubusercontent.com/knowledgetrailsai/OASIS/main/Tools/02-workflow-and-intelligence-templates.md#6-process-and-decision-map",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "step_number": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "actor": {
+        "type": "string"
+      },
+      "systems_touched": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "input": {
+        "type": "string"
+      },
+      "decision_made": {
+        "type": "string"
+      },
+      "rule_or_policy_applied": {
+        "type": "string"
+      },
+      "evidence_used": {
+        "type": "string"
+      },
+      "queue_or_handoff": {
+        "type": "string"
+      },
+      "exception_path": {
+        "type": "string"
+      },
+      "pain_point": {
+        "type": "string"
+      },
+      "outcome_event": {
+        "type": "boolean"
+      }
+    },
+    "additionalProperties": false
+  }
+}
