@@ -1,24 +1,16 @@
-# MIT License
+# Creative Commons Attribution-ShareAlike 4.0 International
 
-Copyright (c) 2026 OASIS Methodology contributors
+Copyright (c) 2026 Shripadraj Mujumdar and KnowledgeTrails.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+OASIS content is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You may share and adapt it, including commercially, if you credit the original
+authors and OASIS (and any applicable companion framework), link this license,
+indicate changes, and release adaptations under the same license. Preserve
+existing attribution and third-party framework notices. Names, logos, and
+trademarks are not licensed. The material is provided “as is”; see the full
+[legal code](https://creativecommons.org/licenses/by-sa/4.0/legalcode) for
+complete terms.
 
 ---
 
