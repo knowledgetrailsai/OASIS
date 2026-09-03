@@ -94,7 +94,7 @@ This is a simple, Markdown-only GitHub package. All handbook pages are stored in
 
 ## Standards and reference material
 
-- [Common Challenges and Remedies](common-challenges-and-remedies.md) — a 40-question challenge-to-change-to-remedy matrix across the OASIS ecosystem.
+- [Common Challenges](commonChallenges.md) — a 40-question challenge-to-change-to-remedy matrix across the OASIS ecosystem.
 
 - [Regulatory and Standards Framework Alignment Index](references/regulatory-framework-alignment-index.md)
 - [Standard: ISO/IEC 42001 Alignment Checklist](standards/iso-42001-alignment-checklist.md)

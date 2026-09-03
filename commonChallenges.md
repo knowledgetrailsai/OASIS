@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
 
-# Common Challenges and Remedies
+# Common Challenges
 
 This reference maps recurring challenges faced by AI transformation teams to
 the organizational change required and the mature remedy. The framework named
