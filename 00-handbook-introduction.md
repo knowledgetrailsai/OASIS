@@ -19,7 +19,7 @@ intelligence-system delivery and continuous outcome assurance*
 
 ## OASIS is the master methodology. These are its companion repositories.
 
-OASIS defines what to do and why, at the level of principles, phases and gates. It does not carry deep technical detail for every practice area, because that detail changes faster than a methodology should, and it differs by stack. That detail lives instead in nine companion repositories. Each one is maintained independently and covers one (or a closely related pair) of the Part III engineering chapters:
+OASIS defines what to do and why, at the level of principles, phases and gates. It does not carry deep technical detail for every practice area — that detail changes faster than a methodology should, and it differs by stack. That detail lives instead in nine companion repositories. Each one is maintained independently and covers a single Part III engineering chapter, or occasionally a closely related pair:
 
 | Repository | Chapter(s) | What it covers |
 |---|---|---|

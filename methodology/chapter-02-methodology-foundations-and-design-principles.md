@@ -25,7 +25,7 @@ Evidence before authority governs how trust is earned: release scope and autonom
 
 Multiple entry points recognizes that strategy, business demand, technology experiments, regulatory needs and existing solutions all legitimately generate AI initiatives. Forcing every one through a strategy-first funnel wastes the energy that started them (Chapter 4 develops this at length). Vertical proof before horizontal scale keeps ambition honest: prove one end-to-end outcome path before adding channels, use cases, agents or business units. A shallow win replicated ten times is ten shallow failures waiting to surface.
 
-Deterministic where possible checks the pull toward agentic sophistication by default: fixed rules and workflows should handle the parts of a problem where uncertainty adds no value, reserving agent judgment for genuine ambiguity. Production is the learning environment turns real exceptions, failures and overrides into evaluation cases and backlog items, letting a system improve after launch. Reuse what repeats standardizes platform services that recur across deployments—shared identity, retrieval, evaluation harnesses—while keeping the operational last mile, the part specific to one business context, configurable.
+Deterministic where possible checks the pull toward agentic sophistication by default: fixed rules and workflows should handle the parts of a problem where uncertainty adds no value, reserving agent judgment for genuine ambiguity. Production is the learning environment turns real exceptions, failures and overrides into evaluation cases and backlog items, letting a system improve after launch. Reuse what repeats standardizes platform services that recur across deployments — shared identity, retrieval, evaluation harnesses — while keeping the operational last mile configurable: the part specific to one business context.
 
 Exit is a valid outcome is the principle organizations struggle most to internalize, because stopping a funded initiative can feel like failure rather than discipline. OASIS treats it as discipline: when evidence no longer supports value, safety or economic viability, stopping, reframing or retiring is correct. A portfolio that never stops anything has stopped looking honestly at its evidence.
 
@@ -63,7 +63,7 @@ The table below makes the boundary explicit: the left column is never negotiable
 
 There is one further test, separate from whether the mandatory artifacts exist: implementation is healthy when its artifacts improve decisions rather than merely document activity already completed.
 
-A team that can trace from an outcome measure to the workflow behavior driving it, to the system trace that explains a failure, to the responsible layer, and to a tested fix, is running a live methodology. A team with the same documents but an unread Outcome Charter and an unconsulted failure taxonomy has the paperwork of OASIS without the discipline—usually the first thing worth fixing.
+A team is running a live methodology when it can trace the chain all the way through: from an outcome measure, to the workflow behavior driving it, to the system trace that explains a failure, to the responsible layer, and finally to a tested fix. A team with the same documents but an unread Outcome Charter and an unconsulted failure taxonomy has the paperwork of OASIS without the discipline—usually the first thing worth fixing.
 
 ---
 
