@@ -4,7 +4,6 @@
 
 # Chapter 09: Phase 3 — Engineer & Integrate
 
-# Phase 3 — Engineer & Integrate
 
 > **CHAPTER PURPOSE** Convert a validated vertical slice into a secure, reliable, observable, integrated and supportable production intelligence service.
 

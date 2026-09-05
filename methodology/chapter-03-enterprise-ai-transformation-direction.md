@@ -4,7 +4,6 @@
 
 # Chapter 03: Enterprise AI Transformation Direction
 
-# Enterprise AI Transformation Direction
 
 > **CHAPTER PURPOSE** Connect enterprise ambition, value pools, platform choices, workforce change and investment decisions to measurable portfolios of intelligence systems. Show how strategic direction and operational evidence are meant to inform each other continuously, in both directions.
 

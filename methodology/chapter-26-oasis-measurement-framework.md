@@ -6,7 +6,6 @@
 
 > **Implementation companion:** [Helm](https://github.com/knowledgetrailsai/Helm) (`01-observability/`) — scorecard and metric architecture, instrumented by plane; [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) (`04-measurement-and-observability/`) — economics and cost metrics; [Verity](https://github.com/knowledgetrailsai/Verity) (`03-dimensions-and-metrics/`) — intelligence-quality dimensions.
 
-# OASIS Measurement Framework
 
 > **CHAPTER PURPOSE** Use a balanced scorecard that joins business outcomes with adoption, intelligence quality, risk, reliability, economics, reuse and FDE effectiveness.
 

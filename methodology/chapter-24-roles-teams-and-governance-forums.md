@@ -4,7 +4,6 @@
 
 # Chapter 24: Roles, Teams and Governance Forums
 
-# Roles, Teams and Governance Forums
 
 > **CHAPTER PURPOSE** Specify pod roles, enterprise counterparts, service ownership, separation of duties and the forums required to make timely evidence-based decisions.
 

@@ -4,7 +4,6 @@
 
 # Chapter 28: Scaling and Productization
 
-# Scaling and Productization
 
 > **CHAPTER PURPOSE** Separate platform capability, reusable deployment components, business configuration and true custom work to scale without multiplying bespoke systems.
 

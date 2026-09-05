@@ -4,7 +4,6 @@
 
 # Chapter 30: Tailoring OASIS
 
-# Tailoring OASIS
 
 > **CHAPTER PURPOSE** Control methodology depth by organizational size, solution risk, autonomy, data sensitivity, exposure, scale and maturity while preserving essential controls.
 

@@ -4,7 +4,6 @@
 
 # Chapter 23: Forward Deployed Outcome Engineering
 
-# Forward Deployed Outcome Engineering
 
 > **CHAPTER PURPOSE** Define the embedded execution model that observes real work, builds vertical slices, integrates the last mile and transfers reusable learning.
 

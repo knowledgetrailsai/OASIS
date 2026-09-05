@@ -95,6 +95,24 @@ harness_limits:
 
 Set these limits deliberately, not to framework defaults — see the [Monitoring spec's economic plane](../monitoring/observability-and-telemetry-specification.md#economic-plane) for how they're monitored in production and the [Security checklist's containment section](../security/agentic-ai-threat-and-control-checklist.md#4-containment-and-emergency-control-checklist) for how they relate to blast-radius definition.
 
+## 5. Durable runs and resumability
+
+A long task should run as a durable job. Do not assume one model call or one context window will finish it. Store a run ID, current state, completed work, pending work, approvals, tool results, errors, and the versions used.
+
+A restart must be safe. The harness should resume from the last checkpoint, skip completed non-repeatable actions, and make the next action clear to an operator. Every long-running run needs a cancel path, an expiry time, and an owner for work that stops halfway.
+
+Use this acceptance test:
+
+| Test | Pass condition | Status |
+|---|---|---|
+| Restart | A stopped run resumes without repeating a completed side effect | |
+| Cancel | An operator can stop the run and see what completed | |
+| Approval | A pending approval survives a restart and expires safely | |
+| Trace | One run ID links model calls, tools, handoffs, approvals, and outcomes | |
+| Recovery | A failed step has a retry, fallback, or human escalation path | |
+
+Do not use an agent for a fixed calculation or a short, known workflow. Use a function or an explicit workflow. We would reject a long-running agent design unless it can show checkpoint, cancel, retry, and recovery tests.
+
 ---
 
 [← Back to Contents](../README.md) · [← Previous: Tool and Integration Interface Specification](tool-and-integration-interface-specification.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Architecture: Orchestration pattern decision](../architecture/oasis-reference-architecture.md#4-selecting-the-orchestration-pattern-ch-14-7-decision-rule) · [Next: Memory and State Engineering →](memory-and-state-engineering.md)

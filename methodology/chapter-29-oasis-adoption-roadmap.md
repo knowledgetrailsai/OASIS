@@ -4,7 +4,6 @@
 
 # Chapter 29: OASIS Adoption Roadmap
 
-# OASIS Adoption Roadmap
 
 > **CHAPTER PURPOSE** Provide a practical 90-day start and a maturity path for organizations establishing their first portfolio, pod, governance and platform foundations.
 

@@ -4,7 +4,6 @@
 
 # Chapter 04: Multiple Entry Paths and Configurable Depth
 
-# Multiple Entry Paths and Configurable Depth
 
 > **CHAPTER PURPOSE** Allow organizations to begin top-down, bottom-up, technology-led, compliance-led or from an existing solution, while converging on a common lifecycle. Give teams a disciplined way to compress the method without quietly removing the decisions it protects.
 

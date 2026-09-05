@@ -4,15 +4,16 @@
 
 # Chapter 07: Phase 1 — Engage & Align
 
-# Phase 1 — Engage & Align
 
 > **CHAPTER PURPOSE** Create an owned and measurable outcome contract, define the deployment boundary and decide whether the opportunity merits structured validation.
 
 ## Background and context
 
-Every OASIS engagement begins here. Most later failures trace back to a decision this phase left implicit. Building before an outcome is named, a baseline exists, and an owner has agreed does not save time — it just delays the hardest conversation until a working prototype already exists. Phase 1 forces that conversation early and produces artifacts that everything downstream can be checked against.
+Before a workflow is automated, someone has to watch it happen. The official process is rarely the process people actually use. The exceptions usually carry the risk.
 
-This phase has no predecessor. An opportunity — surfaced through the portfolio process in [Chapter 5](chapter-05-opportunity-portfolio-and-transformation-horizons.md) or raised by a sponsor — first becomes scoped, owned work here. It hands [Phase 2 — Discover & Validate](chapter-08-phase-2-discover-and-validate.md) a well-formed question, not a solution: an outcome hypothesis, a test boundary, and enough context on ownership and risk that the discovery team knows what "done" looks like. A rushed Phase 1 leaves Phase 2 re-litigating scope instead of testing whether intelligence helps.
+Every OASIS engagement begins here. Most later failures trace back to a decision this phase left implicit. Building before an outcome is named, a baseline exists, and an owner has agreed does not save time; it just delays the hardest conversation until a working prototype already exists. Phase 1 forces that conversation early and produces artifacts that everything downstream can be checked against.
+
+This phase has no predecessor. An opportunity; surfaced through the portfolio process in [Chapter 5](chapter-05-opportunity-portfolio-and-transformation-horizons.md) or raised by a sponsor; first becomes scoped, owned work here. It hands [Phase 2; Discover & Validate](chapter-08-phase-2-discover-and-validate.md) a well-formed question, not a solution: an outcome hypothesis, a test boundary, and enough context on ownership and risk that the discovery team knows what "done" looks like. A rushed Phase 1 leaves Phase 2 re-litigating scope instead of testing whether intelligence helps.
 
 The Opportunity Assessment and Outcome Charter are fillable templates in [Outcome and Portfolio Templates](../tools/01-outcome-and-portfolio-templates.md#1-opportunity-assessment). The capability being scoped should trace to an entry in the [capability map](../architecture/perspective-01-business-and-capability-architecture.md#1-capability-map-template) in Architecture Perspective 1, or teams risk discovering in Phase 3 that it was never mapped to a business owner.
 
@@ -24,7 +25,7 @@ The Opportunity Assessment and Outcome Charter are fillable templates in [Outcom
 
 Establish the measurable outcome, baseline, deployment boundary, ownership, value logic and initial guardrails.
 
-This is one discipline applied six times: nothing proceeds until it can be verified by a skeptical outsider. "The outcome" is a specific metric moving against a specific baseline — not "use AI to help with X." "Ownership" is a named individual still answering for the result a year on, not a sponsor's name on a slide. Guardrails here are provisional, recording failure modes already visible.
+This is one discipline applied six times: nothing proceeds until it can be verified by a skeptical outsider. "The outcome" is a specific metric moving against a specific baseline; not "use AI to help with X." "Ownership" is a named individual still answering for the result a year on, not a sponsor's name on a slide. Guardrails here are provisional, recording failure modes already visible.
 
 ## Core questions
 
@@ -36,7 +37,7 @@ This is one discipline applied six times: nothing proceeds until it can be verif
 
 - What is inside and outside the initial boundary?
 
-Teams that answer these glibly pay for it later. "Valuable and measurable" usually fails on the second half — many opportunities resist a trusted number. "Can intelligence influence it" is causal, not technical: is the workflow upstream of the metric? Ownership questions often reveal no one owns the process end to end. The boundary question is where scope creep is prevented or invited.
+Teams that answer these glibly pay for it later. "Valuable and measurable" usually fails on the second half; many opportunities resist a trusted number. "Can intelligence influence it" is causal, not technical: is the workflow upstream of the metric? Ownership questions often reveal no one owns the process end to end. The boundary question is where scope creep is prevented or invited.
 
 ## Method
 
@@ -66,7 +67,7 @@ Observation comes before definition: charters written before anyone spends time 
 
 - Decision and Assumption Register
 
-The first five are templates 1, 2, 4 and 5 in [Outcome and Portfolio Templates](../tools/01-outcome-and-portfolio-templates.md), each stating the minimum content a reviewer should expect. None need be long — a well-run Phase 1 can produce a one-page Outcome Charter for a low-risk initiative. What matters is that every field a downstream gate asks about has a real value, not a placeholder.
+The first five are templates 1, 2, 4 and 5 in [Outcome and Portfolio Templates](../tools/01-outcome-and-portfolio-templates.md), each stating the minimum content a reviewer should expect. None need be long; a well-run Phase 1 can produce a one-page Outcome Charter for a low-risk initiative. What matters is that every field a downstream gate asks about has a real value, not a placeholder.
 
 > **DECISION OUTCOME** Outcome Alignment Review: commit, refine, defer or decline.
 
@@ -76,7 +77,7 @@ The first five are templates 1, 2, 4 and 5 in [Outcome and Portfolio Templates](
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | An identifiable opportunity, sponsor or operating problem exists. | The outcome, boundary, ownership, initial risk track and validation question are explicit. |
 
-The entry bar is low. Almost anything with a named sponsor can start Phase 1 — its job is to decide whether the opportunity merits Phase 2's investment. The exit bar is where filtering actually happens: "explicit" means written down and reviewable, not just agreed in a meeting and forgotten.
+The entry bar is low. Almost anything with a named sponsor can start Phase 1; its job is to decide whether the opportunity merits Phase 2's investment. The exit bar is where filtering actually happens: "explicit" means written down and reviewable, not just agreed in a meeting and forgotten.
 
 ## Tailoring guidance
 

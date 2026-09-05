@@ -4,7 +4,6 @@
 
 # Chapter 13: Decision Gates and Evidence Model
 
-# Decision Gates and Evidence Model
 
 > **CHAPTER PURPOSE** Use proportionate evidence reviews to commit, proceed, release, widen, scale, redesign or retire without turning governance into ceremonial approval.
 

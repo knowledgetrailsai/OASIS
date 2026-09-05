@@ -6,7 +6,6 @@
 
 > **Implementation companion:** [Compass](https://github.com/knowledgetrailsai/Responsible-AI) (`14-ai-security/`) for policy and the security catalog; [Helm](https://github.com/knowledgetrailsai/Helm) (`06-security-and-containment/`) for runtime containment.
 
-# Security and Responsible AI Engineering
 
 > **CHAPTER PURPOSE** Embed defense-in-depth security, misuse prevention, fairness, transparency, human control and containment throughout the lifecycle.
 

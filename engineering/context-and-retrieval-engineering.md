@@ -99,6 +99,29 @@ retrieval_evaluation:
   regression_cases_added: ""          # feeds Evaluation Strategy and Dataset
 ```
 
+## 5. Just-in-time context
+
+Do not load every possible document into the first prompt. Start with the task, the rules that apply, and small references to larger sources. Let the harness fetch a document, query, or tool result when the next step needs it. This keeps context smaller and makes stale information easier to detect.
+
+The context assembler should record what it included and why. For every item, keep its source, version, access decision, freshness, and position in the context. When the budget is tight, remove low-value material first. Never silently cut a required policy, approval, or source citation.
+
+Use this acceptance test:
+
+| Test | Pass condition | Status |
+|---|---|---|
+| Access | A user cannot receive evidence they could not access directly | |
+| Freshness | Stale evidence is rejected, flagged, or refreshed by policy | |
+| Budget | The system reports what was omitted when the context limit is reached | |
+| Just-in-time retrieval | A large source is fetched only when the task needs it | |
+| Provenance | Every important claim can be traced to a source and version | |
+| Poisoning | Instructions inside retrieved content cannot override system policy | |
+
+A larger context window is not a substitute for better retrieval. We would reject a context design that relies on the model to sort an unbounded document dump.
+
+## 6. Handoff context
+
+A handoff transfers work, not unlimited authority. The receiving agent should get only the history, evidence, and task fields it needs. Filter sensitive messages and irrelevant tool output. Recheck authorization at the handoff boundary; do not assume the first agent permissions carry over.
+
 ---
 
 [← Back to Contents](../README.md) · [← Previous: Model Engineering](model-engineering.md) · [Chapter 14: Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) · [Next: Tool and Integration Interface Specification →](tool-and-integration-interface-specification.md)

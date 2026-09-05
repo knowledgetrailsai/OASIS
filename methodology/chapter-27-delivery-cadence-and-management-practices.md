@@ -4,7 +4,6 @@
 
 # Chapter 27: Delivery Cadence and Management Practices
 
-# Delivery Cadence and Management Practices
 
 > **CHAPTER PURPOSE** Establish a rhythm of field observation, demonstrations, releases, outcome reviews, portfolio decisions and managed learning backlogs.
 

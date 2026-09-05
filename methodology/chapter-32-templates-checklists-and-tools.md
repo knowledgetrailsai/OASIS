@@ -4,7 +4,6 @@
 
 # Chapter 32: Templates, Checklists and Tools
 
-# Templates, Checklists and Tools
 
 > **CHAPTER PURPOSE** Provide a practical artifact toolkit for teams to frame outcomes, design systems, evaluate quality, govern risk and operate services — twenty artifacts spanning the full lifecycle, each named here at the level of what it must capture and why, with its fillable working version held in the companion Tools folder.
 

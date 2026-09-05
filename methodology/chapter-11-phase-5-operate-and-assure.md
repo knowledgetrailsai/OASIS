@@ -4,7 +4,6 @@
 
 # Chapter 11: Phase 5 — Operate & Assure
 
-# Phase 5 — Operate & Assure
 
 > **CHAPTER PURPOSE** Sustain service health, intelligence quality, controls and business outcomes through monitoring, incident management and continuous assurance.
 

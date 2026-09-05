@@ -4,7 +4,6 @@
 
 # Chapter 12: Phase 6 — Optimize & Scale
 
-# Phase 6 — Optimize & Scale
 
 > **CHAPTER PURPOSE** Improve performance, expand justified autonomy, productize recurring patterns and scale only where production evidence supports reuse.
 

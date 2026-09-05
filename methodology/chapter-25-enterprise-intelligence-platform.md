@@ -4,7 +4,6 @@
 
 # Chapter 25: Enterprise Intelligence Platform
 
-# Enterprise Intelligence Platform
 
 > **CHAPTER PURPOSE** Define the shared capabilities that accelerate multiple deployments without forcing every business problem into one rigid architecture.
 

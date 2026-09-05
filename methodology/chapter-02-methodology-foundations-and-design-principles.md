@@ -4,7 +4,6 @@
 
 # Chapter 02: Methodology Foundations and Design Principles
 
-# Methodology Foundations and Design Principles
 
 > **CHAPTER PURPOSE** Establish the principles that keep the method outcome-led, evidence-driven, modular, risk-proportionate, technology-neutral and operationally accountable. Show how those principles are enforced, not just stated.
 

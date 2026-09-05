@@ -4,7 +4,6 @@
 
 # Chapter 06: OASIS Operating Model and Decision Rights
 
-# OASIS Operating Model and Decision Rights
 
 > **CHAPTER PURPOSE** Define how enterprise leadership, business domains, platform teams, governance functions, forward-deployed pods and service operations share accountability. Close the gap that ambiguous decision rights most often cause in practice.
 

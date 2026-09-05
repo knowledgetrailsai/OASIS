@@ -6,7 +6,6 @@
 
 > **Implementation companion:** [Forge](https://github.com/knowledgetrailsai/Forge).
 
-# Data and Knowledge Engineering
 
 > **CHAPTER PURPOSE** Build governed, authorized and measurable data and knowledge services that supply sufficient, current and attributable context to the system — the discipline behind the evidence every intelligence system reasons over.
 

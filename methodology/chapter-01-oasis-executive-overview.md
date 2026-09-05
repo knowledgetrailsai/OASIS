@@ -4,7 +4,6 @@
 
 # Chapter 01: OASIS Executive Overview
 
-# OASIS Executive Overview
 
 > **CHAPTER PURPOSE** Define OASIS, what it does, and the problem it solves for organizations trying to turn AI capability into lasting business results. Orient the reader to how the rest of the handbook builds on that definition.
 
@@ -14,6 +13,8 @@ OASIS—Outcome-as-a-Service using Intelligence Systems—is an enterprise trans
 
 ## Background and context
 
+A team can spend six weeks improving a prototype that should have been declined on day two. OASIS starts with that uncomfortable possibility: the first useful decision is sometimes to stop.
+
 Most organizations do not lack AI capability. They lack a disciplined way to turn that capability into a business result someone will still stand behind a year later. A model gets built. A pilot goes well. A demo impresses a steering committee. Then the initiative stalls, because nobody defined success in business terms, built the surrounding workflow, or kept running the system after the project team moved on.
 
 OASIS closes that gap by sequencing commercial intent, system design and operational accountability.
@@ -22,7 +23,7 @@ Every later chapter builds on the idea introduced here: design principles in Cha
 
 ## The problem OASIS addresses
 
-This gap shows up in the numbers, not just in individual project post-mortems. Bain & Company's 2026 CEO survey found roughly 80% of chief executives dissatisfied with the pace of their AI programs, and about 85% of companies not executing well — a dissatisfaction that says less about what the technology can do than about how the programs producing it are designed and run.[^bain-2026] Many AI initiatives begin with a model, a platform or a list of use cases. They demonstrate capability convincingly. But they don't establish who owns the business result, how the intelligence fits into the flow of work, or how performance holds up once the project team disperses. The result: pilots that never reach production, systems nobody is accountable for, and "AI initiatives" that spent budget without moving any metric.
+This gap shows up in the numbers, not just in individual project post-mortems. Bain & Company's 2026 CEO survey found roughly 80% of chief executives dissatisfied with the pace of their AI programs, and about 85% of companies not executing well; a dissatisfaction that says less about what the technology can do than about how the programs producing it are designed and run.[^bain-2026] Many AI initiatives begin with a model, a platform or a list of use cases. They demonstrate capability convincingly. But they don't establish who owns the business result, how the intelligence fits into the flow of work, or how performance holds up once the project team disperses. The result: pilots that never reach production, systems nobody is accountable for, and "AI initiatives" that spent budget without moving any metric.
 
 OASIS changes the sequence, not the ambition. Define the outcome before selecting the model. Prove the intelligence against representative evidence before it touches real work. Build the surrounding service before activation. Activate deliberately. Assure performance continuously. Only then learn, reuse and scale what has been proven. Three constructs carry that discipline.
 

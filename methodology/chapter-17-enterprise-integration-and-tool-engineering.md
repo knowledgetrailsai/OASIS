@@ -6,7 +6,6 @@
 
 > **Implementation companion:** [Helm](https://github.com/knowledgetrailsai/Helm) (`07-tool-integration/`) — light coverage; no dedicated deep companion yet. See the [Companion Repository Index](../references/companion-repository-index.md) for the known gap.
 
-# Enterprise Integration and Tool Engineering
 
 > **CHAPTER PURPOSE** Connect intelligence safely to enterprise applications, APIs and transactions through well-designed tools, contracts, identity and recovery.
 

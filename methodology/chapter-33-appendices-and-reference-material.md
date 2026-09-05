@@ -4,7 +4,6 @@
 
 # Chapter 33: Appendices and Reference Material
 
-# Appendices and Reference Material
 
 > **CHAPTER PURPOSE** Consolidate the glossary, artifact catalogue, gate catalogue, metrics, risks, design patterns, maturity model and framework references — the closing chapter a reader returns to rather than reads straight through.
 

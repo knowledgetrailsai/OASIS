@@ -4,7 +4,6 @@
 
 # Chapter 10: Phase 4 — Activate & Adopt
 
-# Phase 4 — Activate & Adopt
 
 > **CHAPTER PURPOSE** Introduce the service progressively into live operations, enable users, validate exceptions and earn higher operating authority through evidence.
 

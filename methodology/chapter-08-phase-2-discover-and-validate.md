@@ -4,7 +4,6 @@
 
 # Chapter 08: Phase 2 — Discover & Validate
 
-# Phase 2 — Discover & Validate
 
 > **CHAPTER PURPOSE** Prove that intelligence can materially improve the real workflow on representative cases with acceptable quality, safety, adoption and economics.
 
