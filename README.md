@@ -4,7 +4,7 @@
 
 **Outcome-as-a-Service using Intelligence Systems** — the master methodology for enterprise AI transformation: what to do, in what order, and why.
 
-![OASIS Open-Source Ecosystem — ten repositories covering transformation, engineering, governance, data and knowledge, workflow design, evaluation, model architecture, economics, and operations](diagrams/oasis-open-source-ecosystem.png)
+![OASIS Open-Source Ecosystem: ten repositories covering transformation, engineering, governance, data and knowledge, workflow design, evaluation, model architecture, economics, and operations](diagrams/oasis-open-source-ecosystem.png)
 
 ## OASIS is the master methodology. These are its companion repositories.
 
@@ -12,17 +12,17 @@ OASIS is not an implementation guide for any one practice area. That depth lives
 
 | Repository | Chapter(s) | What it covers |
 |---|---|---|
-| [Ageis](https://github.com/knowledgetrailsai/Ageis) | Ch. 14 | Agentic coding delivery — the "Intelligence and Agent Engineering" discipline applied to software delivery end to end |
-| [Forge](https://github.com/knowledgetrailsai/Forge) | Ch. 15 | Data and knowledge engineering — retrieval architectures, embeddings, grounding |
-| [Loom](https://github.com/knowledgetrailsai/Loom) | Ch. 16 | Human–AI workflow and experience engineering — progressive autonomy, escalation, workflow blueprints |
-| [Helm](https://github.com/knowledgetrailsai/Helm) | Ch. 17 (light), 18 (light), 19, 21, 26 | Deployment, operations, and AgentOps — observability, release management, incident response, security containment |
+| [Ageis](https://github.com/knowledgetrailsai/Ageis) | Ch. 14 | Agentic coding delivery: the "Intelligence and Agent Engineering" discipline applied to software delivery end to end |
+| [Forge](https://github.com/knowledgetrailsai/Forge) | Ch. 15 | Data and knowledge engineering (retrieval architectures, embeddings, grounding) |
+| [Loom](https://github.com/knowledgetrailsai/Loom) | Ch. 16 | Human–AI workflow and experience engineering: progressive autonomy, escalation, workflow blueprints |
+| [Helm](https://github.com/knowledgetrailsai/Helm) | Ch. 17 (light), 18 (light), 19, 21, 26 | Deployment, operations, and AgentOps (observability, release management, incident response, security containment) |
 | [Verity](https://github.com/knowledgetrailsai/Verity) | Ch. 18 | Evaluation and reliability engineering — the fifteen-dimension evaluation methodology, statistical rigor, failure taxonomy |
 | [Compass](https://github.com/knowledgetrailsai/responsible-ai) | Ch. 19, 20 | Security, responsible AI, governance, and regulatory compliance across jurisdictions |
-| [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) | Ch. 22 | Economics, FinOps, and sustainability — cost and value tracking for AI systems |
-| [Nexus](https://github.com/knowledgetrailsai/Nexus) | Cross-cutting (feeds Ch. 5) | The opportunity catalog — which use case, in which domain and function, before it enters the OASIS lifecycle |
-| [Axiom](https://github.com/knowledgetrailsai/Axiom) | Background (underpins Ch. 14) | AI model architecture reference — Transformers, MoE, SSMs, and related families — not itself a chapter companion |
+| [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) | Ch. 22 | Economics, FinOps, and sustainability, covering cost and value tracking for AI systems |
+| [Nexus](https://github.com/knowledgetrailsai/Nexus) | Cross-cutting (feeds Ch. 5) | The opportunity catalog: which use case, in which domain and function, before it enters the OASIS lifecycle |
+| [Axiom](https://github.com/knowledgetrailsai/Axiom) | Background (underpins Ch. 14) | AI model architecture reference (Transformers, MoE, SSMs, and related families), not itself a chapter companion |
 
-**Known gap:** Chapter 17 (Enterprise Integration and Tool Engineering) has no dedicated companion at Forge/Loom/Verity's depth yet — see the index for what light coverage exists in Helm.
+**Known gap:** Chapter 17 (Enterprise Integration and Tool Engineering) has no dedicated companion at Forge/Loom/Verity's depth yet. See the index for what light coverage exists in Helm.
 
 ---
 
@@ -34,7 +34,7 @@ This is a simple, Markdown-only GitHub package. All handbook pages are stored in
 
 **Delivery or engagement lead.** You're running an initiative through the six phases. Begin with [Chapter 04: Multiple Entry Paths and Configurable Depth](methodology/chapter-04-multiple-entry-paths-and-configurable-depth.md) to pick the right depth. Then work through [Part II: The OASIS Lifecycle](methodology/part-ii-the-oasis-lifecycle.md) (Chapters 7–13); each phase has its own diagram. [Chapter 32](methodology/chapter-32-templates-checklists-and-tools.md) names the twenty artifacts you'll actually produce, and their fillable versions are in [Tools](tools/01-outcome-and-portfolio-templates.md). The [Master Glossary and Roles Roster](references/master-glossary-and-roles-roster.md) resolves any unfamiliar term or role along the way.
 
-**Architect or engineer building the system.** Begin with [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md) for the system equation. Then read the six companion articles in the Engineering section below — Model, Context, Tool, Harness, Memory, and Evaluation Engineering. The [OASIS Reference Architecture](architecture/oasis-reference-architecture.md) and its nine enterprise perspectives show how the pieces fit together as components. The [Companion Repository Index](References/companion-repository-index.md) points to the implementation-depth repository for each Part III chapter.
+**Architect or engineer building the system.** Begin with [Chapter 14: Intelligence and Agent Engineering](methodology/chapter-14-intelligence-and-agent-engineering.md) for the system equation. Then read the six companion articles in the Engineering section below: Model, Context, Tool, Harness, Memory, and Evaluation Engineering. The [OASIS Reference Architecture](architecture/oasis-reference-architecture.md) and its nine enterprise perspectives show how the pieces fit together as components. The [Companion Repository Index](References/companion-repository-index.md) points to the implementation-depth repository for each Part III chapter.
 
 **Security, governance, risk or compliance reviewer.** Begin with [Chapter 19: Security and Responsible AI Engineering](methodology/chapter-19-security-and-responsible-ai-engineering.md) and [Chapter 20: Governance, Compliance and Regulatory Engineering](methodology/chapter-20-governance-compliance-and-regulatory-engineering.md). Then read the [Security: Agentic AI Threat Model and Control Checklist](security/agentic-ai-threat-and-control-checklist.md) and the four framework-specific checklists in [Standards](standards/iso-42001-alignment-checklist.md), each indexed from the [Regulatory and Standards Framework Alignment Index](references/regulatory-framework-alignment-index.md).
 
@@ -56,10 +56,10 @@ This is a simple, Markdown-only GitHub package. All handbook pages are stored in
 ### [Part II: The OASIS Lifecycle](methodology/part-ii-the-oasis-lifecycle.md)
 
 - [Chapter 07: Phase 1 — Engage & Align](methodology/chapter-07-phase-1-engage-and-align.md) ([diagram](diagrams/lifecycle-phases/phase-1-engage-and-align.png))
-- [Chapter 08: Phase 2 — Discover & Validate](methodology/chapter-08-phase-2-discover-and-validate.md) ([diagram](diagrams/lifecycle-phases/phase-2-discover-and-validate.png))
-- [Chapter 09: Phase 3 — Engineer & Integrate](methodology/chapter-09-phase-3-engineer-and-integrate.md) ([diagram](diagrams/lifecycle-phases/phase-3-engineer-and-integrate.png))
+- [Chapter 08: Phase 2: Discover & Validate](methodology/chapter-08-phase-2-discover-and-validate.md) ([diagram](diagrams/lifecycle-phases/phase-2-discover-and-validate.png))
+- [Chapter 09: Phase 3: Engineer & Integrate](methodology/chapter-09-phase-3-engineer-and-integrate.md) ([diagram](diagrams/lifecycle-phases/phase-3-engineer-and-integrate.png))
 - [Chapter 10: Phase 4 — Activate & Adopt](methodology/chapter-10-phase-4-activate-and-adopt.md) ([diagram](diagrams/lifecycle-phases/phase-4-activate-and-adopt.png))
-- [Chapter 11: Phase 5 — Operate & Assure](methodology/chapter-11-phase-5-operate-and-assure.md) ([diagram](diagrams/lifecycle-phases/phase-5-operate-and-assure.png))
+- [Chapter 11: Phase 5: Operate & Assure](methodology/chapter-11-phase-5-operate-and-assure.md) ([diagram](diagrams/lifecycle-phases/phase-5-operate-and-assure.png))
 - [Chapter 12: Phase 6 — Optimize & Scale](methodology/chapter-12-phase-6-optimize-and-scale.md) ([diagram](diagrams/lifecycle-phases/phase-6-optimize-and-scale.png))
 - [Chapter 13: Decision Gates and Evidence Model](methodology/chapter-13-decision-gates-and-evidence-model.md) ([diagram](diagrams/chapter-figures/figure-3-decision-gates.png))
 
@@ -142,10 +142,10 @@ This is a simple, Markdown-only GitHub package. All handbook pages are stored in
 Fillable versions of all 20 artifacts named in [Chapter 32](methodology/chapter-32-templates-checklists-and-tools.md), grouped by lifecycle stage:
 
 - [Outcome and Portfolio Templates](tools/01-outcome-and-portfolio-templates.md) — Opportunity Assessment, Outcome Charter, Outcome Contract, Outcome Metric Tree, Value and Risk Case
-- [Workflow and Intelligence Templates](tools/02-workflow-and-intelligence-templates.md) — Process and Decision Map, Human–AI Workflow Blueprint, Data and Knowledge Readiness Assessment, Evaluation Strategy and Dataset, Failure Taxonomy
-- [System and Governance Templates](tools/03-system-and-governance-templates.md) — Intelligence-System Blueprint, Autonomy Matrix, Responsibility Assignment Matrix, Decision-Gate Record
+- [Workflow and Intelligence Templates](tools/02-workflow-and-intelligence-templates.md): Process and Decision Map, Human–AI Workflow Blueprint, Data and Knowledge Readiness Assessment, Evaluation Strategy and Dataset, Failure Taxonomy
+- [System and Governance Templates](tools/03-system-and-governance-templates.md): Intelligence-System Blueprint, Autonomy Matrix, Responsibility Assignment Matrix, Decision-Gate Record
 - [Readiness and Operations Templates](tools/04-readiness-and-operations-templates.md) — Production Readiness Checklist, Operational Acceptance Checklist, Outcome Scorecard, Service Runbook
-- [Risk and Scale Templates](tools/05-risk-and-scale-templates.md) — Risk and Control Register, Scale and Productization Assessment
+- [Risk and Scale Templates](tools/05-risk-and-scale-templates.md): Risk and Control Register, Scale and Productization Assessment
 
 ## License
 
@@ -153,6 +153,6 @@ Licensed under [CC BY-SA 4.0](https://github.com/knowledgetrailsai/OASIS/blob/ma
 
 ## About Us
 
-**Shripadraj Mujumdar** is an Agentic AI & Automation Strategist, Advisor, and Responsible AI Expert with 28+ years of experience in enterprise architecture and AI-driven transformation, including deep hands-on work in Agentic AI, Generative AI, and enterprise data and knowledge platforms. His practice spans designing multi-agent systems, knowledge-graph and RAG architectures, accelerated delivery capabilities, and Responsible AI governance frameworks aligned to global regulatory standards. This methodology ecosystem distills that practitioner experience — architecture, delivery, evaluation, governance, and economics — into a single, reusable body of work.
+**Shripadraj Mujumdar** is an Agentic AI & Automation Strategist, Advisor, and Responsible AI Expert with 28+ years of experience in enterprise architecture and AI-driven transformation, including deep hands-on work in Agentic AI, Generative AI, and enterprise data and knowledge platforms. His practice spans designing multi-agent systems, knowledge-graph and RAG architectures, accelerated delivery capabilities, and Responsible AI governance frameworks aligned to global regulatory standards. This methodology ecosystem distills that practitioner experience across architecture, delivery, evaluation, governance, and economics into a single, reusable body of work.
 
 **Ankit Mirajkar** is a Data & AI Architect and technology consultant specializing in modern data platforms, enterprise data architecture, and Agentic AI. His expertise spans scalable data engineering, AI-ready data platforms, Generative AI, and cloud technologies, with a strong focus on turning complex data challenges into practical, production-ready solutions. He also works at the intersection of architecture, technology strategy, and innovation to help organizations build intelligent, scalable data ecosystems.
