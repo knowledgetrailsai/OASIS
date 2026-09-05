@@ -59,7 +59,7 @@ Shadow mode answers one question cheaply and safely: does the system's judgment 
 
 Moving up a rung should be evidence-based, not calendar-based: a workflow graduates from assist to approve-to-act because evaluation results (Chapter 18) and override rates support it, not because it has been live for a quarter. Moving down a rung is equally normal, after a policy or model change, or a sustained rise in override rate: until confidence is re-established. Loom's [promotion and demotion criteria](https://github.com/knowledgetrailsai/Loom/blob/main/03-progressive-autonomy/promotion-and-demotion-criteria.md) set the evidence thresholds for both directions.
 
-Most enterprise workflows never need to reach bounded autonomy. Exception-based operation; routine cases run within clear rules, a human reviews exceptions and a sample of the rest. Is a durable end state for most processes, especially where a wrong action is expensive or hard to reverse.
+Most enterprise workflows never need to reach bounded autonomy. Exception-based operation, routine cases run within clear rules while a human reviews exceptions and a sample of the rest, is a durable end state for most processes, especially where a wrong action is expensive or hard to reverse.
 
 ## Trust calibration
 

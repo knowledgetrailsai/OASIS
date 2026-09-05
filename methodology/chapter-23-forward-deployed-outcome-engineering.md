@@ -65,7 +65,7 @@ The single greatest risk to an FDOE engagement is a pod that never leaves. At ev
 
 When the same demand shows up repeatedly, it triggers a productization review — the same governance step as [Chapter 24's](chapter-24-roles-teams-and-governance-forums.md) platform productization forum. If it clears that review, it becomes a candidate for the shared capabilities in [Chapter 25 — Enterprise Intelligence Platform](chapter-25-enterprise-intelligence-platform.md), instead of a pattern each future pod has to rediscover on its own. This also connects to the enterprise capability map in [Business and Capability Architecture](../architecture/perspective-01-business-and-capability-architecture.md): recurring demand across pods is exactly the duplication that map is meant to surface at the quarterly portfolio review.
 
-A pod's exit is judged against explicit, pre-agreed criteria, not a calendar date: the outcome has stabilized, a support owner is named, regression is automated, configuration is documented, users are trained, and there is a path for continued improvement without the pod. Meeting those criteria: not running out of budget; is what marks an FDOE pod's work as done.
+A pod's exit is judged against explicit, pre-agreed criteria, not a calendar date: the outcome has stabilized, a support owner is named, regression is automated, configuration is documented, users are trained, and there is a path for continued improvement without the pod. Meeting those criteria, not running out of budget, is what marks an FDOE pod's work as done.
 
 > **RELATIONSHIP** OASIS is the transformation, delivery and assurance methodology; Forward Deployed Outcome Engineering is its embedded execution model.
 

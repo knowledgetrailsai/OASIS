@@ -12,7 +12,7 @@
 
 ## Background and context
 
-Chapter 16 addresses human-AI workflow design at the level of a single interaction: how a human and an agent hand off a task to each other, when to interrupt for approval, how to design for override. Process Architecture takes the wider view an enterprise process owner needs. A business process; claims intake through settlement, a hire from requisition through onboarding. Is usually longer, more branched, and touches more systems than any single agent's scope. An agent typically owns one or a few steps within a process it does not own end-to-end.
+Chapter 16 addresses human-AI workflow design at the level of a single interaction: how a human and an agent hand off a task to each other, when to interrupt for approval, how to design for override. Process Architecture takes the wider view an enterprise process owner needs. A business process, claims intake through settlement, a hire from requisition through onboarding, is usually longer, more branched, and touches more systems than any single agent's scope. An agent typically owns one or a few steps within a process it does not own end-to-end.
 
 Without an explicit process map, it's unclear where an agent's authority starts and stops relative to the surrounding human-owned process. Process owners also lose visibility into how much of "their" process now runs through agentic components they did not design.
 
