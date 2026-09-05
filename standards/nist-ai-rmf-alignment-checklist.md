@@ -4,28 +4,28 @@
 
 # Standard: NIST AI Risk Management Framework (AI RMF 1.0 + Generative AI Profile) Alignment Checklist
 
-> **PURPOSE** Map the four NIST AI RMF functions — Govern, Map, Measure, Manage — to OASIS mechanisms and artifacts. This is an alignment aid, not a certification of conformance; confirm current NIST guidance (AI RMF 1.0 and the Generative AI Profile, NIST AI 600-1) before use.
+> **PURPOSE** Map the four NIST AI RMF functions. Govern, Map, Measure, Manage, to OASIS mechanisms and artifacts. This is an alignment aid, not a certification of conformance; confirm current NIST guidance (AI RMF 1.0 and the Generative AI Profile, NIST AI 600-1) before use.
 
 **Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), [Chapter 18 — Evaluation and Reliability Engineering](../methodology/chapter-18-evaluation-and-reliability-engineering.md), [Chapter 13 — Decision Gates and Evidence Model](../methodology/chapter-13-decision-gates-and-evidence-model.md).
 
-**Deeper standard source:** [Compass's NIST-AI-RMF.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/09-tools-and-frameworks/NIST-AI-RMF.md) — this checklist maps the four functions to OASIS mechanisms; Compass carries the fuller framework treatment.
+**Deeper standard source:** [Compass's NIST-AI-RMF.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/09-tools-and-frameworks/NIST-AI-RMF.md): this checklist maps the four functions to OASIS mechanisms; Compass carries the fuller framework treatment.
 
 ## Background and context
 
-The NIST AI Risk Management Framework (AI RMF 1.0) was published by the U.S. National Institute of Standards and Technology in January 2023, developed under a mandate from the National AI Initiative Act with extensive multi-stakeholder public input. Unlike ISO/IEC 42001, it is **voluntary and non-certifiable** — there is no accredited third-party audit and no certificate to obtain. It is best understood as a common vocabulary and a structured way of thinking about AI risk, meant to be adapted to an organization's context rather than certified against.
+The NIST AI Risk Management Framework (AI RMF 1.0) was published by the U.S. National Institute of Standards and Technology in January 2023, developed under a mandate from the National AI Initiative Act with extensive multi-stakeholder public input. Unlike ISO/IEC 42001, it is **voluntary and non-certifiable**; there is no accredited third-party audit and no certificate to obtain. It is best understood as a common vocabulary and a structured way of thinking about AI risk, meant to be adapted to an organization's context rather than certified against.
 
 The framework is organized around **four core functions**, each containing categories and subcategories of practice:
 
-- **GOVERN** — the foundational, cross-cutting function. It establishes the culture, policies, roles and accountability structures that make the other three functions possible. Unlike Map/Measure/Manage, Govern is not applied once per system; it operates continuously across the organization's entire AI portfolio.
-- **MAP** — establishes context: what is this AI system for, who does it affect, what are its components, and what risks and benefits does that context imply. Map happens early and is revisited whenever context changes materially.
-- **MEASURE** — analyzes, benchmarks and tracks identified risks and trustworthiness characteristics (validity, safety, security, privacy, fairness, explainability, accountability) using appropriate qualitative and quantitative methods.
-- **MANAGE** — allocates resources to identified risks on a regular basis, prioritizes response, and monitors the effectiveness of risk treatments over time.
+- **GOVERN**: the foundational, cross-cutting function. It establishes the culture, policies, roles and accountability structures that make the other three functions possible. Unlike Map/Measure/Manage, Govern is not applied once per system; it operates continuously across the organization's entire AI portfolio.
+- **MAP**: establishes context: what is this AI system for, who does it affect, what are its components, and what risks and benefits does that context imply. Map happens early and is revisited whenever context changes materially.
+- **MEASURE**: analyzes, benchmarks and tracks identified risks and trustworthiness characteristics (validity, safety, security, privacy, fairness, explainability, accountability) using appropriate qualitative and quantitative methods.
+- **MANAGE**: allocates resources to identified risks on a regular basis, prioritizes response, and monitors the effectiveness of risk treatments over time.
 
-In July 2024, NIST published a companion document, the **Generative AI Profile (NIST AI 600-1)**. It identifies risks that are novel to or exacerbated by generative AI — such as confabulation (hallucination), information integrity, harmful bias and homogenization, and value-chain/component-integration risks in agentic systems — and cross-references each one back to the four core functions. That profile is the primary source for the "Generative AI Profile" section below.
+In July 2024, NIST published a companion document, the **Generative AI Profile (NIST AI 600-1)**. It identifies risks that are novel to or exacerbated by generative AI. Such as confabulation (hallucination), information integrity, harmful bias and homogenization, and value-chain/component-integration risks in agentic systems, and cross-references each one back to the four core functions. That profile is the primary source for the "Generative AI Profile" section below.
 
 The AI RMF is widely used in two ways. First, as a baseline internal risk taxonomy for organizations with no other mandated framework, because it is free, well-documented, and jurisdiction-neutral. Second, as a reference point for organizations with U.S. federal exposure, since U.S. federal agencies are directed to align with it under OMB Memorandum M-24-10.
 
-NIST also publishes a **Crosswalk** mapping AI RMF functions to ISO/IEC 42001 Annex A controls and to other frameworks. This is useful when an organization is pursuing more than one framework at once — see the [Reference Framework Alignment Index](../references/regulatory-framework-alignment-index.md) for guidance on running multiple checklists together.
+NIST also publishes a **Crosswalk** mapping AI RMF functions to ISO/IEC 42001 Annex A controls and to other frameworks. This is useful when an organization is pursuing more than one framework at once: see the [Reference Framework Alignment Index](../references/regulatory-framework-alignment-index.md) for guidance on running multiple checklists together.
 
 ## GOVERN — policies, accountability and culture
 

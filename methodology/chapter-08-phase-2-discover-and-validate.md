@@ -9,7 +9,7 @@
 
 ## Background and context
 
-Phase 1 produces a hypothesis. Phase 2 tests it honestly before real budget goes into production engineering. Engage & Align asks whether an outcome is worth pursuing; Discover & Validate asks whether intelligence applied to this workflow works well enough, on the cases that matter, to justify building it. A team that jumps from a promising demo straight to a production build has never tested the hypothesis — only illustrated it.
+Phase 1 produces a hypothesis. Phase 2 tests it honestly before real budget goes into production engineering. Engage & Align asks whether an outcome is worth pursuing; Discover & Validate asks whether intelligence applied to this workflow works well enough, on the cases that matter, to justify building it. A team that jumps from a promising demo straight to a production build has never tested the hypothesis. Only illustrated it.
 
 The discipline this phase enforces is representativeness. It is easy to make a model look capable on hand-picked examples. It is harder, and more informative, to test it on exceptions and ambiguous cases where evidence is thin. A vertical slice that only sees the happy path tells you nothing about production, where the happy path is a minority of real traffic. This phase is also where the team tests whether users can actually oversee and correct the system.
 
@@ -17,13 +17,13 @@ Phase 2 hands [Phase 3 — Engineer & Integrate](chapter-09-phase-3-engineer-and
 
 ![Figure 7. Phase 2 — Discover & Validate: method sequence and the Solution Viability Review gate.](../diagrams/lifecycle-phases/phase-2-discover-and-validate.png)
 
-*Figure 7. Phase 2 — Discover & Validate: method sequence and the Solution Viability Review gate.*
+*Figure 7. Phase 2, Discover & Validate: method sequence and the Solution Viability Review gate.*
 
 ## Phase objective
 
 Prove the intelligence and workflow hypothesis using representative cases and one end-to-end vertical slice.
 
-A vertical slice is not a prototype of the whole system. It is a thin but complete path through every layer the production system will need: input, context assembly, model or tool invocation, human review, outcome capture. It is thin for speed of learning, and complete because a slice missing human review will overstate performance — it never faces real oversight.
+A vertical slice is not a prototype of the whole system. It is a thin but complete path through every layer the production system will need: input, context assembly, model or tool invocation, human review, outcome capture. It is thin for speed of learning, and complete because a slice missing human review will overstate performance: it never faces real oversight.
 
 ## Core questions
 
@@ -35,7 +35,7 @@ A vertical slice is not a prototype of the whole system. It is a thin but comple
 
 - Are likely economics and controls acceptable?
 
-The first question is deliberately broad — a team should say plainly which kind of "improve" it claims. The second is where most Phase 2 work earns its keep. A system that fails silently on exceptions is often worse than none, because it erodes the workflow discipline that used to catch them manually. The third is frequently under-tested: a technically correct system whose interface makes oversight impractical gets rubber-stamped or abandoned. The fourth brings economics in — a system too expensive to run has not solved anything.
+The first question is deliberately broad; a team should say plainly which kind of "improve" it claims. The second is where most Phase 2 work earns its keep. A system that fails silently on exceptions is often worse than none, because it erodes the workflow discipline that used to catch them manually. The third is frequently under-tested: a technically correct system whose interface makes oversight impractical gets rubber-stamped or abandoned. The fourth brings economics in. A system too expensive to run has not solved anything.
 
 ## Method
 
@@ -51,7 +51,7 @@ The first question is deliberately broad — a team should say plainly which kin
 
 16. Estimate run cost, intervention cost, failure cost and the sensitivity of value to quality and adoption.
 
-The process map at step 11 should describe the workflow as it actually runs, using the [Process and Decision Map](../tools/02-workflow-and-intelligence-templates.md#6-process-and-decision-map) template. An idealized map produces an evaluation dataset built to the wrong shape. Step 12's adversarial and insufficient-evidence cases matter because production traffic reliably contains inputs where the honest answer is "I don't have enough information" — and an untested system will hallucinate one instead. Step 14's deterministic baseline matters because a simple rule performing nearly as well is a valid finding, not a failed experiment. Step 15's failure classification by responsible layer feeds the taxonomy used later in operations. Step 16 turns a successful pilot into, or out of, a viable business case.
+The process map at step 11 should describe the workflow as it actually runs, using the [Process and Decision Map](../tools/02-workflow-and-intelligence-templates.md#6-process-and-decision-map) template. An idealized map produces an evaluation dataset built to the wrong shape. Step 12's adversarial and insufficient-evidence cases matter because production traffic reliably contains inputs where the honest answer is "I don't have enough information", and an untested system will hallucinate one instead. Step 14's deterministic baseline matters because a simple rule performing nearly as well is a valid finding, not a failed experiment. Step 15's failure classification by responsible layer feeds the taxonomy used later in operations. Step 16 turns a successful pilot into, or out of, a viable business case.
 
 ## Primary artifacts
 

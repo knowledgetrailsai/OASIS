@@ -4,15 +4,15 @@
 
 # Architecture Perspective 3: Process Architecture
 
-> **PURPOSE** Define how agents participate in business processes — where an agent enters a process, what it owns within it, and where a human retains ownership — so process design and agent design happen together instead of an agent being retrofitted into a process it was not designed for.
+> **PURPOSE** Define how agents participate in business processes. Where an agent enters a process, what it owns within it, and where a human retains ownership, so process design and agent design happen together instead of an agent being retrofitted into a process it was not designed for.
 
 **Primary OASIS source:** [Chapter 16 — Human–AI Workflow and Experience Engineering](../methodology/chapter-16-human-ai-workflow-and-experience-engineering.md); [Chapter 9 — Phase 3: Engineer & Integrate](../methodology/chapter-09-phase-3-engineer-and-integrate.md); [Chapter 14 §7 — Workflow and orchestration selection](../methodology/chapter-14-intelligence-and-agent-engineering.md).
 
-**Companion repository:** [Loom](https://github.com/knowledgetrailsai/Loom) — the full implementation depth for Chapter 16, including the workflow-blueprint schema, progressive-autonomy ladder, and escalation-trigger design this perspective assumes at the enterprise level.
+**Companion repository:** [Loom](https://github.com/knowledgetrailsai/Loom): the full implementation depth for Chapter 16, including the workflow-blueprint schema, progressive-autonomy ladder, and escalation-trigger design this perspective assumes at the enterprise level.
 
 ## Background and context
 
-Chapter 16 addresses human-AI workflow design at the level of a single interaction: how a human and an agent hand off a task to each other, when to interrupt for approval, how to design for override. Process Architecture takes the wider view an enterprise process owner needs. A business process — claims intake through settlement, a hire from requisition through onboarding — is usually longer, more branched, and touches more systems than any single agent's scope. An agent typically owns one or a few steps within a process it does not own end-to-end.
+Chapter 16 addresses human-AI workflow design at the level of a single interaction: how a human and an agent hand off a task to each other, when to interrupt for approval, how to design for override. Process Architecture takes the wider view an enterprise process owner needs. A business process; claims intake through settlement, a hire from requisition through onboarding. Is usually longer, more branched, and touches more systems than any single agent's scope. An agent typically owns one or a few steps within a process it does not own end-to-end.
 
 Without an explicit process map, it's unclear where an agent's authority starts and stops relative to the surrounding human-owned process. Process owners also lose visibility into how much of "their" process now runs through agentic components they did not design.
 
@@ -50,7 +50,7 @@ Loom's [process risk classification](https://github.com/knowledgetrailsai/Loom/b
 
 ## 4. Relationship to system-level workflow design
 
-A process map spans potentially many systems and agents; a single system's [Harness and Orchestration Engineering](../engineering/harness-and-orchestration-engineering.md) document governs how one agent or workflow executes its portion. Do not duplicate step-level implementation detail here — link to the owning system's harness design and keep this map at the process-step and ownership level.
+A process map spans potentially many systems and agents; a single system's [Harness and Orchestration Engineering](../engineering/harness-and-orchestration-engineering.md) document governs how one agent or workflow executes its portion. Do not duplicate step-level implementation detail here, link to the owning system's harness design and keep this map at the process-step and ownership level.
 
 ---
 

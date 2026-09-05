@@ -4,19 +4,19 @@
 
 # Architecture Perspective 6: Integration Architecture
 
-> **PURPOSE** Define how agents interact with enterprise systems and tools at the portfolio level — the enterprise-wide framing of the per-tool [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md), covering the shared catalogue, connector governance, and integration-pattern standards every system's tool contracts should draw from.
+> **PURPOSE** Define how agents interact with enterprise systems and tools at the portfolio level. The enterprise-wide framing of the per-tool [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md), covering the shared catalogue, connector governance, and integration-pattern standards every system's tool contracts should draw from.
 
 **Primary OASIS source:** [Chapter 17 — Enterprise Integration and Tool Engineering](../methodology/chapter-17-enterprise-integration-and-tool-engineering.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
-**Companion repository:** [Helm](https://github.com/knowledgetrailsai/Helm) (`07-tool-integration/`) — light coverage of Chapter 17 exists there (tool-contract principles and one pattern catalogue); see the [Companion Repository Index](../References/companion-repository-index.md) for the known depth gap on this chapter.
+**Companion repository:** [Helm](https://github.com/knowledgetrailsai/Helm) (`07-tool-integration/`), light coverage of Chapter 17 exists there (tool-contract principles and one pattern catalogue); see the [Companion Repository Index](../References/companion-repository-index.md) for the known depth gap on this chapter.
 
 ## Background and context
 
 The [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md) gives one tool a complete contract: inputs, authorization, limits, failure semantics. That's the right granularity for building one tool. It's the wrong granularity for answering a portfolio question: how many independent integrations does the enterprise have into the claims system, built by how many different teams, with how many different authorization models?
 
-Without an integration architecture, every system re-integrates with the same enterprise systems of record from scratch. That multiplies both build cost and the number of independently-configured credentials and permission scopes attached to the same underlying system — each one a separate thing to secure, audit and revoke.
+Without an integration architecture, every system re-integrates with the same enterprise systems of record from scratch. That multiplies both build cost and the number of independently-configured credentials and permission scopes attached to the same underlying system: each one a separate thing to secure, audit and revoke.
 
-Integration Architecture is the enterprise catalogue and governance layer above individual tool contracts: which enterprise systems have agent-facing integrations at all, which pattern each uses, and — critically — a single place to answer "if we revoke this credential, which agents across the enterprise lose access to what?"
+Integration Architecture is the enterprise catalogue and governance layer above individual tool contracts: which enterprise systems have agent-facing integrations at all, which pattern each uses, and; critically. A single place to answer "if we revoke this credential, which agents across the enterprise lose access to what?"
 
 ## 1. Enterprise integration catalogue
 

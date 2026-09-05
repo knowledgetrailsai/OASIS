@@ -10,9 +10,9 @@
 
 ## Background and context
 
-Chapter 20 establishes the *process* for regulatory engineering: identify roles and jurisdictions, build a Regulatory Applicability Register, map obligations to controls, define test cases and evidence, validate human oversight, and track change (steps 48–53). By design, it does not enumerate the specific clauses of any one law or standard. OASIS is jurisdiction-neutral and framework-agnostic — a methodology chapter that hard-coded EU AI Act article numbers would go stale the moment the regulation was amended, and would be useless to a team whose applicable law is something else entirely.
+Chapter 20 establishes the *process* for regulatory engineering: identify roles and jurisdictions, build a Regulatory Applicability Register, map obligations to controls, define test cases and evidence, validate human oversight, and track change (steps 48–53). By design, it does not enumerate the specific clauses of any one law or standard. OASIS is jurisdiction-neutral and framework-agnostic. A methodology chapter that hard-coded EU AI Act article numbers would go stale the moment the regulation was amended, and would be useless to a team whose applicable law is something else entirely.
 
-This `/references` and `/standards` pairing closes that gap without breaking that neutrality. `/standards` holds one checklist per named framework — the concrete, framework-specific instrument. `/references` (this file) holds the index explaining how those instruments relate to each other and to the Chapter 20 process, so a delivery team can navigate the set without memorizing every framework in advance.
+This `/references` and `/standards` pairing closes that gap without breaking that neutrality. `/standards` holds one checklist per named framework, the concrete, framework-specific instrument. `/references` (this file) holds the index explaining how those instruments relate to each other and to the Chapter 20 process, so a delivery team can navigate the set without memorizing every framework in advance.
 
 Read this file first. Then open only the checklist(s) that Step 0 of the Regulatory Applicability Register says are actually in scope.
 
@@ -20,17 +20,17 @@ Read this file first. Then open only the checklist(s) that Step 0 of the Regulat
 
 The frameworks covered here fall into three categories. Which category a framework belongs to changes what "alignment" actually gets a practitioner, delivery team, customer, auditor or regulator:
 
-- **Certifiable management-system standards** — currently [ISO/IEC 42001](../standards/iso-42001-alignment-checklist.md). These are voluntary to adopt but, once adopted, can be independently audited and certified by an accredited third party. Alignment here produces a certificate that can be shown to customers, auditors and regulators as external proof of a mature AI governance program.
-- **Voluntary risk-management frameworks** — currently the [NIST AI RMF](../standards/nist-ai-rmf-alignment-checklist.md). These are not certifiable and carry no legal force by themselves, but function as a widely recognized common vocabulary for structuring an internal risk program, and are sometimes referenced by other frameworks, procurement requirements, or (for U.S. federal agencies specifically) government directives.
-- **Binding law** — currently the [EU AI Act](../standards/eu-ai-act-alignment-checklist.md) and the [India DPDP Act and Rules](../standards/dpdp-act-alignment-checklist.md). These carry statutory force and financial penalties for non-compliance within their jurisdiction and scope. Once the applicability test determines the organization is in scope (Step 0 in the EU AI Act checklist; the Data Fiduciary core obligations in the DPDP checklist), alignment is not optional — it is a legal obligation. The checklist is a structuring aid toward meeting it, not a substitute for legal sign-off.
+- **Certifiable management-system standards**: currently [ISO/IEC 42001](../standards/iso-42001-alignment-checklist.md). These are voluntary to adopt but, once adopted, can be independently audited and certified by an accredited third party. Alignment here produces a certificate that can be shown to customers, auditors and regulators as external proof of a mature AI governance program.
+- **Voluntary risk-management frameworks**: currently the [NIST AI RMF](../standards/nist-ai-rmf-alignment-checklist.md). These are not certifiable and carry no legal force by themselves, but function as a widely recognized common vocabulary for structuring an internal risk program, and are sometimes referenced by other frameworks, procurement requirements, or (for U.S. federal agencies specifically) government directives.
+- **Binding law**: currently the [EU AI Act](../standards/eu-ai-act-alignment-checklist.md) and the [India DPDP Act and Rules](../standards/dpdp-act-alignment-checklist.md). These carry statutory force and financial penalties for non-compliance within their jurisdiction and scope. Once the applicability test determines the organization is in scope (Step 0 in the EU AI Act checklist; the Data Fiduciary core obligations in the DPDP checklist), alignment is not optional — it is a legal obligation. The checklist is a structuring aid toward meeting it, not a substitute for legal sign-off.
 
-A useful mental model: certifiable standards and voluntary frameworks are things a team *chooses* to align with, because doing so is good practice, commercially useful, or a customer expectation. Binding law is different — a system is *already* subject to it the moment its role, geography, sector, data-processing activity or risk tier crosses the applicability threshold, whether or not anyone has done the alignment work yet.
+A useful mental model: certifiable standards and voluntary frameworks are things a team *chooses* to align with, because doing so is good practice, commercially useful, or a customer expectation. Binding law is different: a system is *already* subject to it the moment its role, geography, sector, data-processing activity or risk tier crosses the applicability threshold, whether or not anyone has done the alignment work yet.
 
 Triage accordingly: determine binding-law applicability first. Missing it has a materially different consequence than not yet holding an ISO certificate.
 
 ## How this index relates to Chapter 20
 
-Chapter 20's Regulatory Engineering Method (steps 48–53) is the process; the checklists below are the per-framework instrument that operationalizes step 49 (build the Regulatory Applicability Register) and step 50 (map each obligation to a control with a named owner). Start every engagement with the [Regulatory Applicability Register](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md) to determine which frameworks in the table below are actually in scope — do not work every checklist by default.
+Chapter 20's Regulatory Engineering Method (steps 48–53) is the process; the checklists below are the per-framework instrument that operationalizes step 49 (build the Regulatory Applicability Register) and step 50 (map each obligation to a control with a named owner). Start every engagement with the [Regulatory Applicability Register](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md) to determine which frameworks in the table below are actually in scope; do not work every checklist by default.
 
 ## Framework checklists
 
@@ -80,21 +80,21 @@ Work through these questions in order; each one can add a checklist to the engag
 4. **Is a jurisdiction-neutral risk taxonomy needed across products, regions or delivery teams?** The [NIST AI RMF Alignment Checklist](../standards/nist-ai-rmf-alignment-checklist.md) is a strong global baseline and pairs well with ISO 42001 via NIST's published crosswalk between the two.
 5. **Does the system introduce specialized technical risk?** Add overlays such as OWASP, MITRE ATLAS, ISO/IEC 23894, ISO/IEC 42005, ISO/IEC 27001/27701, cloud controls, secure software development, or sector-specific standards according to architecture and threat model.
 
-Most real engagements land on more than one checklist at once — for example, a globally deployed AI service may use ISO/IEC 42001 as the management-system backbone, NIST AI RMF as the risk vocabulary, OWASP/MITRE for technical threat modeling, and separate legal overlays for each market where the system is offered or used. That is expected; see "Using multiple checklists together" below for how to avoid duplicating work across them.
+Most real engagements land on more than one checklist at once. For example, a globally deployed AI service may use ISO/IEC 42001 as the management-system backbone, NIST AI RMF as the risk vocabulary, OWASP/MITRE for technical threat modeling, and separate legal overlays for each market where the system is offered or used. That is expected; see "Using multiple checklists together" below for how to avoid duplicating work across them.
 
 ## Related non-regulatory references (Chapter 33)
 
 These inform engineering and security practice rather than legal compliance; see [Chapter 33 — Reference framework alignment](../methodology/chapter-33-appendices-and-reference-material.md#reference-framework-alignment) for links:
 
-- ISO/IEC 23894 — Guidance on AI risk management
+- ISO/IEC 23894, Guidance on AI risk management
 - OWASP Agentic AI Threats and Mitigations; OWASP Top 10 for Agentic Applications
-- OpenAI — A practical guide to building AI agents
-- Anthropic — Building effective AI agents; Effective context engineering; Demystifying evals
+- OpenAI: A practical guide to building AI agents
+- Anthropic; Building effective AI agents; Effective context engineering; Demystifying evals
 - Microsoft Agent Framework overview
 
 ## Using multiple checklists together
 
-Most engagements are in scope for more than one framework at once. Where two checklists reference the same OASIS artifact — most commonly the [Risk and Control Register](../methodology/chapter-32-templates-checklists-and-tools.md#17-risk-and-control-register), the [Autonomy Matrix](../methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix), and the [Data and Knowledge Readiness Assessment](../methodology/chapter-32-templates-checklists-and-tools.md#8-data-and-knowledge-readiness-assessment) — populate it once and cross-reference it from each checklist's row rather than duplicating content, consistent with the [anti-bureaucracy test](../methodology/chapter-13-decision-gates-and-evidence-model.md) in Chapter 13.
+Most engagements are in scope for more than one framework at once. Where two checklists reference the same OASIS artifact. Most commonly the [Risk and Control Register](../methodology/chapter-32-templates-checklists-and-tools.md#17-risk-and-control-register), the [Autonomy Matrix](../methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix), and the [Data and Knowledge Readiness Assessment](../methodology/chapter-32-templates-checklists-and-tools.md#8-data-and-knowledge-readiness-assessment), populate it once and cross-reference it from each checklist's row rather than duplicating content, consistent with the [anti-bureaucracy test](../methodology/chapter-13-decision-gates-and-evidence-model.md) in Chapter 13.
 
 ## Maintenance
 

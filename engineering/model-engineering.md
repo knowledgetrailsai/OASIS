@@ -8,13 +8,13 @@
 
 **Primary OASIS source:** [Chapter 14 §2 — Model Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md#2-model-engineering); cross-referenced with [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md) and the [Evaluation and Reliability Engineering](evaluation-and-reliability-engineering.md) article.
 
-**Implemented in:** [Axiom](https://github.com/knowledgetrailsai/Axiom) — the background reference on the model architectures (Transformers, MoE, SSMs, and related families) this article's selection criteria assume; [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) implements the cost-governance and model-routing economics that inform the same decision.
+**Implemented in:** [Axiom](https://github.com/knowledgetrailsai/Axiom). The background reference on the model architectures (Transformers, MoE, SSMs, and related families) this article's selection criteria assume; [Fulcrum](https://github.com/knowledgetrailsai/oasis-fulcrum) implements the cost-governance and model-routing economics that inform the same decision.
 
 ## Background and context
 
 Chapter 14 deliberately does not name specific models or providers. The model landscape changes faster than any methodology chapter could stay current with, and a team that selected models by reading a chapter rather than running its own benchmark would be optimizing for last quarter's leaderboard, not this task. What the chapter does prescribe is a discipline: benchmark against *representative tasks*, not general-purpose leaderboards; consider the full decision surface (reasoning depth, modality, deployment region, privacy, latency, cost, context window, tool-use reliability, operational support) rather than a single headline metric; and prove quality with the strongest appropriate model first, then optimize downward. It is far easier to discover a smaller model is "good enough" once you know what "good" looks like than to discover a cost-optimized choice was never good enough in the first place.
 
-This ordering matters more than it might seem. Teams that start with a cost-optimized model and iterate upward tend to conflate two different failures — "the task is hard" and "the model is too weak" — because they never established a ceiling. Teams that start with the strongest available model and optimize down have a stable reference point: if the strongest model still fails a case, that's a task-design or context problem (see [Context and Retrieval Engineering](context-and-retrieval-engineering.md)), not a model problem, and no amount of model swapping will fix it. The optimization ladder in Section 4 makes that downward search systematic rather than ad hoc.
+This ordering matters more than it might seem. Teams that start with a cost-optimized model and iterate upward tend to conflate two different failures, "the task is hard" and "the model is too weak": because they never established a ceiling. Teams that start with the strongest available model and optimize down have a stable reference point: if the strongest model still fails a case, that's a task-design or context problem (see [Context and Retrieval Engineering](context-and-retrieval-engineering.md)), not a model problem, and no amount of model swapping will fix it. The optimization ladder in Section 4 makes that downward search systematic rather than ad hoc.
 
 **How to use this document:** run Section 1 to define selection criteria before touching any model, Section 2 to record actual benchmark results per candidate, Section 3 to design the production routing/fallback strategy once a primary model is chosen, Section 4 when cost or latency pressure motivates looking for a smaller/cheaper option, and Section 5 only after Section 4's context/workflow/tool improvements have been exhausted.
 
@@ -75,7 +75,7 @@ model_strategy:
 
 ## 4. Optimization ladder
 
-Work down this ladder only after the strongest appropriate model has proven the task is solvable at all. Each rung requires evidence that quality holds before moving further down — do not skip a rung to save time.
+Work down this ladder only after the strongest appropriate model has proven the task is solvable at all. Each rung requires evidence that quality holds before moving further down; do not skip a rung to save time.
 
 | Rung | Optimization | Trigger to consider it | Evidence required before adopting |
 |---|---|---|---|
@@ -88,7 +88,7 @@ Work down this ladder only after the strongest appropriate model has proven the 
 
 ## 5. Fine-tuning decision checklist
 
-Per Chapter 14 §12: fine-tuning is considered only when repeated, well-defined domain failures remain *after* context, workflow, tool and instruction improvements have been exhausted — it is not the default repair for every quality issue.
+Per Chapter 14 §12: fine-tuning is considered only when repeated, well-defined domain failures remain *after* context, workflow, tool and instruction improvements have been exhausted. It is not the default repair for every quality issue.
 
 | # | Question | Answer required before proceeding |
 |---|---|---|

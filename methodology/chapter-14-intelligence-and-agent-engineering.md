@@ -4,10 +4,10 @@
 
 # Chapter 14: Intelligence and Agent Engineering
 
-> **Implementation companion:** [Ageis](https://github.com/knowledgetrailsai/Ageis) — end-to-end agentic delivery practice. Model-architecture background: [Axiom](https://github.com/knowledgetrailsai/Axiom).
+> **Implementation companion:** [Ageis](https://github.com/knowledgetrailsai/Ageis). End-to-end agentic delivery practice. Model-architecture background: [Axiom](https://github.com/knowledgetrailsai/Axiom).
 
 
-> **CHAPTER PURPOSE** Engineer the complete intelligence system from specification and model strategy through context, harness, tools, memory, evaluation and AgentOps — as a single accountable engineering discipline, not a chain of independent experiments.
+> **CHAPTER PURPOSE** Engineer the complete intelligence system from specification and model strategy through context, harness, tools, memory, evaluation and AgentOps, as a single accountable engineering discipline, not a chain of independent experiments.
 
 ## Background and context
 

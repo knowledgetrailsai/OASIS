@@ -4,7 +4,7 @@
 
 # Chapter 05: Opportunity Portfolio and Transformation Horizons
 
-> **Implementation companion:** [Nexus](https://github.com/knowledgetrailsai/Nexus) — the opportunity catalog (function × domain × use case) this chapter's portfolio thinking is built from.
+> **Implementation companion:** [Nexus](https://github.com/knowledgetrailsai/Nexus). The opportunity catalog (function × domain × use case) this chapter's portfolio thinking is built from.
 
 
 > **CHAPTER PURPOSE** Select and balance AI opportunities across assist, enhance, reconfigure and transform horizons using value, feasibility, risk and foundational readiness. Give teams a shared, testable way to frame an opportunity before it enters that assessment.

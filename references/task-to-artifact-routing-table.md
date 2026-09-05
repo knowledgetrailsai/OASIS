@@ -4,13 +4,13 @@
 
 # Reference: Task-to-Artifact Routing Table
 
-> **PURPOSE** Answer "which of the 20 artifacts do I need right now?" starting from the task in front of you, not from the artifact catalogue. Chapter 32 and the [Tools](../tools/01-outcome-and-portfolio-templates.md) folder define what each artifact is; this page and [`../oasis-manifest.yaml`](../oasis-manifest.yaml) exist so a person or an agent can go the other direction — from a plain-language task to the right artifact, phase and JSON Schema.
+> **PURPOSE** Answer "which of the 20 artifacts do I need right now?" starting from the task in front of you, not from the artifact catalogue. Chapter 32 and the [Tools](../tools/01-outcome-and-portfolio-templates.md) folder define what each artifact is; this page and [`../oasis-manifest.yaml`](../oasis-manifest.yaml) exist so a person or an agent can go the other direction. From a plain-language task to the right artifact, phase and JSON Schema.
 
 **Primary OASIS source:** [Chapter 32 — Templates, Checklists and Tools](../methodology/chapter-32-templates-checklists-and-tools.md) and [Chapter 13 — Decision Gates and Evidence Model](../methodology/chapter-13-decision-gates-and-evidence-model.md). Machine-readable form: [`oasis-lifecycle.yaml`](../oasis-lifecycle.yaml) (phases and gates) and [`Schemas/`](../Schemas/) (one JSON Schema per artifact).
 
 ## How to use this table
 
-Find the row closest to what you're actually trying to decide, not the artifact name you already have in mind — several tasks route to more than one artifact because the underlying decision needs more than one kind of evidence. Each artifact links to its fillable version in [Tools](../tools/01-outcome-and-portfolio-templates.md) and its schema in [Schemas/](../Schemas/).
+Find the row closest to what you're actually trying to decide, not the artifact name you already have in mind, several tasks route to more than one artifact because the underlying decision needs more than one kind of evidence. Each artifact links to its fillable version in [Tools](../tools/01-outcome-and-portfolio-templates.md) and its schema in [Schemas/](../Schemas/).
 
 | # | Task or question | Artifact(s) | Phase | Gate | Schema |
 |---|---|---|---|---|---|
@@ -40,4 +40,4 @@ Find the row closest to what you're actually trying to decide, not the artifact 
 
 ## For agents
 
-An agent picking an artifact programmatically should: read [`oasis-manifest.yaml`](../oasis-manifest.yaml) for the full artifact list (id, phase, tools file, schema path); match the task against this table or the manifest's `artifacts` list; open the matched artifact's JSON Schema in [`Schemas/`](../Schemas/) to know exactly which fields to produce; and never invent a field not present in that schema — extend the source template in [Tools](../tools/01-outcome-and-portfolio-templates.md) first if a real gap is found. See [`../oasis-skill/SKILL.md`](../oasis-skill/SKILL.md) for the full agent workflow.
+An agent picking an artifact programmatically should: read [`oasis-manifest.yaml`](../oasis-manifest.yaml) for the full artifact list (id, phase, tools file, schema path); match the task against this table or the manifest's `artifacts` list; open the matched artifact's JSON Schema in [`Schemas/`](../Schemas/) to know exactly which fields to produce; and never invent a field not present in that schema: extend the source template in [Tools](../tools/01-outcome-and-portfolio-templates.md) first if a real gap is found. See [`../oasis-skill/SKILL.md`](../oasis-skill/SKILL.md) for the full agent workflow.

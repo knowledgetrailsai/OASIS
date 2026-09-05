@@ -6,31 +6,31 @@
 
 # Architecture: OASIS Intelligence-System Reference Architecture
 
-> **PURPOSE** Give a first-pass, technology-neutral reference architecture for the intelligence system described conceptually in [Chapter 14](../methodology/chapter-14-intelligence-and-agent-engineering.md), so a delivery team has a concrete component diagram to start from instead of reconstructing one from narrative each engagement. This is a starting point for the [Intelligence-System Blueprint](../methodology/chapter-32-templates-checklists-and-tools.md#11-intelligence-system-blueprint) — tailor components, not the layering discipline, to the engagement.
+> **PURPOSE** Give a first-pass, technology-neutral reference architecture for the intelligence system described conceptually in [Chapter 14](../methodology/chapter-14-intelligence-and-agent-engineering.md), so a delivery team has a concrete component diagram to start from instead of reconstructing one from narrative each engagement. This is a starting point for the [Intelligence-System Blueprint](../methodology/chapter-32-templates-checklists-and-tools.md#11-intelligence-system-blueprint). Tailor components, not the layering discipline, to the engagement.
 
 **Primary OASIS source:** [Chapter 14 — Intelligence and Agent Engineering](../methodology/chapter-14-intelligence-and-agent-engineering.md) (system equation and sections 1–12), cross-referenced with [Chapter 17 — Enterprise Integration and Tool Engineering](../methodology/chapter-17-enterprise-integration-and-tool-engineering.md) and [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md) (defense-in-depth layers).
 
-**Companion repositories:** this reference architecture sits above every Part III companion repository — see the [Companion Repository Index](../References/companion-repository-index.md) for the full chapter-to-repository map, and the nine [enterprise architecture perspectives](#6-enterprise-architecture-perspectives) below for the specific companion tied to each perspective.
+**Companion repositories:** this reference architecture sits above every Part III companion repository, see the [Companion Repository Index](../References/companion-repository-index.md) for the full chapter-to-repository map, and the nine [enterprise architecture perspectives](#6-enterprise-architecture-perspectives) below for the specific companion tied to each perspective.
 
 ## Background and context
 
-Chapter 14 works at the level of a *methodology*. It tells a team what decisions to make — how to pick a model, when to use an agent instead of a deterministic function, what a tool contract must contain — but it does not draw a picture. That is deliberate: the right picture differs by engagement, and Chapter 14 has to stay neutral about technology and vendors.
+Chapter 14 works at the level of a *methodology*. It tells a team what decisions to make: how to pick a model, when to use an agent instead of a deterministic function, what a tool contract must contain; but it does not draw a picture. That is deliberate: the right picture differs by engagement, and Chapter 14 has to stay neutral about technology and vendors.
 
 That is fine for a methodology chapter, but it leaves a gap. A team starting a build still needs something to put on a whiteboard on day one. Re-deriving a component diagram from eleven pages of narrative every time a new engagement starts wastes effort. This document is that starting diagram: a concrete first draft a team can copy, mark up, and discard the parts that don't apply. It is not an authoritative architecture every OASIS system must match exactly.
 
 Three things to keep in mind while reading it.
 
-First, the diagram in Section 1 is a **capability map, not a deployment topology**. Each box is a responsibility the system must fulfil — assemble context, enforce a limit, validate an output — not a literal microservice, container, or team boundary. A small system might implement the Context assembler and the Harness as one function in one codebase. A large multi-tenant platform might implement each box as its own service. The architecture describes which responsibilities exist and how they hand off to each other, not how finely the system is deployed.
+First, the diagram in Section 1 is a **capability map, not a deployment topology**. Each box is a responsibility the system must fulfil. Assemble context, enforce a limit, validate an output, not a literal microservice, container, or team boundary. A small system might implement the Context assembler and the Harness as one function in one codebase. A large multi-tenant platform might implement each box as its own service. The architecture describes which responsibilities exist and how they hand off to each other, not how finely the system is deployed.
 
 Second, the diagram follows the same order Chapter 14 uses for its sections: specification → model → data/retrieval → context → tools → harness → workflow → memory → human interaction/validation → guardrails → evaluation → runtime. That lets you read Section 2's component-to-artifact map top-to-bottom against both the diagram and the chapter at once.
 
-Third, this is a **reference**, not a mandate. Section 5 explains which components a simpler system may omit — and that decision is governed by Chapter 30's tailoring framework, not by this document.
+Third, this is a **reference**, not a mandate. Section 5 explains which components a simpler system may omit, and that decision is governed by Chapter 30's tailoring framework, not by this document.
 
 If you are new to reading Mermaid flowcharts: boxes are components, arrows show the direction data or control flows, dashed arrows (`-.->`) indicate a fallback or feedback path rather than the primary flow, and boxes grouped inside a labelled `subgraph` belong to the same layer of the system equation below. GitHub, most IDEs, and most Markdown viewers render the diagrams inline automatically; if your viewer does not render Mermaid, the same information is repeated as prose and tables in Sections 2–4 so the document remains usable either way.
 
 ## Architecture Principles
 
-Chapter 14 governs engineering *decisions*. These principles govern the architecture *judgment calls* that come up repeatedly across every layer in Sections 2–5 and across the nine perspective articles in Section 6. If a specific decision conflicts with a principle here, treat that as a flag for architecture review — not as license to ignore either one. Each principle names the chapter it comes from and the mechanism that makes it checkable, not just aspirational.
+Chapter 14 governs engineering *decisions*. These principles govern the architecture *judgment calls* that come up repeatedly across every layer in Sections 2–5 and across the nine perspective articles in Section 6. If a specific decision conflicts with a principle here, treat that as a flag for architecture review; not as license to ignore either one. Each principle names the chapter it comes from and the mechanism that makes it checkable, not just aspirational.
 
 | # | Principle | What it requires | Why it matters | Primary source | How it is checked |
 |---|---|---|---|---|---|
@@ -45,7 +45,7 @@ Chapter 14 governs engineering *decisions*. These principles govern the architec
 | 9 | **Composable and reusable** | Components (context sources, tool contracts, evaluation suites, guardrail policies) are built as shared platform assets with defined interfaces, so the second and third use case reuse them rather than rebuilding equivalents. | Every component rebuilt per use case multiplies both delivery cost and the number of independently-drifting implementations of the same control. | Ch.25, Ch.28 | [Scale and Productization Assessment](../methodology/chapter-32-templates-checklists-and-tools.md#18-scale-and-productization-assessment) |
 | 10 | **Jurisdiction neutral, compliance-ready** | The architecture does not assume a single regulatory regime; obligations that vary by jurisdiction (data residency, disclosure, human-review rights) are represented as configurable policy, not hard-coded logic. | A system architected for one jurisdiction's rules is expensive to re-architect for the next one; a system that treats jurisdiction as configuration only needs new configuration. | Ch.20, [Regulatory and Standards Framework Alignment Index](../references/regulatory-framework-alignment-index.md) | [Standards](../standards/) checklists per applicable framework |
 
-These ten are a floor, not a ceiling. An engagement with an added constraint — a regulated sector's own architecture principles, for example — should add rows rather than treat this list as complete. Section 6 below applies these principles at each of the nine enterprise-architecture perspectives.
+These ten are a floor, not a ceiling. An engagement with an added constraint. A regulated sector's own architecture principles, for example, should add rows rather than treat this list as complete. Section 6 below applies these principles at each of the nine enterprise-architecture perspectives.
 
 ## 1. System equation, as a diagram
 
@@ -176,7 +176,7 @@ flowchart TD
     Q4 -->|No| AGT[Single agent]
 ```
 
-Default to the simplest option that satisfies the task. Multi-agent is justified by measured benefit, not by default sophistication — an unjustified multi-agent design is itself an architecture-review finding.
+Default to the simplest option that satisfies the task. Multi-agent is justified by measured benefit, not by default sophistication: an unjustified multi-agent design is itself an architecture-review finding.
 
 ## 5. Tailoring this architecture
 
@@ -184,9 +184,9 @@ Per [Chapter 30 — Tailoring OASIS](../methodology/chapter-30-tailoring-oasis.m
 
 ## 6. Enterprise architecture perspectives
 
-Sections 1–5 describe **one intelligence system** as a component diagram. That's the right level for a single build team on a single engagement. It's the wrong level for an enterprise running many intelligence systems at once. A CIO/CTO office, an enterprise architecture function, or a platform team needs to reason about agentic capability the way it reasons about any other enterprise domain — by perspective, not by component.
+Sections 1–5 describe **one intelligence system** as a component diagram. That's the right level for a single build team on a single engagement. It's the wrong level for an enterprise running many intelligence systems at once. A CIO/CTO office, an enterprise architecture function, or a platform team needs to reason about agentic capability the way it reasons about any other enterprise domain; by perspective, not by component.
 
-The nine perspectives below give that enterprise-architecture view. Each is a thin layer over material that mostly already exists elsewhere in this repository — Engineering, Security, Monitoring, Standards. What these articles add is the enterprise-wide framing (taxonomy, ownership, placement, portfolio view) that a single-system component diagram doesn't need but an enterprise-scale program does.
+The nine perspectives below give that enterprise-architecture view. Each is a thin layer over material that mostly already exists elsewhere in this repository. Engineering, Security, Monitoring, Standards. What these articles add is the enterprise-wide framing (taxonomy, ownership, placement, portfolio view) that a single-system component diagram doesn't need but an enterprise-scale program does.
 
 | # | Perspective | What it defines | Article |
 |---|---|---|---|
@@ -200,7 +200,7 @@ The nine perspectives below give that enterprise-architecture view. Each is a th
 | 8 | Security & Trust Architecture | Identity, boundaries, permissions, data controls | [Security and Trust Architecture](perspective-08-security-and-trust-architecture.md) |
 | 9 | Operations / Observability Architecture | How the system is monitored, governed and controlled | [Operations and Observability Architecture](perspective-09-operations-and-observability-architecture.md) |
 
-Read these perspectives as a portfolio-level cut across every system built on Sections 1–5's component diagram — not as a replacement for it. A single intelligence system still needs its own Intelligence-System Blueprint. A program running several such systems also needs to know things a single blueprint can't tell it: does the enterprise have one agent taxonomy or five incompatible ones (Agent Architecture)? Is inference procured and routed consistently, or does every team do it independently (Inference Architecture)?
+Read these perspectives as a portfolio-level cut across every system built on Sections 1–5's component diagram, not as a replacement for it. A single intelligence system still needs its own Intelligence-System Blueprint. A program running several such systems also needs to know things a single blueprint can't tell it: does the enterprise have one agent taxonomy or five incompatible ones (Agent Architecture)? Is inference procured and routed consistently, or does every team do it independently (Inference Architecture)?
 
 Perspectives 1–3 are mostly new content specific to the enterprise view. Perspectives 4–6 and 8–9 frame existing Engineering, Security and Monitoring material at enterprise scale and link to it rather than repeating it. Perspective 7 (Deployment) is new content not covered elsewhere in this repository.
 

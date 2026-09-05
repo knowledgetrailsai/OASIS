@@ -4,7 +4,7 @@
 
 # Companion Repository Index
 
-OASIS is the methodology: what to do, in what order, and why. It deliberately stops short of being an implementation guide for any one chapter — that depth lives in a set of separate, independently-versioned companion repositories, each one built out from a specific chapter or cluster of chapters. This index is the map from a chapter to the repository that implements it, and back.
+OASIS is the methodology: what to do, in what order, and why. It deliberately stops short of being an implementation guide for any one chapter. That depth lives in a set of separate, independently-versioned companion repositories, each one built out from a specific chapter or cluster of chapters. This index is the map from a chapter to the repository that implements it, and back.
 
 Each companion repository names OASIS as its source, and now also names its *sibling* companions, in its own README's "Relationship to companion repositories" section (see the Back-reference column below). This page is the reverse direction: from OASIS, to them.
 

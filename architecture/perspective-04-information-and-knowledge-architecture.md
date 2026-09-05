@@ -4,23 +4,23 @@
 
 # Architecture Perspective 4: Information and Knowledge Architecture
 
-> **PURPOSE** Define how enterprise knowledge and context are organized as a shared, governed asset — the enterprise-wide framing of the per-system [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md) article, for the domains, sources and access rules every intelligence system draws on.
+> **PURPOSE** Define how enterprise knowledge and context are organized as a shared, governed asset. The enterprise-wide framing of the per-system [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md) article, for the domains, sources and access rules every intelligence system draws on.
 
 **Primary OASIS source:** [Chapter 15 — Data and Knowledge Engineering](../methodology/chapter-15-data-and-knowledge-engineering.md); [Chapter 14 §3–4 — Data, retrieval and context](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
-**Companion repository:** [Forge](https://github.com/knowledgetrailsai/Forge) — the full implementation depth for Chapter 15: retrieval architectures, embeddings, grounding policy, and knowledge-domain design underlying this perspective's enterprise-wide framing.
+**Companion repository:** [Forge](https://github.com/knowledgetrailsai/Forge), the full implementation depth for Chapter 15: retrieval architectures, embeddings, grounding policy, and knowledge-domain design underlying this perspective's enterprise-wide framing.
 
 ## Background and context
 
 [Context and Retrieval Engineering](../engineering/context-and-retrieval-engineering.md) specifies how one system assembles context for one task: ingestion, chunking, indexing, retrieval, and the authorization-aware, source-attributed, fresh, compressed context an individual harness consumes. That document is scoped to a single system's retrieval pipeline.
 
-This perspective is the layer above it. An enterprise typically has a small number of authoritative knowledge domains — product, policy, customer, case history, regulatory — that many systems need to draw on. If each system builds its own independent ingestion and indexing pipeline against the same underlying source of truth, the enterprise ends up with as many divergent copies of "the current policy" as it has systems, each able to drift out of sync with the others and with the source of truth itself.
+This perspective is the layer above it. An enterprise typically has a small number of authoritative knowledge domains: product, policy, customer, case history, regulatory; that many systems need to draw on. If each system builds its own independent ingestion and indexing pipeline against the same underlying source of truth, the enterprise ends up with as many divergent copies of "the current policy" as it has systems, each able to drift out of sync with the others and with the source of truth itself.
 
 Information and Knowledge Architecture is the map of those enterprise knowledge domains, their authoritative source of truth, and the access rules that every system's context assembler must respect. That way, "which system is authoritative for customer entitlement data" has one answer, not five.
 
 ## 1. Enterprise knowledge domain map
 
-Forge's own [knowledge domain map](https://github.com/knowledgetrailsai/Forge/blob/main/05-enterprise-knowledge-architecture/knowledge-domain-map.md) template is the direct source for this table — populate this one from it rather than starting blank.
+Forge's own [knowledge domain map](https://github.com/knowledgetrailsai/Forge/blob/main/05-enterprise-knowledge-architecture/knowledge-domain-map.md) template is the direct source for this table. Populate this one from it rather than starting blank.
 
 | Knowledge domain | Authoritative source of truth | Freshness requirement | Access classification | Consuming systems |
 |---|---|---|---|---|
@@ -44,7 +44,7 @@ Forge's own [knowledge domain map](https://github.com/knowledgetrailsai/Forge/bl
 
 ## 4. Retirement and versioning
 
-Knowledge domains change owners, get superseded, or get deprecated. Track domain-level version history the same way the [Monitoring specification](../monitoring/observability-and-telemetry-specification.md#2-trace-and-version-record-what-every-event-must-carry) tracks index versions per request — a domain migration is a release, and every consuming system's dependency on the old domain must be identified before cutover, not discovered after.
+Knowledge domains change owners, get superseded, or get deprecated. Track domain-level version history the same way the [Monitoring specification](../monitoring/observability-and-telemetry-specification.md#2-trace-and-version-record-what-every-event-must-carry) tracks index versions per request, a domain migration is a release, and every consuming system's dependency on the old domain must be identified before cutover, not discovered after.
 
 ---
 

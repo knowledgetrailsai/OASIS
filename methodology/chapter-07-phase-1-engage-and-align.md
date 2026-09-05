@@ -19,7 +19,7 @@ The Opportunity Assessment and Outcome Charter are fillable templates in [Outcom
 
 ![Figure 6. Phase 1 — Engage & Align: method sequence and the Outcome Alignment Review gate.](../diagrams/lifecycle-phases/phase-1-engage-and-align.png)
 
-*Figure 6. Phase 1 — Engage & Align: method sequence and the Outcome Alignment Review gate.*
+*Figure 6. Phase 1. Engage & Align: method sequence and the Outcome Alignment Review gate.*
 
 ## Phase objective
 

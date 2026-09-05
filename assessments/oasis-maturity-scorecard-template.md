@@ -4,15 +4,15 @@
 
 # Assessment: OASIS Maturity Scorecard Template
 
-> **PURPOSE** The fillable instance of the [AI Engineering Maturity Model](oasis-ai-engineering-maturity-model.md) — copy this template per assessment cycle (per organization, business unit, or major system, depending on scope), score each of the nine dimensions with real evidence, and track the result over time rather than as a one-off exercise.
+> **PURPOSE** The fillable instance of the [AI Engineering Maturity Model](oasis-ai-engineering-maturity-model.md). Copy this template per assessment cycle (per organization, business unit, or major system, depending on scope), score each of the nine dimensions with real evidence, and track the result over time rather than as a one-off exercise.
 
 **Primary OASIS source:** [Assessment: OASIS AI Engineering Maturity Model](oasis-ai-engineering-maturity-model.md).
 
 ## Background and context
 
-A maturity score is only as trustworthy as the evidence behind it. That is why this template requires an evidence field alongside every score. "We think we're at Level 3," with no named artifact behind it, is really a Level 1 assessment practice making a Level 3 claim. Fill the evidence field with a specific, checkable reference — a completed template, a named forum's meeting record, a dashboard link — not a general impression.
+A maturity score is only as trustworthy as the evidence behind it. That is why this template requires an evidence field alongside every score. "We think we're at Level 3," with no named artifact behind it, is really a Level 1 assessment practice making a Level 3 claim. Fill the evidence field with a specific, checkable reference, a completed template, a named forum's meeting record, a dashboard link: not a general impression.
 
-Re-run this assessment on a fixed cadence — quarterly is a reasonable default, aligned with the portfolio review cadence in [Chapter 24](../methodology/chapter-24-roles-teams-and-governance-forums.md#governance-forums). Keep prior cycles rather than overwriting them, so the trend stays visible. A dimension stuck at the same level for three consecutive cycles, despite a stated target, is itself a signal worth raising at the next portfolio review. A stalled dimension usually means the gap is organizational — no owner, no budget, no forum — rather than technical.
+Re-run this assessment on a fixed cadence; quarterly is a reasonable default, aligned with the portfolio review cadence in [Chapter 24](../methodology/chapter-24-roles-teams-and-governance-forums.md#governance-forums). Keep prior cycles rather than overwriting them, so the trend stays visible. A dimension stuck at the same level for three consecutive cycles, despite a stated target, is itself a signal worth raising at the next portfolio review. A stalled dimension usually means the gap is organizational. No owner, no budget, no forum, rather than technical.
 
 ## Scorecard
 

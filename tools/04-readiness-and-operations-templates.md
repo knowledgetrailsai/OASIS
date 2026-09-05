@@ -4,7 +4,7 @@
 
 # Tools: Readiness and Operations Templates
 
-> **PURPOSE** Fillable versions of the go-live readiness and running-service artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md). These pair directly with the [Monitoring: Observability and Telemetry Specification](../monitoring/observability-and-telemetry-specification.md) — its release-manifest checklist and operational-plane metrics are the evidence source for several fields below.
+> **PURPOSE** Fillable versions of the go-live readiness and running-service artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md). These pair directly with the [Monitoring: Observability and Telemetry Specification](../monitoring/observability-and-telemetry-specification.md). Its release-manifest checklist and operational-plane metrics are the evidence source for several fields below.
 
 Covers templates 13–16 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [System and Governance Templates](03-system-and-governance-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 

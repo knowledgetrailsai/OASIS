@@ -135,7 +135,7 @@ outcome_contract:
 | Guardrail | | | | | | |
 | Guardrail | | | | | | |
 
-Add rows as needed. A metric tree with no guardrail row is incomplete — every outcome pursued through an intelligence system should have at least one metric that catches an unacceptable side effect, per the [Autonomy Matrix](../methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix) escalation logic in [System and Governance Templates](03-system-and-governance-templates.md).
+Add rows as needed. A metric tree with no guardrail row is incomplete. Every outcome pursued through an intelligence system should have at least one metric that catches an unacceptable side effect, per the [Autonomy Matrix](../methodology/chapter-32-templates-checklists-and-tools.md#12-autonomy-matrix) escalation logic in [System and Governance Templates](03-system-and-governance-templates.md).
 
 ---
 

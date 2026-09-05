@@ -9,21 +9,21 @@
 
 ## Background and context
 
-Phase 3 proves a system is safe to release under controlled conditions. Phase 4 is where it meets real users, workload variability and consequences, and the organization decides — deliberately and in increments — how much it will let the system do without a human in the loop. "Engineered correctly" becomes "trusted in practice" here, closed by production evidence, not demo confidence.
+Phase 3 proves a system is safe to release under controlled conditions. Phase 4 is where it meets real users, workload variability and consequences, and the organization decides. Deliberately and in increments, how much it will let the system do without a human in the loop. "Engineered correctly" becomes "trusted in practice" here, closed by production evidence, not demo confidence.
 
-The central idea is progressive autonomy. A system moves through operating modes — shadow, assisted, supervised, then some bounded autonomy — and each step is justified by evidence from the step below, not by elapsed time or enthusiasm. This is covered further in [Architecture Perspective 2: Agent Architecture](../architecture/perspective-02-agent-architecture.md#1-agent-type-taxonomy) and tracked through the [Autonomy Matrix](../tools/03-system-and-governance-templates.md#12-autonomy-matrix), which assigns evidence thresholds and escalation triggers per action and case class, not to the system as a whole. A system that drafts replies and also issues refunds needs two separate autonomy rows, because the evidence needed to trust each is unrelated.
+The central idea is progressive autonomy. A system moves through operating modes: shadow, assisted, supervised, then some bounded autonomy; and each step is justified by evidence from the step below, not by elapsed time or enthusiasm. This is covered further in [Architecture Perspective 2: Agent Architecture](../architecture/perspective-02-agent-architecture.md#1-agent-type-taxonomy) and tracked through the [Autonomy Matrix](../tools/03-system-and-governance-templates.md#12-autonomy-matrix), which assigns evidence thresholds and escalation triggers per action and case class, not to the system as a whole. A system that drafts replies and also issues refunds needs two separate autonomy rows, because the evidence needed to trust each is unrelated.
 
 Phase 4 hands [Phase 5 — Operate & Assure](chapter-11-phase-5-operate-and-assure.md) a service proven to work for real users at a stated, evidenced level of authority, with a verified fallback path and a trained user base, so ongoing operations start from a stable baseline rather than still discovering workflow-fit problems in production.
 
 ![Figure 9. Phase 4 — Activate & Adopt: method sequence and the Operational Acceptance Review gate.](../diagrams/lifecycle-phases/phase-4-activate-and-adopt.png)
 
-*Figure 9. Phase 4 — Activate & Adopt: method sequence and the Operational Acceptance Review gate.*
+*Figure 9. Phase 4. Activate & Adopt: method sequence and the Operational Acceptance Review gate.*
 
 ## Phase objective
 
 Introduce the service into live operations, enable users and progressively increase authority only when evidence supports it.
 
-"Only" is doing real work here. The most common failure is authority creeping upward informally — a supervisor who stops reviewing every case because the system "seemed fine," or a team that quietly widens a cohort because the pilot group is happy. The Autonomy Matrix exists to make each authority increase a visible, evidenced, reversible decision, rather than a drift.
+"Only" is doing real work here. The most common failure is authority creeping upward informally, a supervisor who stops reviewing every case because the system "seemed fine," or a team that quietly widens a cohort because the pilot group is happy. The Autonomy Matrix exists to make each authority increase a visible, evidenced, reversible decision, rather than a drift.
 
 ## Core questions
 
@@ -35,7 +35,7 @@ Introduce the service into live operations, enable users and progressively incre
 
 - Which case classes are ready for the next autonomy level?
 
-The third question deserves attention because "high trust" is easy to misread as success. A user who stops checking output because the system has been right often enough is a control failure waiting to surface, not validation. Calibrated trust means users know which cases the system handles well and which it doesn't. That is built through training and interface design — it should never be assumed.
+The third question deserves attention because "high trust" is easy to misread as success. A user who stops checking output because the system has been right often enough is a control failure waiting to surface, not validation. Calibrated trust means users know which cases the system handles well and which it doesn't. That is built through training and interface design: it should never be assumed.
 
 ## Method
 
@@ -69,7 +69,7 @@ Step 23's shadow or assisted mode lets behavior be observed against real traffic
 
 - Operational Acceptance Record
 
-The Autonomy Matrix is template 12 in [System and Governance Templates](../tools/03-system-and-governance-templates.md#12-autonomy-matrix). The Operational Acceptance Tests correspond to the checklist in [Readiness and Operations Templates](../tools/04-readiness-and-operations-templates.md#14-operational-acceptance-checklist) — a deliberately distinct gate from Phase 3's Production Readiness Checklist. Readiness confirms the system is safe to expose to live users; acceptance confirms it actually works for them once it is.
+The Autonomy Matrix is template 12 in [System and Governance Templates](../tools/03-system-and-governance-templates.md#12-autonomy-matrix). The Operational Acceptance Tests correspond to the checklist in [Readiness and Operations Templates](../tools/04-readiness-and-operations-templates.md#14-operational-acceptance-checklist); a deliberately distinct gate from Phase 3's Production Readiness Checklist. Readiness confirms the system is safe to expose to live users; acceptance confirms it actually works for them once it is.
 
 > **DECISION OUTCOME** Operational Acceptance Review: accept, correct, widen, reduce or suspend.
 

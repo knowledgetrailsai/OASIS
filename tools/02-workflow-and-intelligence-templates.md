@@ -28,7 +28,7 @@ They sit between the outcome-and-portfolio decisions (which establish *whether* 
 | 2 | | | | | | | | | | |
 | 3 | | | | | | | | | | |
 
-Add one row per meaningful step of the current process, end to end, before designing the intelligence system that will change it — the map should describe the process *as it exists today*, not the target state.
+Add one row per meaningful step of the current process, end to end, before designing the intelligence system that will change it. The map should describe the process *as it exists today*, not the target state.
 
 ---
 
@@ -72,7 +72,7 @@ human_ai_workflow_blueprint:
 | | | | | | | | | | | |
 | | | | | | | | | | | |
 
-Score quality and coverage against the specific decision this data will support, not in the abstract — a source that is "quality 5" for reporting may still be unfit as retrieval evidence if it lacks source attribution.
+Score quality and coverage against the specific decision this data will support, not in the abstract, a source that is "quality 5" for reporting may still be unfit as retrieval evidence if it lacks source attribution.
 
 ---
 
@@ -132,7 +132,7 @@ evaluation_strategy:
 | | | | | | | | | | | |
 | | | | | | | | | | | |
 
-Classify by responsible layer (model / context / retrieval / tool-selection / tool-execution / state / workflow / policy / human-approval / enterprise-dependency) before root-causing — see the [Monitoring spec's incident taxonomy](../monitoring/observability-and-telemetry-specification.md#4-incident-classification-responsible-layer-taxonomy) for the full list.
+Classify by responsible layer (model / context / retrieval / tool-selection / tool-execution / state / workflow / policy / human-approval / enterprise-dependency) before root-causing: see the [Monitoring spec's incident taxonomy](../monitoring/observability-and-telemetry-specification.md#4-incident-classification-responsible-layer-taxonomy) for the full list.
 
 ---
 

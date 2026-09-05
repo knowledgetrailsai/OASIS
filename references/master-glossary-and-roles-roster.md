@@ -4,9 +4,9 @@
 
 # Reference: Master Glossary and Roles Roster
 
-> **PURPOSE** Look up any term or role used across the Methodology, Architecture, Engineering, Security, Monitoring, Standards and Tools material in one place, instead of hunting through the chapter that first introduced it. Chapter 33's glossary is the original, narrower list scoped to the Methodology chapters. This document is the maintained, full-repository version — bookmark this one.
+> **PURPOSE** Look up any term or role used across the Methodology, Architecture, Engineering, Security, Monitoring, Standards and Tools material in one place, instead of hunting through the chapter that first introduced it. Chapter 33's glossary is the original, narrower list scoped to the Methodology chapters. This document is the maintained, full-repository version. Bookmark this one.
 
-**Primary OASIS source:** Terms and roles are drawn from across the full repository; where a term or role was defined more fully in a specific chapter or document, that source is linked as the authoritative definition — this page is the fast-lookup index, not a replacement for it.
+**Primary OASIS source:** Terms and roles are drawn from across the full repository; where a term or role was defined more fully in a specific chapter or document, that source is linked as the authoritative definition, this page is the fast-lookup index, not a replacement for it.
 
 ## Background and context
 
@@ -14,7 +14,7 @@ A methodology this size accumulates precise terminology fast, and precision only
 
 [Chapter 33's glossary](../methodology/chapter-33-appendices-and-reference-material.md#glossary) already does this for the Methodology chapters. This document extends that same discipline across the companion folders. Architecture, Engineering, Security, Monitoring, Standards and Tools each introduced their own precise terms as they were built out, and until now there was no single place that pulled all of them together.
 
-The same problem exists for roles. [Chapter 23](../methodology/chapter-23-forward-deployed-outcome-engineering.md) defines pod-level roles. [Chapter 24](../methodology/chapter-24-roles-teams-and-governance-forums.md) defines the enterprise roles those pod roles report into. Several Architecture perspective articles also name accountability requirements — an agent's registered owner, a permission-issuance authority, a governance-forum chair — without necessarily using the exact same job title twice.
+The same problem exists for roles. [Chapter 23](../methodology/chapter-23-forward-deployed-outcome-engineering.md) defines pod-level roles. [Chapter 24](../methodology/chapter-24-roles-teams-and-governance-forums.md) defines the enterprise roles those pod roles report into. Several Architecture perspective articles also name accountability requirements: an agent's registered owner, a permission-issuance authority, a governance-forum chair; without necessarily using the exact same job title twice.
 
 Section 2 below is a single roster mapping every named role across the repository to what it's accountable for and where it's defined in full. Use it when onboarding someone new, or when checking that a real organization chart has a named person behind every accountability this methodology assumes exists.
 
@@ -22,7 +22,7 @@ Treat both sections as living indexes. As new terms and roles are introduced els
 
 ## 1. Master glossary
 
-Alphabetical. Where a fuller definition exists elsewhere, follow the link — this entry is deliberately the short version.
+Alphabetical. Where a fuller definition exists elsewhere, follow the link. This entry is deliberately the short version.
 
 | Term | Definition | Fuller source |
 |---|---|---|
@@ -81,7 +81,7 @@ Combines the pod-level roles ([Chapter 23](../methodology/chapter-23-forward-dep
 
 ## 3. RACI quick reference
 
-For the recurring, high-stakes decisions this methodology names most often, a compact default RACI — adapt to organizational context, but do not leave any of these decisions with no Accountable owner at all.
+For the recurring, high-stakes decisions this methodology names most often, a compact default RACI, adapt to organizational context, but do not leave any of these decisions with no Accountable owner at all.
 
 | Decision | Responsible | Accountable | Consulted | Informed |
 |---|---|---|---|---|

@@ -4,7 +4,7 @@
 
 # Architecture Perspective 5: Inference Architecture
 
-> **PURPOSE** Define how models are consumed, routed and separated at enterprise scale — the enterprise-wide framing of the per-system [Model Engineering](../engineering/model-engineering.md) article, so model procurement, routing and fallback are governed centrally rather than independently re-decided by every build team.
+> **PURPOSE** Define how models are consumed, routed and separated at enterprise scale. The enterprise-wide framing of the per-system [Model Engineering](../engineering/model-engineering.md) article, so model procurement, routing and fallback are governed centrally rather than independently re-decided by every build team.
 
 **Primary OASIS source:** [Chapter 14 §2 — Model Layer](../methodology/chapter-14-intelligence-and-agent-engineering.md); [Chapter 22 — Economics, FinOps and Sustainability](../methodology/chapter-22-economics-finops-and-sustainability.md); [Chapter 25 — Enterprise Intelligence Platform](../methodology/chapter-25-enterprise-intelligence-platform.md).
 
@@ -48,7 +48,7 @@ A centralized inference gateway is not mandatory for every enterprise. But the r
 
 ## 4. Cost governance
 
-Aggregate inference spend is tracked centrally against the [Economic plane](../monitoring/observability-and-telemetry-specification.md#economic-plane) metrics, rolled up across all consuming systems — a single system's Value and Risk Case budget is a component of this enterprise total, not a substitute for tracking it. Fulcrum's [metrics catalog](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/04-measurement-and-observability/metrics-catalog.md) gives the specific metrics to roll up.
+Aggregate inference spend is tracked centrally against the [Economic plane](../monitoring/observability-and-telemetry-specification.md#economic-plane) metrics, rolled up across all consuming systems, a single system's Value and Risk Case budget is a component of this enterprise total, not a substitute for tracking it. Fulcrum's [metrics catalog](https://github.com/knowledgetrailsai/oasis-fulcrum/blob/main/04-measurement-and-observability/metrics-catalog.md) gives the specific metrics to roll up.
 
 ---
 

@@ -4,7 +4,7 @@
 
 # Tools: System and Governance Templates
 
-> **PURPOSE** Fillable versions of the system-design and decision-governance artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md). The Intelligence-System Blueprint below is the fillable companion to the [Architecture Reference Architecture](../architecture/oasis-reference-architecture.md) — use that document's diagram to structure this template's content.
+> **PURPOSE** Fillable versions of the system-design and decision-governance artifacts named in [Chapter 32](../methodology/chapter-32-templates-checklists-and-tools.md). The Intelligence-System Blueprint below is the fillable companion to the [Architecture Reference Architecture](../architecture/oasis-reference-architecture.md). Use that document's diagram to structure this template's content.
 
 Covers templates 11–12 and 19–20 of 20. See also: [Outcome and Portfolio Templates](01-outcome-and-portfolio-templates.md) · [Workflow and Intelligence Templates](02-workflow-and-intelligence-templates.md) · [Readiness and Operations Templates](04-readiness-and-operations-templates.md) · [Risk and Scale Templates](05-risk-and-scale-templates.md).
 
@@ -71,7 +71,7 @@ intelligence_system_blueprint:
 | | | | | | | | | |
 | | | | | | | | | |
 
-One row per distinct action the system can take, not one row per system. An agent that both drafts customer replies and issues refunds needs two rows — the evidence threshold to trust drafting has nothing to do with the threshold to trust issuing money. Progression from one autonomy mode to the next requires evidence per row, not a blanket, system-wide promotion.
+One row per distinct action the system can take, not one row per system. An agent that both drafts customer replies and issues refunds needs two rows, the evidence threshold to trust drafting has nothing to do with the threshold to trust issuing money. Progression from one autonomy mode to the next requires evidence per row, not a blanket, system-wide promotion.
 
 ---
 

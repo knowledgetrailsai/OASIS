@@ -4,7 +4,7 @@
 
 # Architecture Perspective 8: Security and Trust Architecture
 
-> **PURPOSE** Define identity, boundaries, permissions and data controls at the enterprise level — the enterprise-wide framing of the [Security: Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md), covering the shared identity and trust model every agent, tool integration and system must operate within, rather than restating per-system controls.
+> **PURPOSE** Define identity, boundaries, permissions and data controls at the enterprise level. The enterprise-wide framing of the [Security: Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md), covering the shared identity and trust model every agent, tool integration and system must operate within, rather than restating per-system controls.
 
 **Primary OASIS source:** [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md); [Security: Threat and Control Checklist](../security/agentic-ai-threat-and-control-checklist.md); [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md).
 
@@ -58,7 +58,7 @@ flowchart TB
     TOOL -->|authorized, scoped, audited| REC
 ```
 
-Content crossing from External into the Enterprise trust boundary is treated per Chapter 19's Input and Context control layers — never trusted by default regardless of source reputation. Content or actions crossing into Systems of record require the full authorization, confirmation and audit trail specified in the [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md).
+Content crossing from External into the Enterprise trust boundary is treated per Chapter 19's Input and Context control layers, never trusted by default regardless of source reputation. Content or actions crossing into Systems of record require the full authorization, confirmation and audit trail specified in the [Tool and Integration Interface Specification](../engineering/tool-and-integration-interface-specification.md).
 
 ## 3. Enterprise permission issuance principles
 

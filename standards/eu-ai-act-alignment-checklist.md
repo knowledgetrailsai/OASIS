@@ -8,7 +8,7 @@
 
 **Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md), [Chapter 19 — Security and Responsible AI Engineering](../methodology/chapter-19-security-and-responsible-ai-engineering.md).
 
-**Deeper regulatory source:** [Compass's eu-ai-act.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/10-regulations-and-standards/EU/eu-ai-act.md) — this checklist maps obligations to OASIS mechanisms; Compass carries the substantive legal-text analysis and stays current as guidance evolves.
+**Deeper regulatory source:** [Compass's eu-ai-act.md](https://github.com/knowledgetrailsai/responsible-ai/blob/main/10-regulations-and-standards/EU/eu-ai-act.md). This checklist maps obligations to OASIS mechanisms; Compass carries the substantive legal-text analysis and stays current as guidance evolves.
 
 ## Background and context
 
@@ -16,15 +16,15 @@ Regulation (EU) 2024/1689, known as the EU AI Act, is the first comprehensive, h
 
 Because provisions phase in at different times, the applicable obligation set for any given system depends on both its risk classification and the current date. Always confirm current status against the official text rather than assuming full applicability.
 
-The Act has **extraterritorial reach**. It applies to any provider placing an AI system on the EU market, any deployer using an AI system within the EU, and — notably — to providers and deployers located outside the EU whose AI system's *output* is used within the EU, regardless of where the organization is headquartered. A non-EU enterprise with no EU legal entity can still be in scope if its AI system's output reaches EU users or EU-based decisions.
+The Act has **extraterritorial reach**. It applies to any provider placing an AI system on the EU market, any deployer using an AI system within the EU, and, notably: to providers and deployers located outside the EU whose AI system's *output* is used within the EU, regardless of where the organization is headquartered. A non-EU enterprise with no EU legal entity can still be in scope if its AI system's output reaches EU users or EU-based decisions.
 
 The Act's core structure is a **risk-based tiered system**:
 
-- **Unacceptable risk (prohibited, Art. 5)** — certain uses are banned outright, e.g. social scoring by public authorities, real-time remote biometric identification in public spaces (with narrow law-enforcement exceptions), and manipulative or exploitative AI targeting vulnerabilities.
-- **High-risk (Annex III use cases, or Annex I safety components)** — systems used in contexts like employment and worker management, access to essential services and credit scoring, law enforcement, migration and border control, and administration of justice, or AI that is a safety component of a regulated product (medical devices, machinery, etc.). These carry the most extensive obligations, summarized in the table below.
-- **Limited risk** — systems subject only to transparency obligations under Art. 50 (e.g., chatbots must disclose they are AI; synthetic content must be labeled).
-- **Minimal risk** — the large majority of AI systems, with no AI-Act-specific obligations beyond voluntary codes of conduct.
-- **General-Purpose AI (GPAI) models** — a separate obligation track (Chapter V) for providers of foundation/general-purpose models, with an additional, heavier obligation set for models classified as carrying "systemic risk" based on a compute-threshold test.
+- **Unacceptable risk (prohibited, Art. 5)**: certain uses are banned outright, e.g. social scoring by public authorities, real-time remote biometric identification in public spaces (with narrow law-enforcement exceptions), and manipulative or exploitative AI targeting vulnerabilities.
+- **High-risk (Annex III use cases, or Annex I safety components)**: systems used in contexts like employment and worker management, access to essential services and credit scoring, law enforcement, migration and border control, and administration of justice, or AI that is a safety component of a regulated product (medical devices, machinery, etc.). These carry the most extensive obligations, summarized in the table below.
+- **Limited risk**: systems subject only to transparency obligations under Art. 50 (e.g., chatbots must disclose they are AI; synthetic content must be labeled).
+- **Minimal risk**: the large majority of AI systems, with no AI-Act-specific obligations beyond voluntary codes of conduct.
+- **General-Purpose AI (GPAI) models**: a separate obligation track (Chapter V) for providers of foundation/general-purpose models, with an additional, heavier obligation set for models classified as carrying "systemic risk" based on a compute-threshold test.
 
 Non-compliance carries significant financial exposure: fines of up to **€35 million or 7% of global annual turnover** (whichever is higher) for violations of the prohibited-practices provisions, and up to €15 million or 3% of global annual turnover for most other violations. That makes risk-tier determination (Step 0 below) the most important first move in any EU AI Act workstream.
 

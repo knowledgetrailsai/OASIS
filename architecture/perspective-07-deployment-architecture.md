@@ -4,7 +4,7 @@
 
 # Architecture Perspective 7: Deployment Architecture
 
-> **PURPOSE** Define the broad placement of agentic workloads across cloud, on-premises, edge and regions — a perspective not otherwise covered by the per-system reference architecture, needed wherever data residency, latency, or sovereignty constraints affect where a component in the [system-equation diagram](oasis-reference-architecture.md#1-system-equation-as-a-diagram) is allowed to run.
+> **PURPOSE** Define the broad placement of agentic workloads across cloud, on-premises, edge and regions. A perspective not otherwise covered by the per-system reference architecture, needed wherever data residency, latency, or sovereignty constraints affect where a component in the [system-equation diagram](oasis-reference-architecture.md#1-system-equation-as-a-diagram) is allowed to run.
 
 **Primary OASIS source:** [Chapter 20 — Governance, Compliance and Regulatory Engineering](../methodology/chapter-20-governance-compliance-and-regulatory-engineering.md); [Chapter 21 — Deployment, Operations and AgentOps](../methodology/chapter-21-deployment-operations-and-agentops.md); [Regulatory and Standards Framework Alignment Index](../references/regulatory-framework-alignment-index.md).
 
@@ -12,9 +12,9 @@
 
 ## Background and context
 
-Sections 1–5 of the reference architecture describe a *capability map, not a deployment topology* — each box is a responsibility, not a placement decision. That's correct for the per-system engineering view. But an enterprise operating across multiple jurisdictions cannot stay silent on placement indefinitely. Data residency rules (see the DPDP Act and EU AI Act checklists in [Standards](../standards/)), latency requirements for real-time workloads, and sovereign-cloud or on-premises mandates in regulated sectors all constrain *where* a component may physically execute, not just how it behaves logically. Deployment Architecture is the missing perspective that makes those placement constraints explicit and auditable, separate from the logical component design.
+Sections 1–5 of the reference architecture describe a *capability map, not a deployment topology*, each box is a responsibility, not a placement decision. That's correct for the per-system engineering view. But an enterprise operating across multiple jurisdictions cannot stay silent on placement indefinitely. Data residency rules (see the DPDP Act and EU AI Act checklists in [Standards](../standards/)), latency requirements for real-time workloads, and sovereign-cloud or on-premises mandates in regulated sectors all constrain *where* a component may physically execute, not just how it behaves logically. Deployment Architecture is the missing perspective that makes those placement constraints explicit and auditable, separate from the logical component design.
 
-This is new content relative to the rest of this repository — no existing Engineering or Monitoring article addresses physical/regional placement. It sits at the intersection of infrastructure architecture (usually owned outside the AI delivery team) and the regulatory obligations this repository already indexes in Standards and References.
+This is new content relative to the rest of this repository: no existing Engineering or Monitoring article addresses physical/regional placement. It sits at the intersection of infrastructure architecture (usually owned outside the AI delivery team) and the regulatory obligations this repository already indexes in Standards and References.
 
 ## 1. Placement decision table
 
@@ -52,7 +52,7 @@ For the jurisdiction-by-jurisdiction detail behind this checklist, see Compass's
 
 ## 4. Relationship to operations
 
-Once deployed, ongoing placement compliance is monitored operationally rather than re-verified manually — see [Operations and Observability Architecture](perspective-09-operations-and-observability-architecture.md) and the [Monitoring specification](../monitoring/observability-and-telemetry-specification.md).
+Once deployed, ongoing placement compliance is monitored operationally rather than re-verified manually; see [Operations and Observability Architecture](perspective-09-operations-and-observability-architecture.md) and the [Monitoring specification](../monitoring/observability-and-telemetry-specification.md).
 
 ---
 

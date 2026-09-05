@@ -2,7 +2,7 @@
 
 # OASIS Methodology Handbook
 
-**Outcome-as-a-Service using Intelligence Systems** — the master methodology for enterprise AI transformation: what to do, in what order, and why.
+**Outcome-as-a-Service using Intelligence Systems**. The master methodology for enterprise AI transformation: what to do, in what order, and why.
 
 ![OASIS Open-Source Ecosystem: ten repositories covering transformation, engineering, governance, data and knowledge, workflow design, evaluation, model architecture, economics, and operations](diagrams/oasis-open-source-ecosystem.png)
 
@@ -94,7 +94,7 @@ This is a simple, Markdown-only GitHub package. All handbook pages are stored in
 
 ## Standards and reference material
 
-- [Common Challenges](commonChallenges.md) — a 40-question challenge-to-change-to-remedy matrix across the OASIS ecosystem.
+- [Common Challenges](commonChallenges.md), a 40-question challenge-to-change-to-remedy matrix across the OASIS ecosystem.
 
 - [Regulatory and Standards Framework Alignment Index](references/regulatory-framework-alignment-index.md)
 - [Standard: ISO/IEC 42001 Alignment Checklist](standards/iso-42001-alignment-checklist.md)
@@ -141,10 +141,10 @@ This is a simple, Markdown-only GitHub package. All handbook pages are stored in
 
 Fillable versions of all 20 artifacts named in [Chapter 32](methodology/chapter-32-templates-checklists-and-tools.md), grouped by lifecycle stage:
 
-- [Outcome and Portfolio Templates](tools/01-outcome-and-portfolio-templates.md) — Opportunity Assessment, Outcome Charter, Outcome Contract, Outcome Metric Tree, Value and Risk Case
+- [Outcome and Portfolio Templates](tools/01-outcome-and-portfolio-templates.md): Opportunity Assessment, Outcome Charter, Outcome Contract, Outcome Metric Tree, Value and Risk Case
 - [Workflow and Intelligence Templates](tools/02-workflow-and-intelligence-templates.md): Process and Decision Map, Human–AI Workflow Blueprint, Data and Knowledge Readiness Assessment, Evaluation Strategy and Dataset, Failure Taxonomy
 - [System and Governance Templates](tools/03-system-and-governance-templates.md): Intelligence-System Blueprint, Autonomy Matrix, Responsibility Assignment Matrix, Decision-Gate Record
-- [Readiness and Operations Templates](tools/04-readiness-and-operations-templates.md) — Production Readiness Checklist, Operational Acceptance Checklist, Outcome Scorecard, Service Runbook
+- [Readiness and Operations Templates](tools/04-readiness-and-operations-templates.md); Production Readiness Checklist, Operational Acceptance Checklist, Outcome Scorecard, Service Runbook
 - [Risk and Scale Templates](tools/05-risk-and-scale-templates.md): Risk and Control Register, Scale and Productization Assessment
 
 ## License

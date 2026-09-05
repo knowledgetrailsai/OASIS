@@ -13,7 +13,7 @@ Forward Deployed Outcome Engineering (FDOE) is OASIS's embedded execution model.
 
 Every chapter before this one in Part IV, including [Chapter 22](chapter-22-economics-finops-and-sustainability.md), assumes an initiative is already scoped, funded and staffed. None of them answers a practical question: once a team faces a real operational process, how does it turn an approved business case into a working outcome? FDOE answers that question.
 
-Outcomes can rarely be specified up front. The messy detail of real work rarely survives a requirements document — it has to be discovered by engineers working alongside the people who do the job.
+Outcomes can rarely be specified up front. The messy detail of real work rarely survives a requirements document. It has to be discovered by engineers working alongside the people who do the job.
 
 Teams that stay at arm's length build clean systems for the documented problem, not the lived one, then spend months fixing things after launch. Teams that overcorrect become permanent custom-build shops. FDOE sits between the two: close enough to see the undocumented rules, but structured to transfer ownership and feed reusable patterns into the platform described in [Chapter 25](chapter-25-enterprise-intelligence-platform.md).
 
@@ -23,11 +23,11 @@ A pod does not operate on its own. [Chapter 24 — Roles, Teams and Governance F
 
 A pod's mission runs in a fixed order, though the work loops continuously.
 
-It begins with observation: watching how work actually happens, including the undocumented rules and workarounds. That observation becomes something testable — outcome hypotheses that get proven or disproven in the field.
+It begins with observation: watching how work actually happens, including the undocumented rules and workarounds. That observation becomes something testable, outcome hypotheses that get proven or disproven in the field.
 
 The pod then builds a thin, end-to-end vertical slice that touches every layer of the real workflow, rather than a complete version of just one layer. Going live means engineering the last mile: data access, tooling, identity and workflow integration. The pod then works alongside users through progressive activation, expanding the system's autonomy as trust and evidence build up.
 
-The pod converts what it learns — failures, edge cases, reusable components — into evaluation criteria and platform demand, not tribal knowledge held by the pod alone. The mission closes with transfer: handing ownership back as the service stabilizes. A pod that never leaves has not done its job.
+The pod converts what it learns: failures, edge cases, reusable components; into evaluation criteria and platform demand, not tribal knowledge held by the pod alone. The mission closes with transfer: handing ownership back as the service stabilizes. A pod that never leaves has not done its job.
 
 ## Pod composition
 
@@ -43,7 +43,7 @@ A pod is small and cross-functional, built around the capabilities a real vertic
 | Experience / Change Lead      | Human–AI workflow, interface, training, trust and adoption.                                     |
 | Reliability / Security / Risk | Production controls, observability, assurance and incident readiness; shared where appropriate. |
 
-The Outcome / Product Lead owns the outcome contract, the backlog and the value trade-off calls. The Business Process Owner is the pod's link to operational truth. Per [Process Architecture](../architecture/perspective-03-process-architecture.md), this role can never be the agent itself — it must be a named human with the authority to change the process and accept the consequences of doing so. Without that person's participation, a pod builds against assumptions instead of reality.
+The Outcome / Product Lead owns the outcome contract, the backlog and the value trade-off calls. The Business Process Owner is the pod's link to operational truth. Per [Process Architecture](../architecture/perspective-03-process-architecture.md), this role can never be the agent itself. It must be a named human with the authority to change the process and accept the consequences of doing so. Without that person's participation, a pod builds against assumptions instead of reality.
 
 The Forward-Deployed Engineer and Intelligence Engineer split the technical build: one drives the vertical slice and workflow wiring, the other owns models, context assembly, harness behavior, tools and evaluation. The Data / Knowledge Engineer is often the pacing factor, since sources and lineage rarely arrive in the state a plan assumed. The Experience / Change Lead owns adoption: workflow, interface, training and trust.
 
@@ -51,7 +51,7 @@ Reliability / Security / Risk brings production-grade controls and incident read
 
 ## Field loop
 
-The pod's rhythm is a closed loop, not a linear plan. It repeats at whatever cadence the outcome demands — often weekly, faster during an activation push.
+The pod's rhythm is a closed loop, not a linear plan. It repeats at whatever cadence the outcome demands, often weekly, faster during an activation push.
 
 It starts by observing: shadowing users, collecting real cases, watching where things fail. That observation leads to agreement on the next milestone and on what evidence will prove it was reached.
 
@@ -65,7 +65,7 @@ The single greatest risk to an FDOE engagement is a pod that never leaves. At ev
 
 When the same demand shows up repeatedly, it triggers a productization review — the same governance step as [Chapter 24's](chapter-24-roles-teams-and-governance-forums.md) platform productization forum. If it clears that review, it becomes a candidate for the shared capabilities in [Chapter 25 — Enterprise Intelligence Platform](chapter-25-enterprise-intelligence-platform.md), instead of a pattern each future pod has to rediscover on its own. This also connects to the enterprise capability map in [Business and Capability Architecture](../architecture/perspective-01-business-and-capability-architecture.md): recurring demand across pods is exactly the duplication that map is meant to surface at the quarterly portfolio review.
 
-A pod's exit is judged against explicit, pre-agreed criteria, not a calendar date: the outcome has stabilized, a support owner is named, regression is automated, configuration is documented, users are trained, and there is a path for continued improvement without the pod. Meeting those criteria — not running out of budget — is what marks an FDOE pod's work as done.
+A pod's exit is judged against explicit, pre-agreed criteria, not a calendar date: the outcome has stabilized, a support owner is named, regression is automated, configuration is documented, users are trained, and there is a path for continued improvement without the pod. Meeting those criteria: not running out of budget; is what marks an FDOE pod's work as done.
 
 > **RELATIONSHIP** OASIS is the transformation, delivery and assurance methodology; Forward Deployed Outcome Engineering is its embedded execution model.
 
