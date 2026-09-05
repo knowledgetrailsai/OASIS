@@ -55,8 +55,6 @@ Prompt and context engineering are often treated as the same thing, but they dif
 
 Because context is assembled fresh at each decision point, it must be authorization-aware (a user never sees evidence through the model they couldn't see directly), source-attributed, fresh, able to compress gracefully rather than truncate silently, and resistant to poisoning; embedded instructions in a document are a documented failure class, not a hypothetical.
 
-The context builder should use just-in-time retrieval when possible. Pass a small reference to a large source and fetch the source only when the next step needs it. Record what was included, what was left out, and why. A bigger context window does not fix weak retrieval.
-
 | **Context engineering**                                       | **Harness engineering**                                         |
 |-----------------------------------------------------------------|-----------------------------------------------------------------|
 | Determines what the model sees now.                            | Determines how the system completes the task.                  |
